@@ -1,5 +1,7 @@
 # AI 課程題庫
 
+線上網站：https://boyoouo-0924.github.io/attention-is-all-you-quiz/
+
 課程測驗網站。題目全部放在 `data/` 底下的 JSON 檔，網站程式不需要改，也不需要建置：新增題目、單元或課程，只要改資料檔。
 
 ## 檔案結構
@@ -111,4 +113,4 @@ node tools/validate.js 我的題庫.json
 
 ## 發布
 
-目前發布在 claude.ai Artifact。發布的檔案是 `index.html`、`assets/` 與 `data/`；`tools/`、`README.md`、`package.json` 只在本機使用。
+網站用 GitHub Pages 從 `main` 分支的根目錄發布，push 之後約一分鐘會自動更新。網站實際用到的是 `index.html`、`assets/` 與 `data/`；`tools/`、`package.json` 只在本機使用。
