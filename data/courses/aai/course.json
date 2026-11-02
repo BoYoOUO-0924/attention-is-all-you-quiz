@@ -1,0 +1,29 @@
+{
+  "id": "aai",
+  "code": "課程 01",
+  "name": "進階人工智慧應用",
+  "desc": "台北商業大學資管系課程。涵蓋 Transformer 與大型語言模型、自然語言處理、遷移學習三個單元。",
+  "units": [
+    {
+      "id": "tf",
+      "name": "Transformer",
+      "sub": "Transformer 與大型語言模型",
+      "topics": ["自注意力", "BERT / GPT", "RLHF", "上下文與 Harness 工程"],
+      "file": "transformer.json"
+    },
+    {
+      "id": "nlp",
+      "name": "NLP",
+      "sub": "自然語言處理",
+      "topics": ["文本表示", "TF-IDF", "Word2Vec", "預訓練範式"],
+      "file": "nlp.json"
+    },
+    {
+      "id": "tl",
+      "name": "遷移學習",
+      "sub": "Transfer Learning",
+      "topics": ["特徵提取", "兩階段微調", "YOLO 應用", "自監督學習"],
+      "file": "transfer-learning.json"
+    }
+  ]
+}

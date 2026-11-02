@@ -1,0 +1,31 @@
+{
+  "id": "ml-basics",
+  "code": "課程 02",
+  "name": "機器學習導論",
+  "desc": "這是一份範例題庫，可以照這個格式寫好後在首頁匯入。",
+  "units": [
+    {
+      "id": "regression",
+      "name": "迴歸分析",
+      "sub": "Linear Regression",
+      "topics": ["最小平方法", "過擬合"],
+      "questions": [
+        {
+          "id": "reg-001",
+          "q": "線性迴歸最常用來最小化的損失函數是？",
+          "options": ["均方誤差（MSE）", "交叉熵", "Hinge loss", "KL 散度"],
+          "answer": 0,
+          "explain": "線性迴歸以最小平方法求解，也就是最小化均方誤差。",
+          "tags": ["損失函數"]
+        },
+        {
+          "id": "reg-002",
+          "type": "truefalse",
+          "q": "訓練誤差很低、測試誤差很高，通常代表模型過擬合。",
+          "answer": true,
+          "explain": "模型記住了訓練資料的雜訊，無法推廣到新資料。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ai-course-quiz",
+  "private": true,
+  "type": "module",
+  "description": "課程題庫測驗平台：題目放在 data/ 底下的 JSON 檔，網站本身不需要建置。",
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "serve": "python -m http.server 8765"
+  }
+}

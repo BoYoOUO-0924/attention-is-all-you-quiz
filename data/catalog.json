@@ -1,0 +1,9 @@
+{
+  "site": {
+    "name": "AI 課程題庫",
+    "tagline": "依課堂講義整理的練習題，每題都附解析。"
+  },
+  "courses": [
+    { "path": "courses/aai/course.json" }
+  ]
+}
