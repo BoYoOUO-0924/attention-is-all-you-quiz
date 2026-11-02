@@ -35,7 +35,10 @@ code{font-family:var(--f-mono);font-size:.9em;background:var(--print-soft);color
 
 /* top bar */
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:1px solid var(--line)}
-.brand{border:0;background:none;padding:0;cursor:pointer;font-family:var(--f-display);font-weight:900;font-size:18px;letter-spacing:.04em}
+.brand{display:inline-flex;align-items:center;gap:10px;min-width:0;border:0;background:none;padding:0;cursor:pointer;font-family:var(--f-display);font-weight:900;font-size:18px;letter-spacing:.02em;text-align:left}
+.brand-mark{flex:none;width:30px;height:auto}
+.brand-mark .on{fill:var(--print)}
+.brand-mark .off{fill:var(--ink);fill-opacity:.22}
 
 /* headings */
 .course-head{padding-block:40px 28px;display:grid;gap:10px}

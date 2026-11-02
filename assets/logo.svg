@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 4×4 答案卡格子，每列塗一格；同時看成一張 attention 權重圖 -->
+  <rect width="32" height="32" rx="7" fill="#1f2b63"/>
+  <g fill="#eef0f8" fill-opacity=".28">
+    <rect x="11.5" y="5" width="4" height="3.4" rx="1.7"/><rect x="17" y="5" width="4" height="3.4" rx="1.7"/><rect x="22.5" y="5" width="4" height="3.4" rx="1.7"/>
+    <rect x="6" y="11" width="4" height="3.4" rx="1.7"/><rect x="11.5" y="11" width="4" height="3.4" rx="1.7"/><rect x="22.5" y="11" width="4" height="3.4" rx="1.7"/>
+    <rect x="6" y="17" width="4" height="3.4" rx="1.7"/><rect x="17" y="17" width="4" height="3.4" rx="1.7"/><rect x="22.5" y="17" width="4" height="3.4" rx="1.7"/>
+    <rect x="6" y="23" width="4" height="3.4" rx="1.7"/><rect x="11.5" y="23" width="4" height="3.4" rx="1.7"/><rect x="17" y="23" width="4" height="3.4" rx="1.7"/>
+  </g>
+  <g fill="#9aa8ff">
+    <rect x="5" y="4.4" width="6" height="4.6" rx="2.3"/>
+    <rect x="16" y="10.4" width="6" height="4.6" rx="2.3"/>
+    <rect x="10.5" y="16.4" width="6" height="4.6" rx="2.3"/>
+    <rect x="21.5" y="22.4" width="6" height="4.6" rx="2.3"/>
+  </g>
+</svg>

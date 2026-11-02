@@ -1,4 +1,4 @@
-# AI 課程題庫
+# Attention Is All You Quiz
 
 線上網站：https://boyoouo-0924.github.io/attention-is-all-you-quiz/
 
@@ -10,6 +10,7 @@
 題庫網站/
 ├─ index.html                 網站入口
 ├─ assets/
+│  ├─ logo.svg                網站標誌與分頁圖示
 │  ├─ style.css               樣式（顏色、字型都在最上面的 :root）
 │  └─ js/
 │     ├─ main.js              狀態、事件、啟動流程

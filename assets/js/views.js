@@ -16,8 +16,21 @@ function bestLine(courseId, scope) {
   return r ? `最佳 <b>${r.best}</b> 分 · 上次 <b>${r.last}</b> 分` : "尚未作答";
 }
 
+// 標誌：4×4 答案卡，每列塗一格（A C B D），也是一張 attention 權重圖。圖形同 assets/logo.svg
+const MARK_ON = [[0, 0], [1, 2], [2, 1], [3, 3]];
+const brandMark = (() => {
+  const cx = c => 8 + c * 5.5, cy = r => 6.7 + r * 6;
+  const cells = [];
+  for (let r = 0; r < 4; r++) for (let c = 0; c < 4; c++) {
+    const on = MARK_ON.some(([rr, cc]) => rr === r && cc === c);
+    const w = on ? 6 : 4, h = on ? 4.6 : 3.4;
+    cells.push(`<rect class="${on ? "on" : "off"}" x="${cx(c) - w / 2}" y="${cy(r) - h / 2}" width="${w}" height="${h}" rx="${h / 2}"/>`);
+  }
+  return `<svg class="brand-mark" viewBox="3 2 26 28" aria-hidden="true">${cells.join("")}</svg>`;
+})();
+
 function topBar(ctx, right = "") {
-  return `<header class="top"><button type="button" class="brand" data-act="home">${esc(ctx.site.name || "課程題庫")}</button>${right}</header>`;
+  return `<header class="top"><button type="button" class="brand" data-act="home">${brandMark}<span>${esc(ctx.site.name || "課程題庫")}</span></button>${right}</header>`;
 }
 
 /* ---------- 首頁：課程列表＋匯入 ---------- */
