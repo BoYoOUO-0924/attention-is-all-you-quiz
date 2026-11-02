@@ -8,22 +8,91 @@
       "id": "tf",
       "name": "Transformer",
       "sub": "Transformer 與大型語言模型",
-      "topics": ["自注意力", "BERT / GPT", "RLHF", "上下文與 Harness 工程"],
-      "file": "transformer.json"
+      "topics": [
+        "自注意力",
+        "BERT / GPT",
+        "RLHF",
+        "上下文與 Harness 工程"
+      ],
+      "file": "transformer.json",
+      "sections": [
+        "RNN 與 seq2seq 的限制",
+        "注意力的早期應用",
+        "Transformer 架構概觀",
+        "斷詞與 token",
+        "滑動視窗、嵌入與位置編碼",
+        "自注意力計算",
+        "多頭注意力與層堆疊",
+        "Decoder 運作",
+        "BERT",
+        "GPT 系列與 ChatGPT",
+        "RLHF",
+        "LLM 新趨勢",
+        "Hugging Face 應用",
+        "GPT-2 日記生成器",
+        "Ollama 與 llama.cpp",
+        "提示工程",
+        "上下文工程",
+        "Harness 工程",
+        "實作：Transformer 機器翻譯",
+        "實作：BERT 星等分類"
+      ]
     },
     {
       "id": "nlp",
       "name": "NLP",
       "sub": "自然語言處理",
-      "topics": ["文本表示", "TF-IDF", "Word2Vec", "預訓練範式"],
-      "file": "nlp.json"
+      "topics": [
+        "文本表示",
+        "TF-IDF",
+        "Word2Vec",
+        "預訓練範式"
+      ],
+      "file": "nlp.json",
+      "sections": [
+        "NLP 導論與應用",
+        "任務層級與基礎任務",
+        "文字生成示範",
+        "發展歷史與表示方法",
+        "NLP、NLU、NLG",
+        "Word2Vec",
+        "預訓練與微調範式",
+        "向量空間與前處理",
+        "離散式表示：one-hot、BOW、TF-IDF",
+        "分散式表示：n-gram、共生矩陣",
+        "實作：電影評論"
+      ]
     },
     {
       "id": "tl",
       "name": "遷移學習",
       "sub": "Transfer Learning",
-      "topics": ["特徵提取", "兩階段微調", "YOLO 應用", "自監督學習"],
-      "file": "transfer-learning.json"
+      "topics": [
+        "特徵提取",
+        "兩階段微調",
+        "YOLO 應用",
+        "自監督學習"
+      ],
+      "file": "transfer-learning.json",
+      "sections": [
+        "遷移學習基本概念",
+        "預訓練模型",
+        "開發環境",
+        "距離估計 demo",
+        "兩種遷移方式與 MNIST",
+        "特徵提取",
+        "Food-5K 實作",
+        "增量學習",
+        "V-JEPA 2 影片分類",
+        "微調策略",
+        "Food-11 微調實作",
+        "醫療影像與影像分割",
+        "手語辨識實作",
+        "YOLO 與 Roboflow",
+        "YOLO 應用實作",
+        "遷移策略四象限",
+        "自監督學習"
+      ]
     }
   ]
 }

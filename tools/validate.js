@@ -27,7 +27,14 @@ function report(label, { course, errors, warnings }) {
   } else {
     const n = course.units.reduce((s, u) => s + u.questions.length, 0);
     console.log(`✓ ${label}：${course.units.length} 個單元、${n} 題`);
-    course.units.forEach(u => console.log(`    ${u.id.padEnd(12)} ${String(u.questions.length).padStart(3)} 題  ${u.name}`));
+    course.units.forEach(u => {
+      console.log(`    ${u.id.padEnd(12)} ${String(u.questions.length).padStart(3)} 題  ${u.name}`);
+      // 有章節清單時，列出每章的題數，方便確認講義每個重點都有出題
+      u.sections.forEach(s => {
+        const n = u.questions.filter(q => q.tags[0] === s).length;
+        console.log(`      ${String(n).padStart(3)}  ${s}`);
+      });
+    });
   }
   warnings.forEach(w => console.log(`    提醒：${w}`));
   errorCount += errors.length;

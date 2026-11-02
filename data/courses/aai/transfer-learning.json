@@ -10,7 +10,10 @@
         "把訓練資料從一台機器搬到另一台機器"
       ],
       "answer": 1,
-      "explain": "例如把在大型自然影像資料集上學到的視覺特徵，轉移到醫療影像診斷。"
+      "explain": "例如把在大型自然影像資料集上學到的視覺特徵，轉移到醫療影像診斷。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
     },
     {
       "id": "tl-002",
@@ -22,7 +25,10 @@
         "早期層直接決定輸出類別"
       ],
       "answer": 2,
-      "explain": "一般化的特徵可以在不同任務間重複使用；越後面的層越針對原本的任務。"
+      "explain": "一般化的特徵可以在不同任務間重複使用；越後面的層越針對原本的任務。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
     },
     {
       "id": "tl-003",
@@ -34,7 +40,10 @@
         "目標任務資料極多，且與來源任務完全無關"
       ],
       "answer": 0,
-      "explain": "自己的下游任務不需要大量資料，就能借用預訓練模型的知識。"
+      "explain": "自己的下游任務不需要大量資料，就能借用預訓練模型的知識。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
     },
     {
       "id": "tl-004",
@@ -46,7 +55,10 @@
         "來源任務必須有百萬筆以上資料才能進行遷移學習"
       ],
       "answer": 2,
-      "explain": "講義特別說明大量來源資料並非必要條件；遷移學習也廣泛用於文字與語音。"
+      "explain": "講義特別說明大量來源資料並非必要條件；遷移學習也廣泛用於文字與語音。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
     },
     {
       "id": "tl-005",
@@ -58,7 +70,10 @@
         "一種 GPU 驅動程式"
       ],
       "answer": 1,
-      "explain": "ONNX Model Zoo 提供許多可直接下載的預訓練模型。"
+      "explain": "ONNX Model Zoo 提供許多可直接下載的預訓練模型。",
+      "tags": [
+        "預訓練模型"
+      ]
     },
     {
       "id": "tl-006",
@@ -70,7 +85,10 @@
         "資料擴增與正規化"
       ],
       "answer": 2,
-      "explain": "特徵提取把預訓練模型當成特徵提取裝置；微調用新的資料集更新模型。"
+      "explain": "特徵提取把預訓練模型當成特徵提取裝置；微調用新的資料集更新模型。",
+      "tags": [
+        "兩種遷移方式與 MNIST"
+      ]
     },
     {
       "id": "tl-007",
@@ -82,7 +100,10 @@
         "解凍所有層，用大學習率重新訓練"
       ],
       "answer": 0,
-      "explain": "提取出的特徵向量再交給傳統機器學習分類器（SVM、Logistic Regression 等）。"
+      "explain": "提取出的特徵向量再交給傳統機器學習分類器（SVM、Logistic Regression 等）。",
+      "tags": [
+        "特徵提取"
+      ]
     },
     {
       "id": "tl-008",
@@ -94,7 +115,10 @@
         "25,088"
       ],
       "answer": 3,
-      "explain": "7 × 7 × 512 = 25,088。100,352 是 ResNet-50 的 7 × 7 × 2048。"
+      "explain": "7 × 7 × 512 = 25,088。100,352 是 ResNet-50 的 7 × 7 × 2048。",
+      "tags": [
+        "特徵提取"
+      ]
     },
     {
       "id": "tl-009",
@@ -106,7 +130,10 @@
         "被刪除、不再使用的層"
       ],
       "answer": 1,
-      "explain": "凍結層保留預訓練的知識，只讓其他層學習新任務。"
+      "explain": "凍結層保留預訓練的知識，只讓其他層學習新任務。",
+      "tags": [
+        "特徵提取"
+      ]
     },
     {
       "id": "tl-010",
@@ -118,7 +145,10 @@
         "Logistic Regression"
       ],
       "answer": 3,
-      "explain": "輸出三個 CSV 檔（label + feature vector），再用 Logistic Regression 訓練分類器。"
+      "explain": "輸出三個 CSV 檔（label + feature vector），再用 Logistic Regression 訓練分類器。",
+      "tags": [
+        "Food-5K 實作"
+      ]
     },
     {
       "id": "tl-011",
@@ -130,7 +160,10 @@
         "改用更大的 ResNet-152"
       ],
       "answer": 1,
-      "explain": "Logistic Regression、SVM 需要一次讀入全部資料；神經網路則是很好的增量學習器。"
+      "explain": "Logistic Regression、SVM 需要一次讀入全部資料；神經網路則是很好的增量學習器。",
+      "tags": [
+        "增量學習"
+      ]
     },
     {
       "id": "tl-012",
@@ -142,7 +175,10 @@
         "25,088 個"
       ],
       "answer": 0,
-      "explain": "從頭訓練 0–9 需要 542,230 個參數（準確率 0.9890）；遷移後只訓練 1,537 個，準確率 0.9952。"
+      "explain": "從頭訓練 0–9 需要 542,230 個參數（準確率 0.9890）；遷移後只訓練 1,537 個，準確率 0.9952。",
+      "tags": [
+        "兩種遷移方式與 MNIST"
+      ]
     },
     {
       "id": "tl-013",
@@ -154,7 +190,10 @@
         "產生影片的文字摘要"
       ],
       "answer": 1,
-      "explain": "V-JEPA 2 是 Meta FAIR 開源的視覺世界模型，在抽象語意空間理解影片動態。"
+      "explain": "V-JEPA 2 是 Meta FAIR 開源的視覺世界模型，在抽象語意空間理解影片動態。",
+      "tags": [
+        "V-JEPA 2 影片分類"
+      ]
     },
     {
       "id": "tl-014",
@@ -166,7 +205,10 @@
         "解凍全部層，用大學習率訓練"
       ],
       "answer": 0,
-      "explain": "Step 1 完成後其實已經可以做下游預測。"
+      "explain": "Step 1 完成後其實已經可以做下游預測。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-015",
@@ -178,7 +220,10 @@
         "把分類頭換成更大的網路"
       ],
       "answer": 2,
-      "explain": "Step 2 不是讓模型第一次能預測，而是讓特徵提取層更貼近新資料。"
+      "explain": "Step 2 不是讓模型第一次能預測，而是讓特徵提取層更貼近新資料。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-016",
@@ -190,7 +235,10 @@
         "模型參數會變少"
       ],
       "answer": 0,
-      "explain": "隨機初始化的分類頭一開始梯度很大，會破壞預訓練權重，所以要先 warm up。"
+      "explain": "隨機初始化的分類頭一開始梯度很大，會破壞預訓練權重，所以要先 warm up。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-017",
@@ -202,7 +250,10 @@
         "讓模型更快過擬合"
       ],
       "answer": 1,
-      "explain": "BERT 微調也一樣，例如學習率 1e-5，避免破壞預訓練的語言知識。"
+      "explain": "BERT 微調也一樣，例如學習率 1e-5，避免破壞預訓練的語言知識。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-018",
@@ -214,7 +265,10 @@
         "直接從頭訓練整個網路"
       ],
       "answer": 1,
-      "explain": "資料少容易過擬合，先讓分類器適應，再慢慢調整特徵抽取層。"
+      "explain": "資料少容易過擬合，先讓分類器適應，再慢慢調整特徵抽取層。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-019",
@@ -226,7 +280,10 @@
         "增加網路層數"
       ],
       "answer": 0,
-      "explain": "省時間、省算力，雖然精度可能不如完整 fine-tune。"
+      "explain": "省時間、省算力，雖然精度可能不如完整 fine-tune。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-020",
@@ -238,7 +295,10 @@
         "直接全網路 fine-tune"
       ],
       "answer": 3,
-      "explain": "大量資料足以支撐訓練全網路，不必浪費時間分階段。"
+      "explain": "大量資料足以支撐訓練全網路，不必浪費時間分階段。",
+      "tags": [
+        "微調策略"
+      ]
     },
     {
       "id": "tl-021",
@@ -250,7 +310,10 @@
         "當特徵提取器使用，把 softmax 輸出從 1,000 類改成 2 類"
       ],
       "answer": 3,
-      "explain": "數據集小、相似度高 → 遷移學習之特徵提取。"
+      "explain": "數據集小、相似度高 → 遷移學習之特徵提取。",
+      "tags": [
+        "遷移策略四象限"
+      ]
     },
     {
       "id": "tl-022",
@@ -262,7 +325,10 @@
         "凍結所有層，只換輸出層"
       ],
       "answer": 2,
-      "explain": "前面的通用特徵保留，後面較專門的層用新資料重新訓練。"
+      "explain": "前面的通用特徵保留，後面較專門的層用新資料重新訓練。",
+      "tags": [
+        "遷移策略四象限"
+      ]
     },
     {
       "id": "tl-023",
@@ -274,7 +340,10 @@
         "只能使用傳統機器學習"
       ],
       "answer": 0,
-      "explain": "這種情況其實可以從頭訓練，但用預訓練權重初始化仍有幫助。"
+      "explain": "這種情況其實可以從頭訓練，但用預訓練權重初始化仍有幫助。",
+      "tags": [
+        "遷移策略四象限"
+      ]
     },
     {
       "id": "tl-024",
@@ -286,7 +355,10 @@
         "物件類別標籤"
       ],
       "answer": 0,
-      "explain": "MiDaS 與 Depth Anything（ZoeDepth）都是從單一 2D 影像估計深度，只能用來估算。"
+      "explain": "MiDaS 與 Depth Anything（ZoeDepth）都是從單一 2D 影像估計深度，只能用來估算。",
+      "tags": [
+        "距離估計 demo"
+      ]
     },
     {
       "id": "tl-025",
@@ -298,7 +370,10 @@
         "提高影片的 fps"
       ],
       "answer": 1,
-      "explain": "用固定距離校正效果不好；改成以樣本建立回歸模型後，估計效果好很多。"
+      "explain": "用固定距離校正效果不好；改成以樣本建立回歸模型後，估計效果好很多。",
+      "tags": [
+        "距離估計 demo"
+      ]
     },
     {
       "id": "tl-026",
@@ -310,7 +385,10 @@
         "更高解析度的一般相機"
       ],
       "answer": 1,
-      "explain": "單張 2D 影像的深度模型只能估算，真實距離需要深度感測硬體。"
+      "explain": "單張 2D 影像的深度模型只能估算，真實距離需要深度感測硬體。",
+      "tags": [
+        "距離估計 demo"
+      ]
     },
     {
       "id": "tl-027",
@@ -322,7 +400,10 @@
         "先產生候選框再逐一分類的兩階段方法"
       ],
       "answer": 2,
-      "explain": "YOLO 是基於 CNN 的即時物件偵測系統，應用於自駕、監控、醫療影像、農業、工業檢測。"
+      "explain": "YOLO 是基於 CNN 的即時物件偵測系統，應用於自駕、監控、醫療影像、農業、工業檢測。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
     },
     {
       "id": "tl-028",
@@ -334,7 +415,10 @@
         "中文斷詞"
       ],
       "answer": 2,
-      "explain": "也可以直接在 Roboflow 上訓練，或取得 API key 後在本地端訓練。"
+      "explain": "也可以直接在 Roboflow 上訓練，或取得 API key 後在本地端訓練。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
     },
     {
       "id": "tl-029",
@@ -346,7 +430,10 @@
         "Encoder 對資料做非線性降維取得精簡特徵，Decoder 再把特徵重建回原資料"
       ],
       "answer": 3,
-      "explain": "自編碼器是無監督學習，目標是把輸入複製到輸出（濃縮再重建），常用於影像分割的 U-Net 類架構。"
+      "explain": "自編碼器是無監督學習，目標是把輸入濃縮再重建回來。講義在影像分割單元介紹它；U-Net 也是編碼器—解碼器結構。",
+      "tags": [
+        "醫療影像與影像分割"
+      ]
     },
     {
       "id": "tl-030",
@@ -358,7 +445,805 @@
         "標籤直接從訓練樣本本身導出，例如遮住句子中的字讓模型預測"
       ],
       "answer": 3,
-      "explain": "例如「It is beautiful and [MASK] outside」，答案 sunny 就來自原句本身。"
+      "explain": "例如「It is beautiful and [MASK] outside」，答案 sunny 就來自原句本身。",
+      "tags": [
+        "自監督學習"
+      ]
+    },
+    {
+      "id": "tl-031",
+      "q": "講義舉的遷移學習例子中，「收集大量網路、維基百科與書籍文字訓練模型，為每個單字分配獨特向量」屬於哪一類？",
+      "options": [
+        "文字",
+        "表格資料",
+        "語音",
+        "影像"
+      ],
+      "answer": 0,
+      "explain": "預先訓練好的詞向量，可以讓其他文字模型直接把文本轉成向量。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
+    },
+    {
+      "id": "tl-032",
+      "q": "用大量語音資料預訓練的模型，講義提到可以遷移到哪些應用？",
+      "options": [
+        "機器翻譯、文字摘要、問答",
+        "影像分割、物件偵測、姿態估計",
+        "語音辨識、說話者辨識、文字轉語音",
+        "推薦系統、廣告投放、股價預測"
+      ],
+      "answer": 2,
+      "explain": "語音預訓練模型可辨識每個語音或片語，再應用到各種語音任務，例如模仿名人聲音。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
+    },
+    {
+      "id": "tl-033",
+      "q": "遷移學習時，自己任務所需的資料集（下游任務）有什麼特性？",
+      "options": [
+        "必須和預訓練資料完全相同",
+        "不需要大量資料",
+        "必須跟 ImageNet 一樣大",
+        "一定不能有標籤"
+      ],
+      "answer": 1,
+      "explain": "預訓練已經學到通用知識，下游任務只要相對少量的資料。",
+      "tags": [
+        "遷移學習基本概念"
+      ]
+    },
+    {
+      "id": "tl-034",
+      "q": "講義對「預訓練模型（pre-trained model）」的描述是？",
+      "options": [
+        "權重隨機初始化的模型",
+        "只包含輸出層權重的模型",
+        "只能推論、不能再訓練的模型",
+        "前人為了解決類似問題訓練好的模型，可直接當起點，不必從零訓練"
+      ],
+      "answer": 3,
+      "explain": "解決問題時可以從在類似問題上訓練過的模型入手。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-035",
+      "q": "講義提到，在哪兩個大型資料集上訓練的深度網路特別適合做遷移學習？",
+      "options": [
+        "BooksCorpus 與 Wikipedia",
+        "MNIST 與 Food-5K",
+        "ImageNet 與 COCO",
+        "DMSC 與 WMT"
+      ],
+      "answer": 2,
+      "explain": "這些網路學到豐富、有辨別力的特徵，能辨識數百到上千類物件。BooksCorpus 與 Wikipedia 是 BERT 的文字預訓練資料。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-036",
+      "q": "講義引用的預訓練模型比較圖（arXiv 1810.00736）中，兩個軸與點的大小分別代表？",
+      "options": [
+        "資料集大小、類別數；點越大表示越新",
+        "運算複雜度（越小越好）、模型準確度（越大越好）；點越大表示模型越複雜",
+        "參數量、記憶體；點越大表示推論越快",
+        "訓練時間、資料量；點越大表示準確度越高"
+      ],
+      "answer": 1,
+      "explain": "選模型時要在準確度與運算成本之間取捨。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-037",
+      "q": "講義引用 jetson-inference 與 Raspberry Pi 5 + Hailo AI HAT 的例子，想說明什麼？",
+      "options": [
+        "預訓練模型只能在雲端執行",
+        "預訓練模型只能用 NVIDIA 顯示卡",
+        "邊緣裝置適合從頭訓練大型模型",
+        "預訓練模型可以部署到邊緣裝置上直接推論"
+      ],
+      "answer": 3,
+      "explain": "載入預訓練模型時也要搭配硬體選擇。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-038",
+      "q": "講義「偵測到 cat 就用 LINE 通知」的實例，屬於哪種用法？",
+      "options": [
+        "自監督預訓練",
+        "特徵提取後訓練 SVM",
+        "先微調再推論",
+        "直接使用預訓練模型推論，不做額外訓練"
+      ],
+      "answer": 3,
+      "explain": "這一段的標題就是「實例（直接使用預訓練模型）」。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-039",
+      "q": "講義在「直接使用預訓練模型」的實例中，用哪個模型做影像分割？",
+      "options": [
+        "V-JEPA 2",
+        "yolov5n_seg",
+        "ResNet-50",
+        "BERT"
+      ],
+      "answer": 1,
+      "explain": "yolov5n_seg 是輕量的 YOLO 分割模型，可直接拿來推論。",
+      "tags": [
+        "預訓練模型"
+      ]
+    },
+    {
+      "id": "tl-040",
+      "q": "講義建議在 Windows 11 上用什麼環境執行課程程式？",
+      "options": [
+        "Windows XP 虛擬機",
+        "iOS 模擬器",
+        "WSL2",
+        "MS-DOS"
+      ],
+      "answer": 2,
+      "explain": "講義附了在 Windows 11 安裝 WSL2 的教學連結。",
+      "tags": [
+        "開發環境"
+      ]
+    },
+    {
+      "id": "tl-041",
+      "q": "老師把 conda 環境的套件匯出成 requirements.txt，用的是哪個指令？",
+      "options": [
+        "conda remove --all requirements.txt",
+        "pip freeze < requirements.txt",
+        "conda list --explicit > requirements.txt",
+        "git export requirements.txt"
+      ],
+      "answer": 2,
+      "explain": "--explicit 會列出可重建環境的完整套件清單。",
+      "tags": [
+        "開發環境"
+      ]
+    },
+    {
+      "id": "tl-042",
+      "q": "拿到 requirements.txt 後建立環境，正確順序是？",
+      "options": [
+        "conda create --name myenv1 python=3.8 → conda activate myenv1 → conda install --file requirements.txt",
+        "pip install requirements.txt → conda create → conda list",
+        "conda activate myenv1 → conda list --explicit → conda create",
+        "conda install --file requirements.txt → conda create → conda activate"
+      ],
+      "answer": 0,
+      "explain": "先建立並啟用環境，再依清單安裝套件。",
+      "tags": [
+        "開發環境"
+      ]
+    },
+    {
+      "id": "tl-043",
+      "q": "在 WSL 啟動 Jupyter Notebook 後，講義教的開啟方式是？",
+      "options": [
+        "必須在 WSL 內安裝桌面環境",
+        "在 Windows Terminal 按住 Ctrl 點擊 http://localhost:8888/tree?token=… 連結，用 Windows 瀏覽器開啟",
+        "只能用 curl 讀網頁內容",
+        "把 token 寄到 email 再登入"
+      ],
+      "answer": 1,
+      "explain": "WSL 的 localhost 可以直接從 Windows 瀏覽器連線。",
+      "tags": [
+        "開發環境"
+      ]
+    },
+    {
+      "id": "tl-044",
+      "q": "行人與汽車 demo 中，yolov8m-seg.pt 負責什麼？",
+      "options": [
+        "對影片中的行人與車輛做影像分割",
+        "把影片轉成文字",
+        "建立回歸模型",
+        "估計物體深度"
+      ],
+      "answer": 0,
+      "explain": "先分割出行人與車子，再估計它們的距離。",
+      "tags": [
+        "距離估計 demo"
+      ]
+    },
+    {
+      "id": "tl-045",
+      "q": "講義提到 ZoeDepth 作者在 Hugging Face 主要維護的進化版模型系列是什麼？強調什麼能力？",
+      "options": [
+        "MiDaS v1，強調精確的公尺距離",
+        "V-JEPA 2，強調影片理解",
+        "Depth Anything，強調零樣本泛化能力",
+        "YOLO11，強調即時偵測"
+      ],
+      "answer": 2,
+      "explain": "Depth Anything 是 ZoeDepth 技術的進化版本。",
+      "tags": [
+        "距離估計 demo"
+      ]
+    },
+    {
+      "id": "tl-046",
+      "q": "用回歸模型改善距離估計的四個步驟，正確順序是？",
+      "options": [
+        "收集各影格的深度中位數與實際距離 → 建立 regression model → 用模型估距離（可存檔）→ final test",
+        "建立 regression model → final test → 收集資料 → 存檔",
+        "存檔 → 收集資料 → final test → 建立模型",
+        "final test → 收集資料 → 建立模型 → 推論"
+      ],
+      "answer": 0,
+      "explain": "講義的 2.1 到 2.4 就是這四步。",
+      "tags": [
+        "距離估計 demo"
+      ]
+    },
+    {
+      "id": "tl-047",
+      "q": "MiDaS 與 Depth Anything 是怎麼估計深度的？",
+      "options": [
+        "分析單一的 2D 影像",
+        "用兩台相機的立體視差",
+        "讀取手機 GPS",
+        "用 LiDAR 雷射掃描"
+      ],
+      "answer": 0,
+      "explain": "所以只能估算；要真正距離得用深度相機或多感測器融合。",
+      "tags": [
+        "距離估計 demo"
+      ]
+    },
+    {
+      "id": "tl-048",
+      "q": "MNIST 實作中，從頭訓練辨識 0–9 準確率約 0.9890。改用遷移學習只辨識 0 和 1，結果如何？",
+      "options": [
+        "只訓練 1,537 個參數，訓練時間大幅縮短，準確率達 0.9952",
+        "參數一樣多，準確率變成 1.0",
+        "要訓練 542,230 個參數，準確率降到 0.90",
+        "類別數不同，無法訓練"
+      ],
+      "answer": 0,
+      "explain": "遷移學習用少量參數、短時間就達到更高準確率。",
+      "tags": [
+        "兩種遷移方式與 MNIST"
+      ]
+    },
+    {
+      "id": "tl-049",
+      "q": "講義對兩種遷移方式中「微調（fine tune）」的描述是？",
+      "options": [
+        "把模型轉成 ONNX 格式",
+        "使用新的資料集更新模型",
+        "只拿預訓練模型推論",
+        "把預訓練模型當成固定的特徵提取裝置"
+      ],
+      "answer": 1,
+      "explain": "第二個選項是「特徵提取」。",
+      "tags": [
+        "兩種遷移方式與 MNIST"
+      ]
+    },
+    {
+      "id": "tl-050",
+      "q": "特徵提取的四個步驟，正確順序是？",
+      "options": [
+        "刪除卷積層 → 提取原始像素 → 凍結輸出層 → 預測",
+        "提取值 → 凍結層 → 訓練 FC → 刪除特徵",
+        "對新資料重複 → 凍結層 → 訓練整個網路 → 提取值",
+        "凍結指定的層（如激活層或池化層）→ 從該層提取值 → 把值視為特徵向量 → 對新資料集重複提取"
+      ],
+      "answer": 3,
+      "explain": "提取出的特徵向量最後交給現成的機器學習分類器。",
+      "tags": [
+        "特徵提取"
+      ]
+    },
+    {
+      "id": "tl-051",
+      "q": "用 VGG16 對 N 張圖片做特徵提取後，資料集會變成什麼樣子？",
+      "options": [
+        "N 個長度 25,088 的特徵向量",
+        "N 個類別標籤",
+        "一個 N×N 的矩陣",
+        "N 張 224×224 的新圖片"
+      ],
+      "answer": 0,
+      "explain": "每張圖得到 7×7×512 = 25,088 個值。",
+      "tags": [
+        "特徵提取"
+      ]
+    },
+    {
+      "id": "tl-052",
+      "q": "特徵提取之後，下列哪一個「不是」講義列出的分類器？",
+      "options": [
+        "Random Forests",
+        "Linear SVM",
+        "Decision Trees",
+        "Transformer Decoder"
+      ],
+      "answer": 3,
+      "explain": "講義列的是 Linear SVM、Logistic Regression、Decision Trees、Random Forests 等現成的機器學習演算法。",
+      "tags": [
+        "特徵提取"
+      ]
+    },
+    {
+      "id": "tl-053",
+      "q": "Food-5K 實作的任務是？",
+      "options": [
+        "偵測餐桌上的物件位置",
+        "估計卡路里",
+        "辨識 11 種食物組",
+        "區分食物與非食物"
+      ],
+      "answer": 3,
+      "explain": "Food-5K 是二元分類；辨識 11 類的是 Food-11 微調實作。",
+      "tags": [
+        "Food-5K 實作"
+      ]
+    },
+    {
+      "id": "tl-054",
+      "q": "Food-5K 特徵提取產生三個 CSV 檔，每一列的內容是？",
+      "options": [
+        "圖片檔名 + 原始像素",
+        "類別名稱 + 解析",
+        "標籤 + 特徵向量",
+        "準確率 + 損失值"
+      ],
+      "answer": 2,
+      "explain": "訓練時用 load_data_split 從 CSV 讀回資料與標籤。",
+      "tags": [
+        "Food-5K 實作"
+      ]
+    },
+    {
+      "id": "tl-055",
+      "q": "執行 keras-feature-extraction 之前，講義要求先安裝哪兩個套件？",
+      "options": [
+        "transformers 與 jieba",
+        "nltk 與 opencc",
+        "streamlit 與 ollama",
+        "imutils 與 opencv-python"
+      ],
+      "answer": 3,
+      "explain": "pip install imutils、pip install opencv-python。",
+      "tags": [
+        "Food-5K 實作"
+      ]
+    },
+    {
+      "id": "tl-056",
+      "q": "講義用 ResNet-50 說明大資料集特徵提取的問題，每張影像的輸出維度是？",
+      "options": [
+        "1 × 1000",
+        "7 × 7 × 2048 = 100,352",
+        "224 × 224 × 3",
+        "7 × 7 × 512 = 25,088"
+      ],
+      "answer": 1,
+      "explain": "5 萬張圖乘上 100,352 維，需要約 40GB 記憶體。",
+      "tags": [
+        "增量學習"
+      ]
+    },
+    {
+      "id": "tl-057",
+      "q": "為什麼特徵很大時，Logistic Regression 或 SVM 會遇到記憶體問題？",
+      "options": [
+        "它們的參數比神經網路多",
+        "它們需要一次存取整個資料集才能訓練",
+        "它們不能處理數值特徵",
+        "它們只能用 GPU"
+      ],
+      "answer": 1,
+      "explain": "解法是改用可以分批訓練的增量學習。",
+      "tags": [
+        "增量學習"
+      ]
+    },
+    {
+      "id": "tl-058",
+      "q": "講義說「神經網路是很好的增量學習器」，原因是？",
+      "options": [
+        "可以一批一批讀資料、逐步更新權重，不必一次載入全部資料",
+        "神經網路不需要訓練資料",
+        "神經網路訓練後權重不再改變",
+        "神經網路只能處理小資料集"
+      ],
+      "answer": 0,
+      "explain": "這也稱為 online learning。",
+      "tags": [
+        "增量學習"
+      ]
+    },
+    {
+      "id": "tl-059",
+      "q": "V-JEPA 2 和傳統生成式 AI 最大的不同是？",
+      "options": [
+        "在抽象語意空間理解影片動態、預測物理因果，而不是逐個像素生成畫面",
+        "逐字預測下一個 token",
+        "必須用人工標籤訓練",
+        "只能處理靜態圖片"
+      ],
+      "answer": 0,
+      "explain": "V-JEPA 2 是 Meta FAIR 由 Yann LeCun 主導開源的視覺世界模型。",
+      "tags": [
+        "V-JEPA 2 影片分類"
+      ]
+    },
+    {
+      "id": "tl-060",
+      "q": "V-JEPA 2 動作分類實作中，影片與標籤的對應寫在哪裡？推論介面用什麼做？",
+      "options": [
+        "label_map.txt；用 Streamlit 做推論介面",
+        "train.pkl；用 Gradio",
+        "course.json；用 Flask",
+        "requirements.txt；用 Jupyter widget"
+      ],
+      "answer": 0,
+      "explain": "訓練用 transfer_training_vjepa2.ipynb，推論用 streamlit run vjepa_streamlit2.py。",
+      "tags": [
+        "V-JEPA 2 影片分類"
+      ]
+    },
+    {
+      "id": "tl-061",
+      "q": "資料量中等（幾千到幾萬張）、但分布與預訓練資料差異大時，講義建議？",
+      "options": [
+        "只訓練最後一層的偏差值",
+        "二階段或直接全網路 fine-tune，但建議先 warm up 再全網路微調",
+        "不訓練，直接推論",
+        "只做 Step 1"
+      ],
+      "answer": 1,
+      "explain": "差異大就需要調整特徵抽取層，但先暖身比較穩。",
+      "tags": [
+        "微調策略"
+      ]
+    },
+    {
+      "id": "tl-062",
+      "q": "資料量大、但分布與預訓練集差異很大時，講義建議？",
+      "options": [
+        "凍結全部層",
+        "只訓練 FC 層",
+        "直接全網路 fine-tune 或從頭訓練",
+        "只做特徵提取"
+      ],
+      "answer": 2,
+      "explain": "分布差太多時，預訓練特徵幫助有限，直接訓練全網路更合理。",
+      "tags": [
+        "微調策略"
+      ]
+    },
+    {
+      "id": "tl-063",
+      "q": "兩階段微調中，Step 1 做完後模型處於什麼狀態？",
+      "options": [
+        "卷積層已經全部被改寫",
+        "還不能做任何預測",
+        "已經可以完成下游 prediction",
+        "只剩輸入層可用"
+      ],
+      "answer": 2,
+      "explain": "Step 2 的目的是讓特徵更貼近新資料，不是讓模型第一次能預測。",
+      "tags": [
+        "微調策略"
+      ]
+    },
+    {
+      "id": "tl-064",
+      "q": "Food-11 微調實作的目標是？",
+      "options": [
+        "估計餐點的重量",
+        "區分食物與非食物",
+        "用 ImageNet 預訓練 CNN 微調，辨識原本沒訓練過的 11 類食物組",
+        "生成食物圖片"
+      ],
+      "answer": 2,
+      "explain": "例如可用在自動追蹤食物組與卡路里攝入量的健身 App。",
+      "tags": [
+        "Food-11 微調實作"
+      ]
+    },
+    {
+      "id": "tl-065",
+      "q": "Food-11 解凍後的微調階段，講義提醒 epochs 不要設太多，原因是？",
+      "options": [
+        "學習率會自動變大",
+        "容易 overfitting",
+        "資料會被刪除",
+        "GPU 會損壞"
+      ],
+      "answer": 1,
+      "explain": "講義範例 warm up 設 30 epochs，解凍後設 20。",
+      "tags": [
+        "Food-11 微調實作"
+      ]
+    },
+    {
+      "id": "tl-066",
+      "q": "微調完成後，要用哪個指令測試一張圖片？",
+      "options": [
+        "streamlit run predict.py --epochs 20",
+        "python predict.py --image dataset/evaluation/Egg/3_24.jpg",
+        "python train.py --predict",
+        "ollama run predict"
+      ],
+      "answer": 1,
+      "explain": "predict.py 載入微調後的模型，對指定圖片做預測。",
+      "tags": [
+        "Food-11 微調實作"
+      ]
+    },
+    {
+      "id": "tl-067",
+      "q": "Food-11 實作中，warm up 與 unfreeze 兩個階段的訓練曲線圖分別存在哪裡？",
+      "options": [
+        "不會產生任何圖",
+        "README.md",
+        "dataset 資料夾的 train.csv",
+        "output 資料夾的 warmup.png 與 unfrozen.png"
+      ],
+      "answer": 3,
+      "explain": "比較兩張圖可以看出解凍後的準確率變化。",
+      "tags": [
+        "Food-11 微調實作"
+      ]
+    },
+    {
+      "id": "tl-068",
+      "q": "腦部 MRI 實作用微調完成哪兩個任務？",
+      "options": [
+        "物件追蹤與姿態估計",
+        "分類與影像分割（腫瘤偵測）",
+        "語音辨識與合成",
+        "翻譯與摘要"
+      ],
+      "answer": 1,
+      "explain": "程式是 Healthcare_AI_2.ipynb，需要安裝 TensorFlow。",
+      "tags": [
+        "醫療影像與影像分割"
+      ]
+    },
+    {
+      "id": "tl-069",
+      "q": "講義在影像分割單元比較的兩種架構是？",
+      "options": [
+        "MiDaS 與 ZoeDepth",
+        "CBOW 與 Skip-gram",
+        "U-Net 與 ResUNet",
+        "BERT 與 GPT"
+      ],
+      "answer": 2,
+      "explain": "兩者都是編碼器—解碼器結構的分割網路。",
+      "tags": [
+        "醫療影像與影像分割"
+      ]
+    },
+    {
+      "id": "tl-070",
+      "q": "ResUNet 和 U-Net 的主要差別是？",
+      "options": [
+        "去掉解碼器，只保留編碼器",
+        "只能處理文字資料",
+        "用 Transformer 取代所有卷積",
+        "在 U-Net 的編碼／解碼結構中加入殘差（residual）連接"
+      ],
+      "answer": 3,
+      "explain": "殘差連接讓較深的網路更容易訓練。",
+      "tags": [
+        "醫療影像與影像分割"
+      ]
+    },
+    {
+      "id": "tl-071",
+      "q": "自編碼器屬於哪一種學習方式？",
+      "options": [
+        "強化學習",
+        "規則式系統",
+        "監督式學習",
+        "無監督學習"
+      ],
+      "answer": 3,
+      "explain": "它的目標是把輸入複製到輸出，不需要人工標籤。",
+      "tags": [
+        "醫療影像與影像分割"
+      ]
+    },
+    {
+      "id": "tl-072",
+      "q": "手語數字（0–9）辨識實作中，「生成圖片.ipynb」的用途是？",
+      "options": [
+        "產生更多訓練圖片",
+        "生成手語教學影片",
+        "標註骨架關鍵點",
+        "把模型轉成 ONNX"
+      ],
+      "answer": 0,
+      "explain": "資料不夠時，用程式產生更多圖片。",
+      "tags": [
+        "手語辨識實作"
+      ]
+    },
+    {
+      "id": "tl-073",
+      "q": "手語辨識實作的兩個訓練階段是？",
+      "options": [
+        "第一階段特徵提取 + SVM；第二階段 K-means",
+        "第一階段從頭訓練；第二階段刪除分類頭",
+        "第一階段凍結 backbone、只訓練新分類頭（warm-up）；第二階段解凍部分層微調",
+        "只有一個階段：全部解凍、用大學習率"
+      ],
+      "answer": 2,
+      "explain": "和 Food-11 的兩階段微調是同一個策略。",
+      "tags": [
+        "手語辨識實作"
+      ]
+    },
+    {
+      "id": "tl-074",
+      "q": "Roboflow 專案流程，正確順序是？",
+      "options": [
+        "訓練 → 標註 → 上傳 → 建立專案",
+        "切分資料集 → 建立專案 → 訓練 → 上傳",
+        "上傳 → 訓練 → 建立專案 → 標註",
+        "建立專案 → 上傳資料集 → 標註 → 把標註好的圖片加入資料集 → 切分 train/valid/test → 建立版本並訓練"
+      ],
+      "answer": 3,
+      "explain": "這是講義 Step 1 到 Step 6 的流程。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
+    },
+    {
+      "id": "tl-075",
+      "q": "要在本機用 Roboflow 上的資料集訓練 YOLO，需要先取得什麼？",
+      "options": [
+        "ImageNet 授權",
+        "OpenAI API key",
+        "Account / workspace 裡的 API key",
+        "Hugging Face token"
+      ],
+      "answer": 2,
+      "explain": "也可以選擇直接在 Roboflow 上訓練。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
+    },
+    {
+      "id": "tl-076",
+      "q": "坑洞偵測實作的資料集來源與用途是？",
+      "options": [
+        "Food-11，用來做影像分割",
+        "COCO，用來分類食物",
+        "DMSC，用來做情感分析",
+        "Kaggle 的 pothole 影像資料集，用來訓練 YOLO 偵測路面坑洞"
+      ],
+      "answer": 3,
+      "explain": "程式是 Potholes_Detection.ipynb。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
+    },
+    {
+      "id": "tl-077",
+      "q": "YOLO 應用與講義例子的配對，何者「錯誤」？",
+      "options": [
+        "工業檢測：產品缺陷檢測與自動分揀",
+        "自然語言推論：判斷兩個句子是否矛盾",
+        "醫療影像：在 X 光、MRI 中偵測病灶",
+        "自動駕駛：即時偵測行人與交通號誌"
+      ],
+      "answer": 1,
+      "explain": "YOLO 是影像物件偵測；講義的應用還有影片監控、機器人與農業。",
+      "tags": [
+        "YOLO 與 Roboflow"
+      ]
+    },
+    {
+      "id": "tl-078",
+      "q": "人類活動辨識實作微調的是哪個模型？資料從哪裡來？",
+      "options": [
+        "YOLO11 pose；Roboflow Universe 的 human-activity 資料集",
+        "BERT；豆瓣影評",
+        "YOLOv5 seg；Kaggle 坑洞資料集",
+        "V-JEPA 2；label_map.txt"
+      ],
+      "answer": 0,
+      "explain": "程式是 Human_Activity_Recognition_YOLO11_Updated.ipynb。",
+      "tags": [
+        "YOLO 應用實作"
+      ]
+    },
+    {
+      "id": "tl-079",
+      "q": "Roboflow Universe 是什麼？",
+      "options": [
+        "中文斷詞工具",
+        "深度相機品牌",
+        "LLM 推論引擎",
+        "集合大量電腦視覺資料集與模型的平台，可瀏覽、下載、訓練、測試與部署"
+      ],
+      "answer": 3,
+      "explain": "支援物件偵測、分類、分割等任務。",
+      "tags": [
+        "YOLO 應用實作"
+      ]
+    },
+    {
+      "id": "tl-080",
+      "q": "籃球投籃分析實作中，微調過的 best.pt 主要用來辨認什麼？",
+      "options": [
+        "比分看板",
+        "球員的臉",
+        "觀眾",
+        "籃框"
+      ],
+      "answer": 3,
+      "explain": "兩個 YOLO 模型配合辨認球員、籃球與籃框，投籃時切成慢動作並顯示手肘與膝蓋角度、投籃軌跡，判斷是否投進。",
+      "tags": [
+        "YOLO 應用實作"
+      ]
+    },
+    {
+      "id": "tl-081",
+      "q": "講義最後一個 YOLO 應用範例（Label 4、Label 5）偵測的是什麼？",
+      "options": [
+        "路面坑洞",
+        "個人防護裝備（PPE）",
+        "腦部腫瘤",
+        "手語數字"
+      ],
+      "answer": 1,
+      "explain": "例如偵測工地人員有沒有戴安全帽、穿反光背心。",
+      "tags": [
+        "YOLO 應用實作"
+      ]
+    },
+    {
+      "id": "tl-082",
+      "q": "數據集大、且和預訓練資料相似度高時，講義建議？",
+      "options": [
+        "從頭訓練全新架構",
+        "凍結前 k 層",
+        "只做特徵提取",
+        "保持模型原有結構與初始權重，在新資料集上重新訓練"
+      ],
+      "answer": 3,
+      "explain": "資料夠多又相似，可以放心更新全部權重。",
+      "tags": [
+        "遷移策略四象限"
+      ]
+    },
+    {
+      "id": "tl-083",
+      "q": "「使用自監督式學習進行預訓練」的流程是？",
+      "options": [
+        "在大型通用資料集上自監督預訓練 → 遷移到特定目標資料集上微調",
+        "只在 ImageNet 上訓練，不做遷移",
+        "先在目標資料集上人工標註 → 再到 ImageNet 微調",
+        "只在目標資料集上從頭訓練"
+      ],
+      "answer": 0,
+      "explain": "預訓練階段的標籤直接由樣本導出，不需人工標註。",
+      "tags": [
+        "自監督學習"
+      ]
     }
   ]
 }

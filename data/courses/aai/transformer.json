@@ -10,7 +10,10 @@
         "無法使用反向傳播"
       ],
       "answer": 1,
-      "explain": "RNN 的遞迴特性要求每一步都依賴前一步的結果，因此無法平行處理整個序列。"
+      "explain": "RNN 的遞迴特性要求每一步都依賴前一步的結果，因此無法平行處理整個序列。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
     },
     {
       "id": "tf-002",
@@ -22,7 +25,10 @@
         "Decoder 不需要任何輸入"
       ],
       "answer": 2,
-      "explain": "長短文本都擠進同一個固定長度向量，句子越長，資訊壓縮損失越嚴重，這就是 attention 想解決的問題。"
+      "explain": "長短文本都擠進同一個固定長度向量，句子越長，資訊壓縮損失越嚴重，這就是 attention 想解決的問題。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
     },
     {
       "id": "tf-003",
@@ -34,7 +40,10 @@
         "Q 是輸出、K 是損失、V 是學習率"
       ],
       "answer": 0,
-      "explain": "術語借自資料庫檢索：Query 去比對每個 Key，找出相關的項目後取回對應的 Value。Q、K、V 由三個可訓練權重矩陣產生。"
+      "explain": "術語借自資料庫檢索：Query 去比對每個 Key，找出相關的項目後取回對應的 Value。Q、K、V 由三個可訓練權重矩陣產生。",
+      "tags": [
+        "自注意力計算"
+      ]
     },
     {
       "id": "tf-004",
@@ -46,7 +55,10 @@
         "softmax → q 與 k 點積 → 乘權重矩陣 → 加權求和"
       ],
       "answer": 2,
-      "explain": "Step 1 算 q、k、v；Step 2 用 q·k 算注意力分數；Step 3 softmax 正規化成權重；Step 4 用權重對 v 加權求和得到上下文向量。"
+      "explain": "Step 1 算 q、k、v；Step 2 用 q·k 算注意力分數；Step 3 softmax 正規化成權重；Step 4 用權重對 v 加權求和得到上下文向量。",
+      "tags": [
+        "自注意力計算"
+      ]
     },
     {
       "id": "tf-005",
@@ -58,7 +70,10 @@
         "減少詞彙表的大小"
       ],
       "answer": 1,
-      "explain": "維度越高，點積的數值越大，softmax 會變得很尖（幾乎只看一個字），梯度也會變小，所以要縮放。"
+      "explain": "維度越高，點積的數值越大，softmax 會變得很尖（幾乎只看一個字），梯度也會變小，所以要縮放。",
+      "tags": [
+        "自注意力計算"
+      ]
     },
     {
       "id": "tf-006",
@@ -70,7 +85,10 @@
         "每個權重都等於 1"
       ],
       "answer": 2,
-      "explain": "歸一化後可解讀為「當前詞對其他各詞的關注比例」，總和為 100%。"
+      "explain": "歸一化後可解讀為「當前詞對其他各詞的關注比例」，總和為 100%。",
+      "tags": [
+        "自注意力計算"
+      ]
     },
     {
       "id": "tf-007",
@@ -82,7 +100,10 @@
         "四個 v 的平均"
       ],
       "answer": 0,
-      "explain": "輸出 = Σ αᵢvᵢ = 0.5·v3 + 0.5·v4，也就是 v3 與 v4 的平均。"
+      "explain": "輸出 = Σ αᵢvᵢ = 0.5·v3 + 0.5·v4，也就是 v3 與 v4 的平均。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
     },
     {
       "id": "tf-008",
@@ -94,7 +115,10 @@
         "把各 head 的輸出 concat 拼接，再經過一層 Dense 混合"
       ],
       "answer": 3,
-      "explain": "例如 8 個 head 各 64 維，拼接成 512 維後再接 Dense。不是取平均。"
+      "explain": "例如 8 個 head 各 64 維，拼接成 512 維後再接 Dense。不是取平均。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
     },
     {
       "id": "tf-009",
@@ -106,7 +130,10 @@
         "512"
       ],
       "answer": 1,
-      "explain": "512 ÷ 8 = 64，每個 head 從不同角度看句子。"
+      "explain": "512 ÷ 8 = 64，每個 head 從不同角度看句子。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
     },
     {
       "id": "tf-010",
@@ -118,7 +145,10 @@
         "自注意力本身不考慮詞的順序，分不出「狗咬人」與「人咬狗」"
       ],
       "answer": 3,
-      "explain": "嵌入層對同一個 token ID 在任何位置都產生相同向量，因此要加入位置資訊。"
+      "explain": "嵌入層對同一個 token ID 在任何位置都產生相同向量，因此要加入位置資訊。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
     },
     {
       "id": "tf-011",
@@ -130,7 +160,10 @@
         "把兩個句子相加成一句"
       ],
       "answer": 1,
-      "explain": "Add 是殘差連接；Norm 是 Layer Normalization，用來穩定數值分布、加速收斂。"
+      "explain": "Add 是殘差連接；Norm 是 Layer Normalization，用來穩定數值分布、加速收斂。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
     },
     {
       "id": "tf-012",
@@ -142,7 +175,10 @@
         "隨機遮住 15% 的詞讓模型猜"
       ],
       "answer": 0,
-      "explain": "生成是一步一步進行，每一步只能依賴已產生的結果，所以要用 look-ahead mask 擋住右側的未來詞。"
+      "explain": "生成是一步一步進行，每一步只能依賴已產生的結果，所以要用 look-ahead mask 擋住右側的未來詞。",
+      "tags": [
+        "Decoder 運作"
+      ]
     },
     {
       "id": "tf-013",
@@ -154,7 +190,10 @@
         "遮掉句子的第一個字"
       ],
       "answer": 1,
-      "explain": "批次運算需要等長，短句會補 0，padding mask 讓模型忽略這些填充。"
+      "explain": "批次運算需要等長，短句會補 0，padding mask 讓模型忽略這些填充。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
     },
     {
       "id": "tf-014",
@@ -166,7 +205,10 @@
         "把輸入句子的字順序反過來"
       ],
       "answer": 0,
-      "explain": "加上起始符（BOS）後，就能用起始符預測 \"I\"，再用 BOS + I 預測 \"Love\"，依此類推。"
+      "explain": "加上起始符（BOS）後，就能用起始符預測 \"I\"，再用 BOS + I 預測 \"Love\"，依此類推。",
+      "tags": [
+        "Decoder 運作"
+      ]
     },
     {
       "id": "tf-015",
@@ -178,7 +220,10 @@
         "Q 來自 Encoder，K 與 V 來自 Decoder"
       ],
       "answer": 2,
-      "explain": "Decoder 產生英文時，會「回頭看」Encoder 對中文原文的理解，找出最相關的字作為生成依據。"
+      "explain": "Decoder 產生英文時，會「回頭看」Encoder 對中文原文的理解，找出最相關的字作為生成依據。",
+      "tags": [
+        "Decoder 運作"
+      ]
     },
     {
       "id": "tf-016",
@@ -190,7 +235,10 @@
         "從頭到尾固定不變"
       ],
       "answer": 0,
-      "explain": "熱身可避免初期梯度過大造成訓練不穩，之後慢慢下降幫助收斂，搭配 Adam（β₁=0.9、β₂=0.98）。"
+      "explain": "熱身可避免初期梯度過大造成訓練不穩，之後慢慢下降幫助收斂，搭配 Adam（β₁=0.9、β₂=0.98）。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
     },
     {
       "id": "tf-017",
@@ -202,7 +250,10 @@
         "Decoder，只能由左到右"
       ],
       "answer": 1,
-      "explain": "BERT = Bidirectional Encoder Representations from Transformers，適合分類、NER、閱讀理解等理解型任務。"
+      "explain": "BERT = Bidirectional Encoder Representations from Transformers，適合分類、NER、閱讀理解等理解型任務。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-018",
@@ -214,7 +265,10 @@
         "只使用 Encoder，雙向處理"
       ],
       "answer": 1,
-      "explain": "GPT 用 Masked Self-Attention 擋住未來的詞，以自回歸方式逐字產生文字。"
+      "explain": "GPT 用 Masked Self-Attention 擋住未來的詞，以自回歸方式逐字產生文字。",
+      "tags": [
+        "GPT 系列與 ChatGPT"
+      ]
     },
     {
       "id": "tf-019",
@@ -226,7 +280,10 @@
         "全部換成隨機字"
       ],
       "answer": 0,
-      "explain": "隨機字逼模型不能只相信眼前的字；保持原字讓輸入更接近真實文本。"
+      "explain": "隨機字逼模型不能只相信眼前的字；保持原字讓輸入更接近真實文本。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-020",
@@ -238,7 +295,10 @@
         "微調時輸入不會出現 [MASK]，這樣能減少預訓練與微調之間的落差"
       ],
       "answer": 3,
-      "explain": "如果模型只在看到 [MASK] 時才學習預測，下游任務沒有 [MASK]，表現就會打折。"
+      "explain": "如果模型只在看到 [MASK] 時才學習預測，下游任務沒有 [MASK]，表現就會打折。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-021",
@@ -250,7 +310,10 @@
         "[CLS] 位置的輸出向量 C"
       ],
       "answer": 3,
-      "explain": "[CLS] 放在輸入最前面，其輸出 C 代表整句或句對，用於 NSP、MNLI 等分類任務。"
+      "explain": "[CLS] 放在輸入最前面，其輸出 C 代表整句或句對，用於 NSP、MNLI 等分類任務。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-022",
@@ -262,7 +325,10 @@
         "Token Embedding + One-hot + TF-IDF"
       ],
       "answer": 2,
-      "explain": "Segment 嵌入標示第一句為 0、第二句為 1；Position 嵌入標示位置。"
+      "explain": "Segment 嵌入標示第一句為 0、第二句為 1；Position 嵌入標示位置。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-023",
@@ -274,7 +340,10 @@
         "每個字的詞性"
       ],
       "answer": 0,
-      "explain": "輸入 Question + Paragraph，用每個 T 預測答案區間的 Start/End。"
+      "explain": "輸入 Question + Paragraph，用每個 T 預測答案區間的 Start/End。",
+      "tags": [
+        "BERT"
+      ]
     },
     {
       "id": "tf-024",
@@ -286,7 +355,10 @@
         "不需要任何詞彙表"
       ],
       "answer": 0,
-      "explain": "GPT 系列、RoBERTa、LLaMA 都用 BPE；冷門字會被拆成多個子詞 token。"
+      "explain": "GPT 系列、RoBERTa、LLaMA 都用 BPE；冷門字會被拆成多個子詞 token。",
+      "tags": [
+        "斷詞與 token"
+      ]
     },
     {
       "id": "tf-025",
@@ -298,7 +370,10 @@
         "標記要做分類的位置"
       ],
       "answer": 1,
-      "explain": "<|unk|> 才是未知詞；<|endoftext|> 告訴模型某段文字的開始或結束。"
+      "explain": "<|unk|> 才是未知詞；<|endoftext|> 告訴模型某段文字的開始或結束。",
+      "tags": [
+        "斷詞與 token"
+      ]
     },
     {
       "id": "tf-026",
@@ -310,7 +385,10 @@
         "人類逐題寫出標準答案讓模型模仿"
       ],
       "answer": 1,
-      "explain": "排序比打分容易一致。人寫示範答案是步驟 1 的 SFT；PPO 是步驟 3。"
+      "explain": "排序比打分容易一致。人寫示範答案是步驟 1 的 SFT；PPO 是步驟 3。",
+      "tags": [
+        "RLHF"
+      ]
     },
     {
       "id": "tf-027",
@@ -322,7 +400,10 @@
         "讓獎勵模型跟著一起更新"
       ],
       "answer": 2,
-      "explain": "模型實際追求「獎勵分數 − β × 與 SFT 模型的差距」，既能進步又保住原本的語言能力。"
+      "explain": "模型實際追求「獎勵分數 − β × 與 SFT 模型的差距」，既能進步又保住原本的語言能力。",
+      "tags": [
+        "RLHF"
+      ]
     },
     {
       "id": "tf-028",
@@ -334,7 +415,10 @@
         "Harness 是一種新的注意力機制"
       ],
       "answer": 2,
-      "explain": "用電腦比喻：模型 ≈ CPU、上下文視窗 ≈ 記憶體、Harness ≈ 作業系統、Agent ≈ 應用程式。"
+      "explain": "用電腦比喻：模型 ≈ CPU、上下文視窗 ≈ 記憶體、Harness ≈ 作業系統、Agent ≈ 應用程式。",
+      "tags": [
+        "Harness 工程"
+      ]
     },
     {
       "id": "tf-029",
@@ -346,7 +430,10 @@
         "把子任務交給擁有獨立上下文的 sub-agent，只回傳結果"
       ],
       "answer": 3,
-      "explain": "四種操作：寫入 Write、選取 Select、壓縮 Compress、隔離 Isolate。其他三個選項分別是寫入、壓縮、選取。"
+      "explain": "四種操作：寫入 Write、選取 Select、壓縮 Compress、隔離 Isolate。其他三個選項分別是寫入、壓縮、選取。",
+      "tags": [
+        "上下文工程"
+      ]
     },
     {
       "id": "tf-030",
@@ -358,7 +445,2215 @@
         "llama.cpp 是底層推論引擎，Ollama 是包裝好、容易上手的模型管理與服務工具"
       ],
       "answer": 3,
-      "explain": "講義比喻：llama.cpp 是引擎，Ollama 是整車。兩者都用 GGUF 格式；需要細部控制時選 llama.cpp。"
+      "explain": "講義比喻：llama.cpp 是引擎，Ollama 是整車。兩者都用 GGUF 格式；需要細部控制時選 llama.cpp。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-031",
+      "q": "seq2seq（序列到序列）模型的基本結構是？",
+      "options": [
+        "編碼器（encoder）—解碼器（decoder）",
+        "決策樹",
+        "卷積層加池化層",
+        "只有一層全連接"
+      ],
+      "answer": 0,
+      "explain": "Encoder 讀入序列，Decoder 產生另一個序列。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
+    },
+    {
+      "id": "tf-032",
+      "q": "下列何者「不是」講義提到的 seq2seq 應用？",
+      "options": [
+        "機器翻譯",
+        "語音辨識",
+        "影像分割",
+        "語音翻譯（例如一段台語轉成中文）"
+      ],
+      "answer": 2,
+      "explain": "影像分割是遷移學習單元的電腦視覺任務。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
+    },
+    {
+      "id": "tf-033",
+      "q": "實務上 Transformer 的輸入看起來是固定長度，原因是？",
+      "options": [
+        "注意力無法處理不同長度",
+        "為了批次運算而做的 padding 工程優化，模型本身並不限定長度",
+        "模型只能處理固定長度",
+        "位置編碼只有 128 個"
+      ],
+      "answer": 1,
+      "explain": "動態長度正是 Transformer 的優勢。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
+    },
+    {
+      "id": "tf-034",
+      "q": "「He runs very fast」與「He runs a factory」用來說明傳統 word2vec 的什麼問題？",
+      "options": [
+        "詞彙表太大",
+        "英文無法斷詞",
+        "句子太短",
+        "同一個詞在不同語境意義不同，但預訓練好的向量永久不變"
+      ],
+      "answer": 3,
+      "explain": "需要考慮上下文的表示，這正是自注意力要做的。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
+    },
+    {
+      "id": "tf-035",
+      "q": "加入注意力機制的 seq2seq，Decoder 怎麼使用 Encoder？",
+      "options": [
+        "完全不看 Encoder",
+        "只用 Encoder 最後一個隱藏狀態",
+        "使用 Encoder 所有的隱藏輸出，並關注在重要的權重上",
+        "只看輸入的第一個字"
+      ],
+      "answer": 2,
+      "explain": "當前狀態除了和前一個狀態與輸入有關，還要關注原序列的狀態。",
+      "tags": [
+        "RNN 與 seq2seq 的限制"
+      ]
+    },
+    {
+      "id": "tf-036",
+      "q": "Google DeepMind 2015 年的 Listen, Attend and Spell（LAS）是什麼的早期範例？",
+      "options": [
+        "詞向量訓練",
+        "cross-attention 用在語音辨識",
+        "強化學習下棋",
+        "影像分類的 CNN"
+      ],
+      "answer": 1,
+      "explain": "模型在「聽」語音時學會「關注」哪段聲音對應哪個字母，啟發了後來的 Transformer。",
+      "tags": [
+        "注意力的早期應用"
+      ]
+    },
+    {
+      "id": "tf-037",
+      "q": "除了翻譯，講義還舉了注意力在哪個影像任務的應用？",
+      "options": [
+        "影像壓縮",
+        "人臉解鎖",
+        "深度估計",
+        "看圖說話（Image Caption）"
+      ],
+      "answer": 3,
+      "explain": "產生每個字時，注意力會落在圖中對應的區域。",
+      "tags": [
+        "注意力的早期應用"
+      ]
+    },
+    {
+      "id": "tf-038",
+      "q": "簡化版 Transformer 翻譯示意圖中，Decoder 生成最後一個字「Beispiel」時依據什麼？",
+      "options": [
+        "只看已翻好的部分，不看原文",
+        "隨機抽樣",
+        "只有原文的第一個字",
+        "Encoder 對原文的嵌入表示，加上已翻好的部分句子「Das ist ein」"
+      ],
+      "answer": 3,
+      "explain": "Encoder 把輸入轉成嵌入表示，Decoder 逐字生成。",
+      "tags": [
+        "Transformer 架構概觀"
+      ]
+    },
+    {
+      "id": "tf-039",
+      "q": "不重新訓練，只在輸入中提供幾個範例讓 GPT 完成任務，稱為？",
+      "options": [
+        "微調（fine-tuning）",
+        "少樣本設定（few-shot）",
+        "預訓練（pre-training）",
+        "零樣本設定（zero-shot）"
+      ],
+      "answer": 1,
+      "explain": "完全不給範例就能執行任務則是零樣本設定。",
+      "tags": [
+        "Transformer 架構概觀"
+      ]
+    },
+    {
+      "id": "tf-040",
+      "q": "類 BERT 與類 GPT 模型的用途，何者正確？",
+      "options": [
+        "類 BERT 適合生成長文；類 GPT 只能分類",
+        "兩者都不使用 Transformer",
+        "類 BERT 專注掩碼詞預測，適合文字分類；類 GPT 專為生成任務設計",
+        "兩者都只能做翻譯"
+      ],
+      "answer": 2,
+      "explain": "分別對應 Transformer 的編碼器與解碼器。",
+      "tags": [
+        "Transformer 架構概觀"
+      ]
+    },
+    {
+      "id": "tf-041",
+      "q": "建立詞彙表（vocabulary）的方式是？",
+      "options": [
+        "只收錄停用詞",
+        "隨機給每個字一個 ID",
+        "把訓練文本分詞，排序並去除重複後，每個唯一詞條對應一個整數 ID",
+        "每次推論時重新建立"
+      ],
+      "answer": 2,
+      "explain": "有了詞彙表才能把 token 轉成 token ID。",
+      "tags": [
+        "斷詞與 token"
+      ]
+    },
+    {
+      "id": "tf-042",
+      "q": "用 OpenAI 的 cl100k_base 分詞器切「hello world, this is a test.」，得到幾個 token？",
+      "options": [
+        "8",
+        "2",
+        "28",
+        "6"
+      ],
+      "answer": 0,
+      "explain": "6 個英文單字加 2 個標點符號。",
+      "tags": [
+        "斷詞與 token"
+      ]
+    },
+    {
+      "id": "tf-043",
+      "q": "用 UTF-8 的 Byte-Pair Encoding 分詞時，一個中文字可能占幾個 token？",
+      "options": [
+        "一定 1 個",
+        "2 到 3 個",
+        "固定 10 個",
+        "0 個"
+      ],
+      "answer": 1,
+      "explain": "講義建議到 tiktokenizer 試試「國立台北商業大學」。",
+      "tags": [
+        "斷詞與 token"
+      ]
+    },
+    {
+      "id": "tf-044",
+      "q": "下列哪個模型「不是」使用 BPE 分詞？",
+      "options": [
+        "BERT",
+        "RoBERTa",
+        "LLaMA",
+        "GPT-2"
+      ],
+      "answer": 0,
+      "explain": "BERT 使用 WordPiece；講義列出用 BPE 的有 GPT 系列、RoBERTa、BART、DeBERTa、LLaMA。",
+      "tags": [
+        "斷詞與 token"
+      ]
+    },
+    {
+      "id": "tf-045",
+      "q": "tokenizer.encode 與 tokenizer.decode 分別做什麼？",
+      "options": [
+        "兩者都把文字轉成向量",
+        "encode 加密；decode 解密",
+        "encode 把文字轉成 token ID；decode 把 token ID 轉回文字",
+        "encode 訓練模型；decode 評估模型"
+      ],
+      "answer": 2,
+      "explain": "兩者互為反向操作。",
+      "tags": [
+        "斷詞與 token"
+      ]
+    },
+    {
+      "id": "tf-046",
+      "q": "用滑動視窗準備 LLM 訓練資料時，目標 y 是怎麼來的？",
+      "options": [
+        "把輸入 x 往後平移一個位置，也就是每個位置的下一個字",
+        "人工標註的類別",
+        "隨機抽樣的字",
+        "把輸入反轉"
+      ],
+      "answer": 0,
+      "explain": "LLM 的訓練任務就是預測輸入區塊之後的下一個字。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-047",
+      "q": "滑動視窗的步幅（stride）設成等於視窗大小，效果是？",
+      "options": [
+        "批次之間不會重疊",
+        "每次只移動 1 個字",
+        "樣本數變成無限多",
+        "所有樣本完全相同"
+      ],
+      "answer": 0,
+      "explain": "步幅設為 1 則每次移動一個位置，樣本會大量重疊。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-048",
+      "q": "嵌入矩陣（embedding matrix）的行數與列數分別代表什麼？",
+      "options": [
+        "行數＝詞彙表大小；列數＝嵌入維度（例如 768）",
+        "行數＝注意力頭數；列數＝層數",
+        "行數＝句子長度；列數＝批次大小",
+        "行數＝類別數；列數＝詞頻"
+      ],
+      "answer": 0,
+      "explain": "每一行就是一個詞的嵌入向量。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-049",
+      "q": "token ID 怎麼轉成嵌入向量？",
+      "options": [
+        "用 softmax 計算",
+        "以 ID 當行索引，到可訓練的嵌入矩陣中查表取出那一行",
+        "把 ID 直接當成向量的第一個值",
+        "用 one-hot 乘上 TF-IDF"
+      ],
+      "answer": 1,
+      "explain": "這個查表動作就是嵌入層。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-050",
+      "q": "嵌入矩陣剛開始訓練時的數值是什麼？之後怎麼變化？",
+      "options": [
+        "由人工逐格填寫",
+        "一開始就是 Word2Vec 的值，之後不變",
+        "全部是 0，訓練後全部變 1",
+        "隨機初始化，訓練中透過反向傳播逐漸學到語意"
+      ],
+      "answer": 3,
+      "explain": "講義形容它最後會變成充滿語義資訊的「智慧地圖」。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-051",
+      "q": "位置嵌入怎麼和 token 嵌入結合？",
+      "options": [
+        "兩者維度相同，直接相加",
+        "取代 token 嵌入",
+        "接在 token 嵌入後面，長度變兩倍",
+        "兩者相乘"
+      ],
+      "answer": 0,
+      "explain": "相加後得到的就是 LLM 的輸入嵌入。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-052",
+      "q": "LLM 輸入處理流程的正確順序是？",
+      "options": [
+        "分詞 → 位置嵌入 → 文字 → token ID",
+        "token ID → 文字 → 嵌入 → 分詞",
+        "嵌入 → 分詞 → 位置嵌入 → token ID",
+        "文字 → 分詞成 token → token ID → token 嵌入 + 位置嵌入 → 輸入嵌入"
+      ],
+      "answer": 3,
+      "explain": "這是講義「處理文本資料總結」的流程。",
+      "tags": [
+        "滑動視窗、嵌入與位置編碼"
+      ]
+    },
+    {
+      "id": "tf-053",
+      "q": "簡化版自注意力（不使用可訓練權重）計算 x(2) 的上下文向量時，第一步是？",
+      "options": [
+        "把 x(2) 乘上權重矩陣 Wv",
+        "用 softmax 處理輸入向量",
+        "直接對所有輸入取平均",
+        "以點積計算 x(2) 與所有輸入元素的注意力分數 ω"
+      ],
+      "answer": 3,
+      "explain": "接著把分數歸一化成權重，再加權求和。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-054",
+      "q": "簡化版自注意力中，上下文向量 z(2) 是什麼？",
+      "options": [
+        "只有 x(2) 本身",
+        "所有注意力分數的總和",
+        "所有輸入向量 x(1)…x(T) 依注意力權重加權的組合",
+        "x(1) 與 x(T) 的差"
+      ],
+      "answer": 2,
+      "explain": "z(2) 結合了序列中所有元素的資訊。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-055",
+      "q": "輸入矩陣 X 形狀為 [2, 4]，權重矩陣 Wq 為 [4, 3]，Q = X·Wq 的形狀是？",
+      "options": [
+        "[4, 4]",
+        "[2, 4]",
+        "[3, 2]",
+        "[2, 3]"
+      ],
+      "answer": 3,
+      "explain": "矩陣乘法 [2,4]·[4,3] = [2,3]。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-056",
+      "q": "Attention 不直接用輸入 X，而是乘上三個可訓練矩陣產生 Q、K、V，目的是？",
+      "options": [
+        "讓模型不需要訓練",
+        "增加模型的擬合能力",
+        "讓輸入不需要嵌入",
+        "讓計算量變成零"
+      ],
+      "answer": 1,
+      "explain": "三個權重矩陣會隨訓練更新。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-057",
+      "q": "q1 對 k1～k4 的注意力權重是 0.5、0.1、0.3、0.1，輸出 z1 是？",
+      "options": [
+        "只取 v1",
+        "0.5v1 + 0.1v2 + 0.3v3 + 0.1v4",
+        "0.5k1 + 0.1k2 + 0.3k3 + 0.1k4",
+        "v1 + v2 + v3 + v4"
+      ],
+      "answer": 1,
+      "explain": "權重乘的是 value，不是 key。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-058",
+      "q": "自注意力相較於 RNN 的計算優勢是？",
+      "options": [
+        "每個詞同時看整個序列，所有詞的表示可以同時算出來",
+        "每個詞只能看前一個詞",
+        "只能處理短句",
+        "必須逐字依序計算"
+      ],
+      "answer": 0,
+      "explain": "這讓 Transformer 能用 GPU 平行加速訓練。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-059",
+      "q": "Scaled Dot-Product Attention 的完整公式是？",
+      "options": [
+        "softmax(QKᵀ / √dₖ) V",
+        "softmax(QV) K",
+        "softmax(Q + K + V)",
+        "QKᵀV / dₖ"
+      ],
+      "answer": 0,
+      "explain": "Q 與 K 的點積縮放後經 softmax，再對 V 加權。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-060",
+      "q": "產生英文「I」時，cross-attention 權重為 我 0.85、愛 0.08、台 0.04、灣 0.03。若改成直接 v1+v2+v3+v4，會怎樣？",
+      "options": [
+        "四個字變得同等重要，attention「挑重點看」的意義就消失",
+        "翻譯會更準",
+        "結果完全相同",
+        "權重總和變成 0"
+      ],
+      "answer": 0,
+      "explain": "加權平均讓 v 幾乎都是「我」的資訊。",
+      "tags": [
+        "自注意力計算"
+      ]
+    },
+    {
+      "id": "tf-061",
+      "q": "講義把 multi-head 機制類比成什麼？",
+      "options": [
+        "資料庫的索引",
+        "卷積神經網路中的多個 filter，提取多種特徵",
+        "RNN 的時間步",
+        "決策樹的分支"
+      ],
+      "answer": 1,
+      "explain": "一組 q、k、v 只得到一種特徵表達，多個 head 能得到多種。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
+    },
+    {
+      "id": "tf-062",
+      "q": "多頭注意力中，不同 head 的結果有什麼特性？",
+      "options": [
+        "head 越多，參數越少",
+        "只有第一個 head 有用",
+        "各 head 的注意力不同，得到的特徵表達也不同",
+        "所有 head 結果完全一樣"
+      ],
+      "answer": 2,
+      "explain": "最後把所有特徵拼接起來，再用全連接層降維。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
+    },
+    {
+      "id": "tf-063",
+      "q": "Layer Normalization 在 Transformer 中的作用是？",
+      "options": [
+        "遮蔽未來的詞",
+        "把文字轉成 token",
+        "穩定數值分布，避免多層運算後數值爆炸或彌散，並加速收斂",
+        "產生位置資訊"
+      ],
+      "answer": 2,
+      "explain": "它是 Add & Norm 中的 Norm。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
+    },
+    {
+      "id": "tf-064",
+      "q": "Point-wise Feed Forward Network 的結構與特點是？",
+      "options": [
+        "跨位置混合資訊的注意力層",
+        "只有一層 softmax",
+        "Dense(dff, relu) 接 Dense(d_model)，每個位置獨立運算",
+        "卷積加池化"
+      ],
+      "answer": 2,
+      "explain": "用 ReLU 引入非線性，加強特徵轉換能力。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
+    },
+    {
+      "id": "tf-065",
+      "q": "Transformer 為什麼要堆疊多層？",
+      "options": [
+        "每層做完全不同的運算",
+        "一層不夠，多層能提取更深的表示，每層的計算方法相同",
+        "為了取代位置編碼",
+        "為了減少參數"
+      ],
+      "answer": 1,
+      "explain": "翻譯實作用了 4 層 Encoder 與 4 層 Decoder。",
+      "tags": [
+        "多頭注意力與層堆疊"
+      ]
+    },
+    {
+      "id": "tf-066",
+      "q": "Transformer 最後怎麼得到每個位置的預測詞？",
+      "options": [
+        "取 Encoder 第一層的輸出",
+        "經過線性層再 softmax，轉成對整個詞彙表的機率分布",
+        "直接輸出注意力權重",
+        "用 K-means 分群"
+      ],
+      "answer": 1,
+      "explain": "例如 I: 0.85、Love: 0.08、Taiwan: 0.04……取最大值。",
+      "tags": [
+        "Decoder 運作"
+      ]
+    },
+    {
+      "id": "tf-067",
+      "q": "Transformer 翻譯模型訓練時使用的損失函數是？",
+      "options": [
+        "Hinge loss",
+        "KL 散度",
+        "均方誤差",
+        "交叉熵（cross-entropy）"
+      ],
+      "answer": 3,
+      "explain": "預測下一個詞本質上是多類別分類。",
+      "tags": [
+        "Decoder 運作"
+      ]
+    },
+    {
+      "id": "tf-068",
+      "q": "翻譯「我愛台灣」時，Decoder 在 Time Step 3 的輸入是？",
+      "options": [
+        "把「我愛台灣」原文直接輸入",
+        "起始符 +「I」+「Love」+ 位置編碼，並參考 Encoder 對「我愛台灣」的編碼",
+        "「Taiwan」+ END",
+        "只有起始符"
+      ],
+      "answer": 1,
+      "explain": "每一步都把前面已產生的結果接回輸入。",
+      "tags": [
+        "Decoder 運作"
+      ]
+    },
+    {
+      "id": "tf-069",
+      "q": "Decoder 什麼時候停止生成？",
+      "options": [
+        "永遠不停止",
+        "Encoder 輸出結束時",
+        "產生 END（結束符）時",
+        "產生 10 個字之後"
+      ],
+      "answer": 2,
+      "explain": "訓練資料的目標句尾會加上 END，模型學會在適當時機結束。",
+      "tags": [
+        "Decoder 運作"
+      ]
+    },
+    {
+      "id": "tf-070",
+      "q": "Encoder 的輸出是不是 Decoder 的直接輸入？",
+      "options": [
+        "是；它直接當 Decoder 第一層的輸入",
+        "Decoder 完全不使用 Encoder",
+        "是；兩者直接相加",
+        "不是；Encoder 輸出透過 cross-attention 提供 K、V 給 Decoder"
+      ],
+      "answer": 3,
+      "explain": "Decoder 的直接輸入是前一時刻的輸出加上位置編碼。",
+      "tags": [
+        "Decoder 運作"
+      ]
+    },
+    {
+      "id": "tf-071",
+      "q": "BERT 預訓練「不需要標籤」，原因是？",
+      "options": [
+        "BERT 用強化學習",
+        "BERT 只用影像",
+        "BERT 不需要訓練",
+        "遮罩預測的答案就來自原本的文字"
+      ],
+      "answer": 3,
+      "explain": "有文字資料就能訓練，屬於自監督學習。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-072",
+      "q": "中文 BERT 做遮罩預測時，預測的單位一般是？",
+      "options": [
+        "字",
+        "段落",
+        "詞袋",
+        "整句"
+      ],
+      "answer": 0,
+      "explain": "中文詞語的可能性太多，所以一般以字為單位。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-073",
+      "q": "BERT 做槽位填充（slot filling），輸入與輸出是？",
+      "options": [
+        "輸入文章與問題，輸出答案起訖",
+        "輸入兩個句子，輸出是否相連",
+        "輸入一個句子，輸出每個字的類別",
+        "輸入圖片，輸出描述"
+      ],
+      "answer": 2,
+      "explain": "例如把「機票」「桃園」填進「交通工具」「出發地」。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-074",
+      "q": "「幫我訂張機票，從桃園出發」做槽位填充後，還缺少哪個槽位？",
+      "options": [
+        "交通工具",
+        "動作",
+        "出發地",
+        "目的地"
+      ],
+      "answer": 3,
+      "explain": "對話系統因此可能再追問一輪。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-075",
+      "q": "GLUE 基準中，哪兩項屬於「單句任務」？",
+      "options": [
+        "MRPC 與 QQP",
+        "MNLI 與 RTE",
+        "CoLA 與 SST-2",
+        "STS-B 與 WNLI"
+      ],
+      "answer": 2,
+      "explain": "GLUE 由紐約大學、華盛頓大學與 DeepMind 的研究者在 2018 年提出。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-076",
+      "q": "GLUE 中的 MNLI、QNLI、RTE、WNLI 屬於哪類任務？",
+      "options": [
+        "句子相似度",
+        "單句分類",
+        "序列標註",
+        "推斷任務：判斷後句相對於前句的語義關係"
+      ],
+      "answer": 3,
+      "explain": "MRPC、STS-B、QQP 才是句子相似任務。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-077",
+      "q": "BERT 預訓練使用的無標註資料來自哪裡？",
+      "options": [
+        "WMT 中英平行語料",
+        "BooksCorpus 與英文 Wikipedia",
+        "豆瓣影評",
+        "ImageNet 與 COCO"
+      ],
+      "answer": 1,
+      "explain": "資料是無標註的句子對（Sentence A + B）。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-078",
+      "q": "NSP 的訓練資料中，B 句真的是 A 句下一句的比例是？",
+      "options": [
+        "50%",
+        "80%",
+        "15%",
+        "100%"
+      ],
+      "answer": 0,
+      "explain": "另外 50% 是隨機抽的句子。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-079",
+      "q": "BERT 微調（Fine-Tuning）的做法，何者正確？",
+      "options": [
+        "只訓練輸出層，BERT 參數凍結",
+        "所有任務共用同一份微調後的參數",
+        "必須重新預訓練",
+        "換上小輸出層，全部參數一起調；每個任務各自複製一份預訓練參數"
+      ],
+      "answer": 3,
+      "explain": "論文圖右半邊疊在一起的三個框，就代表三個任務各自微調。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-080",
+      "q": "MNLI 任務要模型判斷哪三種關係？",
+      "options": [
+        "相同、不同、未知",
+        "正面、負面、中立",
+        "主詞、動詞、受詞",
+        "蘊含、矛盾、中立"
+      ],
+      "answer": 3,
+      "explain": "MNLI 是句子層級任務，用 [CLS] 的輸出 C 判斷。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-081",
+      "q": "NER（命名實體辨識）在 BERT 中屬於哪個層級的任務？",
+      "options": [
+        "句子層級",
+        "token 層級：對每個 T 標註人名、地名、機構名等",
+        "文件層級",
+        "答案區間"
+      ],
+      "answer": 1,
+      "explain": "SQuAD 才是預測答案區間。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-082",
+      "q": "BERT 論文圖中的黃色框 E 代表什麼？",
+      "options": [
+        "注意力權重",
+        "損失函數",
+        "輸出的分類結果",
+        "輸入嵌入＝Token + Segment + Position 三種嵌入相加"
+      ],
+      "answer": 3,
+      "explain": "綠框 C、T 才是輸出向量。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-083",
+      "q": "BERT 輸入「讀北商 [SEP] 好就業」，第二句的 Segment Embedding 值是？",
+      "options": [
+        "1",
+        "15",
+        "0",
+        "2"
+      ],
+      "answer": 0,
+      "explain": "第一句為 0、第二句為 1。",
+      "tags": [
+        "BERT"
+      ]
+    },
+    {
+      "id": "tf-084",
+      "q": "GPT-1 何時、由誰發表？它的下游任務需要什麼？",
+      "options": [
+        "2018 年 6 月由 OpenAI 發表；所有下游任務都需要微調",
+        "2017 年由 Meta 發表；只做分類",
+        "2022 年由 OpenAI 發表；只靠提示",
+        "2019 年由 Google 發表；不需要微調"
+      ],
+      "answer": 0,
+      "explain": "先無監督預訓練，再監督式微調做遷移學習，所以叫生成式預訓練。",
+      "tags": [
+        "GPT 系列與 ChatGPT"
+      ]
+    },
+    {
+      "id": "tf-085",
+      "q": "GPT-2 生成文字的方式稱為？",
+      "options": [
+        "自循環（Auto-regression）：每次生成一個字，加回輸入再預測下一個",
+        "雙向生成",
+        "一次生成整段，不看前文",
+        "遮罩預測"
+      ],
+      "answer": 0,
+      "explain": "GPT-2 於 2019 年 2 月發布，是沒有針對特定任務訓練的通用學習器。",
+      "tags": [
+        "GPT 系列與 ChatGPT"
+      ]
+    },
+    {
+      "id": "tf-086",
+      "q": "關於 GPT-3 與 ChatGPT，何者正確？",
+      "options": [
+        "GPT-3 約 1,750 億參數；ChatGPT 於 2022 年 11 月推出，建立在 GPT-3.5 上並加入 RLHF",
+        "ChatGPT 於 2018 年推出",
+        "GPT-3.5 是從頭訓練的新架構",
+        "GPT-3 是 BERT 的改版"
+      ],
+      "answer": 0,
+      "explain": "GPT-3 用了 45 TB 資料，訓練費用約 1,200 萬美元；GPT-3.5 由 GPT-3 微調而來。",
+      "tags": [
+        "GPT 系列與 ChatGPT"
+      ]
+    },
+    {
+      "id": "tf-087",
+      "q": "ChatGPT 訓練步驟 1（SFT）的資料從哪來？學到什麼？",
+      "options": [
+        "人類對答案的排序；學會打分數",
+        "獎勵模型的分數；學會符合偏好",
+        "網路文字；學會接下一個字",
+        "人類寫的示範答案；學會遵守指令"
+      ],
+      "answer": 3,
+      "explain": "語言能力在預訓練就有了；SFT 加上的是指令遵循。",
+      "tags": [
+        "RLHF"
+      ]
+    },
+    {
+      "id": "tf-088",
+      "q": "PPO 強化學習階段，哪個模型會被更新？",
+      "options": [
+        "兩者一起更新",
+        "兩者都不更新",
+        "只有獎勵模型",
+        "只有策略模型（從 SFT 模型開始）；獎勵模型固定不動"
+      ],
+      "answer": 3,
+      "explain": "這一步不再需要人逐題評分，由獎勵模型代替。",
+      "tags": [
+        "RLHF"
+      ]
+    },
+    {
+      "id": "tf-089",
+      "q": "用強化學習術語來看 RLHF，「行動 Action」對應什麼？",
+      "options": [
+        "獎勵模型給的分數",
+        "模型生成的回答",
+        "抽到的提示",
+        "PPO 演算法"
+      ],
+      "answer": 1,
+      "explain": "狀態是提示，策略是策略模型，獎勵是獎勵模型的分數。",
+      "tags": [
+        "RLHF"
+      ]
+    },
+    {
+      "id": "tf-090",
+      "q": "講義用一句話總結：最終的 ChatGPT 模型等於什麼？",
+      "options": [
+        "只有 RLHF",
+        "基礎能力（預訓練）+ 指令遵循（SFT）+ 人類偏好（RLHF）",
+        "只有預訓練",
+        "SFT + 資料標註"
+      ],
+      "answer": 1,
+      "explain": "步驟 2 與步驟 3 合起來就是 RLHF。",
+      "tags": [
+        "RLHF"
+      ]
+    },
+    {
+      "id": "tf-091",
+      "q": "MoE（專家混合模型）架構的特點是？",
+      "options": [
+        "總參數可以非常龐大，但每次只啟用部分專家，提高推理效率",
+        "每次推論都用到所有參數",
+        "不能開源",
+        "只能處理圖片"
+      ],
+      "answer": 0,
+      "explain": "Mixtral 8×7B、DeepSeek-V3、Gemini 1.5 都已公開證實使用 MoE。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-092",
+      "q": "DeepSeek-V3 的參數規模是？",
+      "options": [
+        "1 兆參數，全部啟用",
+        "70 億參數",
+        "總參數 370 億，全部啟用",
+        "總參數 6,710 億，每次只啟用約 370 億"
+      ],
+      "answer": 3,
+      "explain": "這正是 MoE 的效果。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-093",
+      "q": "「思考鏈（Chain-of-Thought）」的做法是？",
+      "options": [
+        "讓兩個模型互相辯論",
+        "讓模型先寫出中間推理步驟，再給最後答案",
+        "讓模型只輸出答案",
+        "讓模型跳過推理"
+      ],
+      "answer": 1,
+      "explain": "Wei 等人（2022）發現示範推理過程能大幅提升數學與邏輯題的正確率。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-094",
+      "q": "「蘋果一顆 12 元，買 3 顆打 9 折，要付多少？」用思考鏈推理的正確答案是？",
+      "options": [
+        "27 元",
+        "36 元",
+        "33.3 元",
+        "32.4 元"
+      ],
+      "answer": 3,
+      "explain": "12 × 3 = 36，36 × 0.9 = 32.4。直接回答 36 元就是漏掉了打折。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-095",
+      "q": "推理模型（如 o1、DeepSeek-R1）是怎麼學會先思考再作答的？代價是什麼？",
+      "options": [
+        "用強化學習讓模型自己學會長篇思考；回應較慢、token 用量與成本較高",
+        "移除注意力；速度變快",
+        "用更大的詞彙表；準確率下降",
+        "靠人寫提示；沒有代價"
+      ],
+      "answer": 0,
+      "explain": "多數推理模型可以調整「思考預算」。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-096",
+      "q": "「測試時運算（Test-time Compute）」的概念是？",
+      "options": [
+        "回答時多想一下，想得越久，難題答對率越高",
+        "訓練時堆更多參數",
+        "減少推論時間",
+        "只用測試資料訓練"
+      ],
+      "answer": 0,
+      "explain": "讓模型變強多了一條不靠加參數的路。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-097",
+      "q": "AI 代理人（Agent）完成一件工作的五個步驟，依序是？",
+      "options": [
+        "使用工具 → 理解任務 → 交付 → 規劃",
+        "檢查 → 使用工具 → 理解 → 規劃",
+        "理解任務 → 規劃步驟 → 使用工具 → 檢查修正 → 完成交付",
+        "規劃 → 交付 → 理解 → 檢查"
+      ],
+      "answer": 2,
+      "explain": "例如 Claude Code、OpenAI Codex 等程式代理人。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-098",
+      "q": "MCP（Model Context Protocol）是什麼？",
+      "options": [
+        "一種量化格式",
+        "Anthropic 於 2024 年 11 月提出的開放標準，像「AI 的 USB-C」，讓模型用同一種介面接上各種工具與資料",
+        "一種評測基準",
+        "OpenAI 的模型名稱"
+      ],
+      "answer": 1,
+      "explain": "已獲多家主要 AI 公司支援。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-099",
+      "q": "Agent Skills 的「漸進揭露」指的是？",
+      "options": [
+        "平時只載入名稱與一句描述；任務相關時才讀 SKILL.md；真的用到才開啟腳本與參考檔",
+        "一開始就把所有腳本讀進上下文",
+        "每次對話都重新訓練技能",
+        "技能只能由人類執行"
+      ],
+      "answer": 0,
+      "explain": "一個技能就是一個資料夾，裡面有 SKILL.md 與腳本、範本、參考資料。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-100",
+      "q": "講義怎麼說明 MCP 和 Skill 的差別？",
+      "options": [
+        "MCP 給 AI「手」去接工具；Skill 給 AI 做事的方法，像一本工作手冊",
+        "Skill 是硬體；MCP 是軟體",
+        "兩者完全相同",
+        "MCP 是模型；Skill 是資料集"
+      ],
+      "answer": 0,
+      "explain": "Agent Skills 由 Anthropic 於 2025 年 10 月推出，12 月公開為開放標準。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-101",
+      "q": "下列評測基準與內容的配對，何者正確？",
+      "options": [
+        "ARC-AGI：57 科知識選擇題",
+        "GSM8K：沒見過的抽象圖形推理",
+        "MMLU：研究所程度的科學難題",
+        "SWE-bench：修真實軟體專案的 bug，衡量代理人能力"
+      ],
+      "answer": 3,
+      "explain": "MMLU 是 57 科知識題；GSM8K 是小學數學；GPQA 是研究所程度科學題；ARC-AGI 是抽象推理。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-102",
+      "q": "評測基準需要不斷更新，講義提到的原因是？",
+      "options": [
+        "版權問題",
+        "基準只能用一次",
+        "題目太簡單沒人做",
+        "考題混入訓練資料（資料污染）會讓分數虛高，而且舊基準已接近飽和"
+      ],
+      "answer": 3,
+      "explain": "MMLU、GSM8K 頂尖模型都已接近滿分。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-103",
+      "q": "「量化（Quantization）」是什麼？",
+      "options": [
+        "大模型當老師教小模型",
+        "增加參數數量",
+        "把參數從 16 位元壓到 8 或 4 位元，模型變小變快",
+        "把模型拆成多個專家"
+      ],
+      "answer": 2,
+      "explain": "量化後筆電甚至手機都能跑模型。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-104",
+      "q": "「知識蒸餾（Distillation）」是什麼？",
+      "options": [
+        "大模型當老師教小模型，把能力轉移到小模型",
+        "移除停用詞",
+        "用人類回饋訓練",
+        "把參數壓到 4 位元"
+      ],
+      "answer": 0,
+      "explain": "例如 DeepSeek-R1 蒸餾版把推理能力轉移到小模型。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-105",
+      "q": "對齊方法中的 RLVR 是什麼？",
+      "options": [
+        "不做任何對齊",
+        "由 AI 依原則給回饋",
+        "以可自動判對錯的獎勵（如數學答案、程式測試）做強化學習",
+        "由人類逐題評分"
+      ],
+      "answer": 2,
+      "explain": "由 AI 依原則給回饋的是 RLAIF / Constitutional AI。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-106",
+      "q": "講義總結 LLM 的三大轉變，「不包含」哪一項？",
+      "options": [
+        "從「會說話」到「會做事」",
+        "從「回答快」到「想得深」",
+        "從「越大越好」到「又好又省」",
+        "從「多模態」回到「純文字」"
+      ],
+      "answer": 3,
+      "explain": "多模態（文字、圖像、音訊、影片）是核心趨勢之一。",
+      "tags": [
+        "LLM 新趨勢"
+      ]
+    },
+    {
+      "id": "tf-107",
+      "q": "講義的 Transformer 應用示範，從哪個平台取得各種預訓練模型？",
+      "options": [
+        "Kaggle",
+        "Hugging Face",
+        "ONNX Runtime",
+        "Roboflow"
+      ],
+      "answer": 1,
+      "explain": "示範包含克漏字、NER、翻譯、句子相似度、零分類等。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-108",
+      "q": "CoLA 任務在預測什麼？",
+      "options": [
+        "兩句是否相似",
+        "句子的主題",
+        "句子的情感",
+        "英文句子在文法上是否可接受"
+      ],
+      "answer": 3,
+      "explain": "CoLA = The Corpus of Linguistic Acceptability。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-109",
+      "q": "「零分類（zero-shot classification）」的特點是？",
+      "options": [
+        "不必針對新類別訓練，直接給候選標籤讓模型判斷",
+        "每個類別需要上千筆標註",
+        "只能處理圖片",
+        "只能分成兩類"
+      ],
+      "answer": 0,
+      "explain": "講義用 Hugging Face 的模型示範。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-110",
+      "q": "雙文本分類（pair corpus classification）的輸出標籤「不包含」哪一個？",
+      "options": [
+        "蘊涵（entailment）",
+        "重複（duplicate）",
+        "正面、負面情緒",
+        "矛盾（contradiction）"
+      ],
+      "answer": 2,
+      "explain": "雙文本分類的標籤有矛盾、蘊涵、中立、重複、非重複。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-111",
+      "q": "講義用 Helsinki-NLP/opus-mt-zh-en 示範什麼？",
+      "options": [
+        "中翻英機器翻譯",
+        "句子相似度",
+        "克漏字填空",
+        "命名實體辨識"
+      ],
+      "answer": 0,
+      "explain": "NER 示範使用的是 conll2003 資料集。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-112",
+      "q": "DialoGPT 的訓練資料是怎麼組成的？",
+      "options": [
+        "每篇文章加上摘要",
+        "8 句話一組，前 7 句當情境，最後一句當回覆",
+        "圖片配上說明",
+        "一句問一句答"
+      ],
+      "answer": 1,
+      "explain": "講義的例子是用 Discord 資料訓練的 DialoGPT-small 聊天機器人。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-113",
+      "q": "講義比較三種生成任務，「根據文本開頭的 Prompt 生成文字」對應的模型與學習方式是？",
+      "options": [
+        "BERT；unsupervised learning",
+        "DialoGPT；強化學習",
+        "GPT-2、GPT-3；semi-supervised learning",
+        "RoBERTa；supervised learning"
+      ],
+      "answer": 2,
+      "explain": "根據情境對話是 DialoGPT；文本對文本生成是 BERT、RoBERTa（supervised）。",
+      "tags": [
+        "Hugging Face 應用"
+      ]
+    },
+    {
+      "id": "tf-114",
+      "q": "GPT-2 日記生成器的流程，正確順序是？",
+      "options": [
+        "preprocess.py 把故事資料 tokenize 成 train.pkl → train.py 訓練 → app.py 用 Streamlit 測試",
+        "train.py → preprocess.py → app.py",
+        "直接執行 app.py，不需訓練",
+        "app.py → train.py → preprocess.py"
+      ],
+      "answer": 0,
+      "explain": "preprocess.py 還加入「標題 + 正文」的結構，讓模型學到更完整的上下文。",
+      "tags": [
+        "GPT-2 日記生成器"
+      ]
+    },
+    {
+      "id": "tf-115",
+      "q": "日記生成器用哪些參數控制生成的多樣性？",
+      "options": [
+        "learning rate 與 batch size",
+        "d_model 與 num_heads",
+        "top_k、top_p 與 temperature",
+        "epochs 與 dropout"
+      ],
+      "answer": 2,
+      "explain": "這些是推論時的取樣參數，不需要重新訓練。",
+      "tags": [
+        "GPT-2 日記生成器"
+      ]
+    },
+    {
+      "id": "tf-116",
+      "q": "生成文字時把 temperature 調高，通常會怎樣？",
+      "options": [
+        "輸出更隨機、更有創意，但也更容易離題",
+        "訓練更快",
+        "詞彙表變小",
+        "輸出完全固定"
+      ],
+      "answer": 0,
+      "explain": "調低則會更保守、重複性更高。",
+      "tags": [
+        "GPT-2 日記生成器"
+      ]
+    },
+    {
+      "id": "tf-117",
+      "q": "ollama pull llama3 和 ollama run llama3 的差別是？",
+      "options": [
+        "兩者完全一樣",
+        "run 只列出已安裝的模型",
+        "pull 只下載不執行；run 會檢查（沒有就下載）再啟動互動聊天",
+        "pull 會刪除模型"
+      ],
+      "answer": 2,
+      "explain": "要刪除模型用 ollama rm。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-118",
+      "q": "要列出已安裝的 Ollama 模型，用哪個指令？",
+      "options": [
+        "ollama rm",
+        "ollama pull",
+        "ollama list",
+        "ollama show-all"
+      ],
+      "answer": 2,
+      "explain": "下載特定版本可以用 ollama pull llama3:70b。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-119",
+      "q": "關於 llama.cpp 的背景，何者正確？",
+      "options": [
+        "只支援 NVIDIA CUDA",
+        "Meta 官方用 Go 撰寫",
+        "2023 年由 Georgi Gerganov 發起，以 C/C++ 寫成，初衷是讓 LLaMA 在 MacBook CPU 上執行",
+        "是付費閉源軟體"
+      ],
+      "answer": 2,
+      "explain": "它是 MIT 授權的開源專案，支援 CPU、Metal、CUDA、ROCm、Vulkan 等後端。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-120",
+      "q": "llama.cpp 與 Ollama 都使用的模型格式是？",
+      "options": [
+        "GGUF",
+        "ONNX",
+        "safetensors",
+        "PKL"
+      ],
+      "answer": 0,
+      "explain": "不過 Ollama 的模型庫有自己的打包方式。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-121",
+      "q": "想精細控制量化方式、GPU 層數卸載（-ngl）並做基準測試，該選哪個？",
+      "options": [
+        "Roboflow",
+        "Excel",
+        "llama.cpp",
+        "Ollama"
+      ],
+      "answer": 2,
+      "explain": "Ollama 適合快速試用、日常問答與做原型。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-122",
+      "q": "使用 Ollama 名稱帶 -cloud 的雲端模型時，資料會怎樣？",
+      "options": [
+        "自動加密後刪除",
+        "永遠不離開 GPU",
+        "送到 Ollama 的伺服器處理",
+        "留在自己的電腦"
+      ],
+      "answer": 2,
+      "explain": "敏感資料、未發表研究與個資應該用本機模型。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-123",
+      "q": "多使用者、高併發的正式環境，講義建議考慮什麼？",
+      "options": [
+        "每個使用者各裝一份 Ollama",
+        "vLLM、SGLang、TensorRT-LLM 等高吞吐推論框架",
+        "Jupyter Notebook",
+        "llama-cli 命令列"
+      ],
+      "answer": 1,
+      "explain": "Ollama 與 llama.cpp 適合本機使用與實驗。",
+      "tags": [
+        "Ollama 與 llama.cpp"
+      ]
+    },
+    {
+      "id": "tf-124",
+      "q": "Fine-tuning 與 Prompt 的差別是？",
+      "options": [
+        "Fine-tuning 只是在輸入加範例",
+        "Prompt 需要標注資料重新訓練",
+        "兩者都會改模型參數",
+        "Fine-tuning 用任務資料額外訓練、改變模型參數；Prompt 用指示文字引導輸出，不改參數"
+      ],
+      "answer": 3,
+      "explain": "Prompt 可以包含問題、描述、標題或開頭。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-125",
+      "q": "只給一個範例，再請模型處理新的輸入，稱為？",
+      "options": [
+        "Few-shot prompt",
+        "Chain-of-Thought",
+        "One-shot prompt",
+        "Zero-shot prompt"
+      ],
+      "answer": 2,
+      "explain": "不給範例是 zero-shot，給多個範例是 few-shot。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-126",
+      "q": "「你是一位資深軟體工程師，請寫一段 Python 程式碼……」屬於哪種提示類型？",
+      "options": [
+        "Role-based",
+        "Template / Fill-in-the-blank",
+        "Chain-of-Thought",
+        "Self-consistency"
+      ],
+      "answer": 0,
+      "explain": "讓模型扮演角色，提高結果的專業性或風格。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-127",
+      "q": "「請列出三種解 2x + 5 = 15 的方法，再選出最簡單的一種」屬於哪種提示類型？",
+      "options": [
+        "Role-based",
+        "Template / Fill-in-the-blank",
+        "One-shot",
+        "Self-consistency / Multiple-answer"
+      ],
+      "answer": 3,
+      "explain": "先產生多個答案，再選出最合理的。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-128",
+      "q": "「寫完後請用創意度、吸引力、產品特色三個標準自我評分」屬於哪個提示工程原則？",
+      "options": [
+        "任務分工",
+        "評估品質（Assess quality）",
+        "迭代優化",
+        "指定格式"
+      ],
+      "answer": 1,
+      "explain": "指定品質標準，讓 AI 生成後自我評估。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-129",
+      "q": "「不要提到價格、競爭品牌或電池壽命」屬於哪個提示工程原則？",
+      "options": [
+        "指定格式",
+        "明確限制與邊界",
+        "賦予角色",
+        "提供範例"
+      ],
+      "answer": 1,
+      "explain": "在法律、醫療或商業情境特別重要。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-130",
+      "q": "把「設計個人網站」拆成列出頁面、寫描述、建議配色三個步驟，屬於哪個原則？",
+      "options": [
+        "評估品質",
+        "迭代優化",
+        "指定格式",
+        "任務分工（Break down the task）"
+      ],
+      "answer": 3,
+      "explain": "適合需要邏輯推理或多階段處理的任務。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-131",
+      "q": "先問「寫一篇健康飲食短文」，覺得太籠統後改成指定字數、至少 3 個建議與語氣，屬於哪個原則？",
+      "options": [
+        "明確限制與邊界",
+        "賦予角色",
+        "迭代優化（Iterative Refinement）",
+        "提供範例"
+      ],
+      "answer": 2,
+      "explain": "提示工程是反覆試驗、逐步精煉的過程。",
+      "tags": [
+        "提示工程"
+      ]
+    },
+    {
+      "id": "tf-132",
+      "q": "提示工程、上下文工程、Harness 工程的核心問題分別是？",
+      "options": [
+        "怎麼說；模型看到什麼；模型怎麼行動與自我修正",
+        "三者都在問怎麼寫提示詞",
+        "模型看到什麼；怎麼說；怎麼訓練",
+        "怎麼訓練；怎麼部署；怎麼收費"
+      ],
+      "answer": 0,
+      "explain": "三層工程一層包住一層。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-133",
+      "q": "上下文的六種材料中，哪些會隨任務不斷增長、是管理的重點？",
+      "options": [
+        "工具定義",
+        "對話歷史與工具結果",
+        "系統提示",
+        "角色設定"
+      ],
+      "answer": 1,
+      "explain": "系統提示、工具定義多半在呼叫前就決定好。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-134",
+      "q": "「Context rot」指的是什麼？",
+      "options": [
+        "模型參數老化",
+        "token 計費上漲",
+        "上下文檔案毀損",
+        "上下文越長，模型對其中資訊的利用越不穩定，關鍵內容被大量無關內容稀釋"
+      ],
+      "answer": 3,
+      "explain": "所以不是盡量塞滿，而是讓每個 token 都有理由出現。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-135",
+      "q": "「Lost in the middle」現象是什麼？",
+      "options": [
+        "模型只讀中間，忽略開頭結尾",
+        "模型在任務中途當機",
+        "上下文中間會被自動刪除",
+        "資訊放在長上下文的中段時，模型比較容易忽略"
+      ],
+      "answer": 3,
+      "explain": "位置本身就會影響表現（Liu et al., 2023）。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-136",
+      "q": "對話接近上限時自動摘要前文再繼續（Compaction），屬於哪種上下文操作？",
+      "options": [
+        "壓縮 Compress",
+        "隔離 Isolate",
+        "選取 Select",
+        "寫入 Write"
+      ],
+      "answer": 0,
+      "explain": "壓縮可以降低 context rot。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-137",
+      "q": "只放檔案路徑或識別碼，需要時才讀取內容（Just-in-time 檢索），屬於哪種操作？",
+      "options": [
+        "壓縮 Compress",
+        "選取 Select",
+        "寫入 Write",
+        "隔離 Isolate"
+      ],
+      "answer": 1,
+      "explain": "只拉入當下相關的內容。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-138",
+      "q": "依壽命替上下文分區時，「目前環境狀態，每次決策前替換」屬於哪一區？",
+      "options": [
+        "刷新 Refreshed",
+        "常駐 Resident",
+        "隔離 Isolated",
+        "累積 Accumulated"
+      ],
+      "answer": 0,
+      "explain": "常駐是角色與規則；累積是行動與觀察紀錄。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-139",
+      "q": "AGENTS.md、CLAUDE.md 這類檔案的用途是？",
+      "options": [
+        "記錄訓練 loss",
+        "設定 GPU 驅動",
+        "存放模型權重",
+        "寫給 agent 看的專案說明，讓上下文可攜、可重用"
+      ],
+      "answer": 3,
+      "explain": "同類機制還有 MCP、Skills 與記憶。",
+      "tags": [
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "tf-140",
+      "q": "講義用電腦比喻 Agent 系統，「上下文視窗」對應什麼？",
+      "options": [
+        "記憶體：有限、需要管理",
+        "應用程式",
+        "作業系統",
+        "CPU"
+      ],
+      "answer": 0,
+      "explain": "模型是 CPU，Harness 是作業系統，Agent 是應用程式。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-141",
+      "q": "Harness 的六個組件中，用測試、linter、型別檢查給 agent 即時「背壓」的是？",
+      "options": [
+        "權限與護欄",
+        "可觀測性與評估",
+        "感測與回饋",
+        "迴圈與工具"
+      ],
+      "answer": 2,
+      "explain": "其他組件還有上下文管理與驗證。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-142",
+      "q": "Agent 迴圈的順序是？什麼時候停？",
+      "options": [
+        "推理 → 交付 → 觀察；永不停止",
+        "行動 → 觀察 → 結束；做一次就停",
+        "觀察 → 推理 → 行動 → 驗證；直到驗證通過、預算用完，或遇到需要人工確認的動作",
+        "驗證 → 推理 → 停止；不需要行動"
+      ],
+      "answer": 2,
+      "explain": "Harness 決定何時繼續、何時停下。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-143",
+      "q": "長任務的三代理架構（Planner、Generator、Evaluator）的關鍵設計是？",
+      "options": [
+        "Generator 同時負責規劃與評分",
+        "產出者不自己評分，把「做」與「檢查」交給不同上下文的代理，減少自我肯定偏誤",
+        "Evaluator 負責寫程式",
+        "三個代理共用同一個上下文"
+      ],
+      "answer": 1,
+      "explain": "Evaluator 獨立檢查，不合格就退回。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-144",
+      "q": "「Harness」的原意，以及中文譯為「駕馭」的意涵是？",
+      "options": [
+        "原意是電線；重點是供電",
+        "原意是盔甲；重點是防禦攻擊",
+        "原意是馬具；重點在借力引導、與 AI 協同完成工作",
+        "原意是硬碟；重點是儲存資料"
+      ],
+      "answer": 2,
+      "explain": "重點不在控制或放任，而是人類與模型協同工作。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-145",
+      "q": "講義引用的 Harness-Bench（2026）研究說明了什麼？",
+      "options": [
+        "harness 只能用自然語言撰寫",
+        "只要換更大的模型就好",
+        "harness 對表現完全沒有影響",
+        "相同任務與條件下，不同 harness 配置會影響表現，agent 的表現不應只歸功於基礎模型"
+      ],
+      "answer": 3,
+      "explain": "Meta-Harness 進一步把 harness 本身當成最佳化的對象。",
+      "tags": [
+        "Harness 工程"
+      ]
+    },
+    {
+      "id": "tf-146",
+      "q": "翻譯實作的 tokenizer 設定是？",
+      "options": [
+        "依空格斷詞，不限詞表",
+        "BPE，中英共用 50,000 詞",
+        "字元層級，詞表 26 個字母",
+        "WordPiece 子詞，中、英文各建 8,000 詞的詞表"
+      ],
+      "answer": 3,
+      "explain": "保留 [PAD]、[UNK]、[START]、[END] 特殊 token。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-147",
+      "q": "翻譯實作中「Chartsiri」被切成「chart ##si ##ri」，## 開頭代表什麼？",
+      "options": [
+        "這是未知字",
+        "這是停用詞",
+        "這個子詞接在前一個子詞後面，屬於同一個詞",
+        "這是特殊 token"
+      ],
+      "answer": 2,
+      "explain": "罕見字拆成子詞，減少未知詞。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-148",
+      "q": "翻譯實作的超參數，何者正確？",
+      "options": [
+        "6 層、d_model 512、dff 2048、100 epochs",
+        "1 層、d_model 64、1 個 head",
+        "4 層、d_model 128、dff 512、8 個 head、dropout 0.1、20 epochs",
+        "12 層、d_model 768、12 個 head"
+      ],
+      "answer": 2,
+      "explain": "RTX 3080 Ti 約 3 分鐘一個 epoch。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-149",
+      "q": "翻譯實作的前處理，何者正確？",
+      "options": [
+        "批次 8000、長度上限 2048",
+        "只保留 10 個字以內的句子",
+        "不混洗、批次 1，長度不限",
+        "混洗資料、批次 512，超過 MAX_TOKENS = 128 的批次直接過濾"
+      ],
+      "answer": 3,
+      "explain": "資料來自 WMT 中英平行語料（維基標題）。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-150",
+      "q": "翻譯實作計算 loss 與 accuracy 時，為什麼要套用遮罩？",
+      "options": [
+        "讓模型看不到答案",
+        "加快 GPU",
+        "排除補 0 的 pad 位置，不讓它們影響結果",
+        "增加訓練資料"
+      ],
+      "answer": 2,
+      "explain": "pad 只是為了等長，不是真正的詞。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-151",
+      "q": "位置編碼熱圖中，維度由下往上頻率從快變慢，代表什麼？",
+      "options": [
+        "位置越後面數值越大",
+        "只有下半部有用",
+        "變化快的維度分辨相鄰位置，變化慢的維度分辨遠距離位置",
+        "每個位置的編碼都一樣"
+      ],
+      "answer": 2,
+      "explain": "像時鐘的秒、分、時針，合起來唯一標示一個位置。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-152",
+      "q": "正弦位置編碼數值的範圍是？為什麼這樣設計？",
+      "options": [
+        "只有 0 或 1",
+        "−1 到 1，不會壓過詞向量",
+        "沒有範圍限制",
+        "0 到 10000"
+      ],
+      "answer": 1,
+      "explain": "PE(pos, 2i) = sin(pos / 10000^(2i/d))，奇數維用 cos。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-153",
+      "q": "Look-ahead mask 長什麼樣子？",
+      "options": [
+        "下三角為 1 的矩陣",
+        "上三角為 1（遮蔽）的矩陣，每個位置只能看到自己與之前的位置",
+        "全部為 0",
+        "對角線全為 1"
+      ],
+      "answer": 1,
+      "explain": "實作中注意力分數會加上 mask × (−1e9)，被遮蔽的位置 softmax 後趨近 0。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-154",
+      "q": "多頭注意力輸入形狀為 (1, 60, 512)、8 個 head，注意力權重的形狀是？",
+      "options": [
+        "(1, 8, 60, 60)",
+        "(8, 512, 512)",
+        "(1, 8, 64)",
+        "(1, 60, 512)"
+      ],
+      "answer": 0,
+      "explain": "每個 head 都有一個 60×60 的權重矩陣；輸出仍是 (1, 60, 512)。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-155",
+      "q": "翻譯實作推論時，每一步怎麼選下一個字？什麼時候停？",
+      "options": [
+        "用 beam search 生成 1,000 個字",
+        "隨機抽樣；生成 10 個字停",
+        "取最後位置的 argmax 接到輸出；遇到 [END] 或達 128 個 token 就停",
+        "取平均；遇到句號停"
+      ],
+      "answer": 2,
+      "explain": "最後用 detokenize 還原成英文句子。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-156",
+      "q": "翻譯實作訓練 20 個 epoch 後的結果是？",
+      "options": [
+        "Loss 上升，準確率下降",
+        "準確率一直停在 24.6%",
+        "Loss 從 5.33 降到 1.83，Accuracy 從 24.6% 升到 63.9%",
+        "Loss 降到 0，準確率 100%"
+      ],
+      "answer": 2,
+      "explain": "例如「我愛你」能譯成 i love you。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-157",
+      "q": "翻譯實作搭配 Adam 的參數設定是？",
+      "options": [
+        "β₁ = 0.99、β₂ = 0.9",
+        "不用 Adam，改用 SGD",
+        "β₁ = 0.9、β₂ = 0.98、ε = 1e−9，與原始論文相同",
+        "β₁ = 0.5、β₂ = 0.5"
+      ],
+      "answer": 2,
+      "explain": "再搭配 Noam 學習率排程。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-158",
+      "q": "注意力圖中「斤」「柔」變成 [UNK]，模型仍譯出 kg 與 judo，說明了什麼？",
+      "options": [
+        "模型背下了答案",
+        "[UNK] 會自動翻成正確英文",
+        "模型能靠上下文補足未知字的資訊",
+        "注意力圖畫錯了"
+      ],
+      "answer": 2,
+      "explain": "例如「以上」對應到「+」，「男」對應到 men。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-159",
+      "q": "講義怎麼說明 8 個 head 的注意力圖？",
+      "options": [
+        "8 個 head 完全一樣，只需要一個",
+        "只保留最亮的 head",
+        "取 8 個 head 的平均當結果",
+        "明確對應（如 2016、100）各 head 都看得到；功能詞等焦點各不同、互相補充；最後 concat 後經 Dense 合併"
+      ],
+      "answer": 3,
+      "explain": "8 × 64 維拼接成 512 維。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-160",
+      "q": "翻譯模型訓練完要保存，講義的做法是？",
+      "options": [
+        "上傳到 Roboflow",
+        "存成 train.pkl",
+        "存成 translator.keras，載入後再補回 transformer 與 tokenizers",
+        "轉成 GGUF"
+      ],
+      "answer": 2,
+      "explain": "每 5 個 epoch 也會存一次 checkpoint。",
+      "tags": [
+        "實作：Transformer 機器翻譯"
+      ]
+    },
+    {
+      "id": "tf-161",
+      "q": "BERT 星等分類的資料是怎麼準備的？",
+      "options": [
+        "從約 212 萬筆豆瓣短評中，28 部電影各隨機抽 1,000 則，共 28,000 則",
+        "只用 5 星評論",
+        "從 IMDb 抓英文影評",
+        "使用全部 212 萬筆"
+      ],
+      "answer": 0,
+      "explain": "抽樣是為了控制訓練時間；只用 Comment 與 Star 兩個欄位，並用 OpenCC 轉成繁體。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-162",
+      "q": "星等標籤 1～5 為什麼要先減 1？",
+      "options": [
+        "Keras 的類別標籤從 0 開始",
+        "讓數值變小比較好訓練",
+        "去除 5 星資料",
+        "BERT 只接受負數"
+      ],
+      "answer": 0,
+      "explain": "減 1 後變成 0～4。講義建議用向量化寫法 df2['Star'] - 1。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-163",
+      "q": "BERT 星等分類為什麼要把 y 轉成 one-hot？",
+      "options": [
+        "為了增加資料量",
+        "BERT 規定要 one-hot",
+        "loss 用的是 categorical_crossentropy；若改用 sparse 版本就不必轉",
+        "為了做 padding"
+      ],
+      "answer": 2,
+      "explain": "例如 3 會變成 [0, 0, 0, 1, 0]。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-164",
+      "q": "BERT 星等分類的訓練／測試切分比例是？",
+      "options": [
+        "9 : 1",
+        "全部都拿來訓練",
+        "5 : 5",
+        "7 : 3（19,600 筆 / 8,400 筆）"
+      ],
+      "answer": 3,
+      "explain": "用 train_test_split(test_size=0.3)。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-165",
+      "q": "bert-base-chinese 中，[CLS]、[SEP]、[PAD] 的 ID 分別是？",
+      "options": [
+        "0、1、2",
+        "1、2、3",
+        "101、102、0",
+        "100、101、102"
+      ],
+      "answer": 2,
+      "explain": "中文以「字」為單位切分。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-166",
+      "q": "單句輸入時，token_type_ids 為什麼全是 0？",
+      "options": [
+        "表示全部都是填充",
+        "沒有第二句；第二句的位置才會是 1",
+        "表示句子無效",
+        "模型不使用這個輸入"
+      ],
+      "answer": 1,
+      "explain": "它標示每個字屬於第幾句。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-167",
+      "q": "attention_mask 的作用是？",
+      "options": [
+        "存放 token ID",
+        "遮住 15% 的字",
+        "標示句子屬於第幾句",
+        "告訴模型哪些位置要看（1）、哪些是填充要忽略（0）"
+      ],
+      "answer": 3,
+      "explain": "批次必須等長，所以短句會補 [PAD]。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-168",
+      "q": "BERT 星等分類模型為什麼不能用 Sequential，要用 Functional API？",
+      "options": [
+        "模型有三個輸入（ids、type、mask）",
+        "Functional API 比較快",
+        "BERT 只支援 PyTorch",
+        "Sequential 不支援 Dense"
+      ],
+      "answer": 0,
+      "explain": "用 keras.Model(inputs=[…], outputs=…) 組合。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-169",
+      "q": "星等分類模型怎麼把 BERT 每個字的 768 維輸出變成一個句向量？",
+      "options": [
+        "用 Flatten 後接 Dense(5)",
+        "用 GlobalMaxPooling1D",
+        "全部相加再除以 146",
+        "只取最後一個字"
+      ],
+      "answer": 1,
+      "explain": "之後接 Dense(148, ReLU)、Dropout(0.3)、Dense(5, softmax)。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-170",
+      "q": "這個模型約 1.02 億參數全部可訓練，分類頭只約 11.5 萬。這屬於哪種做法？",
+      "options": [
+        "從頭訓練",
+        "只訓練 tokenizer",
+        "特徵提取：BERT 凍結",
+        "fine-tuning：BERT 本體也一起微調"
+      ],
+      "answer": 3,
+      "explain": "BERT 本體佔 102,267,648 個參數。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-171",
+      "q": "微調 BERT 時，講義的訓練設定是？",
+      "options": [
+        "不訓練，直接推論",
+        "Adam、lr = 1e-5、batch 32、3 epochs",
+        "Adam、lr = 0.01、batch 512、50 epochs",
+        "SGD、lr = 0.1、batch 1、100 epochs"
+      ],
+      "answer": 1,
+      "explain": "BERT 論文建議 lr 5e-5／3e-5／2e-5、batch 16／32、3–4 epochs。用小學習率避免破壞預訓練的語言知識。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-172",
+      "q": "訓練時出現「pooler 沒有梯度」的 WARNING，代表什麼？",
+      "options": [
+        "學習率太大",
+        "資料格式錯誤",
+        "模型壞了，必須重來",
+        "正常；模型只用 last_hidden_state，沒用 pooler_output，所以 pooler 權重不更新"
+      ],
+      "answer": 3,
+      "explain": "這不影響結果。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-173",
+      "q": "BERT 星等分類的測試集準確率約多少？跟隨機猜相比如何？",
+      "options": [
+        "約 52%；5 類隨機猜只有 20%",
+        "約 80%；隨機猜 10%",
+        "約 95%；隨機猜 50%",
+        "約 20%；和隨機猜一樣"
+      ],
+      "answer": 0,
+      "explain": "訓練集 0.63、測試集 0.52，有一些過擬合。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-174",
+      "q": "哪個星等最難分？原因是？",
+      "options": [
+        "4 星；評論最長",
+        "1 星；情緒最強烈",
+        "2 星；樣本最少，790 筆中有 298 筆被判成 3 星",
+        "5 星；樣本最多"
+      ],
+      "answer": 2,
+      "explain": "1 星、5 星情緒強烈，f1 約 0.62，反而好分。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-175",
+      "q": "星等分類的錯誤大多屬於哪一種？",
+      "options": [
+        "隨機分布",
+        "全部判成同一類",
+        "相鄰星等互混（差一顆星），例如 4 星與 5 星",
+        "1 星與 5 星互混"
+      ],
+      "answer": 2,
+      "explain": "4 星與 5 星互混最多。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-176",
+      "q": "下列何者「不是」講義建議的改進方向？",
+      "options": [
+        "用 class_weight 處理 2 星樣本不足",
+        "合併成負／中／正三類",
+        "把學習率調大到 0.1",
+        "加 EarlyStopping 並多跑幾個 epoch"
+      ],
+      "answer": 2,
+      "explain": "另一個建議是改用 [CLS] / pooler_output 或 TFBertForSequenceClassification。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
+    },
+    {
+      "id": "tf-177",
+      "q": "評估多類別分類時，講義提醒除了 accuracy 還要看什麼？",
+      "options": [
+        "只看 loss",
+        "各類的 recall 與混淆矩陣",
+        "模型檔案大小",
+        "只看訓練集準確率"
+      ],
+      "answer": 1,
+      "explain": "只看整體準確率會忽略 2 星幾乎抓不到的問題。",
+      "tags": [
+        "實作：BERT 星等分類"
+      ]
     }
   ]
 }

@@ -103,7 +103,7 @@ export function courseView(S, ctx, course) {
   <section class="units">
     ${course.units.map((u, i) => `
     <article class="unit">
-      <span class="unit-code">單元 ${LETTERS[i] || i + 1} · ${u.questions.length} 題</span>
+      <span class="unit-code">單元 ${LETTERS[i] || i + 1} · ${u.sections.length ? `${u.sections.length} 個章節 · ` : ""}${u.questions.length} 題</span>
       <h2>${esc(u.name)}</h2>
       ${u.sub ? `<p class="sub">${esc(u.sub)}</p>` : ""}
       ${u.topics.length ? `<div class="chips">${u.topics.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}
@@ -176,6 +176,7 @@ export function quizView(S, ctx, course) {
   <div class="quiz-grid">
     <main class="qcard" id="qcard">
       <div class="qmeta"><span class="qno">Q${quiz.cur + 1}</span><span class="tag">${esc(unitName(course, it.unit))}</span>
+        ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
         ${q.type === "truefalse" ? `<span class="tag">是非題</span>` : ""}</div>
       <h2 class="qtext">${esc(q.q)}</h2>
       <div class="opts">${optsHtml(q, it, pick, reveal)}</div>
@@ -249,6 +250,7 @@ export function resultView(S, ctx, course) {
         const p = quiz.picks[i];
         return `<article class="ritem ${ok ? "isok" : "isbad"}">
           <div class="qmeta"><span class="qno">Q${i + 1}</span><span class="tag">${esc(unitName(course, it.unit))}</span>
+            ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
             <span class="tag">${ok ? "答對" : p === null ? "未作答" : "答錯"}</span></div>
           <h3 class="qtext">${esc(q.q)}</h3>
           <div class="opts">${optsHtml(q, it, p, true)}</div>

@@ -10,7 +10,10 @@
         "語音波形訊號"
       ],
       "answer": 0,
-      "explain": "講義定義：自然語言指人類語言，特指文本符號，而非語音信號。"
+      "explain": "講義定義：自然語言指人類語言，特指文本符號，而非語音信號。",
+      "tags": [
+        "NLP 導論與應用"
+      ]
     },
     {
       "id": "nlp-002",
@@ -22,7 +25,10 @@
         "基礎任務 → 資源建設 → 應用系統 → 應用任務"
       ],
       "answer": 0,
-      "explain": "最底層是語料庫與知識庫建設；最上層是教育、醫療、金融等 NLP+ 應用系統。"
+      "explain": "最底層是語料庫與知識庫建設；最上層是教育、醫療、金融等 NLP+ 應用系統。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
     },
     {
       "id": "nlp-003",
@@ -34,7 +40,10 @@
         "對話系統"
       ],
       "answer": 1,
-      "explain": "基礎任務包含分詞、詞性標注、句法分析、語義分析；其他三項屬於應用任務。"
+      "explain": "基礎任務包含分詞、詞性標注、句法分析、語義分析；其他三項屬於應用任務。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
     },
     {
       "id": "nlp-004",
@@ -46,7 +55,10 @@
         "WordNet"
       ],
       "answer": 3,
-      "explain": "知識庫結構化地定義概念、實體與關係（如 WordNet、HowNet、Wikidata）；語料庫記錄語言被真實使用的樣子。"
+      "explain": "知識庫結構化地定義概念、實體與關係（如 WordNet、HowNet、Wikidata）；語料庫記錄語言被真實使用的樣子。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
     },
     {
       "id": "nlp-005",
@@ -58,7 +70,10 @@
         "比對問題"
       ],
       "answer": 2,
-      "explain": "預測一個連續分數屬於迴歸；情感分析屬分類；文字相似性屬比對。"
+      "explain": "預測一個連續分數屬於迴歸；情感分析屬分類；文字相似性屬比對。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
     },
     {
       "id": "nlp-006",
@@ -70,7 +85,10 @@
         "解析問題"
       ],
       "answer": 0,
-      "explain": "生成問題要產生新的文字序列；詞性標注、分詞則屬於解析問題。"
+      "explain": "生成問題要產生新的文字序列；詞性標注、分詞則屬於解析問題。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
     },
     {
       "id": "nlp-007",
@@ -82,7 +100,10 @@
         "大規模預訓練模型 → 深度學習模型 → 語料庫統計模型 → 小規模專家知識"
       ],
       "answer": 1,
-      "explain": "約 1950–1990 專家規則、1990–2010 統計、2010–2017 深度學習、2018 至今大規模預訓練。"
+      "explain": "約 1950–1990 專家規則、1990–2010 統計、2010–2017 深度學習、2018 至今大規模預訓練。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
     },
     {
       "id": "nlp-008",
@@ -94,7 +115,10 @@
         "每個詞的向量有多個 1"
       ],
       "answer": 0,
-      "explain": "One-hot 是高維稀疏向量，「花生」和「馬鈴薯」的距離跟「花生」和「鍵盤」一樣。"
+      "explain": "One-hot 是高維稀疏向量，「花生」和「馬鈴薯」的距離跟「花生」和「鍵盤」一樣。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-009",
@@ -106,7 +130,10 @@
         "用低維稠密向量表示詞"
       ],
       "answer": 0,
-      "explain": "Word2Vec 是靜態向量，同一個詞只有一個向量，多義詞會被迫取統計平均；BERT 的動態語境向量才能解決。"
+      "explain": "Word2Vec 是靜態向量，同一個詞只有一個向量，多義詞會被迫取統計平均；BERT 的動態語境向量才能解決。",
+      "tags": [
+        "Word2Vec"
+      ]
     },
     {
       "id": "nlp-010",
@@ -118,7 +145,10 @@
         "根據目標詞預測前後文"
       ],
       "answer": 1,
-      "explain": "CBOW 用上下文預測中心詞；Skip-gram 則相反，用中心詞預測上下文。"
+      "explain": "CBOW 用上下文預測中心詞；Skip-gram 則相反，用中心詞預測上下文。",
+      "tags": [
+        "Word2Vec"
+      ]
     },
     {
       "id": "nlp-011",
@@ -130,7 +160,10 @@
         "運算速度一定比較快"
       ],
       "answer": 1,
-      "explain": "CBOW 運算較快、適合大資料集；Skip-gram 對罕見詞效果較好。"
+      "explain": "CBOW 運算較快、適合大資料集；Skip-gram 對罕見詞效果較好。",
+      "tags": [
+        "Word2Vec"
+      ]
     },
     {
       "id": "nlp-012",
@@ -142,7 +175,10 @@
         "把輸出層的多類別 softmax 改成判斷「是／否」的二元分類，大幅減少計算量"
       ],
       "answer": 3,
-      "explain": "詞彙量很大時 softmax 輸出很大；改成 sigmoid 二元分類後，只要判斷正樣本與少量負樣本。"
+      "explain": "詞彙量很大時 softmax 輸出很大；改成 sigmoid 二元分類後，只要判斷正樣本與少量負樣本。",
+      "tags": [
+        "Word2Vec"
+      ]
     },
     {
       "id": "nlp-013",
@@ -154,7 +190,10 @@
         "資料集較小用 5–20 個，資料集較大用 2–5 個"
       ],
       "answer": 3,
-      "explain": "抽樣時也會調高低頻詞（如專有名詞）被抽中的機率，調低高頻詞的機率。"
+      "explain": "抽樣時也會調高低頻詞（如專有名詞）被抽中的機率，調低高頻詞的機率。",
+      "tags": [
+        "Word2Vec"
+      ]
     },
     {
       "id": "nlp-014",
@@ -166,7 +205,10 @@
         "調低常見詞的權重；出現在越少文件中的詞越關鍵"
       ],
       "answer": 3,
-      "explain": "像 are、am、「的」這類到處都出現的詞，IDF 會很低。"
+      "explain": "像 are、am、「的」這類到處都出現的詞，IDF 會很低。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-015",
@@ -178,7 +220,10 @@
         "1"
       ],
       "answer": 2,
-      "explain": "IDF = log₁₀(1000 ÷ 10) = log₁₀(100) = 2，屬於高度稀有、權重很高的關鍵詞。"
+      "explain": "IDF = log₁₀(1000 ÷ 10) = log₁₀(100) = 2，屬於高度稀有、權重很高的關鍵詞。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-016",
@@ -190,7 +235,10 @@
         "0"
       ],
       "answer": 3,
-      "explain": "log(1000 ÷ 1000) = log(1) = 0，完全沒有區分度，TF-IDF 權重歸零。"
+      "explain": "log(1000 ÷ 1000) = log(1) = 0，完全沒有區分度，TF-IDF 權重歸零。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-017",
@@ -202,7 +250,10 @@
         "文件總數 ÷ 含有單詞 t 的文件數"
       ],
       "answer": 1,
-      "explain": "第二個選項是 IDF 中 log 裡面的比值。"
+      "explain": "第二個選項是 IDF 中 log 裡面的比值。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-018",
@@ -214,7 +265,10 @@
         "Transformer、BERT、GPT"
       ],
       "answer": 0,
-      "explain": "停用詞是與整體語意沒有直接關係的詞，通常在前處理時移除。"
+      "explain": "停用詞是與整體語意沒有直接關係的詞，通常在前處理時移除。",
+      "tags": [
+        "向量空間與前處理"
+      ]
     },
     {
       "id": "nlp-019",
@@ -226,7 +280,10 @@
         "把句子切成一個個字元"
       ],
       "answer": 0,
-      "explain": "stemming 把意義相近的字歸為同一個 token，例如 cats → cat。"
+      "explain": "stemming 把意義相近的字歸為同一個 token，例如 cats → cat。",
+      "tags": [
+        "向量空間與前處理"
+      ]
     },
     {
       "id": "nlp-020",
@@ -238,7 +295,10 @@
         "Why should I"
       ],
       "answer": 2,
-      "explain": "bigram 是連續 2 個詞：Why should、should I、I learn、learn NLP。「Why should I」是 trigram。"
+      "explain": "bigram 是連續 2 個詞：Why should、should I、I learn、learn NLP。「Why should I」是 trigram。",
+      "tags": [
+        "分散式表示：n-gram、共生矩陣"
+      ]
     },
     {
       "id": "nlp-021",
@@ -250,7 +310,10 @@
         "會考慮每個詞的上下文語意"
       ],
       "answer": 1,
-      "explain": "詞袋模型把文件中的詞想像成袋子裡零散獨立的物件，以詞頻構成向量。"
+      "explain": "詞袋模型把文件中的詞想像成袋子裡零散獨立的物件，以詞頻構成向量。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
     },
     {
       "id": "nlp-022",
@@ -262,7 +325,10 @@
         "指定窗口大小，統計窗口內詞語共同出現的次數"
       ],
       "answer": 3,
-      "explain": "例如窗口為 1 時，「I believe in everything you do」中 believe 與 I、in 各共現一次。"
+      "explain": "例如窗口為 1 時，「I believe in everything you do」中 believe 與 I、in 各共現一次。",
+      "tags": [
+        "分散式表示：n-gram、共生矩陣"
+      ]
     },
     {
       "id": "nlp-023",
@@ -274,7 +340,10 @@
         "jieba 或 CKIP"
       ],
       "answer": 3,
-      "explain": "英文前處理用 nltk；中文斷詞用 jieba 或中研院的 CKIP。OpenCC 是簡繁轉換工具。"
+      "explain": "英文前處理用 nltk；中文斷詞用 jieba 或中研院的 CKIP。OpenCC 是簡繁轉換工具。",
+      "tags": [
+        "向量空間與前處理"
+      ]
     },
     {
       "id": "nlp-024",
@@ -286,7 +355,10 @@
         "不需要任何預訓練"
       ],
       "answer": 0,
-      "explain": "對全部參數微調是 BERT、GPT 的 Fine-tuning 方式。ELMo 串接左到右與右到左的 LSTM，沒有 attention。"
+      "explain": "對全部參數微調是 BERT、GPT 的 Fine-tuning 方式。ELMo 串接左到右與右到左的 LSTM，沒有 attention。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
     },
     {
       "id": "nlp-025",
@@ -298,7 +370,10 @@
         "文章撰寫與文本摘要"
       ],
       "answer": 0,
-      "explain": "NLU 是 NLP 的輸入端，把文本轉成電腦可理解的結構化資料；其他選項屬於 NLG。"
+      "explain": "NLU 是 NLP 的輸入端，把文本轉成電腦可理解的結構化資料；其他選項屬於 NLG。",
+      "tags": [
+        "NLP、NLU、NLG"
+      ]
     },
     {
       "id": "nlp-026",
@@ -310,7 +385,10 @@
         "NLG 階段的文字生成"
       ],
       "answer": 1,
-      "explain": "NLU 先做意圖識別（查天氣）與實體抽取，後端查資料，最後由 NLG 生成「明天台北有 80% 降雨機率」。"
+      "explain": "NLU 先做意圖識別（查天氣）與實體抽取，後端查資料，最後由 NLG 生成「明天台北有 80% 降雨機率」。",
+      "tags": [
+        "NLP、NLU、NLG"
+      ]
     },
     {
       "id": "nlp-027",
@@ -322,7 +400,10 @@
         "斷詞 → TF-IDF → 詞袋模型"
       ],
       "answer": 0,
-      "explain": "預訓練學語言的一般表示，SFT 教模型聽懂指令，RLHF 讓回答更符合人類偏好。"
+      "explain": "預訓練學語言的一般表示，SFT 教模型聽懂指令，RLHF 讓回答更符合人類偏好。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
     },
     {
       "id": "nlp-028",
@@ -334,7 +415,10 @@
         "完全不需要預訓練"
       ],
       "answer": 0,
-      "explain": "演進順序：Feature-based（ELMo）→ 每個任務微調（BERT/GPT）→ 預訓練 + 通用對齊（SFT+RLHF）+ Prompting。"
+      "explain": "演進順序：Feature-based（ELMo）→ 每個任務微調（BERT/GPT）→ 預訓練 + 通用對齊（SFT+RLHF）+ Prompting。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
     },
     {
       "id": "nlp-029",
@@ -346,7 +430,10 @@
         "不改模型參數的外部知識庫檢索"
       ],
       "answer": 0,
-      "explain": "全量微調要更新數百億參數，成本極高；LoRA 解決了這個問題。外掛知識庫的是 RAG。"
+      "explain": "全量微調要更新數百億參數，成本極高；LoRA 解決了這個問題。外掛知識庫的是 RAG。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
     },
     {
       "id": "nlp-030",
@@ -358,7 +445,790 @@
         "改用 one-hot 編碼"
       ],
       "answer": 2,
-      "explain": "Word2Vec 遇到字典外的詞只能記為未知詞；BERT 的子詞切分可以靈活拆解。"
+      "explain": "Word2Vec 遇到字典外的詞只能記為未知詞；BERT 的子詞切分可以靈活拆解。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-031",
+      "q": "NLP 代表性應用的配對，何者正確？",
+      "options": [
+        "輿情分析：拼字與文法自動偵錯",
+        "文本校對：社群情感與議題監測",
+        "智慧教育：跨語言文本自動轉換",
+        "知識圖譜：把實體與關係結構化呈現"
+      ],
+      "answer": 3,
+      "explain": "輿情分析是社群情感與議題監測；文本校對是拼字文法偵錯；智慧教育是作文批改與學習診斷。",
+      "tags": [
+        "NLP 導論與應用"
+      ]
+    },
+    {
+      "id": "nlp-032",
+      "q": "講義稱 NLP 為「人工智慧皇冠上的明珠」，原因是？",
+      "options": [
+        "NLP 是最早出現的 AI 領域",
+        "NLP 不需要資料",
+        "NLP 只用於珠寶業",
+        "自然語言處理是制約 AI 取得更大突破與更廣泛應用的瓶頸"
+      ],
+      "answer": 3,
+      "explain": "講義引用 LeCun、Hinton 等人的話，強調語言理解是深度學習的下一個前沿。",
+      "tags": [
+        "NLP 導論與應用"
+      ]
+    },
+    {
+      "id": "nlp-033",
+      "q": "「分析句子中詞語之間的結構關聯，構建依存樹（「吃」為核心動詞，「我」為主語）」是哪個基礎任務？",
+      "options": [
+        "詞性標注",
+        "語義分析",
+        "句法分析",
+        "分詞"
+      ],
+      "answer": 2,
+      "explain": "句法分析揭示主謂賓等結構或詞語間的依存關係。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-034",
+      "q": "判斷「我喜歡吃蘋果」的「蘋果」是水果而不是公司，屬於哪個基礎任務？",
+      "options": [
+        "詞性標注",
+        "分詞",
+        "句法分析",
+        "語義分析（詞義消歧）"
+      ],
+      "answer": 3,
+      "explain": "語義分析理解「誰對誰做了什麼」，並解決詞義歧義（WSD）。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-035",
+      "q": "下列任務與類別的配對，何者正確？",
+      "options": [
+        "分詞：迴歸問題",
+        "情感分析：生成問題",
+        "文字相似性：比對問題",
+        "作文評分：解析問題"
+      ],
+      "answer": 2,
+      "explain": "情感分析是分類；作文評分是迴歸；分詞是解析。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-036",
+      "q": "語料庫與知識庫的比較，何者正確？",
+      "options": [
+        "語料庫高度結構化；知識庫是原始文本",
+        "知識庫用來預訓練 LLM，語料庫用來做推理",
+        "語料庫多為非結構化文本，常用於 LLM 預訓練；知識庫高度結構化，用於知識推理與問答",
+        "兩者都只包含語音資料"
+      ],
+      "answer": 2,
+      "explain": "語料庫記錄語言被如何真實使用；知識庫定義概念、實體與關係。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-037",
+      "q": "現代 LLM 用什麼取代傳統的中文分詞？",
+      "options": [
+        "子詞 Tokenization",
+        "one-hot 編碼",
+        "人工字典斷詞",
+        "句法樹"
+      ],
+      "answer": 0,
+      "explain": "原始文本先切成子詞 token，再交給多層 Transformer。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-038",
+      "q": "講義說明 LLM 如何「一站式」分析語言，何者正確？",
+      "options": [
+        "低層捕捉詞性與局部語法，中層捕捉句法與依存關係，高層抽象出深層語意與推理",
+        "低層負責語意，高層負責分詞",
+        "只有最後一層有作用",
+        "每一層做完全相同的事"
+      ],
+      "answer": 0,
+      "explain": "最後統一用「預測下一個 token」來生成文字。",
+      "tags": [
+        "任務層級與基礎任務"
+      ]
+    },
+    {
+      "id": "nlp-039",
+      "q": "LSTM 華語歌詞生成示範中，temperature 參數控制什麼？",
+      "options": [
+        "生成的隨機性與創意程度",
+        "訓練資料筆數",
+        "詞向量維度",
+        "模型層數"
+      ],
+      "answer": 0,
+      "explain": "temperature 越高，取樣越隨機。",
+      "tags": [
+        "文字生成示範"
+      ]
+    },
+    {
+      "id": "nlp-040",
+      "q": "歌詞生成示範的做法是？",
+      "options": [
+        "TF-IDF 關鍵字抽取",
+        "字元層級 RNN/LSTM，逐字元取樣預測下一個字，是 LLM 自回歸生成的早期雛形",
+        "BERT 遮罩預測",
+        "詞袋模型分類"
+      ],
+      "answer": 1,
+      "explain": "給定起始語句後，一個字一個字往下產生。",
+      "tags": [
+        "文字生成示範"
+      ]
+    },
+    {
+      "id": "nlp-041",
+      "q": "依講義的 NLP 發展年表，下列配對何者正確？",
+      "options": [
+        "Word2vec：2013 年",
+        "ChatGPT：2018 年",
+        "BERT：2013 年",
+        "Hidden Markov Model：2022 年"
+      ],
+      "answer": 0,
+      "explain": "BERT 與 GPT-1 是 2018 年；ChatGPT 是 2022 年；HMM 屬於 1971–1995 的機率模型時期。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
+    },
+    {
+      "id": "nlp-042",
+      "q": "基於規則（專家知識）的方法，優缺點何者正確？",
+      "options": [
+        "優點是不需要專家；缺點是無法解釋",
+        "優點是能處理一詞多義；缺點是太慢",
+        "優點是可解釋、可干預；缺點是知識不完備、需專家維護、不便計算",
+        "優點是自動學習；缺點是需要 GPU"
+      ],
+      "answer": 2,
+      "explain": "例如「出現褒義詞就判為褒義、出現「不」就取反」這類規則。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
+    },
+    {
+      "id": "nlp-043",
+      "q": "「這部電影棒呆了，爛到我笑個不停」用來說明統計 one-hot 表示的哪個缺點？",
+      "options": [
+        "沒有考慮上下文",
+        "向量維度太低",
+        "不能表示英文",
+        "無法計算詞頻"
+      ],
+      "answer": 0,
+      "explain": "「爛」在這裡是正面意思，只看單詞無法判斷。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
+    },
+    {
+      "id": "nlp-044",
+      "q": "深度學習時代的「詞嵌入（Word Embedding）」用什麼樣的向量表示詞？",
+      "options": [
+        "只有一位是 1 的向量",
+        "長度等於文件數的向量",
+        "高維、離散、稀疏的向量",
+        "低維、連續、稠密的向量"
+      ],
+      "answer": 3,
+      "explain": "高維稀疏的是 one-hot。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
+    },
+    {
+      "id": "nlp-045",
+      "q": "提出 Transformer 架構的論文是？",
+      "options": [
+        "BERT: Pre-training of Deep Bidirectional Transformers（2018）",
+        "Listen, Attend and Spell（2015）",
+        "Attention Is All You Need（Vaswani et al., 2017）",
+        "Word2Vec（2013）"
+      ],
+      "answer": 2,
+      "explain": "Transformer 由輸入嵌入加位置編碼、多層 Self-Attention + FFN、線性層加 softmax 組成。",
+      "tags": [
+        "發展歷史與表示方法"
+      ]
+    },
+    {
+      "id": "nlp-046",
+      "q": "NLG（自然語言生成）的主要挑戰是？",
+      "options": [
+        "提高斷詞速度",
+        "保持邏輯連貫、避免幻覺（Hallucination）、控制生成風格",
+        "消除歧義、理解雙關與諷刺",
+        "建立語料庫"
+      ],
+      "answer": 1,
+      "explain": "第二個選項是 NLU 的挑戰。",
+      "tags": [
+        "NLP、NLU、NLG"
+      ]
+    },
+    {
+      "id": "nlp-047",
+      "q": "講義中 NLU 與 NLG 的代表模型分別是？",
+      "options": [
+        "NLU：Llama；NLG：RoBERTa",
+        "NLU：BERT、RoBERTa；NLG：GPT 系列、Claude、Llama",
+        "兩者都是 Word2Vec",
+        "NLU：GPT；NLG：BERT"
+      ],
+      "answer": 1,
+      "explain": "Transformer 系統與 LLM 則是整個 NLP 的代表。",
+      "tags": [
+        "NLP、NLU、NLG"
+      ]
+    },
+    {
+      "id": "nlp-048",
+      "q": "現代 LLM 出現後，NLU 與 NLG 的關係有什麼改變？",
+      "options": [
+        "界線變模糊：統一的自回歸架構只要改 Prompt 就能在理解與生成之間切換",
+        "兩者必須用完全不同的模型",
+        "NLG 被淘汰，只剩 NLU",
+        "NLU 被淘汰，只剩 NLG"
+      ],
+      "answer": 0,
+      "explain": "傳統上用 BERT 做理解、RNN/Seq2Seq 做生成；LLM 理解文本時本質上也在為生成做編碼。",
+      "tags": [
+        "NLP、NLU、NLG"
+      ]
+    },
+    {
+      "id": "nlp-049",
+      "q": "現代 LLM 能徹底解決一詞多義的根本原因是？",
+      "options": [
+        "改用 one-hot 編碼",
+        "詞彙表更大",
+        "單字的語意由它所在的語境即時塑造，不再是孤立固定的向量",
+        "每個詞都有多個固定向量"
+      ],
+      "answer": 2,
+      "explain": "Word2Vec 的上下文只用在訓練階段，學出的是單一靜態向量。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-050",
+      "q": "word2vec 是誰在什麼時候發布的？",
+      "options": [
+        "中研院，2019 年",
+        "Meta，2022 年",
+        "Google 團隊，2013 年",
+        "OpenAI，2018 年"
+      ],
+      "answer": 2,
+      "explain": "它用低維向量表示詞，語意相近的詞距離較近。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-051",
+      "q": "用 word2vec 比較「貓」「狗」「資管系」，下列何者合理？",
+      "options": [
+        "cos(貓, 狗) 大於 cos(貓, 資管系)",
+        "word2vec 不能計算相似度",
+        "cos(貓, 資管系) 最大",
+        "三者的餘弦值都一樣"
+      ],
+      "answer": 0,
+      "explain": "餘弦值越大代表兩個詞關聯越高。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-052",
+      "q": "想把訓練好的詞向量視覺化，講義介紹的工具是？",
+      "options": [
+        "Roboflow",
+        "Google Embedding Projector（projector.tensorflow.org）",
+        "Ollama",
+        "tiktokenizer"
+      ],
+      "answer": 1,
+      "explain": "實作 2 也用它來看電影評論的 Word2vec 結果。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-053",
+      "q": "句子「I believe you are right」，CBOW 窗口 = 2，以「you」為目標詞時，用到哪些上下文詞？",
+      "options": [
+        "I、right",
+        "you、right",
+        "believe、are",
+        "I、believe、are、right"
+      ],
+      "answer": 3,
+      "explain": "左右各取 2 個詞。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-054",
+      "q": "Skip-gram 的輸入與輸出分別是？",
+      "options": [
+        "輸入句子，輸出情感",
+        "輸入文件，輸出主題",
+        "輸入上下文詞，輸出中心詞",
+        "輸入中心詞，輸出上下文詞"
+      ],
+      "answer": 3,
+      "explain": "和 CBOW 正好相反。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-055",
+      "q": "負採樣範例中，「you are a bad guy」產生的 (a, bad)、(guy, bad) 是什麼？",
+      "options": [
+        "正樣本",
+        "未登錄詞",
+        "停用詞",
+        "負樣本，模型要判斷為 0"
+      ],
+      "answer": 3,
+      "explain": "「you are a good guy」產生的 (a, good)、(guy, good) 才是正樣本。",
+      "tags": [
+        "Word2Vec"
+      ]
+    },
+    {
+      "id": "nlp-056",
+      "q": "講義提到 BERT 與 GPT-3 的參數量分別約為？",
+      "options": [
+        "BERT 45 TB；GPT-3 12 GB",
+        "BERT 1,750 億；GPT-3 3 億",
+        "兩者都是 1 億",
+        "BERT 3 億 4 千萬；GPT-3 1,750 億"
+      ],
+      "answer": 3,
+      "explain": "BERT 由 Google 開發，GPT-3 由 OpenAI 開發。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-057",
+      "q": "Word2Vec 與 BERT 的架構，何者正確？",
+      "options": [
+        "Word2Vec 用 Self-Attention，BERT 沒有",
+        "Word2Vec 是淺層雙層網路；BERT 是深層雙向 Transformer 編碼器",
+        "兩者都是深層 Transformer",
+        "BERT 是淺層網路，CPU 即可毫秒級推理"
+      ],
+      "answer": 1,
+      "explain": "Word2Vec 甚至沒有非線性激活函數。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-058",
+      "q": "BERT 的輸入預處理方式是？",
+      "options": [
+        "依空格切詞，輸入單詞 ID 序列",
+        "one-hot 加 TF-IDF",
+        "字元層級 one-hot",
+        "WordPiece 子詞切分，加上 [CLS]、[SEP]，並結合 Token、Segment、Position 三種向量"
+      ],
+      "answer": 3,
+      "explain": "第二個選項是 Word2Vec 的輸入方式。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-059",
+      "q": "BERT Base 與 Large 版的參數量約為？",
+      "options": [
+        "Base 70 億、Large 700 億",
+        "兩者都是 1 千萬",
+        "Base 3.4 億、Large 1,750 億",
+        "Base 1.1 億、Large 3.4 億"
+      ],
+      "answer": 3,
+      "explain": "訓練與推理都高度依賴 GPU/TPU。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-060",
+      "q": "Word2Vec 用在下游任務的方式通常是？",
+      "options": [
+        "不能用在下游任務",
+        "一定要整個模型微調",
+        "Feature-based：當固定的 Lookup Table，把向量餵給 LSTM、SVM 等模型",
+        "只能做翻譯"
+      ],
+      "answer": 2,
+      "explain": "BERT 則可以 Fine-tuning，也可以 Feature-based。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-061",
+      "q": "依目前的技術標準，BERT 通常被歸類為？",
+      "options": [
+        "規則式專家系統",
+        "大型語言模型（LLM）",
+        "統計 n-gram 模型",
+        "預訓練語言模型（PLM），通常不算現代的 LLM"
+      ],
+      "answer": 3,
+      "explain": "BERT 開創了「大規模預訓練 + 下游微調」的時代。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-062",
+      "q": "RAG（檢索增強生成）的本質是？",
+      "options": [
+        "不改模型參數，外掛外部知識庫，是 In-Context Learning 的延伸",
+        "參數高效微調",
+        "一種強化學習演算法",
+        "一種斷詞方法"
+      ],
+      "answer": 0,
+      "explain": "參數高效微調（PEFT）的例子是 LoRA。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-063",
+      "q": "ChatGPT 的 SFT 階段，在技術上和 BERT/GPT 的微調有什麼關係？",
+      "options": [
+        "相同，都是用標注資料調整預訓練參數",
+        "SFT 只訓練 tokenizer",
+        "完全不同，SFT 不更新參數",
+        "SFT 是預訓練的一部分，不用標注資料"
+      ],
+      "answer": 0,
+      "explain": "差別在 SFT 只做一次、通用性的微調。",
+      "tags": [
+        "預訓練與微調範式"
+      ]
+    },
+    {
+      "id": "nlp-064",
+      "q": "向量空間模型中，文件向量 Di = (wi1, …, win) 的 wij 是什麼？維度 n 由什麼決定？",
+      "options": [
+        "文件 i 的類別；n 由類別數決定",
+        "單詞 j 的字母數；n 固定為 300",
+        "文件 i 的長度；n 由文件數決定",
+        "單詞 j 在文件 i 中的權重（如詞頻）；n 由所有文件的全部單詞決定"
+      ],
+      "answer": 3,
+      "explain": "單詞沒有出現在文件中時，權重為 0（Salton et al., 1975）。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-065",
+      "q": "做「從採訪文章中萃取問題」的模型時，前處理要注意什麼？",
+      "options": [
+        "不應刪除「?」，可以把它當成單獨的 token",
+        "要把所有字轉成大寫",
+        "只保留名詞",
+        "一定要刪除所有標點"
+      ],
+      "answer": 0,
+      "explain": "前處理要看語境與任務決定。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-066",
+      "q": "「單字層級 tokenization」通常用在哪一類模型？",
+      "options": [
+        "注意單字順序的序列模型（sequence model）",
+        "只用在語音辨識",
+        "拋棄順序的詞袋模型",
+        "只用在影像分類"
+      ],
+      "answer": 0,
+      "explain": "N-gram tokenization 則常用在詞袋模型。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-067",
+      "q": "字元層級 tokenization 較少使用，講義說只在哪些情境會看到？",
+      "options": [
+        "文件分類",
+        "關鍵字雲",
+        "文字生成或語音辨識",
+        "TF-IDF"
+      ],
+      "answer": 2,
+      "explain": "例如歌詞生成示範就是字元層級。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-068",
+      "q": "「computer」用不同方式切分，何者正確？",
+      "options": [
+        "GPT 的 BPE 一定切成 compu + ter",
+        "word-level 是 1 個 token，character-level 是 8 個 token",
+        "character-level 是 1 個 token",
+        "word-level 是 8 個 token"
+      ],
+      "answer": 1,
+      "explain": "常見字在 GPT 的 BPE 中通常是 1 個 token；冷門字才會拆成多個子詞。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-069",
+      "q": "講義建議的英文 NLP 前處理套件是？",
+      "options": [
+        "jieba",
+        "OpenCC",
+        "nltk",
+        "CKIP"
+      ],
+      "answer": 2,
+      "explain": "中文則用 jieba 或 CKIP。",
+      "tags": [
+        "向量空間與前處理"
+      ]
+    },
+    {
+      "id": "nlp-070",
+      "q": "下列何者屬於「分散式表示」？",
+      "options": [
+        "one-hot encoding",
+        "詞袋模型",
+        "Word2Vec",
+        "TF-IDF"
+      ],
+      "answer": 2,
+      "explain": "講義把 n-gram、共生矩陣、Word2Vec 列為分散式；one-hot、BOW、TF-IDF 是離散式。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-071",
+      "q": "語料「my dog sat on my cat」共 6 個字、5 個不重複的字。用 one-hot 表示時，每個字的向量長度是？",
+      "options": [
+        "6",
+        "5",
+        "1",
+        "30"
+      ],
+      "answer": 1,
+      "explain": "向量長度等於不重複詞彙數。詞彙越多，維度越大。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-072",
+      "q": "兩份文件的詞頻向量都被「我、是、了、他們」等常見詞主導，看起來很像。這個問題引出了哪個方法？",
+      "options": [
+        "TF-IDF",
+        "共生矩陣",
+        "one-hot",
+        "字元層級 tokenization"
+      ],
+      "answer": 0,
+      "explain": "IDF 會壓低到處都出現的常見詞權重。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-073",
+      "q": "文集共 1,000 篇，「新聞」出現在 500 篇。以 log₁₀ 計算，IDF 約為？",
+      "options": [
+        "500",
+        "2",
+        "0",
+        "0.301"
+      ],
+      "answer": 3,
+      "explain": "log₁₀(1000 ÷ 500) = log₁₀ 2 ≈ 0.301，屬於常見詞，權重偏低。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-074",
+      "q": "玩具文集 D1「Dog bites man」與 D2「Man bites dog」，用詞袋模型表示會怎樣？",
+      "options": [
+        "D1 的向量全為 0",
+        "長度不同，無法比較",
+        "兩個向量完全相反",
+        "兩個向量完全相同，看不出誰咬誰"
+      ],
+      "answer": 3,
+      "explain": "詞袋模型不考慮詞序，這正是它的限制。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-075",
+      "q": "玩具文集 D1「Dog bites man」、D2「Man bites dog」、D3「Dog eats meat」、D4「Man eats food」中，哪個詞的 IDF 最高？",
+      "options": [
+        "bites",
+        "man",
+        "dog",
+        "meat"
+      ],
+      "answer": 3,
+      "explain": "meat 只出現在 1 篇；dog、man 各 3 篇；bites 2 篇。出現越少，IDF 越高。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-076",
+      "q": "TF-IDF 的計算方式是？",
+      "options": [
+        "TF ÷ IDF",
+        "IDF − TF",
+        "TF × IDF",
+        "TF + IDF"
+      ],
+      "answer": 2,
+      "explain": "講義註明公式有其他版本，例如分母加 1 避免除以零。",
+      "tags": [
+        "離散式表示：one-hot、BOW、TF-IDF"
+      ]
+    },
+    {
+      "id": "nlp-077",
+      "q": "「John likes to watch movies」做 1-skip-2-grams，下列何者是結果之一？",
+      "options": [
+        "watch",
+        "John to",
+        "movies John",
+        "John likes to"
+      ],
+      "answer": 1,
+      "explain": "k-skip-n-gram 是最多間隔 k 個詞的 n 個詞組合；John 跳過 likes 接 to。",
+      "tags": [
+        "分散式表示：n-gram、共生矩陣"
+      ]
+    },
+    {
+      "id": "nlp-078",
+      "q": "n-gram 用在機器翻譯時，「單字翻譯缺乏上下文」的問題後來被什麼解決？",
+      "options": [
+        "停用詞",
+        "TF-IDF",
+        "one-hot",
+        "Transformer"
+      ],
+      "answer": 3,
+      "explain": "講義引用機器翻譯的發展史說明。",
+      "tags": [
+        "分散式表示：n-gram、共生矩陣"
+      ]
+    },
+    {
+      "id": "nlp-079",
+      "q": "句子「Why should I learn NLP」有幾個 trigram？",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "2"
+      ],
+      "answer": 2,
+      "explain": "Why should I、should I learn、I learn NLP。",
+      "tags": [
+        "分散式表示：n-gram、共生矩陣"
+      ]
+    },
+    {
+      "id": "nlp-080",
+      "q": "電影評論實作中，文字雲是怎麼產生的？",
+      "options": [
+        "用 TF-IDF 預測星等",
+        "用 YOLO 偵測文字",
+        "用 BERT 生成新評論",
+        "用詞頻分析找出評論中最常被提到的字"
+      ],
+      "answer": 3,
+      "explain": "程式是 文字雲.ipynb。",
+      "tags": [
+        "實作：電影評論"
+      ]
+    },
+    {
+      "id": "nlp-081",
+      "q": "豆瓣電影短評資料集原本是簡體中文，實作中怎麼處理？",
+      "options": [
+        "翻譯成英文",
+        "轉成拼音",
+        "用轉換套件轉成繁體字",
+        "直接刪除"
+      ],
+      "answer": 2,
+      "explain": "資料欄位包含電影中英文名、評論時間、使用者、星級、評論內容與按讚數。",
+      "tags": [
+        "實作：電影評論"
+      ]
+    },
+    {
+      "id": "nlp-082",
+      "q": "用 MLP、RNN/LSTM 從評論預測星等，講義記錄的實驗結果是？",
+      "options": [
+        "準確率 100%",
+        "overfitting",
+        "測試集比訓練集好很多",
+        "無法訓練"
+      ],
+      "answer": 1,
+      "explain": "因此另外做了正負評預測，以及後來用 BERT 微調的版本。",
+      "tags": [
+        "實作：電影評論"
+      ]
     }
   ]
 }

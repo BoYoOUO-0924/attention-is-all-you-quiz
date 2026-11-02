@@ -64,7 +64,7 @@ python -m http.server 8765
 | `options` | 是 | 2–6 個選項 |
 | `answer` | 是 | 正解在 `options` 的位置，**0 代表第一個** |
 | `explain` | 否 | 解析，作答後顯示。沒填會出現提醒 |
-| `tags` | 否 | 標籤，目前只存著，之後可做依標籤出題 |
+| `tags` | 否 | 標籤。第一個 tag 當作「講義章節」，作答時會顯示，並用來檢查章節覆蓋 |
 | `type` | 否 | `single`（預設，單選）或 `truefalse`（是非題） |
 
 是非題可以省略 `options`，`answer` 填 `true` 或 `false`：
@@ -83,6 +83,17 @@ python -m http.server 8765
 ```
 
 單元 `id` 只能用小寫英文、數字與 `-`。
+
+### 用章節確認講義每個重點都有出題
+
+單元可以加上 `sections`，依講義順序列出章節名稱：
+
+```json
+{ "id": "tl", "name": "遷移學習", "file": "transfer-learning.json",
+  "sections": ["遷移學習基本概念", "預訓練模型", "特徵提取"] }
+```
+
+每題的第一個 `tags` 寫它屬於哪一章。`node tools/validate.js` 會列出每章的題數；有章節沒有題目，或題目的章節不在清單裡，都會出現提醒。
 
 ## 新增課程
 

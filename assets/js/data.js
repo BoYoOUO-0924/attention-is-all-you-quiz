@@ -73,9 +73,20 @@ export function normalizeCourse(raw, { source = "site" } = {}) {
       if (!n.explain) warnings.push(`${uw} ${n.id}：沒有解析`);
       questions.push(n);
     });
+    // sections 是講義章節清單（選填）。有寫的話，每題的第一個 tag 要對應到其中一章，用來檢查每章都有出題
+    const sections = Array.isArray(u.sections) ? u.sections.filter(isStr) : [];
+    if (sections.length) {
+      const count = new Map(sections.map(s => [s, 0]));
+      questions.forEach(q => {
+        if (count.has(q.tags[0])) count.set(q.tags[0], count.get(q.tags[0]) + 1);
+        else warnings.push(`${uw} ${q.id}：第一個 tag「${q.tags[0] ?? "（沒有）"}」不在 sections 裡`);
+      });
+      count.forEach((n, s) => { if (!n) warnings.push(`${uw}：章節「${s}」還沒有題目`); });
+    }
     units.push({
       id: u.id, name: u.name || u.id, sub: u.sub || "",
       topics: Array.isArray(u.topics) ? u.topics.filter(isStr) : [],
+      sections,
       questions
     });
   });
