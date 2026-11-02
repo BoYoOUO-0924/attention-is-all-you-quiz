@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "id": "ch10-001",
+      "type": "truefalse",
+      "q": "rpm 指令安裝套件時，會自動下載並安裝所有相依套件。",
+      "answer": false,
+      "explain": "rpm 不會自動解決相依性；yum／dnf 才會自動處理並從 Repository 下載。",
+      "tags": [
+        "rpm",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch10-002",
+      "q": "dnf 的全名與特色是？",
+      "options": [
+        "Dandified YUM，EL8 起使用，更快且與 yum 指令相容",
+        "Debian Network Fetcher，只用在 Ubuntu",
+        "Download Now Fast，只能下載不能安裝",
+        "Dynamic Node Framework，用來管理服務"
+      ],
+      "answer": 0,
+      "explain": "yum＝Yellowdog Updater Modified；dnf＝Dandified YUM，支援模組化。",
+      "tags": [
+        "dnf"
+      ]
+    },
+    {
+      "id": "ch10-003",
+      "q": "rpm -ivh foo.rpm 中的 i、v、h 分別代表？",
+      "options": [
+        "install、version、help",
+        "info、version、help",
+        "import、verify、host",
+        "install、verbose、hash（進度條）"
+      ],
+      "answer": 3,
+      "explain": "i 安裝、v 詳細資訊、h 顯示進度條。",
+      "tags": [
+        "rpm"
+      ]
+    },
+    {
+      "id": "ch10-004",
+      "q": "想知道 /usr/lib64/libxml2.so.2 這個檔案屬於哪個套件，應執行？",
+      "options": [
+        "rpm -qa libxml2.so.2",
+        "rpm -qlp /usr/lib64/libxml2.so.2",
+        "rpm -qf /usr/lib64/libxml2.so.2",
+        "dnf list /usr/lib64/libxml2.so.2"
+      ],
+      "answer": 2,
+      "explain": "-qa 列出所有已安裝套件、-qf 查檔案所屬套件、-qlp 列出未安裝 rpm 檔內含的檔案。",
+      "tags": [
+        "rpm"
+      ]
+    },
+    {
+      "id": "ch10-005",
+      "q": "Repository 設定檔放在哪個目錄？",
+      "options": [
+        "/etc/dnf/repos/",
+        "/etc/yum.repos.d/",
+        "/var/lib/rpm/",
+        "/usr/share/repos/"
+      ],
+      "answer": 1,
+      "explain": "副檔名為 .repo，內含 [識別名稱]、name、mirrorlist 或 baseurl、gpgcheck、enabled 等設定。",
+      "tags": [
+        "Repository"
+      ]
+    },
+    {
+      "id": "ch10-006",
+      "q": "在 .repo 設定檔中，enabled=0 代表？",
+      "options": [
+        "停用此 Repository",
+        "啟用此 Repository",
+        "不檢查 GPG 簽章",
+        "只能安裝不能更新"
+      ],
+      "answer": 0,
+      "explain": "enabled=1 啟用、0 停用；gpgcheck=1 代表要檢查 GPG 簽章並搭配 gpgkey。",
+      "tags": [
+        "Repository"
+      ]
+    },
+    {
+      "id": "ch10-007",
+      "q": "想知道 awk 指令是由哪個套件提供，可以用？",
+      "options": [
+        "dnf history awk",
+        "rpm -ivh awk",
+        "dnf clean awk",
+        "dnf provides '*bin/awk'"
+      ],
+      "answer": 3,
+      "explain": "dnf provides 會查出是 gawk 套件提供的。",
+      "tags": [
+        "dnf"
+      ]
+    },
+    {
+      "id": "ch10-008",
+      "type": "truefalse",
+      "q": "dnf remove httpd 會一併移除不再被其他套件使用的相依套件。",
+      "answer": true,
+      "explain": "這是 dnf 和 rpm -e 不同的地方。dnf history 可查看安裝與移除紀錄。",
+      "tags": [
+        "dnf"
+      ]
+    },
+    {
+      "id": "ch10-009",
+      "q": "下列 dnf 指令與用途配對，何者錯誤？",
+      "options": [
+        "dnf update－不指定套件時更新全部",
+        "dnf list httpd－顯示可用與已安裝版本",
+        "dnf install -y－安裝前一律詢問 [y/N]",
+        "dnf clean all－清除快取"
+      ],
+      "answer": 2,
+      "explain": "-y 是自動回答 yes，不會再詢問。",
+      "tags": [
+        "dnf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "questions": [
+    {
+      "id": "ch11-001",
+      "q": "在 EL7 之後的系統中，PID 1 的行程是？",
+      "options": [
+        "init（SysV）",
+        "systemd",
+        "bash",
+        "kernel"
+      ],
+      "answer": 1,
+      "explain": "EL7 起 systemd 取代 SysV init，可同時啟動服務、做資源控制與集中管理。",
+      "tags": [
+        "systemd"
+      ]
+    },
+    {
+      "id": "ch11-002",
+      "q": "執行 systemctl enable httpd 之後，httpd 的狀態是？",
+      "options": [
+        "只設定開機自動啟動，現在不一定在執行",
+        "立刻啟動，且開機自動啟動",
+        "立刻啟動，但開機不會啟動",
+        "被完全禁用"
+      ],
+      "answer": 0,
+      "explain": "start 只有現在啟動、enable 只設開機啟動；兩者都要用 systemctl enable --now httpd。",
+      "tags": [
+        "systemctl",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch11-003",
+      "q": "要讓服務重新讀取設定檔但不中斷服務，應使用？",
+      "options": [
+        "systemctl restart",
+        "systemctl disable",
+        "systemctl mask",
+        "systemctl reload"
+      ],
+      "answer": 3,
+      "explain": "reload 重讀設定不中斷；restart 會先停再啟動。",
+      "tags": [
+        "systemctl"
+      ]
+    },
+    {
+      "id": "ch11-004",
+      "q": "SysV 的 chkconfig httpd on，對應到 systemctl 的哪個指令？",
+      "options": [
+        "systemctl start httpd",
+        "systemctl status httpd",
+        "systemctl enable httpd",
+        "systemctl reload httpd"
+      ],
+      "answer": 2,
+      "explain": "chkconfig on/off 對應 enable/disable；service X start 對應 systemctl start。",
+      "tags": [
+        "systemctl",
+        "SysV"
+      ]
+    },
+    {
+      "id": "ch11-005",
+      "q": "哪個 systemctl 指令能「完全禁用」服務，SysV 沒有對應的功能？",
+      "options": [
+        "disable",
+        "mask",
+        "stop",
+        "kill"
+      ],
+      "answer": 1,
+      "explain": "mask 讓服務無法被啟動（連手動 start 都不行）。",
+      "tags": [
+        "systemctl"
+      ]
+    },
+    {
+      "id": "ch11-006",
+      "q": "SYSLOG 嚴重程度（Severity）中，數字 0 代表？",
+      "options": [
+        "emerg",
+        "info",
+        "err",
+        "debug"
+      ],
+      "answer": 0,
+      "explain": "0 emerg、1 alert、2 crit、3 err、4 warning、5 notice、6 info、7 debug，數字越小越嚴重。",
+      "tags": [
+        "SYSLOG",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch11-007",
+      "type": "truefalse",
+      "q": "SYSLOG 的 Severity 數字越大，代表事件越嚴重。",
+      "answer": false,
+      "explain": "相反，數字越小越嚴重，0 是 emerg。",
+      "tags": [
+        "SYSLOG",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch11-008",
+      "q": "SYSLOG Facility 中，可供使用者自訂用途的是？",
+      "options": [
+        "kern",
+        "authpriv",
+        "cron",
+        "local0～local7"
+      ],
+      "answer": 3,
+      "explain": "Facility 包含 kern、user、mail、daemon、auth、cron、authpriv 等，local0～local7 保留給自訂。",
+      "tags": [
+        "SYSLOG"
+      ]
+    },
+    {
+      "id": "ch11-009",
+      "q": "要即時追蹤 systemd journal 的最新日誌，應執行？",
+      "options": [
+        "journalctl -b",
+        "journalctl -u",
+        "journalctl -f",
+        "journalctl --since"
+      ],
+      "answer": 2,
+      "explain": "-f 即時追蹤（類似 tail -f）、-b 本次開機、-u 指定服務、--since/--until 指定時間。",
+      "tags": [
+        "journalctl"
+      ]
+    },
+    {
+      "id": "ch11-010",
+      "q": "journalctl 與 rsyslog 的比較，何者正確？",
+      "options": [
+        "journal 以文字檔存在 /var/log/messages",
+        "journal 以二進制儲存；rsyslog 以文字檔 /var/log/messages 儲存",
+        "rsyslog 以二進制存在 /var/log/journal/",
+        "兩者都不能做 log 輪替"
+      ],
+      "answer": 1,
+      "explain": "journal 自動輪替、遠端要轉給 rsyslog；rsyslog 用 logrotate 輪替，原生支援遠端。",
+      "tags": [
+        "journalctl",
+        "rsyslog"
+      ]
+    },
+    {
+      "id": "ch11-011",
+      "q": "logger -t class -p user.info Hello 中，-p user.info 的意義是？",
+      "options": [
+        "類別（Facility）為 user、層級（Severity）為 info",
+        "標籤為 user.info",
+        "以 user 身分登入",
+        "輸出到 /var/log/user.info"
+      ],
+      "answer": 0,
+      "explain": "-t 設定標籤，之後可用 journalctl -t class 查詢。",
+      "tags": [
+        "logger"
+      ]
+    },
+    {
+      "id": "ch11-012",
+      "type": "truefalse",
+      "q": "EL 預設 journal 存在記憶體中，重開機就會消失；建立 /var/log/journal/ 目錄後才會持久保存。",
+      "answer": true,
+      "explain": "建立該目錄（mkdir /var/log/journal/）後 journal 才會寫到磁碟。",
+      "tags": [
+        "journalctl",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch11-013",
+      "q": "要查看 httpd 服務自己的日誌，應執行？",
+      "options": [
+        "journalctl -t httpd",
+        "cat /etc/httpd.log",
+        "systemctl log httpd",
+        "journalctl -u httpd"
+      ],
+      "answer": 3,
+      "explain": "-u 指定 systemd unit；systemctl status 也會顯示 Loaded、Active、Main PID 與最近幾行日誌。",
+      "tags": [
+        "journalctl"
+      ]
+    }
+  ]
+}

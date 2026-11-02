@@ -1,0 +1,193 @@
+{
+  "questions": [
+    {
+      "id": "ch7-001",
+      "q": "下列何者符合 ISO 8601 時間格式？",
+      "options": [
+        "11/02/2026 13:30",
+        "2026-11-02T13:30:00+08:00",
+        "02/11/2026 13:30",
+        "2026.11.02 下午 1:30"
+      ],
+      "answer": 1,
+      "explain": "ISO 8601 為 YYYY-MM-DDTHH:MM:SS+時區，T 分隔日期與時間；美式 MM/DD/YYYY、歐式 DD/MM/YYYY。",
+      "tags": [
+        "時間格式"
+      ]
+    },
+    {
+      "id": "ch7-002",
+      "q": "伺服器時間不準「不會」直接影響下列哪一項？",
+      "options": [
+        "螢幕解析度",
+        "SSL 憑證有效期判斷",
+        "cron 排程",
+        "2FA 一次性密碼"
+      ],
+      "answer": 0,
+      "explain": "時間不準會影響 2FA、log 分析、SSL 憑證、排程與資料庫交易。伺服器通常使用 UTC。",
+      "tags": [
+        "時間"
+      ]
+    },
+    {
+      "id": "ch7-003",
+      "q": "要把時區改成台北，應執行？",
+      "options": [
+        "timedatectl set-time Asia/Taipei",
+        "date +Asia/Taipei",
+        "hwclock -w Asia/Taipei",
+        "timedatectl set-timezone Asia/Taipei"
+      ],
+      "answer": 3,
+      "explain": "set-timezone 改時區、list-timezones 列出可用時區、set-time 設定時間。",
+      "tags": [
+        "timedatectl"
+      ]
+    },
+    {
+      "id": "ch7-004",
+      "q": "改完系統時間後，要把「系統時間寫入硬體時鐘（RTC）」，應執行？",
+      "options": [
+        "hwclock -r",
+        "timedatectl -w",
+        "hwclock -w",
+        "date -w"
+      ],
+      "answer": 2,
+      "explain": "-r 讀取（read）硬體時間、-w 寫入（write）。開機時系統時間是從 RTC 讀取的。",
+      "tags": [
+        "hwclock",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch7-005",
+      "type": "truefalse",
+      "q": "RTC 硬體時鐘靠主機板電池供電，關機後仍會繼續走。",
+      "answer": true,
+      "explain": "因此開機時系統時間從 RTC 讀取。",
+      "tags": [
+        "RTC"
+      ]
+    },
+    {
+      "id": "ch7-006",
+      "q": "NTP 網路校時使用的協定與埠號是？",
+      "options": [
+        "TCP/123",
+        "UDP/123",
+        "UDP/53",
+        "TCP/22"
+      ],
+      "answer": 1,
+      "explain": "NTP 使用 UDP 123；UDP/53 是 DNS，TCP/22 是 SSH。",
+      "tags": [
+        "NTP"
+      ]
+    },
+    {
+      "id": "ch7-007",
+      "q": "安裝 chrony 後，要啟動並設定開機自動啟動，正確指令是？",
+      "options": [
+        "systemctl enable --now chronyd",
+        "systemctl enable --now chrony",
+        "systemctl start chronyc",
+        "chronyc enable"
+      ],
+      "answer": 0,
+      "explain": "服務名稱是 chronyd（有 d）；chronyc 是查詢用的用戶端工具，例如 chronyc sources。",
+      "tags": [
+        "chrony",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch7-008",
+      "q": "修改 /etc/chrony.conf，把來源改成 server time.stdtime.gov.tw iburst 之後，下一步應該？",
+      "options": [
+        "直接生效，不用做任何事",
+        "reboot 是唯一方法",
+        "hwclock -r",
+        "systemctl restart chronyd"
+      ],
+      "answer": 3,
+      "explain": "改設定檔要重啟服務才會套用，再用 chronyc sources 與 timedatectl（synchronized: yes）確認。",
+      "tags": [
+        "chrony",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch7-009",
+      "q": "chrony 設定中 iburst 的作用是？",
+      "options": [
+        "每秒校時一次",
+        "停用校時",
+        "第一次連線時快速送出一連串封包，加速同步",
+        "只用 IPv6 校時"
+      ],
+      "answer": 2,
+      "explain": "iburst 讓初次同步更快完成。chronyc sources 中 ^* 代表目前使用中的來源。",
+      "tags": [
+        "chrony"
+      ]
+    },
+    {
+      "id": "ch7-010",
+      "q": "/etc/crontab 中的 0 2 1 * * root /opt/bin/system-check 代表何時執行？",
+      "options": [
+        "每天 01:02",
+        "每月 1 號 02:00",
+        "每週一 02:00",
+        "每年 2 月 1 日"
+      ],
+      "answer": 1,
+      "explain": "欄位順序：分 時 日 月 星期 [身分] 指令。",
+      "tags": [
+        "cron"
+      ]
+    },
+    {
+      "id": "ch7-011",
+      "q": "cron 中要表示「每週六、日 02:30」，應寫？",
+      "options": [
+        "30 2 * * 6,7",
+        "30 2 6,7 * *",
+        "2 30 * * 6-7",
+        "30 2 * 6,7 *"
+      ],
+      "answer": 0,
+      "explain": "星期是第 5 欄，0 或 7 都代表週日、6 是週六。",
+      "tags": [
+        "cron"
+      ]
+    },
+    {
+      "id": "ch7-012",
+      "type": "truefalse",
+      "q": "用 crontab -e 編輯的使用者排程，和 /etc/crontab 一樣需要填寫「執行身分」欄位。",
+      "answer": false,
+      "explain": "/etc/crontab 有 7 欄（含執行身分）；crontab -e 的使用者排程只有 6 欄，以該使用者身分執行。",
+      "tags": [
+        "cron",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch7-013",
+      "q": "要查看排程是否成功執行，可以查哪個 log 檔？",
+      "options": [
+        "/tmp/cron.txt",
+        "/etc/crontab",
+        "/var/log/boot.log",
+        "/var/log/cron"
+      ],
+      "answer": 3,
+      "explain": "/var/log/cron 記錄排程執行的成功與失敗。列出自己的排程用 crontab -l。",
+      "tags": [
+        "cron"
+      ]
+    }
+  ]
+}

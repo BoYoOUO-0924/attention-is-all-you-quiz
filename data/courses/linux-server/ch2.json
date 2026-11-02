@@ -1,0 +1,378 @@
+{
+  "questions": [
+    {
+      "id": "ch2-001",
+      "q": "在 Bash 提示字元中，代表目前是 root 身分的符號是？",
+      "options": [
+        "$",
+        "#",
+        "~",
+        "%"
+      ],
+      "answer": 1,
+      "explain": "root 的提示字元結尾是 #，一般使用者是 $；~ 代表家目錄。",
+      "tags": [
+        "Shell"
+      ]
+    },
+    {
+      "id": "ch2-002",
+      "type": "truefalse",
+      "q": "遠端連線中斷時，該帳號會被登出，正在執行的程式也會跟著中斷。",
+      "answer": true,
+      "explain": "本機操作不會自動登出；遠端連線一斷，登入工作階段與其中執行的程式都會中斷。",
+      "tags": [
+        "Shell"
+      ]
+    },
+    {
+      "id": "ch2-003",
+      "q": "ls -l 輸出的第 2 欄代表什麼？",
+      "options": [
+        "連結數",
+        "權限",
+        "擁有者",
+        "檔案大小"
+      ],
+      "answer": 0,
+      "explain": "7 欄依序是：權限｜連結數｜擁有者｜群組｜大小｜修改時間｜名稱。",
+      "tags": [
+        "ls"
+      ]
+    },
+    {
+      "id": "ch2-004",
+      "q": "head 與 tail 在不加參數時預設顯示幾行？",
+      "options": [
+        "5 行",
+        "整個檔案",
+        "20 行",
+        "10 行"
+      ],
+      "answer": 3,
+      "explain": "預設 10 行，可用 -n 3 指定行數。",
+      "tags": [
+        "head / tail"
+      ]
+    },
+    {
+      "id": "ch2-005",
+      "q": "哪個指令會把檔案內容「由最後一行到第一行」反向輸出？",
+      "options": [
+        "cat",
+        "less",
+        "tac",
+        "rev"
+      ],
+      "answer": 2,
+      "explain": "cat 由頭到尾，tac（cat 倒過來寫）由尾到頭。",
+      "tags": [
+        "cat / tac"
+      ]
+    },
+    {
+      "id": "ch2-006",
+      "q": "對一個「不存在」的檔名執行 touch，會發生什麼事？",
+      "options": [
+        "出現 No such file 錯誤",
+        "建立一個空白檔案",
+        "什麼都不做",
+        "建立一個目錄"
+      ],
+      "answer": 1,
+      "explain": "touch 原意是修改時間戳記；檔案不存在時會建立空白檔。指定時間用 touch -t YYYYMMDDhhmm。",
+      "tags": [
+        "touch"
+      ]
+    },
+    {
+      "id": "ch2-007",
+      "q": "執行 grep -B 1 -A 2 ftp /etc/passwd，除了符合 ftp 的行之外還會顯示？",
+      "options": [
+        "之前 1 行與之後 2 行",
+        "之後 1 行與之前 2 行",
+        "只顯示行號",
+        "前後各 3 行"
+      ],
+      "answer": 0,
+      "explain": "-B（Before）是符合行之前 n 行，-A（After）是之後 n 行。講義文字把兩者寫反了，以實際行為為準。",
+      "tags": [
+        "grep",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-008",
+      "q": "grep 的哪個參數代表「顯示不符合」的行（反向搜尋）？",
+      "options": [
+        "-n",
+        "-o",
+        "-i",
+        "-v"
+      ],
+      "answer": 3,
+      "explain": "-n 行號、-v 反向、-o 只印符合的字串、-i 不分大小寫、-E 延伸正規表示式。",
+      "tags": [
+        "grep"
+      ]
+    },
+    {
+      "id": "ch2-009",
+      "q": "awk -F ':' '{print $1, $3}' sample1 的作用是？",
+      "options": [
+        "以空白分隔，印出第 1、3 欄且黏在一起",
+        "把冒號換成逗號",
+        "以冒號分隔，印出第 1、3 欄且中間有空格",
+        "刪除第 1、3 欄"
+      ],
+      "answer": 2,
+      "explain": "-F ':' 指定分隔字元；$1, $3 用逗號隔開時輸出中間有空格，寫成 $1 $3（空白）則會黏在一起。",
+      "tags": [
+        "awk",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-010",
+      "type": "truefalse",
+      "q": "執行 sed -e 's/:/,/g' sample1 之後，sample1 檔案內容就已經被修改。",
+      "answer": false,
+      "explain": "沒加 -i 只會把結果印到螢幕，原檔不變；要真的改檔要用 sed -i -e 's/:/,/g' sample1。g 代表整行全部取代。",
+      "tags": [
+        "sed",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-011",
+      "q": "下列 Linux 目錄與用途的配對，何者正確？",
+      "options": [
+        "/root－所有使用者的家目錄",
+        "/etc－系統與服務的設定檔",
+        "/proc－永久儲存的使用者資料",
+        "/var－開機核心檔"
+      ],
+      "answer": 1,
+      "explain": "/root 是 root 的家目錄（一般使用者在 /home）；/proc 是虛擬的核心資訊，關機即消失；/var 放 log、DB 等動態檔；/boot 才是核心與開機設定。",
+      "tags": [
+        "FHS"
+      ]
+    },
+    {
+      "id": "ch2-012",
+      "q": "在 /tmp 目錄中，一般使用者可以做什麼？",
+      "options": [
+        "可以寫入，但只能刪除自己的檔案",
+        "什麼都不能寫",
+        "可以刪除任何人的檔案",
+        "只能讀取"
+      ],
+      "answer": 0,
+      "explain": "/tmp 人人可寫，但設有 t（sticky）位元，只能刪除自己的檔案。",
+      "tags": [
+        "FHS"
+      ]
+    },
+    {
+      "id": "ch2-013",
+      "type": "truefalse",
+      "q": "Linux 和 Windows 一樣有 C:\\、D:\\ 等多個平行的根目錄。",
+      "answer": false,
+      "explain": "Linux 只有一個根目錄 /，其他磁碟是掛載到某個目錄下使用。目錄結構依 FHS（Linux 基金會維護）。",
+      "tags": [
+        "FHS"
+      ]
+    },
+    {
+      "id": "ch2-014",
+      "q": "哪個指令可以回到「上一個所在的目錄」？",
+      "options": [
+        "cd ..",
+        "cd ~",
+        "cd /",
+        "cd -"
+      ],
+      "answer": 3,
+      "explain": "cd - 回上一個目錄；cd .. 是上一層；cd 或 cd ~ 回家目錄。",
+      "tags": [
+        "cd"
+      ]
+    },
+    {
+      "id": "ch2-015",
+      "q": "要一次建立 lab2/dir1/ 這種多層目錄（中間層不存在），應使用？",
+      "options": [
+        "mkdir lab2/dir1/",
+        "mkdir -r lab2/dir1/",
+        "mkdir -p lab2/dir1/",
+        "rmdir -p lab2/dir1/"
+      ],
+      "answer": 2,
+      "explain": "沒有 -p 時中間層不存在會失敗。",
+      "tags": [
+        "mkdir",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-016",
+      "type": "truefalse",
+      "q": "rmdir 可以刪除裡面還有檔案的目錄。",
+      "answer": false,
+      "explain": "rmdir 只能刪空目錄；有內容要用 rm -r。",
+      "tags": [
+        "rmdir",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-017",
+      "q": "find /etc/ -type f -iname '*network*' 中，-iname 與 -name 的差別是？",
+      "options": [
+        "-iname 只找目錄",
+        "-iname 不分大小寫，-name 分大小寫",
+        "-iname 會遞迴，-name 不會",
+        "兩者完全相同"
+      ],
+      "answer": 1,
+      "explain": "-type f 檔案、d 目錄、l 連結；-name 分大小寫、-iname 不分。",
+      "tags": [
+        "find"
+      ]
+    },
+    {
+      "id": "ch2-018",
+      "q": "find 的 -mtime -3 代表？",
+      "options": [
+        "3 天內修改過",
+        "正好 3 天前修改",
+        "超過 3 天沒修改",
+        "3 分鐘內修改"
+      ],
+      "answer": 0,
+      "explain": "n 代表 n 天前、-n 代表 n 天內；-mmin 則以分鐘計。",
+      "tags": [
+        "find"
+      ]
+    },
+    {
+      "id": "ch2-019",
+      "q": "執行 myname=bob 之後，哪個情況正確？",
+      "options": [
+        "set 與 env 都看得到",
+        "兩者都看不到",
+        "env 看得到，set 看不到",
+        "set 看得到，env 看不到，要 export myname 才會出現在 env"
+      ],
+      "answer": 3,
+      "explain": "set 列出全部變數，env 只列環境變數；一般變數要 export 才會變成環境變數。",
+      "tags": [
+        "變數",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-020",
+      "q": "自己寫的 /opt/hello 已加執行權限，但直接輸入 hello 出現 command not found，最可能的解法是？",
+      "options": [
+        "unalias hello",
+        "alias hello",
+        "export PATH=$PATH:/opt",
+        "chmod 000 /opt/hello"
+      ],
+      "answer": 2,
+      "explain": "which 依 $PATH 找指令；/opt 不在 PATH 中就找不到，把它加入 PATH 即可。",
+      "tags": [
+        "PATH",
+        "which"
+      ]
+    },
+    {
+      "id": "ch2-021",
+      "q": "執行 type cd，顯示的指令型態為？",
+      "options": [
+        "alias",
+        "shell builtin",
+        "function",
+        "一般執行檔 /usr/bin/cd"
+      ],
+      "answer": 1,
+      "explain": "type 判別指令型態：cd 是 shell builtin、ls 是 alias、which 是 function、vi 是一般執行檔。",
+      "tags": [
+        "type"
+      ]
+    },
+    {
+      "id": "ch2-022",
+      "q": "要刪除自訂的別名 myalias，應執行？",
+      "options": [
+        "unalias myalias",
+        "alias -d myalias",
+        "rm myalias",
+        "del alias myalias"
+      ],
+      "answer": 0,
+      "explain": "alias 列出／新增別名，unalias 刪除。系統預設 ll='ls -l --color=auto'、rm='rm -i'。",
+      "tags": [
+        "alias"
+      ]
+    },
+    {
+      "id": "ch2-023",
+      "q": "在 vi 中想要「不存檔強制離開」，應輸入？",
+      "options": [
+        ":wq",
+        ":w!",
+        ":x",
+        ":q!"
+      ],
+      "answer": 3,
+      "explain": ":w 存檔、:q 離開、:wq 存檔後離開、:q! 不存檔離開、:w! 強制存檔。",
+      "tags": [
+        "vi",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-024",
+      "q": "vi 一般模式下，在游標「上方」新增一行並進入編輯模式的按鍵是？",
+      "options": [
+        "o",
+        "a",
+        "O",
+        "i"
+      ],
+      "answer": 2,
+      "explain": "o 在下方新增行、O 在上方；i 在游標處編輯、a 在下一字元編輯。",
+      "tags": [
+        "vi",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch2-025",
+      "q": "vi 一般模式下，dd 與 yy 的作用分別是？",
+      "options": [
+        "dd 複製一行、yy 刪除一行",
+        "dd 刪除一行、yy 複製一行",
+        "dd 跳到最後一行、yy 跳到第一行",
+        "兩者都是貼上"
+      ],
+      "answer": 1,
+      "explain": "dd／ndd 刪行，yy／nyy 複製，p 貼在下一行、P 貼在上一行，G 跳到最後一行。",
+      "tags": [
+        "vi"
+      ]
+    },
+    {
+      "id": "ch2-026",
+      "type": "truefalse",
+      "q": "vi 開檔時會產生 .swp 暫存交換檔，若沒有正常關閉，下次開啟同一檔案會出現警告。",
+      "answer": true,
+      "explain": "未正常關閉時 .swp 會殘留。個人設定可寫在 .vimrc，例如 set number、syntax on。",
+      "tags": [
+        "vi"
+      ]
+    }
+  ]
+}

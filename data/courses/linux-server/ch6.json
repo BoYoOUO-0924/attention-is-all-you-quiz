@@ -1,0 +1,251 @@
+{
+  "questions": [
+    {
+      "id": "ch6-001",
+      "q": "作業系統中「資源分配的基本單位」是？",
+      "options": [
+        "檔案",
+        "核心模組",
+        "使用者",
+        "行程（Process）"
+      ],
+      "answer": 3,
+      "explain": "行程會取得 CPU 時間、記憶體與 I/O 等資源；記憶體不足時會用 Swap（較慢）。",
+      "tags": [
+        "行程"
+      ]
+    },
+    {
+      "id": "ch6-002",
+      "q": "ECC 記憶體的特色是什麼，適合哪種用途？",
+      "options": [
+        "速度最快，適合遊戲",
+        "容量最大，適合備份",
+        "具錯誤校正，適合資料庫等重視正確性的伺服器",
+        "可熱插拔，適合筆電"
+      ],
+      "answer": 2,
+      "explain": "ECC（Error Correction Code）可偵測並修正記憶體位元錯誤。",
+      "tags": [
+        "硬體"
+      ]
+    },
+    {
+      "id": "ch6-003",
+      "q": "uptime 顯示 load average: 1.60, 1.20, 0.80，主機有 4 核心。最近 1 分鐘的負載百分比是？",
+      "options": [
+        "16%",
+        "40%",
+        "60%",
+        "160%"
+      ],
+      "answer": 1,
+      "explain": "負載% = Load / 核心數 × 100 = 1.6 / 4 × 100 = 40%。三個數字分別是 1、5、15 分鐘。",
+      "tags": [
+        "Load Average"
+      ]
+    },
+    {
+      "id": "ch6-004",
+      "type": "truefalse",
+      "q": "Load Average 是 CPU 使用率的百分比。",
+      "answer": false,
+      "explain": "它是等待 CPU 的行程數，不是百分比；超過核心數即為過載。",
+      "tags": [
+        "Load Average",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-005",
+      "q": "系統負載很高，但 CPU 使用率很低，最可能的原因是？",
+      "options": [
+        "I/O 瓶頸（例如磁碟太慢）",
+        "CPU 太快",
+        "網卡速度太高",
+        "記憶體太多"
+      ],
+      "answer": 0,
+      "explain": "行程在等 I/O 時也會計入負載；其他可能還有記憶體滿、網路或異常行程。",
+      "tags": [
+        "Load Average",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-006",
+      "q": "grep processor /proc/cpuinfo 顯示 processor 編號 0、1、2、3，代表有幾個核心？",
+      "options": [
+        "3 核",
+        "無法判斷",
+        "8 核",
+        "4 核"
+      ],
+      "answer": 3,
+      "explain": "編號從 0 開始，0~3 共 4 核。",
+      "tags": [
+        "CPU"
+      ]
+    },
+    {
+      "id": "ch6-007",
+      "q": "用 free -h 判斷「程式還能用多少記憶體」，應看哪一欄？",
+      "options": [
+        "free",
+        "used",
+        "available",
+        "shared"
+      ],
+      "answer": 2,
+      "explain": "buff/cache 可以快速釋放給程式，所以要看 available；buff/cache 很大是正常現象。",
+      "tags": [
+        "free",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-008",
+      "type": "truefalse",
+      "q": "free 輸出中的 used 已經包含 buff/cache 的用量。",
+      "answer": false,
+      "explain": "used 不含 buff/cache。Swap used 很高才代表記憶體不足。",
+      "tags": [
+        "free",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-009",
+      "q": "df -h 顯示磁碟還有很多空間，卻無法建立新檔案，最可能是什麼原因？",
+      "options": [
+        "CPU 過載",
+        "inode 已用光（IUse% 100%）",
+        "記憶體不足",
+        "網路中斷"
+      ],
+      "answer": 1,
+      "explain": "每個檔案／目錄都佔 1 個 inode，大量小檔會把 inode 用完；用 df -i 檢查。",
+      "tags": [
+        "inode",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-010",
+      "q": "下列何者「不」記錄在 inode 裡？",
+      "options": [
+        "檔名",
+        "擁有者與群組",
+        "權限",
+        "資料區塊位置"
+      ],
+      "answer": 0,
+      "explain": "inode 記錄類型、權限、擁有者、時間戳、大小、資料區塊位置、連結數，但不含檔名。",
+      "tags": [
+        "inode",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-011",
+      "q": "iostat -dx 1 2 中，哪個欄位接近 100% 代表磁碟忙碌或速度不足？",
+      "options": [
+        "r/s",
+        "wkB/s",
+        "rkB/s",
+        "%util"
+      ],
+      "answer": 3,
+      "explain": "1 2 代表每 1 秒取樣、共 2 次；%util 是磁碟忙碌比例。",
+      "tags": [
+        "iostat"
+      ]
+    },
+    {
+      "id": "ch6-012",
+      "q": "要查看網卡 eno1 的連線速度（Speed）與是否偵測到連線（Link detected），應使用？",
+      "options": [
+        "iostat eno1",
+        "sar -n DEV 1 1",
+        "ethtool eno1",
+        "df -i"
+      ],
+      "answer": 2,
+      "explain": "ethtool 看速度、雙工與連線狀態；sar -n DEV 看 rxkB/s、txkB/s 流量。",
+      "tags": [
+        "網路"
+      ]
+    },
+    {
+      "id": "ch6-013",
+      "q": "在 top 互動畫面中，要終止某個行程應按哪個鍵？",
+      "options": [
+        "q",
+        "k",
+        "u",
+        "r"
+      ],
+      "answer": 1,
+      "explain": "q 離開、u 指定使用者、k 終止行程（輸入 PID 與訊號）、r 改優先權。",
+      "tags": [
+        "top"
+      ]
+    },
+    {
+      "id": "ch6-014",
+      "q": "kill PID 不加訊號參數時，預設送出的訊號是？",
+      "options": [
+        "15 SIGTERM",
+        "9 SIGKILL",
+        "2 SIGINT",
+        "1 SIGHUP"
+      ],
+      "answer": 0,
+      "explain": "預設 15 SIGTERM，請程式自行結束並清理資源；無效時才用 kill -9 強制終止。Ctrl+C 送的是 2 SIGINT。",
+      "tags": [
+        "kill",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch6-015",
+      "q": "ps aux 的 STAT 欄出現 Z，代表行程處於什麼狀態？",
+      "options": [
+        "執行中",
+        "睡眠",
+        "停止",
+        "殭屍（Zombie）"
+      ],
+      "answer": 3,
+      "explain": "R 執行、S 睡眠、Z 殭屍。",
+      "tags": [
+        "ps"
+      ]
+    },
+    {
+      "id": "ch6-016",
+      "type": "truefalse",
+      "q": "ps auxf 可以用樹狀方式顯示父子行程的關係，例如 nginx master 與 worker。",
+      "answer": true,
+      "explain": "f 參數顯示樹狀結構，可看出 master（root）底下的 worker 子行程。",
+      "tags": [
+        "ps"
+      ]
+    },
+    {
+      "id": "ch6-017",
+      "q": "top -b -n 1 中的 -b 與 -n 1 是什麼意思？",
+      "options": [
+        "背景執行、每 1 秒更新",
+        "只顯示 1 個行程",
+        "批次模式、只執行一次",
+        "以 bytes 顯示、第 1 頁"
+      ],
+      "answer": 2,
+      "explain": "批次模式才能搭配 head、tail、grep 等指令擷取輸出。",
+      "tags": [
+        "top"
+      ]
+    }
+  ]
+}

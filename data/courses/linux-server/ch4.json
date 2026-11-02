@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "id": "ch4-001",
+      "q": "權限 rwxr-xr-- 換成八進位數字是？",
+      "options": [
+        "755",
+        "744",
+        "754",
+        "644"
+      ],
+      "answer": 2,
+      "explain": "r=4、w=2、x=1：rwx=7、r-x=5、r--=4，所以是 754（講義寫成 75r 是筆誤）。",
+      "tags": [
+        "八進位",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch4-002",
+      "q": "權限 644 代表？",
+      "options": [
+        "rwxr--r--",
+        "rw-r--r--",
+        "rw-rw-r--",
+        "r--r--r--"
+      ],
+      "answer": 1,
+      "explain": "6=rw-、4=r--。",
+      "tags": [
+        "八進位"
+      ]
+    },
+    {
+      "id": "ch4-003",
+      "q": "對「目錄」而言，w 權限代表什麼？",
+      "options": [
+        "可以在目錄內新增或刪除檔案",
+        "可以修改目錄名稱",
+        "可以進入目錄",
+        "可以列出目錄內容"
+      ],
+      "answer": 0,
+      "explain": "目錄的 r＝列出清單、w＝新增刪除檔案、x＝進入（cd）。",
+      "tags": [
+        "目錄權限",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch4-004",
+      "type": "truefalse",
+      "q": "目錄權限只有 --x 時，使用者可以 cd 進入，但無法用 ls 列出內容。",
+      "answer": true,
+      "explain": "x 允許進入，r 才能列清單；r-x 才能進入又能列出。",
+      "tags": [
+        "目錄權限"
+      ]
+    },
+    {
+      "id": "ch4-005",
+      "q": "一個 shell script 要能被執行（./run.sh），至少需要哪些權限？",
+      "options": [
+        "只要 x",
+        "只要 r",
+        "w 與 x",
+        "r 與 x"
+      ],
+      "answer": 3,
+      "explain": "script 要先被讀取內容才能執行，所以需要 r＋x。",
+      "tags": [
+        "檔案權限",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch4-006",
+      "q": "UGO 中的 o 代表？",
+      "options": [
+        "owner 擁有者",
+        "only root",
+        "other 其他人",
+        "online 使用者"
+      ],
+      "answer": 2,
+      "explain": "u＝擁有者、g＝群組、o＝其他人。",
+      "tags": [
+        "UGO"
+      ]
+    },
+    {
+      "id": "ch4-007",
+      "q": "下列 chmod 寫法何者「錯誤」？",
+      "options": [
+        "chmod 755 f",
+        "chmod u=rwx, g=rwx, o=--- grp1",
+        "chmod u+x f",
+        "chmod o=r f"
+      ],
+      "answer": 1,
+      "explain": "符號式設定用逗號連接時，逗號前後不可以有空白，應寫成 u=rwx,g=rwx,o=---。",
+      "tags": [
+        "chmod",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch4-008",
+      "q": "要把 grp1 目錄及其底下所有檔案的群組都改成 grp1，應執行？",
+      "options": [
+        "chgrp -R grp1 grp1/",
+        "chmod -R grp1 grp1/",
+        "chown grp1 grp1/",
+        "gpasswd -a grp1 grp1/"
+      ],
+      "answer": 0,
+      "explain": "chgrp 改群組，-R 遞迴；chown 使用者:群組 可同時改擁有者與群組。",
+      "tags": [
+        "chgrp"
+      ]
+    },
+    {
+      "id": "ch4-009",
+      "q": "權限應用 LAB 中，grp1 目錄要「只有群組成員可讀寫、其他人無權限」，對應的數字權限是？",
+      "options": [
+        "777",
+        "775",
+        "750",
+        "770"
+      ],
+      "answer": 3,
+      "explain": "public＝777（所有人可寫）、grp1＝770、grp2＝775（他人可讀）。設定完別忘了 chgrp 改群組。",
+      "tags": [
+        "權限 LAB"
+      ]
+    },
+    {
+      "id": "ch4-010",
+      "type": "truefalse",
+      "q": "權限 LAB 中，只要 chmod 設好 770，不需要改目錄群組，grp1 成員就能寫入。",
+      "answer": false,
+      "explain": "目錄群組仍是 root 時，770 的群組權限只給 root 群組；要 chgrp -R grp1 grp1/ 後 grp1 成員才能寫入。",
+      "tags": [
+        "權限 LAB",
+        "易錯"
+      ]
+    }
+  ]
+}

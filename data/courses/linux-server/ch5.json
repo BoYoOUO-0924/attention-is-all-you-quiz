@@ -1,0 +1,133 @@
+{
+  "questions": [
+    {
+      "id": "ch5-001",
+      "q": "stderr（錯誤輸出）的代號是？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explain": "0＝stdin、1＝stdout、2＝stderr。",
+      "tags": [
+        "標準輸出入"
+      ]
+    },
+    {
+      "id": "ch5-002",
+      "q": "ls -lh sample > stdout.txt 連續執行 3 次後，stdout.txt 有幾行？",
+      "options": [
+        "0 行",
+        "1 行",
+        "3 行",
+        "6 行"
+      ],
+      "answer": 1,
+      "explain": "> 每次都先清空再寫入；要累加必須用 >>。",
+      "tags": [
+        "重導",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch5-003",
+      "q": "要把一般輸出與錯誤輸出「都」存到 log.txt，正確寫法是？",
+      "options": [
+        "ls sample2 > log.txt 2>&1",
+        "ls sample2 2>&1 > log.txt",
+        "ls sample2 > log.txt 2 > &1",
+        "ls sample2 | log.txt"
+      ],
+      "answer": 0,
+      "explain": "2>&1 要寫在 > log.txt 之後，代表把 stderr 導向 stdout 目前所指的檔案；2 與 > 之間也不能有空白。",
+      "tags": [
+        "重導",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch5-004",
+      "type": "truefalse",
+      "q": "管線 | 只會把前一個指令的 stdout 傳給下一個指令，stderr 預設不會流過管線。",
+      "answer": true,
+      "explain": "stderr 會直接顯示在螢幕；要讓錯誤也進管線需寫 2>&1 |。",
+      "tags": [
+        "管線",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch5-005",
+      "q": "執行 ls sample2 > stdout.txt 2>stderr.txt（sample2 不存在），結果為？",
+      "options": [
+        "兩個檔案都有錯誤訊息",
+        "兩個檔案都不會建立",
+        "stdout.txt 有錯誤訊息，stderr.txt 為空",
+        "stdout.txt 為空，錯誤訊息在 stderr.txt"
+      ],
+      "answer": 3,
+      "explain": "檔案不存在時沒有一般輸出，錯誤訊息被 2> 導到 stderr.txt；stdout.txt 仍會被建立（空檔）。",
+      "tags": [
+        "重導"
+      ]
+    },
+    {
+      "id": "ch5-006",
+      "q": "grep root < sample 與 grep root sample 的差異是？",
+      "options": [
+        "結果不同",
+        "前者會修改檔案",
+        "前者由 shell 透過 stdin 把檔案內容餵給 grep，後者由 grep 自己開檔",
+        "前者只能用在 root 帳號"
+      ],
+      "answer": 2,
+      "explain": "兩者結果相同，差別在誰開檔；cat sample | grep root 則是透過管線傳遞。",
+      "tags": [
+        "stdin"
+      ]
+    },
+    {
+      "id": "ch5-007",
+      "q": "要把錯誤訊息「附加」到 err.log 後面而不覆蓋，應使用？",
+      "options": [
+        "2> err.log",
+        "2>> err.log",
+        ">> err.log",
+        "1>> err.log"
+      ],
+      "answer": 1,
+      "explain": "2>> 附加 stderr；>> 只附加 stdout。",
+      "tags": [
+        "重導"
+      ]
+    },
+    {
+      "id": "ch5-008",
+      "type": "truefalse",
+      "q": "使用 > 重導時，若目標檔案不存在，shell 會自動建立該檔案。",
+      "answer": true,
+      "explain": "> 不存在就建立，存在就清空後寫入。",
+      "tags": [
+        "重導"
+      ]
+    },
+    {
+      "id": "ch5-009",
+      "q": "find /etc/ -type f | xargs grep -E '[0-9a-f]{8}-...' 2>/dev/null 中，2>/dev/null 的作用是？",
+      "options": [
+        "丟棄錯誤訊息（例如權限不足）",
+        "把結果存到 /dev/null 資料夾",
+        "只保留錯誤訊息",
+        "加快搜尋速度"
+      ],
+      "answer": 0,
+      "explain": "/dev/null 是黑洞，把 stderr 導過去就不會顯示在畫面；xargs 把前面的檔名清單轉成 grep 的參數。",
+      "tags": [
+        "重導",
+        "xargs"
+      ]
+    }
+  ]
+}

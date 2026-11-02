@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "id": "ch8-001",
+      "q": "日誌式檔案系統（Journaling）的主要好處是？",
+      "options": [
+        "檔案自動壓縮",
+        "不需要格式化",
+        "變更先寫入日誌再套用，斷電後能恢復一致性",
+        "可以不用掛載"
+      ],
+      "answer": 2,
+      "explain": "ext3、ext4、XFS、NTFS、HFS+ 都是日誌式檔案系統。",
+      "tags": [
+        "檔案系統"
+      ]
+    },
+    {
+      "id": "ch8-002",
+      "q": "XFS 是從哪一版 RHEL 開始成為預設檔案系統？其特色為何？",
+      "options": [
+        "RHEL 5，只支援小檔案",
+        "RHEL 7，適合大檔案、高吞吐、可線上擴充",
+        "RHEL 9，不支援日誌",
+        "RHEL 6，只能唯讀"
+      ],
+      "answer": 1,
+      "explain": "XFS 自 RHEL 7 起為預設，支援大檔案、高吞吐量與線上擴充。",
+      "tags": [
+        "XFS"
+      ]
+    },
+    {
+      "id": "ch8-003",
+      "q": "新增一顆磁碟後，第一步用來找出新磁碟（例如 sdb）的指令是？",
+      "options": [
+        "lsblk",
+        "mkfs.xfs",
+        "mount -a",
+        "blkid"
+      ],
+      "answer": 0,
+      "explain": "流程：lsblk 找磁碟 → mkfs.xfs /dev/sdb 格式化 → mkdir 掛載點 → mount → df -h 確認。",
+      "tags": [
+        "掛載流程"
+      ]
+    },
+    {
+      "id": "ch8-004",
+      "q": "下列新磁碟掛載流程的順序，何者正確？",
+      "options": [
+        "mount → mkfs.xfs → mkdir",
+        "mount -a → mkfs.xfs → lsblk",
+        "mkdir → mount → mkfs.xfs",
+        "mkfs.xfs → mkdir 掛載點 → mount"
+      ],
+      "answer": 3,
+      "explain": "要先格式化，再建立掛載點目錄，最後 mount /dev/sdb /mydata/。",
+      "tags": [
+        "掛載流程"
+      ]
+    },
+    {
+      "id": "ch8-005",
+      "type": "truefalse",
+      "q": "/etc/fstab 寫錯可能導致系統開機失敗，所以修改前應先備份。",
+      "answer": true,
+      "explain": "先 cp -a /etc/fstab /etc/fstab_backup，改完用 mount -a 測試。",
+      "tags": [
+        "fstab",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch8-006",
+      "q": "要查詢 /dev/sdb 的 UUID 以寫入 fstab，應使用？",
+      "options": [
+        "lsblk -u",
+        "df -i",
+        "blkid /dev/sdb",
+        "uuid /dev/sdb"
+      ],
+      "answer": 2,
+      "explain": "blkid 顯示 UUID 與檔案系統類型。",
+      "tags": [
+        "fstab"
+      ]
+    },
+    {
+      "id": "ch8-007",
+      "q": "fstab 中 UUID=xxxx /mydata xfs defaults 0 0 的欄位依序是？",
+      "options": [
+        "掛載點｜裝置｜選項｜檔案系統｜大小｜權限",
+        "裝置｜掛載點｜檔案系統｜選項｜dump｜fsck 順序",
+        "裝置｜檔案系統｜掛載點｜擁有者｜群組｜權限",
+        "UUID｜大小｜類型｜日期｜dump｜fsck"
+      ],
+      "answer": 1,
+      "explain": "fstab 共 6 欄。",
+      "tags": [
+        "fstab"
+      ]
+    },
+    {
+      "id": "ch8-008",
+      "q": "卸載 /mydata 的正確指令是？",
+      "options": [
+        "umount /mydata",
+        "unmount /mydata",
+        "mount -u /mydata",
+        "rm /mydata"
+      ],
+      "answer": 0,
+      "explain": "指令是 umount（沒有 n）；而且不能人在 /mydata 裡面卸載，要先 cd /。",
+      "tags": [
+        "umount",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch8-009",
+      "q": "修改 fstab 後，不重開機就能測試設定是否正確的指令是？",
+      "options": [
+        "df -a",
+        "fsck /etc/fstab",
+        "systemctl restart fstab",
+        "mount -a"
+      ],
+      "answer": 3,
+      "explain": "mount -a 會依 fstab 掛載所有項目，有錯會立即顯示；修改後也要 systemctl daemon-reload。",
+      "tags": [
+        "fstab"
+      ]
+    },
+    {
+      "id": "ch8-010",
+      "q": "虛擬機把磁碟從 2G 加大到 3G，lsblk 已顯示 3G 但 df 仍是 2G，應執行？",
+      "options": [
+        "mkfs.xfs /dev/sdb",
+        "umount 後 xfs_growfs /dev/sdb",
+        "xfs_growfs /mydata",
+        "resize2fs /mydata"
+      ],
+      "answer": 2,
+      "explain": "xfs_growfs 必須在已掛載狀態下執行，參數是掛載點；重新格式化會清掉資料。",
+      "tags": [
+        "xfs_growfs",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch8-011",
+      "type": "truefalse",
+      "q": "inode（Index node）就像檔案的身分證，記錄大小、類型、權限、擁有者與指向資料區塊的指標。",
+      "answer": true,
+      "explain": "索引式檔案系統（ext3/ext4/xfs）透過 inode 快速找到檔案資料。",
+      "tags": [
+        "inode"
+      ]
+    }
+  ]
+}

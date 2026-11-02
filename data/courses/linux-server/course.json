@@ -1,0 +1,139 @@
+{
+  "id": "linux-server",
+  "code": "課程 115",
+  "name": "伺服器架設與規劃",
+  "desc": "依課程講義 CH1–CH11 出題（Rocky Linux 9），涵蓋檔案操作、帳號權限、重導管線、資源行程、時間排程、磁碟、網路、套件與服務日誌。",
+  "units": [
+    {
+      "id": "ch1",
+      "name": "CH1 Linux 與發行版",
+      "sub": "Linux 核心、GPL、發行版與安裝",
+      "topics": [
+        "Kernel",
+        "GPL",
+        "發行版",
+        "Rocky Linux 安裝"
+      ],
+      "file": "ch1.json"
+    },
+    {
+      "id": "ch2",
+      "name": "CH2 檔案與目錄",
+      "sub": "Shell、檔案操作、grep/awk/sed、FHS、find、變數、vi",
+      "topics": [
+        "檔案操作",
+        "grep / awk / sed",
+        "目錄結構",
+        "find / which / type",
+        "vi"
+      ],
+      "file": "ch2.json"
+    },
+    {
+      "id": "ch3",
+      "name": "CH3 使用者與群組",
+      "sub": "passwd/shadow/group、帳號與群組管理、su/sudo",
+      "topics": [
+        "帳號檔案",
+        "useradd / usermod",
+        "groupadd / gpasswd",
+        "批次建帳號",
+        "su / sudo"
+      ],
+      "file": "ch3.json"
+    },
+    {
+      "id": "ch4",
+      "name": "CH4 檔案目錄權限",
+      "sub": "UGO、rwx、chmod / chown / chgrp",
+      "topics": [
+        "UGO",
+        "八進位權限",
+        "目錄權限",
+        "chmod / chgrp"
+      ],
+      "file": "ch4.json"
+    },
+    {
+      "id": "ch5",
+      "name": "CH5 重導與管線",
+      "sub": "stdin / stdout / stderr、>、>>、2>&1、|",
+      "topics": [
+        "標準輸入輸出",
+        "重導",
+        "管線"
+      ],
+      "file": "ch5.json"
+    },
+    {
+      "id": "ch6",
+      "name": "CH6 系統資源與行程",
+      "sub": "top、Load Average、free、df / iostat、ps / kill",
+      "topics": [
+        "系統負載",
+        "記憶體",
+        "磁碟與網路",
+        "行程與訊號"
+      ],
+      "file": "ch6.json"
+    },
+    {
+      "id": "ch7",
+      "name": "CH7 時間、校時與排程",
+      "sub": "timedatectl、hwclock、chrony、cron",
+      "topics": [
+        "時區與時間格式",
+        "RTC",
+        "NTP / chrony",
+        "cron 排程"
+      ],
+      "file": "ch7.json"
+    },
+    {
+      "id": "ch8",
+      "name": "CH8 磁碟管理",
+      "sub": "檔案系統、mkfs.xfs、mount、fstab、xfs_growfs",
+      "topics": [
+        "檔案系統",
+        "格式化與掛載",
+        "fstab",
+        "延伸空間"
+      ],
+      "file": "ch8.json"
+    },
+    {
+      "id": "ch9",
+      "name": "CH9 網路工具與設定",
+      "sub": "ping、ss、host、traceroute、nmtui、nmcli",
+      "topics": [
+        "網路診斷工具",
+        "NetworkManager",
+        "nmtui / nmcli"
+      ],
+      "file": "ch9.json"
+    },
+    {
+      "id": "ch10",
+      "name": "CH10 套件管理",
+      "sub": "rpm、yum、dnf、Repository",
+      "topics": [
+        "rpm",
+        "dnf",
+        "Repository 設定"
+      ],
+      "file": "ch10.json"
+    },
+    {
+      "id": "ch11",
+      "name": "CH11 服務與日誌",
+      "sub": "systemd、systemctl、SYSLOG、journalctl、logger",
+      "topics": [
+        "systemd",
+        "systemctl",
+        "SYSLOG 層級",
+        "journalctl / rsyslog"
+      ],
+      "file": "ch11.json"
+    }
+  ]
+}

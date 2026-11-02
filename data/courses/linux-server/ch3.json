@@ -1,0 +1,242 @@
+{
+  "questions": [
+    {
+      "id": "ch3-001",
+      "q": "/etc/passwd 每一行有幾個欄位？",
+      "options": [
+        "7 欄",
+        "6 欄",
+        "4 欄",
+        "9 欄"
+      ],
+      "answer": 0,
+      "explain": "帳號:x:UID:主要GID:說明:家目錄:登入Shell，共 7 欄（6 個冒號）。",
+      "tags": [
+        "passwd"
+      ]
+    },
+    {
+      "id": "ch3-002",
+      "q": "在 root:x:0:0:root:/root:/bin/bash 中，第 2 欄的 x 代表？",
+      "options": [
+        "帳號已停用",
+        "可執行權限",
+        "沒有密碼",
+        "密碼已移到 /etc/shadow"
+      ],
+      "answer": 3,
+      "explain": "加密後的密碼存放在 /etc/shadow（SHA-512），passwd 只留 x。",
+      "tags": [
+        "passwd"
+      ]
+    },
+    {
+      "id": "ch3-003",
+      "q": "/etc/shadow 有幾個欄位？",
+      "options": [
+        "4 欄",
+        "7 欄",
+        "9 欄",
+        "8 欄"
+      ],
+      "answer": 2,
+      "explain": "帳號、加密密碼、上次變更日（自 1970-01-01 起天數）、幾天內不可改、幾天後必須改、到期前警告天數、到期後停用天數、帳號失效日、保留，共 9 欄。",
+      "tags": [
+        "shadow"
+      ]
+    },
+    {
+      "id": "ch3-004",
+      "q": "/etc/group 的第 3 欄 GID，對應到 /etc/passwd 的第幾欄？",
+      "options": [
+        "第 1 欄",
+        "第 4 欄",
+        "第 3 欄",
+        "第 7 欄"
+      ],
+      "answer": 1,
+      "explain": "/etc/group 共 4 欄：群組名:密碼:GID:成員；GID 對應 passwd 第 4 欄的主要群組 GID。",
+      "tags": [
+        "group",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-005",
+      "q": "新建帳號時，家目錄中的預設檔案是從哪裡複製來的？",
+      "options": [
+        "/etc/skel/",
+        "/etc/login.defs",
+        "/home/default/",
+        "/root/"
+      ],
+      "answer": 0,
+      "explain": "/etc/skel/ 是家目錄範本；/etc/login.defs 定義密碼期限、UID/GID 範圍、加密方式等預設值。",
+      "tags": [
+        "skel",
+        "login.defs"
+      ]
+    },
+    {
+      "id": "ch3-006",
+      "q": "執行 useradd user1 後，系統預設會做什麼？",
+      "options": [
+        "只新增帳號，不建家目錄",
+        "把 user1 加入 wheel 群組",
+        "自動設定密碼為 user1",
+        "建立同名群組並建立 /home/user1"
+      ],
+      "answer": 3,
+      "explain": "會自動建同名主要群組與家目錄；但沒有密碼，要再執行 passwd user1 才能登入。",
+      "tags": [
+        "useradd"
+      ]
+    },
+    {
+      "id": "ch3-007",
+      "type": "truefalse",
+      "q": "一個帳號只能有一個主要群組，但可以加入多個次要群組。",
+      "answer": true,
+      "explain": "主要群組用 useradd -g / usermod -g 設定，次要群組用 gpasswd -a 加入。",
+      "tags": [
+        "群組"
+      ]
+    },
+    {
+      "id": "ch3-008",
+      "q": "要讓 user1 的密碼「最長有效 90 天」，應執行？",
+      "options": [
+        "chage -m 90 user1",
+        "passwd -M 90 user1",
+        "chage -M 90 user1",
+        "usermod -M 90 user1"
+      ],
+      "answer": 2,
+      "explain": "大 M 是最長有效天數；小 m 是至少隔幾天才能再改（例 chage -m 2）。",
+      "tags": [
+        "chage",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-009",
+      "q": "root 用 passwd 幫別人設定一個不符合密碼原則的密碼，結果會如何？",
+      "options": [
+        "設定失敗",
+        "仍會成功，只出現 BAD PASSWORD 警告",
+        "帳號被鎖定",
+        "系統自動產生新密碼"
+      ],
+      "answer": 1,
+      "explain": "一般使用者只能改自己且不符原則會失敗；root 可改所有人，不符原則也會成功。",
+      "tags": [
+        "passwd",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-010",
+      "q": "要暫時鎖定（留職停薪）帳號 user1，應使用？",
+      "options": [
+        "usermod -L user1",
+        "usermod -U user1",
+        "userdel user1",
+        "usermod -g lock user1"
+      ],
+      "answer": 0,
+      "explain": "-L 鎖定、-U 解鎖。",
+      "tags": [
+        "usermod"
+      ]
+    },
+    {
+      "id": "ch3-011",
+      "type": "truefalse",
+      "q": "執行 userdel user1（不加參數）時，/home/user1 家目錄也會一起被刪除。",
+      "answer": false,
+      "explain": "家目錄會留下；要連家目錄一起刪要用 userdel -r。",
+      "tags": [
+        "userdel",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-012",
+      "q": "先 useradd -g grp2 user2，再執行 groupdel grp2，結果會？",
+      "options": [
+        "成功，user2 自動改到 users 群組",
+        "失敗，因為群組名稱不能有數字",
+        "成功，user2 被一起刪除",
+        "失敗，因為 grp2 是 user2 的主要群組"
+      ],
+      "answer": 3,
+      "explain": "主要群組不能刪；要先 userdel -r user2 再 groupdel。若只是次要群組，刪除後成員會自動移除。",
+      "tags": [
+        "groupdel",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-013",
+      "q": "要把 user1 加入次要群組 staff，應執行？",
+      "options": [
+        "groupadd user1 staff",
+        "gpasswd -d user1 staff",
+        "gpasswd -a user1 staff",
+        "usermod -g staff user1"
+      ],
+      "answer": 2,
+      "explain": "gpasswd -a 加入、-d 移出；usermod -g 改的是主要群組。",
+      "tags": [
+        "gpasswd"
+      ]
+    },
+    {
+      "id": "ch3-014",
+      "q": "大量建立帳號 LAB 中，用來「依清單批次建立帳號」與「批次改密碼」的指令分別是？",
+      "options": [
+        "useradd、passwd",
+        "newusers < userlist、cat newpass.txt | chpasswd",
+        "chpasswd、newusers",
+        "groupadd、gpasswd"
+      ],
+      "answer": 1,
+      "explain": "userlist 格式同 passwd，但第 2 欄放明碼；newpass.txt 格式為 帳號:新密碼。",
+      "tags": [
+        "newusers",
+        "chpasswd"
+      ]
+    },
+    {
+      "id": "ch3-015",
+      "q": "關於 su - 與 sudo 需要輸入的密碼，何者正確？",
+      "options": [
+        "su - 輸入 root 密碼；sudo 輸入自己的密碼",
+        "兩者都輸入 root 密碼",
+        "su - 輸入自己的密碼；sudo 輸入 root 密碼",
+        "兩者都不需要密碼"
+      ],
+      "answer": 0,
+      "explain": "su 輸入目標帳號的密碼；sudo 輸入自己的密碼，執行完就回到原本權限。",
+      "tags": [
+        "su / sudo",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch3-016",
+      "q": "在 EL（Rocky Linux）中，一般使用者要能使用 sudo，必須屬於哪個群組？",
+      "options": [
+        "root",
+        "admin",
+        "sudoers",
+        "wheel"
+      ],
+      "answer": 3,
+      "explain": "EL 系列預設 wheel 群組成員可以 sudo。",
+      "tags": [
+        "sudo"
+      ]
+    }
+  ]
+}

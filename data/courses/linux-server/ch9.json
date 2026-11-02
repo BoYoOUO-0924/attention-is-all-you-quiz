@@ -1,0 +1,163 @@
+{
+  "questions": [
+    {
+      "id": "ch9-001",
+      "q": "在 Linux 執行 ping example.com 但沒有加 -c，會發生什麼事？",
+      "options": [
+        "送 4 個封包後結束",
+        "持續 ping 直到按 Ctrl+C",
+        "出現語法錯誤",
+        "只送 1 個封包"
+      ],
+      "answer": 1,
+      "explain": "Windows 預設 4 次，Linux 會一直送；ping -c 4 才會送 4 個。ping 使用 ICMP 協定。",
+      "tags": [
+        "ping",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch9-002",
+      "type": "truefalse",
+      "q": "ping 一台 Web 伺服器失敗，就代表該主機已經關機。",
+      "answer": false,
+      "explain": "防火牆可能擋掉 ICMP；Web 服務應改用 curl 測試。",
+      "tags": [
+        "ping",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch9-003",
+      "q": "ss -ntulp 中，-l 參數的意義是？",
+      "options": [
+        "只顯示監聽中（LISTEN）的埠",
+        "列出全部連線",
+        "顯示行程名稱",
+        "以長格式顯示"
+      ],
+      "answer": 0,
+      "explain": "-t TCP、-u UDP、-l 監聽中、-n 以數字顯示不解析名稱、-p 顯示行程。ss 用來取代 netstat。",
+      "tags": [
+        "ss"
+      ]
+    },
+    {
+      "id": "ch9-004",
+      "q": "host 指令查詢結果中的 AAAA 紀錄代表？",
+      "options": [
+        "IPv4 位址",
+        "反向解析",
+        "郵件伺服器",
+        "IPv6 位址"
+      ],
+      "answer": 3,
+      "explain": "A＝IPv4、AAAA＝IPv6；用 IP 查名稱是反解（PTR），查不到會出現 NXDOMAIN。",
+      "tags": [
+        "host",
+        "DNS"
+      ]
+    },
+    {
+      "id": "ch9-005",
+      "q": "host、nslookup、dig 這些 DNS 工具屬於哪個套件？",
+      "options": [
+        "net-tools",
+        "iproute",
+        "bind-utils",
+        "NetworkManager"
+      ],
+      "answer": 2,
+      "explain": "在 EL 系列需安裝 bind-utils。host example.com 8.8.8.8 可指定 DNS 伺服器查詢。",
+      "tags": [
+        "DNS"
+      ]
+    },
+    {
+      "id": "ch9-006",
+      "q": "traceroute -n 的 -n 參數作用是？",
+      "options": [
+        "使用 TCP SYN",
+        "只顯示 IP，不做名稱解析",
+        "使用 ICMP",
+        "指定 port"
+      ],
+      "answer": 1,
+      "explain": "-I 用 ICMP、-T 用 TCP SYN、-p 指定 port、-n 只顯示 IP。",
+      "tags": [
+        "traceroute"
+      ]
+    },
+    {
+      "id": "ch9-007",
+      "type": "truefalse",
+      "q": "在 Rocky Linux 中，建議直接手動修改 /etc/sysconfig/network-scripts/ 與 /etc/resolv.conf 來設定 IP 與 DNS。",
+      "answer": false,
+      "explain": "EL7 起由 NetworkManager 管理網路，建議用 nmtui 或 nmcli 設定，不要手改。",
+      "tags": [
+        "NetworkManager"
+      ]
+    },
+    {
+      "id": "ch9-008",
+      "q": "用 nmtui 設定固定 IP 時，IPv4 CONFIGURATION 應改為？",
+      "options": [
+        "Manual",
+        "Automatic",
+        "Link-Local",
+        "Disabled"
+      ],
+      "answer": 0,
+      "explain": "改 Manual 後填入 172.16.X.31/24，並勾選 Automatically connect。",
+      "tags": [
+        "nmtui"
+      ]
+    },
+    {
+      "id": "ch9-009",
+      "q": "nmtui 改完 IP 後，要讓設定生效應怎麼做？",
+      "options": [
+        "什麼都不用做",
+        "執行 hwclock -w",
+        "執行 mount -a",
+        "在 Activate a connection 中先 Deactivate 再 Activate"
+      ],
+      "answer": 3,
+      "explain": "重新啟用連線才會套用；遠端操作會斷線，所以要在主控台做，最後用 ip addr 確認 inet。",
+      "tags": [
+        "nmtui",
+        "易錯"
+      ]
+    },
+    {
+      "id": "ch9-010",
+      "q": "nmcli 設定固定 IP 時，哪個參數代表「使用手動固定 IP」？",
+      "options": [
+        "ipv4.method auto",
+        "connection.autoconnect yes",
+        "ipv4.method manual",
+        "ipv4.dns 8.8.8.8"
+      ],
+      "answer": 2,
+      "explain": "ipv4.method manual 才是固定 IP；設定後用 nmcli connection up 介面名 套用。",
+      "tags": [
+        "nmcli"
+      ]
+    },
+    {
+      "id": "ch9-011",
+      "q": "子網路遮罩 255.255.255.0 用 CIDR 表示為？",
+      "options": [
+        "/8",
+        "/24",
+        "/16",
+        "/32"
+      ],
+      "answer": 1,
+      "explain": "前 24 個位元為 1，所以是 /24，例如 192.168.1.30/24。",
+      "tags": [
+        "IP"
+      ]
+    }
+  ]
+}

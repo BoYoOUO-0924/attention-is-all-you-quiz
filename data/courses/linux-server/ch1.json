@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "id": "ch1-001",
+      "q": "Linux 核心是由誰在哪一年開始開發的？",
+      "options": [
+        "Richard Stallman，1984 年",
+        "Linus Torvalds，2001 年",
+        "Ken Thompson，1969 年",
+        "Linus Torvalds，1991 年"
+      ],
+      "answer": 3,
+      "explain": "Linux 核心由 Linus Torvalds 於 1991 年開發，以 GPL 授權，官方網站為 kernel.org。",
+      "tags": [
+        "Kernel"
+      ]
+    },
+    {
+      "id": "ch1-002",
+      "type": "truefalse",
+      "q": "Linux 核心本身就是一套完整的作業系統，不需要其他函式庫與工具程式。",
+      "answer": false,
+      "explain": "核心是應用程式與硬體之間的橋樑，要加上函式庫、系統工具與應用程式（也就是發行版）才是完整可用的 OS。",
+      "tags": [
+        "Kernel"
+      ]
+    },
+    {
+      "id": "ch1-003",
+      "q": "關於 GPL 授權，下列敘述何者正確？",
+      "options": [
+        "修改後的成品可以改成封閉授權販售",
+        "只允許非營利用途",
+        "修改後的成品也必須以 GPL 發佈並公開原始碼",
+        "只限個人使用，不得散布"
+      ],
+      "answer": 2,
+      "explain": "GPL 要求衍生作品同樣以 GPL 發佈、公開原始碼。",
+      "tags": [
+        "GPL"
+      ]
+    },
+    {
+      "id": "ch1-004",
+      "q": "Linux 發行版（Distribution）的組成是？",
+      "options": [
+        "只有核心",
+        "核心＋系統工具＋應用程式",
+        "只有圖形介面",
+        "核心＋驅動程式，不含任何工具"
+      ],
+      "answer": 1,
+      "explain": "發行版＝核心＋系統工具＋應用程式，由不同團隊打包發佈。",
+      "tags": [
+        "發行版"
+      ]
+    },
+    {
+      "id": "ch1-005",
+      "q": "本課程使用的 Rocky Linux 9，與下列哪一套發行版的原始碼來源相同？",
+      "options": [
+        "RHEL（Red Hat Enterprise Linux）",
+        "Arch Linux",
+        "Ubuntu",
+        "OpenWrt"
+      ],
+      "answer": 0,
+      "explain": "Rocky Linux 由 RHEL 原始碼重新編譯，創辦人也曾主導 CentOS；同家族還有 AlmaLinux、Oracle Linux。",
+      "tags": [
+        "Rocky Linux"
+      ]
+    },
+    {
+      "id": "ch1-006",
+      "q": "下列發行版與用途的配對，何者錯誤？",
+      "options": [
+        "RHEL－企業伺服器，安全穩定",
+        "Ubuntu－桌面使用，易上手",
+        "OpenWrt－嵌入式（路由器）",
+        "Manjaro－源自 CentOS 的企業版"
+      ],
+      "answer": 3,
+      "explain": "Manjaro 源自 Arch；源自 CentOS 的是 CloudLinux。",
+      "tags": [
+        "發行版"
+      ]
+    },
+    {
+      "id": "ch1-007",
+      "q": "安裝 Rocky Linux 時，課堂在 Software Selection 選擇的是？",
+      "options": [
+        "Server with GUI",
+        "Workstation",
+        "Minimal Install",
+        "Custom Operating System"
+      ],
+      "answer": 2,
+      "explain": "安裝流程：語系 → 時區 → Software Selection 選 Minimal Install → 安裝位置 Automatic → 設 Root 密碼 → Begin Installation → Reboot。",
+      "tags": [
+        "安裝"
+      ]
+    },
+    {
+      "id": "ch1-008",
+      "type": "truefalse",
+      "q": "企業選擇發行版的原則包含：通用性高、可做成標準 SOP、技術支援容易取得。",
+      "answer": true,
+      "explain": "講義列出的企業選版原則就是這三項。",
+      "tags": [
+        "發行版"
+      ]
+    }
+  ]
+}
