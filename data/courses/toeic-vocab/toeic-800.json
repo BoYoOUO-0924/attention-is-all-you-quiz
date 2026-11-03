@@ -1,0 +1,3268 @@
+{
+  "questions": [
+    {
+      "id": "t800-001",
+      "q": "「adhere」（v.）的中文意思是？",
+      "options": [
+        "失效；中止",
+        "遵守；黏附",
+        "加快處理",
+        "外包"
+      ],
+      "answer": 1,
+      "explain": "adhere（v.）＝遵守；黏附。例句：All staff must adhere to the safety guidelines.（所有員工都必須遵守安全準則。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-002",
+      "q": "「遵守；黏附」（動詞）的英文是？",
+      "options": [
+        "adhere",
+        "outsource",
+        "lapse",
+        "expedite"
+      ],
+      "answer": 0,
+      "explain": "adhere（v.）＝遵守；黏附。其他選項：outsource＝外包；expedite＝加快處理；lapse＝失效；中止。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-003",
+      "q": "All staff must _____ to the safety guidelines.",
+      "options": [
+        "inhere",
+        "adherence",
+        "adhesive",
+        "adhere"
+      ],
+      "answer": 3,
+      "explain": "答案是 adhere。adhere（v.）＝遵守；黏附。所有員工都必須遵守安全準則。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-004",
+      "q": "「ambiguous」（adj.）的中文意思是？",
+      "options": [
+        "相關的；中肯的",
+        "過時的；淘汰的",
+        "模稜兩可的",
+        "臨時的；過渡期的"
+      ],
+      "answer": 2,
+      "explain": "ambiguous（adj.）＝模稜兩可的。例句：The wording of the contract is ambiguous.（合約的措辭模稜兩可。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-005",
+      "q": "「模稜兩可的」（形容詞）的英文是？",
+      "options": [
+        "interim",
+        "ambiguous",
+        "obsolete",
+        "pertinent"
+      ],
+      "answer": 1,
+      "explain": "ambiguous（adj.）＝模稜兩可的。其他選項：obsolete＝過時的；淘汰的；pertinent＝相關的；中肯的；interim＝臨時的；過渡期的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-006",
+      "q": "The wording of the contract is _____.",
+      "options": [
+        "ambiguous",
+        "ambiguously",
+        "ambiguity",
+        "ambience"
+      ],
+      "answer": 0,
+      "explain": "答案是 ambiguous。ambiguous（adj.）＝模稜兩可的。合約的措辭模稜兩可。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-007",
+      "q": "「ample」（adj.）的中文意思是？",
+      "options": [
+        "一絲不苟的",
+        "相稱的",
+        "擔憂的",
+        "充足的"
+      ],
+      "answer": 3,
+      "explain": "ample（adj.）＝充足的。例句：There is ample parking behind the building.（大樓後方有充足的停車位。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-008",
+      "q": "「充足的」（形容詞）的英文是？",
+      "options": [
+        "commensurate",
+        "apprehensive",
+        "ample",
+        "meticulous"
+      ],
+      "answer": 2,
+      "explain": "ample（adj.）＝充足的。其他選項：commensurate＝相稱的；apprehensive＝擔憂的；meticulous＝一絲不苟的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-009",
+      "q": "There is _____ parking behind the building.",
+      "options": [
+        "amply",
+        "ample",
+        "amplify",
+        "sample"
+      ],
+      "answer": 1,
+      "explain": "答案是 ample。ample（adj.）＝充足的。大樓後方有充足的停車位。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-010",
+      "q": "「apprehensive」（adj.）的中文意思是？",
+      "options": [
+        "擔憂的",
+        "各自的",
+        "不情願的",
+        "有形的；具體的"
+      ],
+      "answer": 0,
+      "explain": "apprehensive（adj.）＝擔憂的。例句：Investors are apprehensive about the new regulations.（投資人對新法規感到憂心。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-011",
+      "q": "「擔憂的」（形容詞）的英文是？",
+      "options": [
+        "respective",
+        "tangible",
+        "reluctant",
+        "apprehensive"
+      ],
+      "answer": 3,
+      "explain": "apprehensive（adj.）＝擔憂的。其他選項：respective＝各自的；reluctant＝不情願的；tangible＝有形的；具體的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-012",
+      "q": "Investors are _____ about the new regulations.",
+      "options": [
+        "apprehend",
+        "apprehension",
+        "apprehensive",
+        "comprehensive"
+      ],
+      "answer": 2,
+      "explain": "答案是 apprehensive。apprehensive（adj.）＝擔憂的。投資人對新法規感到憂心。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-013",
+      "q": "「arbitrary」（adj.）的中文意思是？",
+      "options": [
+        "模稜兩可的",
+        "武斷的；任意的",
+        "停滯的",
+        "一絲不苟的"
+      ],
+      "answer": 1,
+      "explain": "arbitrary（adj.）＝武斷的；任意的。例句：The decision seemed arbitrary and unfair.（這個決定看起來既武斷又不公平。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-014",
+      "q": "「武斷的；任意的」（形容詞）的英文是？",
+      "options": [
+        "arbitrary",
+        "meticulous",
+        "ambiguous",
+        "stagnant"
+      ],
+      "answer": 0,
+      "explain": "arbitrary（adj.）＝武斷的；任意的。其他選項：ambiguous＝模稜兩可的；stagnant＝停滯的；meticulous＝一絲不苟的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-015",
+      "q": "The decision seemed _____ and unfair.",
+      "options": [
+        "arbitrarily",
+        "arbitrator",
+        "arbitrate",
+        "arbitrary"
+      ],
+      "answer": 3,
+      "explain": "答案是 arbitrary。arbitrary（adj.）＝武斷的；任意的。這個決定看起來既武斷又不公平。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-016",
+      "q": "「attrition」（n.）的中文意思是？",
+      "options": [
+        "先例",
+        "衰退",
+        "自然減員",
+        "新手"
+      ],
+      "answer": 2,
+      "explain": "attrition（n.）＝自然減員。例句：The company will reduce staff through attrition rather than layoffs.（公司將以自然減員而非裁員的方式縮編。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-017",
+      "q": "「自然減員」（名詞）的英文是？",
+      "options": [
+        "novices",
+        "attrition",
+        "precedent",
+        "downturn"
+      ],
+      "answer": 1,
+      "explain": "attrition（n.）＝自然減員。其他選項：novices＝新手；precedent＝先例；downturn＝衰退。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-018",
+      "q": "The company will reduce staff through _____ rather than layoffs.",
+      "options": [
+        "attrition",
+        "attraction",
+        "attribution",
+        "contrition"
+      ],
+      "answer": 0,
+      "explain": "答案是 attrition。attrition（n.）＝自然減員。公司將以自然減員而非裁員的方式縮編。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-019",
+      "q": "「austerity」（n.）的中文意思是？",
+      "options": [
+        "先例",
+        "基準",
+        "（全體）客群",
+        "撙節"
+      ],
+      "answer": 3,
+      "explain": "austerity（n.）＝撙節。例句：The government introduced austerity measures to cut debt.（政府推出撙節措施以減少債務。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-020",
+      "q": "「撙節」（名詞）的英文是？",
+      "options": [
+        "benchmark",
+        "clientele",
+        "austerity",
+        "precedent"
+      ],
+      "answer": 2,
+      "explain": "austerity（n.）＝撙節。其他選項：benchmark＝基準；clientele＝（全體）客群；precedent＝先例。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-021",
+      "q": "The government introduced _____ measures to cut debt.",
+      "options": [
+        "authority",
+        "austerity",
+        "austerely",
+        "austere"
+      ],
+      "answer": 1,
+      "explain": "答案是 austerity。austerity（n.）＝撙節。政府推出撙節措施以減少債務。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-022",
+      "q": "「benchmark」（n.）的中文意思是？",
+      "options": [
+        "基準",
+        "自行決定權；謹慎",
+        "（全體）客群",
+        "先例"
+      ],
+      "answer": 0,
+      "explain": "benchmark（n.）＝基準。例句：These results will serve as a benchmark for future tests.（這些結果將作為未來測試的基準。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-023",
+      "q": "「基準」（名詞）的英文是？",
+      "options": [
+        "precedent",
+        "discretion",
+        "clientele",
+        "benchmark"
+      ],
+      "answer": 3,
+      "explain": "benchmark（n.）＝基準。其他選項：precedent＝先例；discretion＝自行決定權；謹慎；clientele＝（全體）客群。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-024",
+      "q": "These results will serve as a _____ for future tests.",
+      "options": [
+        "watermark",
+        "bookmark",
+        "benchmark",
+        "bench"
+      ],
+      "answer": 2,
+      "explain": "答案是 benchmark。benchmark（n.）＝基準。這些結果將作為未來測試的基準。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-025",
+      "q": "「buoyant」（adj.）的中文意思是？",
+      "options": [
+        "簡明的",
+        "蓬勃的；看漲的",
+        "大量的；可觀的",
+        "堅持不懈的"
+      ],
+      "answer": 1,
+      "explain": "buoyant（adj.）＝蓬勃的；看漲的。例句：Consumer spending remains buoyant despite rising prices.（儘管物價上漲，消費支出仍相當強勁。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-026",
+      "q": "「蓬勃的；看漲的」（形容詞）的英文是？",
+      "options": [
+        "buoyant",
+        "tenacious",
+        "substantial",
+        "succinct"
+      ],
+      "answer": 0,
+      "explain": "buoyant（adj.）＝蓬勃的；看漲的。其他選項：substantial＝大量的；可觀的；succinct＝簡明的；tenacious＝堅持不懈的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-027",
+      "q": "Consumer spending remains _____ despite rising prices.",
+      "options": [
+        "buoyantly",
+        "buoy",
+        "buoyancy",
+        "buoyant"
+      ],
+      "answer": 3,
+      "explain": "答案是 buoyant。buoyant（adj.）＝蓬勃的；看漲的。儘管物價上漲，消費支出仍相當強勁。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-028",
+      "q": "「circumvent」（v.）的中文意思是？",
+      "options": [
+        "阻止；嚇阻",
+        "著手；登船",
+        "規避",
+        "包含；涵蓋"
+      ],
+      "answer": 2,
+      "explain": "circumvent（v.）＝規避。例句：Some firms tried to circumvent the new tax rules.（有些公司試圖規避新稅規。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-029",
+      "q": "「規避」（動詞）的英文是？",
+      "options": [
+        "encompass",
+        "circumvent",
+        "embark",
+        "deter"
+      ],
+      "answer": 1,
+      "explain": "circumvent（v.）＝規避。其他選項：encompass＝包含；涵蓋；deter＝阻止；嚇阻；embark＝著手；登船。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-030",
+      "q": "Some firms tried to _____ the new tax rules.",
+      "options": [
+        "circumvent",
+        "circumference",
+        "circulate",
+        "circumstance"
+      ],
+      "answer": 0,
+      "explain": "答案是 circumvent。circumvent（v.）＝規避。有些公司試圖規避新稅規。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-031",
+      "q": "「clientele」（n.）的中文意思是？",
+      "options": [
+        "先決條件",
+        "鄰近",
+        "擔保品",
+        "（全體）客群"
+      ],
+      "answer": 3,
+      "explain": "clientele（n.）＝（全體）客群。例句：The restaurant has a loyal clientele.（這家餐廳有一群忠實的客人。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-032",
+      "q": "「（全體）客群」（名詞）的英文是？",
+      "options": [
+        "prerequisite",
+        "collateral",
+        "clientele",
+        "proximity"
+      ],
+      "answer": 2,
+      "explain": "clientele（n.）＝（全體）客群。其他選項：prerequisite＝先決條件；collateral＝擔保品；proximity＝鄰近。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-033",
+      "q": "The restaurant has a loyal _____.",
+      "options": [
+        "clemency",
+        "clientele",
+        "clench",
+        "clinic"
+      ],
+      "answer": 1,
+      "explain": "答案是 clientele。clientele（n.）＝（全體）客群。這家餐廳有一群忠實的客人。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-034",
+      "q": "「coherent」（adj.）的中文意思是？",
+      "options": [
+        "有條理的",
+        "大量的；可觀的",
+        "充足的",
+        "一絲不苟的"
+      ],
+      "answer": 0,
+      "explain": "coherent（adj.）＝有條理的。例句：She presented a clear and coherent argument.（她提出了清楚且有條理的論點。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-035",
+      "q": "「有條理的」（形容詞）的英文是？",
+      "options": [
+        "ample",
+        "substantial",
+        "meticulous",
+        "coherent"
+      ],
+      "answer": 3,
+      "explain": "coherent（adj.）＝有條理的。其他選項：meticulous＝一絲不苟的；ample＝充足的；substantial＝大量的；可觀的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-036",
+      "q": "She presented a clear and _____ argument.",
+      "options": [
+        "adherent",
+        "coherently",
+        "coherent",
+        "coherence"
+      ],
+      "answer": 2,
+      "explain": "答案是 coherent。coherent（adj.）＝有條理的。她提出了清楚且有條理的論點。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-037",
+      "q": "「collateral」（n.）的中文意思是？",
+      "options": [
+        "（全體）客群",
+        "擔保品",
+        "自行決定權；謹慎",
+        "基準"
+      ],
+      "answer": 1,
+      "explain": "collateral（n.）＝擔保品。例句：The bank required the house as collateral for the loan.（銀行要求以房子作為貸款的擔保品。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-038",
+      "q": "「擔保品」（名詞）的英文是？",
+      "options": [
+        "collateral",
+        "benchmark",
+        "clientele",
+        "discretion"
+      ],
+      "answer": 0,
+      "explain": "collateral（n.）＝擔保品。其他選項：discretion＝自行決定權；謹慎；clientele＝（全體）客群；benchmark＝基準。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-039",
+      "q": "The bank required the house as _____ for the loan.",
+      "options": [
+        "lateral",
+        "collaborator",
+        "collateralize",
+        "collateral"
+      ],
+      "answer": 3,
+      "explain": "答案是 collateral。collateral（n.）＝擔保品。銀行要求以房子作為貸款的擔保品。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-040",
+      "q": "「commensurate」（adj.）的中文意思是？",
+      "options": [
+        "有助於…的",
+        "武斷的；任意的",
+        "相稱的",
+        "堅持不懈的"
+      ],
+      "answer": 2,
+      "explain": "commensurate（adj.）＝相稱的。例句：Salary will be commensurate with experience.（薪資將依經驗而定。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-041",
+      "q": "「相稱的」（形容詞）的英文是？",
+      "options": [
+        "arbitrary",
+        "commensurate",
+        "conducive",
+        "tenacious"
+      ],
+      "answer": 1,
+      "explain": "commensurate（adj.）＝相稱的。其他選項：conducive＝有助於…的；tenacious＝堅持不懈的；arbitrary＝武斷的；任意的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-042",
+      "q": "Salary will be _____ with experience.",
+      "options": [
+        "commensurate",
+        "commemorate",
+        "commentary",
+        "commensurately"
+      ],
+      "answer": 0,
+      "explain": "答案是 commensurate。commensurate（adj.）＝相稱的。薪資將依經驗而定。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-043",
+      "q": "「conducive」（adj.）的中文意思是？",
+      "options": [
+        "相關的；中肯的",
+        "待決的",
+        "簡明的",
+        "有助於…的"
+      ],
+      "answer": 3,
+      "explain": "conducive（adj.）＝有助於…的。例句：A quiet office is conducive to productivity.（安靜的辦公室有助於提高生產力。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-044",
+      "q": "「有助於…的」（形容詞）的英文是？",
+      "options": [
+        "pertinent",
+        "succinct",
+        "conducive",
+        "pending"
+      ],
+      "answer": 2,
+      "explain": "conducive（adj.）＝有助於…的。其他選項：pending＝待決的；pertinent＝相關的；中肯的；succinct＝簡明的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-045",
+      "q": "A quiet office is _____ to productivity.",
+      "options": [
+        "conductive",
+        "conducive",
+        "conduct",
+        "conduction"
+      ],
+      "answer": 1,
+      "explain": "答案是 conducive。conducive（adj.）＝有助於…的。安靜的辦公室有助於提高生產力。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-046",
+      "q": "「contend」（v.）的中文意思是？",
+      "options": [
+        "主張；競爭",
+        "阻止；嚇阻",
+        "著手；登船",
+        "妨礙"
+      ],
+      "answer": 0,
+      "explain": "contend（v.）＝主張；競爭。例句：Critics contend that the plan is too costly.（批評者主張這項計畫成本太高。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-047",
+      "q": "「主張；競爭」（動詞）的英文是？",
+      "options": [
+        "hamper",
+        "deter",
+        "embark",
+        "contend"
+      ],
+      "answer": 3,
+      "explain": "contend（v.）＝主張；競爭。其他選項：embark＝著手；登船；deter＝阻止；嚇阻；hamper＝妨礙。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-048",
+      "q": "Critics _____ that the plan is too costly.",
+      "options": [
+        "contention",
+        "contented",
+        "contend",
+        "content"
+      ],
+      "answer": 2,
+      "explain": "答案是 contend。contend（v.）＝主張；競爭。批評者主張這項計畫成本太高。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-049",
+      "q": "「conversely」（adv.）的中文意思是？",
+      "options": [
+        "無意中；不小心",
+        "相反地",
+        "大量的；可觀的",
+        "堅持不懈的"
+      ],
+      "answer": 1,
+      "explain": "conversely（adv.）＝相反地。例句：Prices rose in Europe; conversely, they fell in Asia.（歐洲物價上漲；相反地，亞洲物價下跌。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-050",
+      "q": "「相反地」（副詞）的英文是？",
+      "options": [
+        "conversely",
+        "inadvertently",
+        "tenacious",
+        "substantial"
+      ],
+      "answer": 0,
+      "explain": "conversely（adv.）＝相反地。其他選項：inadvertently＝無意中；不小心；substantial＝大量的；可觀的；tenacious＝堅持不懈的。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-051",
+      "q": "Prices rose in Europe; _____, they fell in Asia.",
+      "options": [
+        "convert",
+        "conversion",
+        "converse",
+        "conversely"
+      ],
+      "answer": 3,
+      "explain": "答案是 conversely。conversely（adv.）＝相反地。歐洲物價上漲；相反地，亞洲物價下跌。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-052",
+      "q": "「cumbersome」（adj.）的中文意思是？",
+      "options": [
+        "可行的",
+        "波動大的",
+        "笨重的；繁瑣的",
+        "相稱的"
+      ],
+      "answer": 2,
+      "explain": "cumbersome（adj.）＝笨重的；繁瑣的。例句：The old filing system was slow and cumbersome.（舊的歸檔系統又慢又繁瑣。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-053",
+      "q": "「笨重的；繁瑣的」（形容詞）的英文是？",
+      "options": [
+        "commensurate",
+        "cumbersome",
+        "viable",
+        "volatile"
+      ],
+      "answer": 1,
+      "explain": "cumbersome（adj.）＝笨重的；繁瑣的。其他選項：volatile＝波動大的；commensurate＝相稱的；viable＝可行的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-054",
+      "q": "The old filing system was slow and _____.",
+      "options": [
+        "cumbersome",
+        "cumber",
+        "encumber",
+        "cucumber"
+      ],
+      "answer": 0,
+      "explain": "答案是 cumbersome。cumbersome（adj.）＝笨重的；繁瑣的。舊的歸檔系統又慢又繁瑣。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-055",
+      "q": "「curtail」（v.）的中文意思是？",
+      "options": [
+        "阻止；嚇阻",
+        "包含；涵蓋",
+        "減輕",
+        "削減"
+      ],
+      "answer": 3,
+      "explain": "curtail（v.）＝削減。例句：The company had to curtail spending due to falling sales.（由於銷售下滑，公司不得不削減支出。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-056",
+      "q": "「削減」（動詞）的英文是？",
+      "options": [
+        "mitigate",
+        "encompass",
+        "curtail",
+        "deter"
+      ],
+      "answer": 2,
+      "explain": "curtail（v.）＝削減。其他選項：mitigate＝減輕；deter＝阻止；嚇阻；encompass＝包含；涵蓋。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-057",
+      "q": "The company had to _____ spending due to falling sales.",
+      "options": [
+        "curtailment",
+        "curtail",
+        "curtain",
+        "cocktail"
+      ],
+      "answer": 1,
+      "explain": "答案是 curtail。curtail（v.）＝削減。由於銷售下滑，公司不得不削減支出。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-058",
+      "q": "「deter」（v.）的中文意思是？",
+      "options": [
+        "阻止；嚇阻",
+        "承保；承銷",
+        "規避",
+        "喪失；被沒收"
+      ],
+      "answer": 0,
+      "explain": "deter（v.）＝阻止；嚇阻。例句：High prices may deter customers from buying.（高價可能讓顧客打消購買念頭。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-059",
+      "q": "「阻止；嚇阻」（動詞）的英文是？",
+      "options": [
+        "circumvent",
+        "forfeit",
+        "underwrite",
+        "deter"
+      ],
+      "answer": 3,
+      "explain": "deter（v.）＝阻止；嚇阻。其他選項：circumvent＝規避；forfeit＝喪失；被沒收；underwrite＝承保；承銷。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-060",
+      "q": "High prices may _____ customers from buying.",
+      "options": [
+        "deterrence",
+        "detour",
+        "deter",
+        "deterrent"
+      ],
+      "answer": 2,
+      "explain": "答案是 deter。deter（v.）＝阻止；嚇阻。高價可能讓顧客打消購買念頭。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-061",
+      "q": "「diligent」（adj.）的中文意思是？",
+      "options": [
+        "相稱的",
+        "勤奮的",
+        "一絲不苟的",
+        "相關的；中肯的"
+      ],
+      "answer": 1,
+      "explain": "diligent（adj.）＝勤奮的。例句：She is a diligent worker who never misses a deadline.（她是個勤奮的員工，從不錯過期限。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-062",
+      "q": "「勤奮的」（形容詞）的英文是？",
+      "options": [
+        "diligent",
+        "pertinent",
+        "commensurate",
+        "meticulous"
+      ],
+      "answer": 0,
+      "explain": "diligent（adj.）＝勤奮的。其他選項：pertinent＝相關的；中肯的；meticulous＝一絲不苟的；commensurate＝相稱的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-063",
+      "q": "She is a _____ worker who never misses a deadline.",
+      "options": [
+        "diligently",
+        "dilute",
+        "diligence",
+        "diligent"
+      ],
+      "answer": 3,
+      "explain": "答案是 diligent。diligent（adj.）＝勤奮的。她是個勤奮的員工，從不錯過期限。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-064",
+      "q": "「discretion」（n.）的中文意思是？",
+      "options": [
+        "暴跌；不景氣",
+        "自然減員",
+        "自行決定權；謹慎",
+        "匯款"
+      ],
+      "answer": 2,
+      "explain": "discretion（n.）＝自行決定權；謹慎。例句：Bonuses are paid at the manager's discretion.（獎金依經理裁量發放。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-065",
+      "q": "「自行決定權；謹慎」（名詞）的英文是？",
+      "options": [
+        "slump",
+        "discretion",
+        "attrition",
+        "remittance"
+      ],
+      "answer": 1,
+      "explain": "discretion（n.）＝自行決定權；謹慎。其他選項：remittance＝匯款；attrition＝自然減員；slump＝暴跌；不景氣。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-066",
+      "q": "Bonuses are paid at the manager's _____.",
+      "options": [
+        "discretion",
+        "discrete",
+        "discreet",
+        "discretely"
+      ],
+      "answer": 0,
+      "explain": "答案是 discretion。discretion（n.）＝自行決定權；謹慎。獎金依經理裁量發放。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-067",
+      "q": "「disseminate」（v.）的中文意思是？",
+      "options": [
+        "包含；涵蓋",
+        "糾正；修正",
+        "徵求",
+        "散播；發布"
+      ],
+      "answer": 3,
+      "explain": "disseminate（v.）＝散播；發布。例句：The agency will disseminate the report to the public.（該機構將向大眾發布這份報告。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-068",
+      "q": "「散播；發布」（動詞）的英文是？",
+      "options": [
+        "solicit",
+        "encompass",
+        "disseminate",
+        "rectify"
+      ],
+      "answer": 2,
+      "explain": "disseminate（v.）＝散播；發布。其他選項：rectify＝糾正；修正；encompass＝包含；涵蓋；solicit＝徵求。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-069",
+      "q": "The agency will _____ the report to the public.",
+      "options": [
+        "dissemination",
+        "disseminate",
+        "disintegrate",
+        "disseminating"
+      ],
+      "answer": 1,
+      "explain": "答案是 disseminate。disseminate（v.）＝散播；發布。該機構將向大眾發布這份報告。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-070",
+      "q": "「downturn」（n.）的中文意思是？",
+      "options": [
+        "衰退",
+        "現任者",
+        "先決條件",
+        "暫停令"
+      ],
+      "answer": 0,
+      "explain": "downturn（n.）＝衰退。例句：Many stores closed during the economic downturn.（經濟衰退期間許多商店關門。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-071",
+      "q": "「衰退」（名詞）的英文是？",
+      "options": [
+        "moratorium",
+        "incumbent",
+        "prerequisite",
+        "downturn"
+      ],
+      "answer": 3,
+      "explain": "downturn（n.）＝衰退。其他選項：prerequisite＝先決條件；incumbent＝現任者；moratorium＝暫停令。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-072",
+      "q": "Many stores closed during the economic _____.",
+      "options": [
+        "turndown",
+        "downtown",
+        "downturn",
+        "downtime"
+      ],
+      "answer": 2,
+      "explain": "答案是 downturn。downturn（n.）＝衰退。經濟衰退期間許多商店關門。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-073",
+      "q": "「embark」（v.）的中文意思是？",
+      "options": [
+        "喪失；被沒收",
+        "著手；登船",
+        "外包",
+        "承保；承銷"
+      ],
+      "answer": 1,
+      "explain": "embark（v.）＝著手；登船。例句：The company will embark on a major expansion next year.（公司明年將著手大規模擴張。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-074",
+      "q": "「著手；登船」（動詞）的英文是？",
+      "options": [
+        "embark",
+        "outsource",
+        "underwrite",
+        "forfeit"
+      ],
+      "answer": 0,
+      "explain": "embark（v.）＝著手；登船。其他選項：forfeit＝喪失；被沒收；outsource＝外包；underwrite＝承保；承銷。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-075",
+      "q": "The company will _____ on a major expansion next year.",
+      "options": [
+        "embarrass",
+        "embankment",
+        "embargo",
+        "embark"
+      ],
+      "answer": 3,
+      "explain": "答案是 embark。embark（v.）＝著手；登船。公司明年將著手大規模擴張。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-076",
+      "q": "「encompass」（v.）的中文意思是？",
+      "options": [
+        "減輕",
+        "遵守；黏附",
+        "包含；涵蓋",
+        "規避"
+      ],
+      "answer": 2,
+      "explain": "encompass（v.）＝包含；涵蓋。例句：The program encompasses training, mentoring, and evaluation.（這個計畫涵蓋訓練、輔導與評估。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-077",
+      "q": "「包含；涵蓋」（動詞）的英文是？",
+      "options": [
+        "mitigate",
+        "encompass",
+        "adhere",
+        "circumvent"
+      ],
+      "answer": 1,
+      "explain": "encompass（v.）＝包含；涵蓋。其他選項：mitigate＝減輕；adhere＝遵守；黏附；circumvent＝規避。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-078",
+      "q": "The program _____ training, mentoring, and evaluation.",
+      "options": [
+        "encompasses",
+        "compass",
+        "encamps",
+        "compasses"
+      ],
+      "answer": 0,
+      "explain": "答案是 encompasses。encompass（v.）＝包含；涵蓋。這個計畫涵蓋訓練、輔導與評估。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-079",
+      "q": "「expedite」（v.）的中文意思是？",
+      "options": [
+        "徵求",
+        "遵守；黏附",
+        "規避",
+        "加快處理"
+      ],
+      "answer": 3,
+      "explain": "expedite（v.）＝加快處理。例句：We paid extra to expedite the shipping.（我們多付錢加快出貨。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-080",
+      "q": "「加快處理」（動詞）的英文是？",
+      "options": [
+        "circumvent",
+        "solicit",
+        "expedite",
+        "adhere"
+      ],
+      "answer": 2,
+      "explain": "expedite（v.）＝加快處理。其他選項：solicit＝徵求；circumvent＝規避；adhere＝遵守；黏附。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-081",
+      "q": "We paid extra to _____ the shipping.",
+      "options": [
+        "expeditious",
+        "expedite",
+        "expedition",
+        "expedient"
+      ],
+      "answer": 1,
+      "explain": "答案是 expedite。expedite（v.）＝加快處理。我們多付錢加快出貨。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-082",
+      "q": "「forfeit」（v.）的中文意思是？",
+      "options": [
+        "喪失；被沒收",
+        "加快處理",
+        "糾正；修正",
+        "減輕"
+      ],
+      "answer": 0,
+      "explain": "forfeit（v.）＝喪失；被沒收。例句：If you cancel, you will forfeit your deposit.（如果取消，你將失去訂金。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-083",
+      "q": "「喪失；被沒收」（動詞）的英文是？",
+      "options": [
+        "expedite",
+        "rectify",
+        "mitigate",
+        "forfeit"
+      ],
+      "answer": 3,
+      "explain": "forfeit（v.）＝喪失；被沒收。其他選項：expedite＝加快處理；mitigate＝減輕；rectify＝糾正；修正。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-084",
+      "q": "If you cancel, you will _____ your deposit.",
+      "options": [
+        "profit",
+        "forfeiture",
+        "forfeit",
+        "forge"
+      ],
+      "answer": 2,
+      "explain": "答案是 forfeit。forfeit（v.）＝喪失；被沒收。如果取消，你將失去訂金。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-085",
+      "q": "「hamper」（v.）的中文意思是？",
+      "options": [
+        "規避",
+        "妨礙",
+        "承保；承銷",
+        "喪失；被沒收"
+      ],
+      "answer": 1,
+      "explain": "hamper（v.）＝妨礙。例句：Bad weather hampered the rescue efforts.（惡劣天氣妨礙了救援行動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-086",
+      "q": "「妨礙」（動詞）的英文是？",
+      "options": [
+        "hamper",
+        "circumvent",
+        "forfeit",
+        "underwrite"
+      ],
+      "answer": 0,
+      "explain": "hamper（v.）＝妨礙。其他選項：underwrite＝承保；承銷；circumvent＝規避；forfeit＝喪失；被沒收。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-087",
+      "q": "Bad weather _____ the rescue efforts.",
+      "options": [
+        "pampered",
+        "hammered",
+        "hamster",
+        "hampered"
+      ],
+      "answer": 3,
+      "explain": "答案是 hampered。hamper（v.）＝妨礙。惡劣天氣妨礙了救援行動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-088",
+      "q": "「imminent」（adj.）的中文意思是？",
+      "options": [
+        "固有的",
+        "待決的",
+        "即將發生的",
+        "各自的"
+      ],
+      "answer": 2,
+      "explain": "imminent（adj.）＝即將發生的。例句：Experts warned that a recession was imminent.（專家警告經濟衰退迫在眉睫。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-089",
+      "q": "「即將發生的」（形容詞）的英文是？",
+      "options": [
+        "inherent",
+        "imminent",
+        "pending",
+        "respective"
+      ],
+      "answer": 1,
+      "explain": "imminent（adj.）＝即將發生的。其他選項：pending＝待決的；inherent＝固有的；respective＝各自的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-090",
+      "q": "Experts warned that a recession was _____.",
+      "options": [
+        "imminent",
+        "immanent",
+        "imminence",
+        "eminent"
+      ],
+      "answer": 0,
+      "explain": "答案是 imminent。imminent（adj.）＝即將發生的。專家警告經濟衰退迫在眉睫。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-091",
+      "q": "「inadvertently」（adv.）的中文意思是？",
+      "options": [
+        "相反地",
+        "相關的；中肯的",
+        "阻止；嚇阻",
+        "無意中；不小心"
+      ],
+      "answer": 3,
+      "explain": "inadvertently（adv.）＝無意中；不小心。例句：I inadvertently deleted the file.（我不小心刪除了檔案。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-092",
+      "q": "「無意中；不小心」（副詞）的英文是？",
+      "options": [
+        "conversely",
+        "pertinent",
+        "inadvertently",
+        "deter"
+      ],
+      "answer": 2,
+      "explain": "inadvertently（adv.）＝無意中；不小心。其他選項：conversely＝相反地；pertinent＝相關的；中肯的；deter＝阻止；嚇阻。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-093",
+      "q": "I _____ deleted the file.",
+      "options": [
+        "inadvertent",
+        "inadvertently",
+        "advertisement",
+        "inadvertence"
+      ],
+      "answer": 1,
+      "explain": "答案是 inadvertently。inadvertently（adv.）＝無意中；不小心。我不小心刪除了檔案。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t800-094",
+      "q": "「incumbent」（n.）的中文意思是？",
+      "options": [
+        "現任者",
+        "自行決定權；謹慎",
+        "鄰近",
+        "匯款"
+      ],
+      "answer": 0,
+      "explain": "incumbent（n.）＝現任者。例句：The incumbent is running for a second term.（現任者正競選連任。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-095",
+      "q": "「現任者」（名詞）的英文是？",
+      "options": [
+        "proximity",
+        "remittance",
+        "discretion",
+        "incumbent"
+      ],
+      "answer": 3,
+      "explain": "incumbent（n.）＝現任者。其他選項：remittance＝匯款；discretion＝自行決定權；謹慎；proximity＝鄰近。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-096",
+      "q": "The _____ is running for a second term.",
+      "options": [
+        "recumbent",
+        "incumbency",
+        "incumbent",
+        "encumbrance"
+      ],
+      "answer": 2,
+      "explain": "答案是 incumbent。incumbent（n.）＝現任者。現任者正競選連任。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-097",
+      "q": "「inherent」（adj.）的中文意思是？",
+      "options": [
+        "過時的；淘汰的",
+        "固有的",
+        "即將發生的",
+        "蓬勃的；看漲的"
+      ],
+      "answer": 1,
+      "explain": "inherent（adj.）＝固有的。例句：There are risks inherent in any investment.（任何投資都有其固有風險。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-098",
+      "q": "「固有的」（形容詞）的英文是？",
+      "options": [
+        "inherent",
+        "imminent",
+        "buoyant",
+        "obsolete"
+      ],
+      "answer": 0,
+      "explain": "inherent（adj.）＝固有的。其他選項：obsolete＝過時的；淘汰的；imminent＝即將發生的；buoyant＝蓬勃的；看漲的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-099",
+      "q": "There are risks _____ in any investment.",
+      "options": [
+        "inherit",
+        "inheritance",
+        "inherently",
+        "inherent"
+      ],
+      "answer": 3,
+      "explain": "答案是 inherent。inherent（adj.）＝固有的。任何投資都有其固有風險。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-100",
+      "q": "「meticulous」（adj.）的中文意思是？",
+      "options": [
+        "可行的",
+        "過時的；淘汰的",
+        "一絲不苟的",
+        "有助於…的"
+      ],
+      "answer": 2,
+      "explain": "meticulous（adj.）＝一絲不苟的。例句：He keeps meticulous records of every expense.（他把每筆開支都記錄得一絲不苟。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-101",
+      "q": "「一絲不苟的」（形容詞）的英文是？",
+      "options": [
+        "obsolete",
+        "meticulous",
+        "viable",
+        "conducive"
+      ],
+      "answer": 1,
+      "explain": "meticulous（adj.）＝一絲不苟的。其他選項：viable＝可行的；conducive＝有助於…的；obsolete＝過時的；淘汰的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-102",
+      "q": "He keeps _____ records of every expense.",
+      "options": [
+        "meticulous",
+        "meticulously",
+        "meteoric",
+        "metallic"
+      ],
+      "answer": 0,
+      "explain": "答案是 meticulous。meticulous（adj.）＝一絲不苟的。他把每筆開支都記錄得一絲不苟。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-103",
+      "q": "「mitigate」（v.）的中文意思是？",
+      "options": [
+        "加快處理",
+        "散播；發布",
+        "徵求",
+        "減輕"
+      ],
+      "answer": 3,
+      "explain": "mitigate（v.）＝減輕。例句：Insurance can help mitigate financial losses.（保險有助於減輕財務損失。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-104",
+      "q": "「減輕」（動詞）的英文是？",
+      "options": [
+        "solicit",
+        "disseminate",
+        "mitigate",
+        "expedite"
+      ],
+      "answer": 2,
+      "explain": "mitigate（v.）＝減輕。其他選項：solicit＝徵求；expedite＝加快處理；disseminate＝散播；發布。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-105",
+      "q": "Insurance can help _____ financial losses.",
+      "options": [
+        "militate",
+        "mitigate",
+        "mitigation",
+        "migrate"
+      ],
+      "answer": 1,
+      "explain": "答案是 mitigate。mitigate（v.）＝減輕。保險有助於減輕財務損失。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-106",
+      "q": "「moratorium」（n.）的中文意思是？",
+      "options": [
+        "暫停令",
+        "自行決定權；謹慎",
+        "擔保品",
+        "基準"
+      ],
+      "answer": 0,
+      "explain": "moratorium（n.）＝暫停令。例句：The city placed a moratorium on new construction.（市政府對新建案頒布暫停令。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-107",
+      "q": "「暫停令」（名詞）的英文是？",
+      "options": [
+        "benchmark",
+        "discretion",
+        "collateral",
+        "moratorium"
+      ],
+      "answer": 3,
+      "explain": "moratorium（n.）＝暫停令。其他選項：collateral＝擔保品；benchmark＝基準；discretion＝自行決定權；謹慎。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-108",
+      "q": "The city placed a _____ on new construction.",
+      "options": [
+        "memorandum",
+        "crematorium",
+        "moratorium",
+        "auditorium"
+      ],
+      "answer": 2,
+      "explain": "答案是 moratorium。moratorium（n.）＝暫停令。市政府對新建案頒布暫停令。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-109",
+      "q": "「novices」（n.）的中文意思是？",
+      "options": [
+        "自行決定權；謹慎",
+        "新手",
+        "暴跌；不景氣",
+        "（意外的）後果"
+      ],
+      "answer": 1,
+      "explain": "novices（n.）＝新手。例句：This course is designed for novices with no experience.（這門課是為毫無經驗的新手設計的。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-110",
+      "q": "「新手」（名詞）的英文是？",
+      "options": [
+        "novices",
+        "discretion",
+        "ramifications",
+        "slump"
+      ],
+      "answer": 0,
+      "explain": "novices（n.）＝新手。其他選項：ramifications＝（意外的）後果；slump＝暴跌；不景氣；discretion＝自行決定權；謹慎。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-111",
+      "q": "This course is designed for _____ with no experience.",
+      "options": [
+        "novels",
+        "notices",
+        "novelties",
+        "novices"
+      ],
+      "answer": 3,
+      "explain": "答案是 novices。novices（n.）＝新手。這門課是為毫無經驗的新手設計的。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-112",
+      "q": "「obsolete」（adj.）的中文意思是？",
+      "options": [
+        "固有的",
+        "隱含的；默示的",
+        "過時的；淘汰的",
+        "不情願的"
+      ],
+      "answer": 2,
+      "explain": "obsolete（adj.）＝過時的；淘汰的。例句：The new software made the old system obsolete.（新軟體讓舊系統遭到淘汰。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-113",
+      "q": "「過時的；淘汰的」（形容詞）的英文是？",
+      "options": [
+        "reluctant",
+        "obsolete",
+        "implicit",
+        "inherent"
+      ],
+      "answer": 1,
+      "explain": "obsolete（adj.）＝過時的；淘汰的。其他選項：reluctant＝不情願的；inherent＝固有的；implicit＝隱含的；默示的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-114",
+      "q": "The new software made the old system _____.",
+      "options": [
+        "obsolete",
+        "obsolescence",
+        "obstinate",
+        "absolute"
+      ],
+      "answer": 0,
+      "explain": "答案是 obsolete。obsolete（adj.）＝過時的；淘汰的。新軟體讓舊系統遭到淘汰。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-115",
+      "q": "「onerous」（adj.）的中文意思是？",
+      "options": [
+        "即將發生的",
+        "有條理的",
+        "一絲不苟的",
+        "繁重的"
+      ],
+      "answer": 3,
+      "explain": "onerous（adj.）＝繁重的。例句：The new reporting rules are onerous for small firms.（新的申報規定對小公司而言負擔沉重。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-116",
+      "q": "「繁重的」（形容詞）的英文是？",
+      "options": [
+        "meticulous",
+        "coherent",
+        "onerous",
+        "imminent"
+      ],
+      "answer": 2,
+      "explain": "onerous（adj.）＝繁重的。其他選項：imminent＝即將發生的；coherent＝有條理的；meticulous＝一絲不苟的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-117",
+      "q": "The new reporting rules are _____ for small firms.",
+      "options": [
+        "owner",
+        "onerous",
+        "onus",
+        "honorary"
+      ],
+      "answer": 1,
+      "explain": "答案是 onerous。onerous（adj.）＝繁重的。新的申報規定對小公司而言負擔沉重。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-118",
+      "q": "「pending」（adj.）的中文意思是？",
+      "options": [
+        "待決的",
+        "有形的；具體的",
+        "蓬勃的；看漲的",
+        "各自的"
+      ],
+      "answer": 0,
+      "explain": "pending（adj.）＝待決的。例句：The deal is pending approval from the board.（這筆交易正等待董事會核准。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-119",
+      "q": "「待決的」（形容詞）的英文是？",
+      "options": [
+        "respective",
+        "buoyant",
+        "tangible",
+        "pending"
+      ],
+      "answer": 3,
+      "explain": "pending（adj.）＝待決的。其他選項：buoyant＝蓬勃的；看漲的；tangible＝有形的；具體的；respective＝各自的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-120",
+      "q": "The deal is _____ approval from the board.",
+      "options": [
+        "spending",
+        "pendant",
+        "pending",
+        "pendulum"
+      ],
+      "answer": 2,
+      "explain": "答案是 pending。pending（adj.）＝待決的。這筆交易正等待董事會核准。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-121",
+      "q": "「pertinent」（adj.）的中文意思是？",
+      "options": [
+        "隱含的；默示的",
+        "相關的；中肯的",
+        "停滯的",
+        "有助於…的"
+      ],
+      "answer": 1,
+      "explain": "pertinent（adj.）＝相關的；中肯的。例句：Please include all pertinent information in your report.（請在報告中納入所有相關資訊。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-122",
+      "q": "「相關的；中肯的」（形容詞）的英文是？",
+      "options": [
+        "pertinent",
+        "stagnant",
+        "conducive",
+        "implicit"
+      ],
+      "answer": 0,
+      "explain": "pertinent（adj.）＝相關的；中肯的。其他選項：implicit＝隱含的；默示的；stagnant＝停滯的；conducive＝有助於…的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-123",
+      "q": "Please include all _____ information in your report.",
+      "options": [
+        "pertinently",
+        "pertinence",
+        "pertain",
+        "pertinent"
+      ],
+      "answer": 3,
+      "explain": "答案是 pertinent。pertinent（adj.）＝相關的；中肯的。請在報告中納入所有相關資訊。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-124",
+      "q": "「precedent」（n.）的中文意思是？",
+      "options": [
+        "匯款",
+        "擔保品",
+        "先例",
+        "自然減員"
+      ],
+      "answer": 2,
+      "explain": "precedent（n.）＝先例。例句：This ruling sets an important precedent.（這項判決樹立了重要的先例。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-125",
+      "q": "「先例」（名詞）的英文是？",
+      "options": [
+        "collateral",
+        "precedent",
+        "attrition",
+        "remittance"
+      ],
+      "answer": 1,
+      "explain": "precedent（n.）＝先例。其他選項：attrition＝自然減員；remittance＝匯款；collateral＝擔保品。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-126",
+      "q": "This ruling sets an important _____.",
+      "options": [
+        "precedent",
+        "precedence",
+        "president",
+        "preceding"
+      ],
+      "answer": 0,
+      "explain": "答案是 precedent。precedent（n.）＝先例。這項判決樹立了重要的先例。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-127",
+      "q": "「prerequisite」（n.）的中文意思是？",
+      "options": [
+        "聯絡人；聯繫",
+        "現任者",
+        "匯款",
+        "先決條件"
+      ],
+      "answer": 3,
+      "explain": "prerequisite（n.）＝先決條件。例句：A degree in finance is a prerequisite for this job.（財務學位是這份工作的先決條件。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-128",
+      "q": "「先決條件」（名詞）的英文是？",
+      "options": [
+        "remittance",
+        "incumbent",
+        "prerequisite",
+        "liaison"
+      ],
+      "answer": 2,
+      "explain": "prerequisite（n.）＝先決條件。其他選項：incumbent＝現任者；liaison＝聯絡人；聯繫；remittance＝匯款。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-129",
+      "q": "A degree in finance is a _____ for this job.",
+      "options": [
+        "prerogative",
+        "prerequisite",
+        "perquisite",
+        "requisition"
+      ],
+      "answer": 1,
+      "explain": "答案是 prerequisite。prerequisite（n.）＝先決條件。財務學位是這份工作的先決條件。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-130",
+      "q": "「prudent」（adj.）的中文意思是？",
+      "options": [
+        "審慎的；明智的",
+        "信譽良好的",
+        "有條理的",
+        "模稜兩可的"
+      ],
+      "answer": 0,
+      "explain": "prudent（adj.）＝審慎的；明智的。例句：It would be prudent to save some money for emergencies.（存些錢以備急需是明智的。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-131",
+      "q": "「審慎的；明智的」（形容詞）的英文是？",
+      "options": [
+        "ambiguous",
+        "reputable",
+        "coherent",
+        "prudent"
+      ],
+      "answer": 3,
+      "explain": "prudent（adj.）＝審慎的；明智的。其他選項：reputable＝信譽良好的；coherent＝有條理的；ambiguous＝模稜兩可的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-132",
+      "q": "It would be _____ to save some money for emergencies.",
+      "options": [
+        "prude",
+        "prudently",
+        "prudent",
+        "prudence"
+      ],
+      "answer": 2,
+      "explain": "答案是 prudent。prudent（adj.）＝審慎的；明智的。存些錢以備急需是明智的。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-133",
+      "q": "「reciprocal」（adj.）的中文意思是？",
+      "options": [
+        "即將發生的",
+        "互惠的",
+        "有形的；具體的",
+        "臨時的；過渡期的"
+      ],
+      "answer": 1,
+      "explain": "reciprocal（adj.）＝互惠的。例句：The two countries signed a reciprocal trade agreement.（兩國簽署了互惠貿易協定。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-134",
+      "q": "「互惠的」（形容詞）的英文是？",
+      "options": [
+        "reciprocal",
+        "tangible",
+        "imminent",
+        "interim"
+      ],
+      "answer": 0,
+      "explain": "reciprocal（adj.）＝互惠的。其他選項：interim＝臨時的；過渡期的；imminent＝即將發生的；tangible＝有形的；具體的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-135",
+      "q": "The two countries signed a _____ trade agreement.",
+      "options": [
+        "recipient",
+        "reciprocate",
+        "reciprocity",
+        "reciprocal"
+      ],
+      "answer": 3,
+      "explain": "答案是 reciprocal。reciprocal（adj.）＝互惠的。兩國簽署了互惠貿易協定。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-136",
+      "q": "「rectify」（v.）的中文意思是？",
+      "options": [
+        "加快處理",
+        "阻止；嚇阻",
+        "糾正；修正",
+        "承保；承銷"
+      ],
+      "answer": 2,
+      "explain": "rectify（v.）＝糾正；修正。例句：We will rectify the error as soon as possible.（我們會盡快修正這個錯誤。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-137",
+      "q": "「糾正；修正」（動詞）的英文是？",
+      "options": [
+        "expedite",
+        "rectify",
+        "deter",
+        "underwrite"
+      ],
+      "answer": 1,
+      "explain": "rectify（v.）＝糾正；修正。其他選項：underwrite＝承保；承銷；expedite＝加快處理；deter＝阻止；嚇阻。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-138",
+      "q": "We will _____ the error as soon as possible.",
+      "options": [
+        "rectify",
+        "ratify",
+        "rectification",
+        "rectangle"
+      ],
+      "answer": 0,
+      "explain": "答案是 rectify。rectify（v.）＝糾正；修正。我們會盡快修正這個錯誤。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-139",
+      "q": "「reluctant」（adj.）的中文意思是？",
+      "options": [
+        "各自的",
+        "堅持不懈的",
+        "停滯的",
+        "不情願的"
+      ],
+      "answer": 3,
+      "explain": "reluctant（adj.）＝不情願的。例句：Many employees are reluctant to change their routines.（許多員工不願改變慣例。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-140",
+      "q": "「不情願的」（形容詞）的英文是？",
+      "options": [
+        "stagnant",
+        "tenacious",
+        "reluctant",
+        "respective"
+      ],
+      "answer": 2,
+      "explain": "reluctant（adj.）＝不情願的。其他選項：respective＝各自的；stagnant＝停滯的；tenacious＝堅持不懈的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-141",
+      "q": "Many employees are _____ to change their routines.",
+      "options": [
+        "reluctance",
+        "reluctant",
+        "relevant",
+        "reluctantly"
+      ],
+      "answer": 1,
+      "explain": "答案是 reluctant。reluctant（adj.）＝不情願的。許多員工不願改變慣例。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-142",
+      "q": "「reputable」（adj.）的中文意思是？",
+      "options": [
+        "信譽良好的",
+        "擔憂的",
+        "大量的；可觀的",
+        "不情願的"
+      ],
+      "answer": 0,
+      "explain": "reputable（adj.）＝信譽良好的。例句：Always buy from a reputable dealer.（一定要向信譽良好的經銷商購買。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-143",
+      "q": "「信譽良好的」（形容詞）的英文是？",
+      "options": [
+        "substantial",
+        "reluctant",
+        "apprehensive",
+        "reputable"
+      ],
+      "answer": 3,
+      "explain": "reputable（adj.）＝信譽良好的。其他選項：reluctant＝不情願的；apprehensive＝擔憂的；substantial＝大量的；可觀的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-144",
+      "q": "Always buy from a _____ dealer.",
+      "options": [
+        "reputably",
+        "repute",
+        "reputable",
+        "reputation"
+      ],
+      "answer": 2,
+      "explain": "答案是 reputable。reputable（adj.）＝信譽良好的。一定要向信譽良好的經銷商購買。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-145",
+      "q": "「respective」（adj.）的中文意思是？",
+      "options": [
+        "堅持不懈的",
+        "各自的",
+        "有形的；具體的",
+        "信譽良好的"
+      ],
+      "answer": 1,
+      "explain": "respective（adj.）＝各自的。例句：The two managers returned to their respective offices.（兩位經理各自回到辦公室。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-146",
+      "q": "「各自的」（形容詞）的英文是？",
+      "options": [
+        "respective",
+        "tangible",
+        "reputable",
+        "tenacious"
+      ],
+      "answer": 0,
+      "explain": "respective（adj.）＝各自的。其他選項：tenacious＝堅持不懈的；reputable＝信譽良好的；tangible＝有形的；具體的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-147",
+      "q": "The two managers returned to their _____ offices.",
+      "options": [
+        "respectful",
+        "respectively",
+        "respectable",
+        "respective"
+      ],
+      "answer": 3,
+      "explain": "答案是 respective。respective（adj.）＝各自的。兩位經理各自回到辦公室。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-148",
+      "q": "「solicit」（v.）的中文意思是？",
+      "options": [
+        "規避",
+        "糾正；修正",
+        "徵求",
+        "散播；發布"
+      ],
+      "answer": 2,
+      "explain": "solicit（v.）＝徵求。例句：We are soliciting feedback from our customers.（我們正在徵求顧客的意見。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-149",
+      "q": "「徵求」（動詞）的英文是？",
+      "options": [
+        "disseminate",
+        "solicit",
+        "rectify",
+        "circumvent"
+      ],
+      "answer": 1,
+      "explain": "solicit（v.）＝徵求。其他選項：rectify＝糾正；修正；disseminate＝散播；發布；circumvent＝規避。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-150",
+      "q": "We are _____ feedback from our customers.",
+      "options": [
+        "soliciting",
+        "solitary",
+        "solicitor",
+        "solidifying"
+      ],
+      "answer": 0,
+      "explain": "答案是 soliciting。solicit（v.）＝徵求。我們正在徵求顧客的意見。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-151",
+      "q": "「stagnant」（adj.）的中文意思是？",
+      "options": [
+        "有條理的",
+        "一絲不苟的",
+        "有形的；具體的",
+        "停滯的"
+      ],
+      "answer": 3,
+      "explain": "stagnant（adj.）＝停滯的。例句：Wages have remained stagnant for years.（薪資多年來停滯不前。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-152",
+      "q": "「停滯的」（形容詞）的英文是？",
+      "options": [
+        "meticulous",
+        "tangible",
+        "stagnant",
+        "coherent"
+      ],
+      "answer": 2,
+      "explain": "stagnant（adj.）＝停滯的。其他選項：tangible＝有形的；具體的；coherent＝有條理的；meticulous＝一絲不苟的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-153",
+      "q": "Wages have remained _____ for years.",
+      "options": [
+        "stagnantly",
+        "stagnant",
+        "stagnate",
+        "stagnation"
+      ],
+      "answer": 1,
+      "explain": "答案是 stagnant。stagnant（adj.）＝停滯的。薪資多年來停滯不前。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-154",
+      "q": "「substantial」（adj.）的中文意思是？",
+      "options": [
+        "大量的；可觀的",
+        "波動大的",
+        "勤奮的",
+        "有形的；具體的"
+      ],
+      "answer": 0,
+      "explain": "substantial（adj.）＝大量的；可觀的。例句：The company made a substantial profit this year.（公司今年獲利可觀。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-155",
+      "q": "「大量的；可觀的」（形容詞）的英文是？",
+      "options": [
+        "volatile",
+        "diligent",
+        "tangible",
+        "substantial"
+      ],
+      "answer": 3,
+      "explain": "substantial（adj.）＝大量的；可觀的。其他選項：tangible＝有形的；具體的；diligent＝勤奮的；volatile＝波動大的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-156",
+      "q": "The company made a _____ profit this year.",
+      "options": [
+        "substantially",
+        "substance",
+        "substantial",
+        "substantiate"
+      ],
+      "answer": 2,
+      "explain": "答案是 substantial。substantial（adj.）＝大量的；可觀的。公司今年獲利可觀。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-157",
+      "q": "「succinct」（adj.）的中文意思是？",
+      "options": [
+        "信譽良好的",
+        "簡明的",
+        "有條理的",
+        "勤奮的"
+      ],
+      "answer": 1,
+      "explain": "succinct（adj.）＝簡明的。例句：Her answer was succinct and to the point.（她的回答簡明扼要。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-158",
+      "q": "「簡明的」（形容詞）的英文是？",
+      "options": [
+        "succinct",
+        "coherent",
+        "diligent",
+        "reputable"
+      ],
+      "answer": 0,
+      "explain": "succinct（adj.）＝簡明的。其他選項：reputable＝信譽良好的；coherent＝有條理的；diligent＝勤奮的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-159",
+      "q": "Her answer was _____ and to the point.",
+      "options": [
+        "succinctly",
+        "succeed",
+        "succulent",
+        "succinct"
+      ],
+      "answer": 3,
+      "explain": "答案是 succinct。succinct（adj.）＝簡明的。她的回答簡明扼要。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-160",
+      "q": "「tangible」（adj.）的中文意思是？",
+      "options": [
+        "待決的",
+        "相關的；中肯的",
+        "有形的；具體的",
+        "繁重的"
+      ],
+      "answer": 2,
+      "explain": "tangible（adj.）＝有形的；具體的。例句：The new policy has produced tangible results.（新政策已產生具體成果。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-161",
+      "q": "「有形的；具體的」（形容詞）的英文是？",
+      "options": [
+        "pending",
+        "tangible",
+        "onerous",
+        "pertinent"
+      ],
+      "answer": 1,
+      "explain": "tangible（adj.）＝有形的；具體的。其他選項：pending＝待決的；pertinent＝相關的；中肯的；onerous＝繁重的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-162",
+      "q": "The new policy has produced _____ results.",
+      "options": [
+        "tangible",
+        "tangibly",
+        "tangent",
+        "tangle"
+      ],
+      "answer": 0,
+      "explain": "答案是 tangible。tangible（adj.）＝有形的；具體的。新政策已產生具體成果。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-163",
+      "q": "「underwrite」（v.）的中文意思是？",
+      "options": [
+        "削減",
+        "減輕",
+        "著手；登船",
+        "承保；承銷"
+      ],
+      "answer": 3,
+      "explain": "underwrite（v.）＝承保；承銷。例句：The bank agreed to underwrite the bond issue.（銀行同意承銷這次債券發行。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-164",
+      "q": "「承保；承銷」（動詞）的英文是？",
+      "options": [
+        "embark",
+        "mitigate",
+        "underwrite",
+        "curtail"
+      ],
+      "answer": 2,
+      "explain": "underwrite（v.）＝承保；承銷。其他選項：curtail＝削減；embark＝著手；登船；mitigate＝減輕。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-165",
+      "q": "The bank agreed to _____ the bond issue.",
+      "options": [
+        "underrate",
+        "underwrite",
+        "underwriter",
+        "underline"
+      ],
+      "answer": 1,
+      "explain": "答案是 underwrite。underwrite（v.）＝承保；承銷。銀行同意承銷這次債券發行。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-166",
+      "q": "「viable」（adj.）的中文意思是？",
+      "options": [
+        "可行的",
+        "即將發生的",
+        "有助於…的",
+        "蓬勃的；看漲的"
+      ],
+      "answer": 0,
+      "explain": "viable（adj.）＝可行的。例句：We need a viable alternative to the current plan.（我們需要一個可行的替代方案。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-167",
+      "q": "「可行的」（形容詞）的英文是？",
+      "options": [
+        "buoyant",
+        "conducive",
+        "imminent",
+        "viable"
+      ],
+      "answer": 3,
+      "explain": "viable（adj.）＝可行的。其他選項：buoyant＝蓬勃的；看漲的；imminent＝即將發生的；conducive＝有助於…的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-168",
+      "q": "We need a _____ alternative to the current plan.",
+      "options": [
+        "vial",
+        "via",
+        "viable",
+        "viability"
+      ],
+      "answer": 2,
+      "explain": "答案是 viable。viable（adj.）＝可行的。我們需要一個可行的替代方案。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-169",
+      "q": "「volatile」（adj.）的中文意思是？",
+      "options": [
+        "不情願的",
+        "波動大的",
+        "各自的",
+        "固有的"
+      ],
+      "answer": 1,
+      "explain": "volatile（adj.）＝波動大的。例句：The stock market has been very volatile this month.（本月股市波動劇烈。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-170",
+      "q": "「波動大的」（形容詞）的英文是？",
+      "options": [
+        "volatile",
+        "reluctant",
+        "respective",
+        "inherent"
+      ],
+      "answer": 0,
+      "explain": "volatile（adj.）＝波動大的。其他選項：inherent＝固有的；reluctant＝不情願的；respective＝各自的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-171",
+      "q": "The stock market has been very _____ this month.",
+      "options": [
+        "volley",
+        "volition",
+        "volatility",
+        "volatile"
+      ],
+      "answer": 3,
+      "explain": "答案是 volatile。volatile（adj.）＝波動大的。本月股市波動劇烈。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-172",
+      "q": "「warrant」（v.）的中文意思是？",
+      "options": [
+        "喪失；被沒收",
+        "主張；競爭",
+        "使有正當理由",
+        "糾正；修正"
+      ],
+      "answer": 2,
+      "explain": "warrant（v.）＝使有正當理由。例句：The situation does not warrant such drastic action.（這個情況不需要如此激烈的行動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-173",
+      "q": "「使有正當理由」（動詞）的英文是？",
+      "options": [
+        "forfeit",
+        "warrant",
+        "rectify",
+        "contend"
+      ],
+      "answer": 1,
+      "explain": "warrant（v.）＝使有正當理由。其他選項：rectify＝糾正；修正；contend＝主張；競爭；forfeit＝喪失；被沒收。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-174",
+      "q": "The situation does not _____ such drastic action.",
+      "options": [
+        "warrant",
+        "warranty",
+        "warrior",
+        "warren"
+      ],
+      "answer": 0,
+      "explain": "答案是 warrant。warrant（v.）＝使有正當理由。這個情況不需要如此激烈的行動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-175",
+      "q": "「implicit」（adj.）的中文意思是？",
+      "options": [
+        "過時的；淘汰的",
+        "不情願的",
+        "有條理的",
+        "隱含的；默示的"
+      ],
+      "answer": 3,
+      "explain": "implicit（adj.）＝隱含的；默示的。例句：There was an implicit agreement not to discuss salaries.（大家有個不談薪水的默契。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-176",
+      "q": "「隱含的；默示的」（形容詞）的英文是？",
+      "options": [
+        "obsolete",
+        "coherent",
+        "implicit",
+        "reluctant"
+      ],
+      "answer": 2,
+      "explain": "implicit（adj.）＝隱含的；默示的。其他選項：obsolete＝過時的；淘汰的；reluctant＝不情願的；coherent＝有條理的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-177",
+      "q": "There was an _____ agreement not to discuss salaries.",
+      "options": [
+        "implicate",
+        "implicit",
+        "complicit",
+        "implicitly"
+      ],
+      "answer": 1,
+      "explain": "答案是 implicit。implicit（adj.）＝隱含的；默示的。大家有個不談薪水的默契。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-178",
+      "q": "「interim」（adj.）的中文意思是？",
+      "options": [
+        "臨時的；過渡期的",
+        "待決的",
+        "可行的",
+        "即將發生的"
+      ],
+      "answer": 0,
+      "explain": "interim（adj.）＝臨時的；過渡期的。例句：Mr. Park was appointed interim CEO.（朴先生被任命為代理執行長。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-179",
+      "q": "「臨時的；過渡期的」（形容詞）的英文是？",
+      "options": [
+        "pending",
+        "imminent",
+        "viable",
+        "interim"
+      ],
+      "answer": 3,
+      "explain": "interim（adj.）＝臨時的；過渡期的。其他選項：pending＝待決的；viable＝可行的；imminent＝即將發生的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-180",
+      "q": "Mr. Park was appointed _____ CEO.",
+      "options": [
+        "intern",
+        "interest",
+        "interim",
+        "interior"
+      ],
+      "answer": 2,
+      "explain": "答案是 interim。interim（adj.）＝臨時的；過渡期的。朴先生被任命為代理執行長。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-181",
+      "q": "「liaison」（n.）的中文意思是？",
+      "options": [
+        "擔保品",
+        "聯絡人；聯繫",
+        "（全體）客群",
+        "自行決定權；謹慎"
+      ],
+      "answer": 1,
+      "explain": "liaison（n.）＝聯絡人；聯繫。例句：She acts as a liaison between the two departments.（她擔任兩個部門之間的聯絡人。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-182",
+      "q": "「聯絡人；聯繫」（名詞）的英文是？",
+      "options": [
+        "liaison",
+        "collateral",
+        "discretion",
+        "clientele"
+      ],
+      "answer": 0,
+      "explain": "liaison（n.）＝聯絡人；聯繫。其他選項：discretion＝自行決定權；謹慎；clientele＝（全體）客群；collateral＝擔保品。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-183",
+      "q": "She acts as a _____ between the two departments.",
+      "options": [
+        "lotion",
+        "legion",
+        "lesion",
+        "liaison"
+      ],
+      "answer": 3,
+      "explain": "答案是 liaison。liaison（n.）＝聯絡人；聯繫。她擔任兩個部門之間的聯絡人。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-184",
+      "q": "「lapse」（v.）的中文意思是？",
+      "options": [
+        "包含；涵蓋",
+        "阻止；嚇阻",
+        "失效；中止",
+        "削減"
+      ],
+      "answer": 2,
+      "explain": "lapse（v.）＝失效；中止。例句：Your membership will lapse if you do not renew it.（如果不續約，你的會員資格將失效。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-185",
+      "q": "「失效；中止」（動詞）的英文是？",
+      "options": [
+        "deter",
+        "lapse",
+        "encompass",
+        "curtail"
+      ],
+      "answer": 1,
+      "explain": "lapse（v.）＝失效；中止。其他選項：deter＝阻止；嚇阻；encompass＝包含；涵蓋；curtail＝削減。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-186",
+      "q": "Your membership will _____ if you do not renew it.",
+      "options": [
+        "lapse",
+        "relapse",
+        "collapse",
+        "lap"
+      ],
+      "answer": 0,
+      "explain": "答案是 lapse。lapse（v.）＝失效；中止。如果不續約，你的會員資格將失效。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-187",
+      "q": "「outsource」（v.）的中文意思是？",
+      "options": [
+        "散播；發布",
+        "阻止；嚇阻",
+        "徵求",
+        "外包"
+      ],
+      "answer": 3,
+      "explain": "outsource（v.）＝外包。例句：Many firms outsource their customer service to other countries.（許多公司把客服外包到其他國家。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-188",
+      "q": "「外包」（動詞）的英文是？",
+      "options": [
+        "deter",
+        "disseminate",
+        "outsource",
+        "solicit"
+      ],
+      "answer": 2,
+      "explain": "outsource（v.）＝外包。其他選項：solicit＝徵求；deter＝阻止；嚇阻；disseminate＝散播；發布。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-189",
+      "q": "Many firms _____ their customer service to other countries.",
+      "options": [
+        "outsourcing",
+        "outsource",
+        "resource",
+        "outscore"
+      ],
+      "answer": 1,
+      "explain": "答案是 outsource。outsource（v.）＝外包。許多公司把客服外包到其他國家。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t800-190",
+      "q": "「proximity」（n.）的中文意思是？",
+      "options": [
+        "鄰近",
+        "暫停令",
+        "匯款",
+        "暴跌；不景氣"
+      ],
+      "answer": 0,
+      "explain": "proximity（n.）＝鄰近。例句：The hotel's proximity to the airport is a big advantage.（飯店鄰近機場是一大優勢。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-191",
+      "q": "「鄰近」（名詞）的英文是？",
+      "options": [
+        "remittance",
+        "slump",
+        "moratorium",
+        "proximity"
+      ],
+      "answer": 3,
+      "explain": "proximity（n.）＝鄰近。其他選項：moratorium＝暫停令；slump＝暴跌；不景氣；remittance＝匯款。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-192",
+      "q": "The hotel's _____ to the airport is a big advantage.",
+      "options": [
+        "proxy",
+        "proximate",
+        "proximity",
+        "approximate"
+      ],
+      "answer": 2,
+      "explain": "答案是 proximity。proximity（n.）＝鄰近。飯店鄰近機場是一大優勢。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-193",
+      "q": "「ramifications」（n.）的中文意思是？",
+      "options": [
+        "聯絡人；聯繫",
+        "（意外的）後果",
+        "自然減員",
+        "現任者"
+      ],
+      "answer": 1,
+      "explain": "ramifications（n.）＝（意外的）後果。例句：We must consider the legal ramifications of this decision.（我們必須考慮此決定的法律後果。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-194",
+      "q": "「（意外的）後果」（名詞）的英文是？",
+      "options": [
+        "ramifications",
+        "incumbent",
+        "attrition",
+        "liaison"
+      ],
+      "answer": 0,
+      "explain": "ramifications（n.）＝（意外的）後果。其他選項：incumbent＝現任者；liaison＝聯絡人；聯繫；attrition＝自然減員。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-195",
+      "q": "We must consider the legal _____ of this decision.",
+      "options": [
+        "rams",
+        "ramps",
+        "amplifications",
+        "ramifications"
+      ],
+      "answer": 3,
+      "explain": "答案是 ramifications。ramifications（n.）＝（意外的）後果。我們必須考慮此決定的法律後果。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-196",
+      "q": "「remittance」（n.）的中文意思是？",
+      "options": [
+        "（全體）客群",
+        "自行決定權；謹慎",
+        "匯款",
+        "擔保品"
+      ],
+      "answer": 2,
+      "explain": "remittance（n.）＝匯款。例句：Please send your remittance along with the invoice.（請將匯款連同請款單一併寄出。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-197",
+      "q": "「匯款」（名詞）的英文是？",
+      "options": [
+        "clientele",
+        "remittance",
+        "discretion",
+        "collateral"
+      ],
+      "answer": 1,
+      "explain": "remittance（n.）＝匯款。其他選項：collateral＝擔保品；clientele＝（全體）客群；discretion＝自行決定權；謹慎。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-198",
+      "q": "Please send your _____ along with the invoice.",
+      "options": [
+        "remittance",
+        "remit",
+        "remitting",
+        "remission"
+      ],
+      "answer": 0,
+      "explain": "答案是 remittance。remittance（n.）＝匯款。請將匯款連同請款單一併寄出。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-199",
+      "q": "「slump」（n.）的中文意思是？",
+      "options": [
+        "新手",
+        "先例",
+        "衰退",
+        "暴跌；不景氣"
+      ],
+      "answer": 3,
+      "explain": "slump（n.）＝暴跌；不景氣。例句：The housing market is in a slump.（房市正陷入低迷。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-200",
+      "q": "「暴跌；不景氣」（名詞）的英文是？",
+      "options": [
+        "downturn",
+        "precedent",
+        "slump",
+        "novices"
+      ],
+      "answer": 2,
+      "explain": "slump（n.）＝暴跌；不景氣。其他選項：novices＝新手；precedent＝先例；downturn＝衰退。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-201",
+      "q": "The housing market is in a _____.",
+      "options": [
+        "slurp",
+        "slump",
+        "slum",
+        "lump"
+      ],
+      "answer": 1,
+      "explain": "答案是 slump。slump（n.）＝暴跌；不景氣。房市正陷入低迷。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t800-202",
+      "q": "「tenacious」（adj.）的中文意思是？",
+      "options": [
+        "堅持不懈的",
+        "武斷的；任意的",
+        "停滯的",
+        "模稜兩可的"
+      ],
+      "answer": 0,
+      "explain": "tenacious（adj.）＝堅持不懈的。例句：She is a tenacious negotiator who rarely gives up.（她是個鍥而不捨、很少放棄的談判者。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-203",
+      "q": "「堅持不懈的」（形容詞）的英文是？",
+      "options": [
+        "ambiguous",
+        "stagnant",
+        "arbitrary",
+        "tenacious"
+      ],
+      "answer": 3,
+      "explain": "tenacious（adj.）＝堅持不懈的。其他選項：arbitrary＝武斷的；任意的；ambiguous＝模稜兩可的；stagnant＝停滯的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t800-204",
+      "q": "She is a _____ negotiator who rarely gives up.",
+      "options": [
+        "tenaciously",
+        "tenable",
+        "tenacious",
+        "tenacity"
+      ],
+      "answer": 2,
+      "explain": "答案是 tenacious。tenacious（adj.）＝堅持不懈的。她是個鍥而不捨、很少放棄的談判者。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    }
+  ]
+}

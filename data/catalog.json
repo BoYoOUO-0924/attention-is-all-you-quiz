@@ -4,7 +4,14 @@
     "tagline": "依課堂講義整理的練習題，每題都附解析。"
   },
   "courses": [
-    { "path": "courses/aai/course.json" },
-    { "path": "courses/linux-server/course.json" }
+    {
+      "path": "courses/aai/course.json"
+    },
+    {
+      "path": "courses/linux-server/course.json"
+    },
+    {
+      "path": "courses/toeic-vocab/course.json"
+    }
   ]
 }

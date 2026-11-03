@@ -1,0 +1,3604 @@
+{
+  "questions": [
+    {
+      "id": "t600-001",
+      "q": "「acquire」（v.）的中文意思是？",
+      "options": [
+        "分配；撥出",
+        "推出；發表",
+        "評估",
+        "收購；取得"
+      ],
+      "answer": 3,
+      "explain": "acquire（v.）＝收購；取得。例句：The firm plans to acquire a smaller competitor.（這家公司打算收購一家較小的競爭對手。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-002",
+      "q": "「收購；取得」（動詞）的英文是？",
+      "options": [
+        "allocate",
+        "launch",
+        "acquire",
+        "evaluate"
+      ],
+      "answer": 2,
+      "explain": "acquire（v.）＝收購；取得。其他選項：launch＝推出；發表；evaluate＝評估；allocate＝分配；撥出。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-003",
+      "q": "The firm plans to _____ a smaller competitor.",
+      "options": [
+        "inquire",
+        "acquire",
+        "acquaint",
+        "acquisition"
+      ],
+      "answer": 1,
+      "explain": "答案是 acquire。acquire（v.）＝收購；取得。這家公司打算收購一家較小的競爭對手。 其他選項：acquisition＝收購。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-004",
+      "q": "「acquisition」（n.）的中文意思是？",
+      "options": [
+        "收購",
+        "快遞員；快遞公司",
+        "稽核；審計",
+        "會議紀錄"
+      ],
+      "answer": 0,
+      "explain": "acquisition（n.）＝收購。例句：The acquisition of the startup was completed in March.（對這家新創公司的收購已於三月完成。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-005",
+      "q": "「收購」（名詞）的英文是？",
+      "options": [
+        "minutes",
+        "audit",
+        "courier",
+        "acquisition"
+      ],
+      "answer": 3,
+      "explain": "acquisition（n.）＝收購。其他選項：minutes＝會議紀錄；audit＝稽核；審計；courier＝快遞員；快遞公司。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-006",
+      "q": "The _____ of the startup was completed in March.",
+      "options": [
+        "acquisitive",
+        "acquired",
+        "acquisition",
+        "acquire"
+      ],
+      "answer": 2,
+      "explain": "答案是 acquisition。acquisition（n.）＝收購。對這家新創公司的收購已於三月完成。 其他選項：acquire＝收購；取得。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-007",
+      "q": "「adjacent」（adj.）的中文意思是？",
+      "options": [
+        "有瑕疵的",
+        "鄰近的",
+        "簡短的",
+        "即將到來的"
+      ],
+      "answer": 1,
+      "explain": "adjacent（adj.）＝鄰近的。例句：The parking lot is adjacent to the main building.（停車場緊鄰主建築。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-008",
+      "q": "「鄰近的」（形容詞）的英文是？",
+      "options": [
+        "adjacent",
+        "brief",
+        "defective",
+        "upcoming"
+      ],
+      "answer": 0,
+      "explain": "adjacent（adj.）＝鄰近的。其他選項：defective＝有瑕疵的；brief＝簡短的；upcoming＝即將到來的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-009",
+      "q": "The parking lot is _____ to the main building.",
+      "options": [
+        "adjective",
+        "adjoin",
+        "adjust",
+        "adjacent"
+      ],
+      "answer": 3,
+      "explain": "答案是 adjacent。adjacent（adj.）＝鄰近的。停車場緊鄰主建築。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-010",
+      "q": "「agreement」（n.）的中文意思是？",
+      "options": [
+        "加班",
+        "插座；暢貨店",
+        "協議",
+        "水電瓦斯等費用"
+      ],
+      "answer": 2,
+      "explain": "agreement（n.）＝協議。例句：The two sides reached an agreement after long talks.（雙方經過長時間談判後達成協議。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-011",
+      "q": "「協議」（名詞）的英文是？",
+      "options": [
+        "overtime",
+        "agreement",
+        "utilities",
+        "outlet"
+      ],
+      "answer": 1,
+      "explain": "agreement（n.）＝協議。其他選項：utilities＝水電瓦斯等費用；overtime＝加班；outlet＝插座；暢貨店。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-012",
+      "q": "The two sides reached an _____ after long talks.",
+      "options": [
+        "agreement",
+        "agree",
+        "agreeably",
+        "agreeable"
+      ],
+      "answer": 0,
+      "explain": "答案是 agreement。agreement（n.）＝協議。雙方經過長時間談判後達成協議。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-013",
+      "q": "「allocate」（v.）的中文意思是？",
+      "options": [
+        "協調",
+        "轉寄",
+        "投資",
+        "分配；撥出"
+      ],
+      "answer": 3,
+      "explain": "allocate（v.）＝分配；撥出。例句：We need to allocate more funds to research.（我們需要撥更多資金給研發。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-014",
+      "q": "「分配；撥出」（動詞）的英文是？",
+      "options": [
+        "invest",
+        "coordinate",
+        "allocate",
+        "forward"
+      ],
+      "answer": 2,
+      "explain": "allocate（v.）＝分配；撥出。其他選項：invest＝投資；coordinate＝協調；forward＝轉寄。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-015",
+      "q": "We need to _____ more funds to research.",
+      "options": [
+        "allege",
+        "allocate",
+        "allocation",
+        "locate"
+      ],
+      "answer": 1,
+      "explain": "答案是 allocate。allocate（v.）＝分配；撥出。我們需要撥更多資金給研發。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-016",
+      "q": "「anticipate」（v.）的中文意思是？",
+      "options": [
+        "預期",
+        "開始",
+        "取得",
+        "推出；發表"
+      ],
+      "answer": 0,
+      "explain": "anticipate（v.）＝預期。例句：We anticipate strong demand for the new model.（我們預期新車款需求會很強勁。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-017",
+      "q": "「預期」（動詞）的英文是？",
+      "options": [
+        "launch",
+        "obtain",
+        "commence",
+        "anticipate"
+      ],
+      "answer": 3,
+      "explain": "anticipate（v.）＝預期。其他選項：commence＝開始；obtain＝取得；launch＝推出；發表。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-018",
+      "q": "We _____ strong demand for the new model.",
+      "options": [
+        "anticipatory",
+        "participate",
+        "anticipate",
+        "anticipation"
+      ],
+      "answer": 2,
+      "explain": "答案是 anticipate。anticipate（v.）＝預期。我們預期新車款需求會很強勁。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-019",
+      "q": "「applicant」（n.）的中文意思是？",
+      "options": [
+        "零售",
+        "申請人",
+        "水電瓦斯等費用",
+        "稽核；審計"
+      ],
+      "answer": 1,
+      "explain": "applicant（n.）＝申請人。例句：Each applicant must submit two letters of recommendation.（每位申請人都必須繳交兩封推薦信。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-020",
+      "q": "「申請人」（名詞）的英文是？",
+      "options": [
+        "applicant",
+        "utilities",
+        "retail",
+        "audit"
+      ],
+      "answer": 0,
+      "explain": "applicant（n.）＝申請人。其他選項：retail＝零售；audit＝稽核；審計；utilities＝水電瓦斯等費用。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-021",
+      "q": "Each _____ must submit two letters of recommendation.",
+      "options": [
+        "appliance",
+        "application",
+        "applicable",
+        "applicant"
+      ],
+      "answer": 3,
+      "explain": "答案是 applicant。applicant（n.）＝申請人。每位申請人都必須繳交兩封推薦信。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-022",
+      "q": "「assess」（v.）的中文意思是？",
+      "options": [
+        "確保",
+        "實施；執行",
+        "評估",
+        "解決"
+      ],
+      "answer": 2,
+      "explain": "assess（v.）＝評估。例句：The insurer sent someone to assess the damage.（保險公司派人來評估損失。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-023",
+      "q": "「評估」（動詞）的英文是？",
+      "options": [
+        "resolve",
+        "assess",
+        "implement",
+        "ensure"
+      ],
+      "answer": 1,
+      "explain": "assess（v.）＝評估。其他選項：implement＝實施；執行；ensure＝確保；resolve＝解決。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-024",
+      "q": "The insurer sent someone to _____ the damage.",
+      "options": [
+        "assess",
+        "access",
+        "assets",
+        "assessment"
+      ],
+      "answer": 0,
+      "explain": "答案是 assess。assess（v.）＝評估。保險公司派人來評估損失。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-025",
+      "q": "「asset」（n.）的中文意思是？",
+      "options": [
+        "顧客；讀者；贊助者",
+        "協議",
+        "過剩；盈餘",
+        "資產"
+      ],
+      "answer": 3,
+      "explain": "asset（n.）＝資產。例句：Our employees are our most valuable asset.（員工是我們最寶貴的資產。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-026",
+      "q": "「資產」（名詞）的英文是？",
+      "options": [
+        "surplus",
+        "agreement",
+        "asset",
+        "patrons"
+      ],
+      "answer": 2,
+      "explain": "asset（n.）＝資產。其他選項：agreement＝協議；patrons＝顧客；讀者；贊助者；surplus＝過剩；盈餘。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-027",
+      "q": "Our employees are our most valuable _____.",
+      "options": [
+        "assess",
+        "asset",
+        "aspect",
+        "assist"
+      ],
+      "answer": 1,
+      "explain": "答案是 asset。asset（n.）＝資產。員工是我們最寶貴的資產。 其他選項：assess＝評估。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-028",
+      "q": "「audit」（n.）的中文意思是？",
+      "options": [
+        "稽核；審計",
+        "顧客；讀者；贊助者",
+        "容量；產能",
+        "許可證"
+      ],
+      "answer": 0,
+      "explain": "audit（n.）＝稽核；審計。例句：The annual financial audit will begin next week.（年度財務稽核將於下週開始。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-029",
+      "q": "「稽核；審計」（名詞）的英文是？",
+      "options": [
+        "permit",
+        "patrons",
+        "capacity",
+        "audit"
+      ],
+      "answer": 3,
+      "explain": "audit（n.）＝稽核；審計。其他選項：permit＝許可證；patrons＝顧客；讀者；贊助者；capacity＝容量；產能。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-030",
+      "q": "The annual financial _____ will begin next week.",
+      "options": [
+        "audition",
+        "audio",
+        "audit",
+        "audience"
+      ],
+      "answer": 2,
+      "explain": "答案是 audit。audit（n.）＝稽核；審計。年度財務稽核將於下週開始。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-031",
+      "q": "「brief」（adj.）的中文意思是？",
+      "options": [
+        "連續的",
+        "簡短的",
+        "潛在的；預期的",
+        "多元的"
+      ],
+      "answer": 1,
+      "explain": "brief（adj.）＝簡短的。例句：Let's have a brief meeting before lunch.（午餐前我們開個簡短的會吧。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-032",
+      "q": "「簡短的」（形容詞）的英文是？",
+      "options": [
+        "brief",
+        "diverse",
+        "prospective",
+        "consecutive"
+      ],
+      "answer": 0,
+      "explain": "brief（adj.）＝簡短的。其他選項：prospective＝潛在的；預期的；diverse＝多元的；consecutive＝連續的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-033",
+      "q": "Let's have a _____ meeting before lunch.",
+      "options": [
+        "brevity",
+        "briefcase",
+        "briefly",
+        "brief"
+      ],
+      "answer": 3,
+      "explain": "答案是 brief。brief（adj.）＝簡短的。午餐前我們開個簡短的會吧。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-034",
+      "q": "「capacity」（n.）的中文意思是？",
+      "options": [
+        "專業知識",
+        "申請人",
+        "容量；產能",
+        "零售"
+      ],
+      "answer": 2,
+      "explain": "capacity（n.）＝容量；產能。例句：The stadium has a seating capacity of 50,000.（體育場可容納五萬人。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-035",
+      "q": "「容量；產能」（名詞）的英文是？",
+      "options": [
+        "expertise",
+        "capacity",
+        "applicant",
+        "retail"
+      ],
+      "answer": 1,
+      "explain": "capacity（n.）＝容量；產能。其他選項：applicant＝申請人；retail＝零售；expertise＝專業知識。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-036",
+      "q": "The stadium has a seating _____ of 50,000.",
+      "options": [
+        "capacity",
+        "capable",
+        "capital",
+        "captivity"
+      ],
+      "answer": 0,
+      "explain": "答案是 capacity。capacity（n.）＝容量；產能。體育場可容納五萬人。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-037",
+      "q": "「comply」（v.）的中文意思是？",
+      "options": [
+        "諮詢；查閱",
+        "調職；轉帳",
+        "開始",
+        "遵守；符合"
+      ],
+      "answer": 3,
+      "explain": "comply（v.）＝遵守；符合。例句：All products must comply with safety standards.（所有產品都必須符合安全標準。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-038",
+      "q": "「遵守；符合」（動詞）的英文是？",
+      "options": [
+        "consult",
+        "commence",
+        "comply",
+        "transfer"
+      ],
+      "answer": 2,
+      "explain": "comply（v.）＝遵守；符合。其他選項：consult＝諮詢；查閱；transfer＝調職；轉帳；commence＝開始。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-039",
+      "q": "All products must _____ with safety standards.",
+      "options": [
+        "compliance",
+        "comply",
+        "compile",
+        "complete"
+      ],
+      "answer": 1,
+      "explain": "答案是 comply。comply（v.）＝遵守；符合。所有產品都必須符合安全標準。 其他選項：compliance＝遵守；合規。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-040",
+      "q": "「compliance」（n.）的中文意思是？",
+      "options": [
+        "遵守；合規",
+        "程序",
+        "加班",
+        "資產"
+      ],
+      "answer": 0,
+      "explain": "compliance（n.）＝遵守；合規。例句：The factory is in full compliance with environmental laws.（工廠完全符合環保法規。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-041",
+      "q": "「遵守；合規」（名詞）的英文是？",
+      "options": [
+        "overtime",
+        "procedures",
+        "asset",
+        "compliance"
+      ],
+      "answer": 3,
+      "explain": "compliance（n.）＝遵守；合規。其他選項：overtime＝加班；asset＝資產；procedures＝程序。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-042",
+      "q": "The factory is in full _____ with environmental laws.",
+      "options": [
+        "compliment",
+        "comply",
+        "compliance",
+        "compliant"
+      ],
+      "answer": 2,
+      "explain": "答案是 compliance。compliance（n.）＝遵守；合規。工廠完全符合環保法規。 其他選項：comply＝遵守；符合。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-043",
+      "q": "「consecutive」（adj.）的中文意思是？",
+      "options": [
+        "免費贈送的",
+        "連續的",
+        "獨家的；專屬的",
+        "初步的"
+      ],
+      "answer": 1,
+      "explain": "consecutive（adj.）＝連續的。例句：Sales have risen for three consecutive years.（銷售額已連續三年成長。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-044",
+      "q": "「連續的」（形容詞）的英文是？",
+      "options": [
+        "consecutive",
+        "exclusive",
+        "complimentary",
+        "preliminary"
+      ],
+      "answer": 0,
+      "explain": "consecutive（adj.）＝連續的。其他選項：preliminary＝初步的；exclusive＝獨家的；專屬的；complimentary＝免費贈送的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-045",
+      "q": "Sales have risen for three _____ years.",
+      "options": [
+        "consecutively",
+        "conservative",
+        "constructive",
+        "consecutive"
+      ],
+      "answer": 3,
+      "explain": "答案是 consecutive。consecutive（adj.）＝連續的。銷售額已連續三年成長。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-046",
+      "q": "「consult」（v.）的中文意思是？",
+      "options": [
+        "搬遷；調職",
+        "收購；取得",
+        "諮詢；查閱",
+        "推出；發表"
+      ],
+      "answer": 2,
+      "explain": "consult（v.）＝諮詢；查閱。例句：Please consult the user manual before calling support.（致電客服前請先查閱使用手冊。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-047",
+      "q": "「諮詢；查閱」（動詞）的英文是？",
+      "options": [
+        "relocate",
+        "consult",
+        "launch",
+        "acquire"
+      ],
+      "answer": 1,
+      "explain": "consult（v.）＝諮詢；查閱。其他選項：acquire＝收購；取得；launch＝推出；發表；relocate＝搬遷；調職。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-048",
+      "q": "Please _____ the user manual before calling support.",
+      "options": [
+        "consult",
+        "consultation",
+        "consultant",
+        "insult"
+      ],
+      "answer": 0,
+      "explain": "答案是 consult。consult（v.）＝諮詢；查閱。致電客服前請先查閱使用手冊。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-049",
+      "q": "「coordinate」（v.）的中文意思是？",
+      "options": [
+        "進行；前往",
+        "評估",
+        "諮詢；查閱",
+        "協調"
+      ],
+      "answer": 3,
+      "explain": "coordinate（v.）＝協調。例句：She coordinates the schedules of all the sales staff.（她負責協調所有業務人員的行程。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-050",
+      "q": "「協調」（動詞）的英文是？",
+      "options": [
+        "consult",
+        "proceed",
+        "coordinate",
+        "assess"
+      ],
+      "answer": 2,
+      "explain": "coordinate（v.）＝協調。其他選項：proceed＝進行；前往；consult＝諮詢；查閱；assess＝評估。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-051",
+      "q": "She _____ the schedules of all the sales staff.",
+      "options": [
+        "subordinate",
+        "coordinates",
+        "coordination",
+        "coordinator"
+      ],
+      "answer": 1,
+      "explain": "答案是 coordinates。coordinate（v.）＝協調。她負責協調所有業務人員的行程。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-052",
+      "q": "「correspondence」（n.）的中文意思是？",
+      "options": [
+        "往來信件",
+        "交易",
+        "程序",
+        "生產力"
+      ],
+      "answer": 0,
+      "explain": "correspondence（n.）＝往來信件。例句：All correspondence should be sent to the main office.（所有信件都應寄往總公司。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-053",
+      "q": "「往來信件」（名詞）的英文是？",
+      "options": [
+        "productivity",
+        "procedures",
+        "transactions",
+        "correspondence"
+      ],
+      "answer": 3,
+      "explain": "correspondence（n.）＝往來信件。其他選項：productivity＝生產力；transactions＝交易；procedures＝程序。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-054",
+      "q": "All _____ should be sent to the main office.",
+      "options": [
+        "correspondingly",
+        "corresponding",
+        "correspondence",
+        "correspond"
+      ],
+      "answer": 2,
+      "explain": "答案是 correspondence。correspondence（n.）＝往來信件。所有信件都應寄往總公司。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-055",
+      "q": "「defective」（adj.）的中文意思是？",
+      "options": [
+        "每季的",
+        "有瑕疵的",
+        "暫定的",
+        "初步的"
+      ],
+      "answer": 1,
+      "explain": "defective（adj.）＝有瑕疵的。例句：We will replace any defective items free of charge.（任何瑕疵品我們都會免費更換。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-056",
+      "q": "「有瑕疵的」（形容詞）的英文是？",
+      "options": [
+        "defective",
+        "quarterly",
+        "preliminary",
+        "tentative"
+      ],
+      "answer": 0,
+      "explain": "defective（adj.）＝有瑕疵的。其他選項：tentative＝暫定的；preliminary＝初步的；quarterly＝每季的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-057",
+      "q": "We will replace any _____ items free of charge.",
+      "options": [
+        "defectively",
+        "defect",
+        "defection",
+        "defective"
+      ],
+      "answer": 3,
+      "explain": "答案是 defective。defective（adj.）＝有瑕疵的。任何瑕疵品我們都會免費更換。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-058",
+      "q": "「demonstrate」（v.）的中文意思是？",
+      "options": [
+        "收購；取得",
+        "推出；發表",
+        "示範；展示",
+        "調職；轉帳"
+      ],
+      "answer": 2,
+      "explain": "demonstrate（v.）＝示範；展示。例句：The sales rep will demonstrate how the device works.（業務代表會示範這個裝置如何運作。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-059",
+      "q": "「示範；展示」（動詞）的英文是？",
+      "options": [
+        "launch",
+        "demonstrate",
+        "transfer",
+        "acquire"
+      ],
+      "answer": 1,
+      "explain": "demonstrate（v.）＝示範；展示。其他選項：launch＝推出；發表；acquire＝收購；取得；transfer＝調職；轉帳。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-060",
+      "q": "The sales rep will _____ how the device works.",
+      "options": [
+        "demonstrate",
+        "demonstrator",
+        "demolish",
+        "demonstration"
+      ],
+      "answer": 0,
+      "explain": "答案是 demonstrate。demonstrate（v.）＝示範；展示。業務代表會示範這個裝置如何運作。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-061",
+      "q": "「distribute」（v.）的中文意思是？",
+      "options": [
+        "保留；留住",
+        "遵守；符合",
+        "諮詢；查閱",
+        "分發；配銷"
+      ],
+      "answer": 3,
+      "explain": "distribute（v.）＝分發；配銷。例句：Please distribute these handouts to all participants.（請把這些講義發給所有參加者。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-062",
+      "q": "「分發；配銷」（動詞）的英文是？",
+      "options": [
+        "consult",
+        "retain",
+        "distribute",
+        "comply"
+      ],
+      "answer": 2,
+      "explain": "distribute（v.）＝分發；配銷。其他選項：consult＝諮詢；查閱；retain＝保留；留住；comply＝遵守；符合。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-063",
+      "q": "Please _____ these handouts to all participants.",
+      "options": [
+        "distributor",
+        "distribute",
+        "distribution",
+        "disturb"
+      ],
+      "answer": 1,
+      "explain": "答案是 distribute。distribute（v.）＝分發；配銷。請把這些講義發給所有參加者。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-064",
+      "q": "「diverse」（adj.）的中文意思是？",
+      "options": [
+        "多元的",
+        "暫定的",
+        "足夠的",
+        "即將到來的"
+      ],
+      "answer": 0,
+      "explain": "diverse（adj.）＝多元的。例句：The city has a diverse population.（這座城市人口組成多元。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-065",
+      "q": "「多元的」（形容詞）的英文是？",
+      "options": [
+        "upcoming",
+        "tentative",
+        "sufficient",
+        "diverse"
+      ],
+      "answer": 3,
+      "explain": "diverse（adj.）＝多元的。其他選項：tentative＝暫定的；sufficient＝足夠的；upcoming＝即將到來的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-066",
+      "q": "The city has a _____ population.",
+      "options": [
+        "diversity",
+        "diversely",
+        "diverse",
+        "diversify"
+      ],
+      "answer": 2,
+      "explain": "答案是 diverse。diverse（adj.）＝多元的。這座城市人口組成多元。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-067",
+      "q": "「duplicate」（n.）的中文意思是？",
+      "options": [
+        "快遞員；快遞公司",
+        "副本",
+        "過剩；盈餘",
+        "稽核；審計"
+      ],
+      "answer": 1,
+      "explain": "duplicate（n.）＝副本。例句：Please keep a duplicate of the contract for your records.（請保留一份合約副本以供存查。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-068",
+      "q": "「副本」（名詞）的英文是？",
+      "options": [
+        "duplicate",
+        "audit",
+        "courier",
+        "surplus"
+      ],
+      "answer": 0,
+      "explain": "duplicate（n.）＝副本。其他選項：audit＝稽核；審計；courier＝快遞員；快遞公司；surplus＝過剩；盈餘。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-069",
+      "q": "Please keep a _____ of the contract for your records.",
+      "options": [
+        "dual",
+        "duplicity",
+        "duplicating",
+        "duplicate"
+      ],
+      "answer": 3,
+      "explain": "答案是 duplicate。duplicate（n.）＝副本。請保留一份合約副本以供存查。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-070",
+      "q": "「enclose」（v.）的中文意思是？",
+      "options": [
+        "搬遷；調職",
+        "調職；轉帳",
+        "隨函附上",
+        "超過"
+      ],
+      "answer": 2,
+      "explain": "enclose（v.）＝隨函附上。例句：I have enclosed a copy of my resume.（隨函附上我的履歷影本。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-071",
+      "q": "「隨函附上」（動詞）的英文是？",
+      "options": [
+        "exceed",
+        "enclose",
+        "transfer",
+        "relocate"
+      ],
+      "answer": 1,
+      "explain": "enclose（v.）＝隨函附上。其他選項：exceed＝超過；relocate＝搬遷；調職；transfer＝調職；轉帳。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-072",
+      "q": "I have _____ a copy of my resume.",
+      "options": [
+        "enclosed",
+        "enclave",
+        "enclosure",
+        "enclosing"
+      ],
+      "answer": 0,
+      "explain": "答案是 enclosed。enclose（v.）＝隨函附上。隨函附上我的履歷影本。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-073",
+      "q": "「enhance」（v.）的中文意思是？",
+      "options": [
+        "調職；轉帳",
+        "進行；前往",
+        "隨函附上",
+        "提升；增強"
+      ],
+      "answer": 3,
+      "explain": "enhance（v.）＝提升；增強。例句：The new lighting will enhance the look of the store.（新的燈光會提升店面的質感。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-074",
+      "q": "「提升；增強」（動詞）的英文是？",
+      "options": [
+        "transfer",
+        "enclose",
+        "enhance",
+        "proceed"
+      ],
+      "answer": 2,
+      "explain": "enhance（v.）＝提升；增強。其他選項：transfer＝調職；轉帳；proceed＝進行；前往；enclose＝隨函附上。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-075",
+      "q": "The new lighting will _____ the look of the store.",
+      "options": [
+        "enhancer",
+        "enhance",
+        "enhanced",
+        "enhancement"
+      ],
+      "answer": 1,
+      "explain": "答案是 enhance。enhance（v.）＝提升；增強。新的燈光會提升店面的質感。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-076",
+      "q": "「ensure」（v.）的中文意思是？",
+      "options": [
+        "確保",
+        "遵守；符合",
+        "提升；增強",
+        "搬遷；調職"
+      ],
+      "answer": 0,
+      "explain": "ensure（v.）＝確保。例句：Please ensure that all doors are locked before leaving.（離開前請確保所有門都已上鎖。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-077",
+      "q": "「確保」（動詞）的英文是？",
+      "options": [
+        "enhance",
+        "comply",
+        "relocate",
+        "ensure"
+      ],
+      "answer": 3,
+      "explain": "ensure（v.）＝確保。其他選項：relocate＝搬遷；調職；comply＝遵守；符合；enhance＝提升；增強。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-078",
+      "q": "Please _____ that all doors are locked before leaving.",
+      "options": [
+        "ensuring",
+        "unsure",
+        "ensure",
+        "ensured"
+      ],
+      "answer": 2,
+      "explain": "答案是 ensure。ensure（v.）＝確保。離開前請確保所有門都已上鎖。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-079",
+      "q": "「evaluate」（v.）的中文意思是？",
+      "options": [
+        "取得",
+        "評估",
+        "分配；撥出",
+        "實施；執行"
+      ],
+      "answer": 1,
+      "explain": "evaluate（v.）＝評估。例句：Managers evaluate employee performance twice a year.（經理每年評估員工表現兩次。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-080",
+      "q": "「評估」（動詞）的英文是？",
+      "options": [
+        "evaluate",
+        "allocate",
+        "implement",
+        "obtain"
+      ],
+      "answer": 0,
+      "explain": "evaluate（v.）＝評估。其他選項：obtain＝取得；allocate＝分配；撥出；implement＝實施；執行。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-081",
+      "q": "Managers _____ employee performance twice a year.",
+      "options": [
+        "evacuate",
+        "evaporate",
+        "evaluation",
+        "evaluate"
+      ],
+      "answer": 3,
+      "explain": "答案是 evaluate。evaluate（v.）＝評估。經理每年評估員工表現兩次。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-082",
+      "q": "「exceed」（v.）的中文意思是？",
+      "options": [
+        "到期",
+        "隨函附上",
+        "超過",
+        "保留；留住"
+      ],
+      "answer": 2,
+      "explain": "exceed（v.）＝超過。例句：Sales this quarter exceeded our expectations.（本季銷售額超出我們的預期。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-083",
+      "q": "「超過」（動詞）的英文是？",
+      "options": [
+        "enclose",
+        "exceed",
+        "retain",
+        "expire"
+      ],
+      "answer": 1,
+      "explain": "exceed（v.）＝超過。其他選項：expire＝到期；retain＝保留；留住；enclose＝隨函附上。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-084",
+      "q": "Sales this quarter _____ our expectations.",
+      "options": [
+        "exceeded",
+        "excessive",
+        "succeeded",
+        "excess"
+      ],
+      "answer": 0,
+      "explain": "答案是 exceeded。exceed（v.）＝超過。本季銷售額超出我們的預期。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-085",
+      "q": "「exclusive」（adj.）的中文意思是？",
+      "options": [
+        "每季的",
+        "連續的",
+        "暫定的",
+        "獨家的；專屬的"
+      ],
+      "answer": 3,
+      "explain": "exclusive（adj.）＝獨家的；專屬的。例句：Members get exclusive access to the VIP lounge.（會員可專屬使用貴賓室。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-086",
+      "q": "「獨家的；專屬的」（形容詞）的英文是？",
+      "options": [
+        "tentative",
+        "quarterly",
+        "exclusive",
+        "consecutive"
+      ],
+      "answer": 2,
+      "explain": "exclusive（adj.）＝獨家的；專屬的。其他選項：quarterly＝每季的；tentative＝暫定的；consecutive＝連續的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-087",
+      "q": "Members get _____ access to the VIP lounge.",
+      "options": [
+        "exclusion",
+        "exclusive",
+        "exclude",
+        "exclusively"
+      ],
+      "answer": 1,
+      "explain": "答案是 exclusive。exclusive（adj.）＝獨家的；專屬的。會員可專屬使用貴賓室。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-088",
+      "q": "「expertise」（n.）的中文意思是？",
+      "options": [
+        "專業知識",
+        "申請人",
+        "程序",
+        "空缺；空房"
+      ],
+      "answer": 0,
+      "explain": "expertise（n.）＝專業知識。例句：We need someone with expertise in data analysis.（我們需要具備數據分析專業的人。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-089",
+      "q": "「專業知識」（名詞）的英文是？",
+      "options": [
+        "vacancy",
+        "procedures",
+        "applicant",
+        "expertise"
+      ],
+      "answer": 3,
+      "explain": "expertise（n.）＝專業知識。其他選項：procedures＝程序；applicant＝申請人；vacancy＝空缺；空房。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-090",
+      "q": "We need someone with _____ in data analysis.",
+      "options": [
+        "expire",
+        "expert",
+        "expertise",
+        "expertly"
+      ],
+      "answer": 2,
+      "explain": "答案是 expertise。expertise（n.）＝專業知識。我們需要具備數據分析專業的人。 其他選項：expires＝到期。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-091",
+      "q": "「fluctuate」（v.）的中文意思是？",
+      "options": [
+        "遵守；符合",
+        "波動",
+        "到期",
+        "投資"
+      ],
+      "answer": 1,
+      "explain": "fluctuate（v.）＝波動。例句：Fuel prices fluctuate from month to month.（油價每個月都有波動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-092",
+      "q": "「波動」（動詞）的英文是？",
+      "options": [
+        "fluctuate",
+        "invest",
+        "expire",
+        "comply"
+      ],
+      "answer": 0,
+      "explain": "fluctuate（v.）＝波動。其他選項：expire＝到期；invest＝投資；comply＝遵守；符合。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-093",
+      "q": "Fuel prices _____ from month to month.",
+      "options": [
+        "fluctuation",
+        "flourish",
+        "fluent",
+        "fluctuate"
+      ],
+      "answer": 3,
+      "explain": "答案是 fluctuate。fluctuate（v.）＝波動。油價每個月都有波動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-094",
+      "q": "「forward」（v.）的中文意思是？",
+      "options": [
+        "進行；前往",
+        "超過",
+        "轉寄",
+        "示範；展示"
+      ],
+      "answer": 2,
+      "explain": "forward（v.）＝轉寄。例句：I'll forward the email to you right away.（我馬上把這封信轉寄給你。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-095",
+      "q": "「轉寄」（動詞）的英文是？",
+      "options": [
+        "exceed",
+        "forward",
+        "proceed",
+        "demonstrate"
+      ],
+      "answer": 1,
+      "explain": "forward（v.）＝轉寄。其他選項：demonstrate＝示範；展示；proceed＝進行；前往；exceed＝超過。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-096",
+      "q": "I'll _____ the email to you right away.",
+      "options": [
+        "forward",
+        "forwarding",
+        "foreword",
+        "forth"
+      ],
+      "answer": 0,
+      "explain": "答案是 forward。forward（v.）＝轉寄。我馬上把這封信轉寄給你。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-097",
+      "q": "「implement」（v.）的中文意思是？",
+      "options": [
+        "遵守；符合",
+        "波動",
+        "轉寄",
+        "實施；執行"
+      ],
+      "answer": 3,
+      "explain": "implement（v.）＝實施；執行。例句：The new policy will be implemented next month.（新政策下個月開始實施。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-098",
+      "q": "「實施；執行」（動詞）的英文是？",
+      "options": [
+        "forward",
+        "comply",
+        "implement",
+        "fluctuate"
+      ],
+      "answer": 2,
+      "explain": "implement（v.）＝實施；執行。其他選項：fluctuate＝波動；forward＝轉寄；comply＝遵守；符合。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-099",
+      "q": "The new policy will be _____ next month.",
+      "options": [
+        "implementation",
+        "implemented",
+        "implementing",
+        "implicated"
+      ],
+      "answer": 1,
+      "explain": "答案是 implemented。implement（v.）＝實施；執行。新政策下個月開始實施。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-100",
+      "q": "「incentive」（n.）的中文意思是？",
+      "options": [
+        "誘因；獎勵",
+        "人員流動率；營業額",
+        "過剩；盈餘",
+        "稽核；審計"
+      ],
+      "answer": 0,
+      "explain": "incentive（n.）＝誘因；獎勵。例句：The company offers bonuses as an incentive to work harder.（公司提供獎金作為努力工作的誘因。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-101",
+      "q": "「誘因；獎勵」（名詞）的英文是？",
+      "options": [
+        "audit",
+        "surplus",
+        "turnover",
+        "incentive"
+      ],
+      "answer": 3,
+      "explain": "incentive（n.）＝誘因；獎勵。其他選項：audit＝稽核；審計；turnover＝人員流動率；營業額；surplus＝過剩；盈餘。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-102",
+      "q": "The company offers bonuses as an _____ to work harder.",
+      "options": [
+        "incense",
+        "incident",
+        "incentive",
+        "inventive"
+      ],
+      "answer": 2,
+      "explain": "答案是 incentive。incentive（n.）＝誘因；獎勵。公司提供獎金作為努力工作的誘因。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-103",
+      "q": "「inspect」（v.）的中文意思是？",
+      "options": [
+        "提升；增強",
+        "檢查",
+        "轉寄",
+        "確保"
+      ],
+      "answer": 1,
+      "explain": "inspect（v.）＝檢查。例句：Officials will inspect the building next week.（官員下週會來檢查這棟建築。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-104",
+      "q": "「檢查」（動詞）的英文是？",
+      "options": [
+        "inspect",
+        "ensure",
+        "enhance",
+        "forward"
+      ],
+      "answer": 0,
+      "explain": "inspect（v.）＝檢查。其他選項：forward＝轉寄；ensure＝確保；enhance＝提升；增強。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-105",
+      "q": "Officials will _____ the building next week.",
+      "options": [
+        "inspection",
+        "inspector",
+        "inspire",
+        "inspect"
+      ],
+      "answer": 3,
+      "explain": "答案是 inspect。inspect（v.）＝檢查。官員下週會來檢查這棟建築。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-106",
+      "q": "「invest」（v.）的中文意思是？",
+      "options": [
+        "解決",
+        "轉寄",
+        "投資",
+        "波動"
+      ],
+      "answer": 2,
+      "explain": "invest（v.）＝投資。例句：We plan to invest in new technology.（我們計畫投資新技術。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-107",
+      "q": "「投資」（動詞）的英文是？",
+      "options": [
+        "fluctuate",
+        "invest",
+        "forward",
+        "resolve"
+      ],
+      "answer": 1,
+      "explain": "invest（v.）＝投資。其他選項：fluctuate＝波動；resolve＝解決；forward＝轉寄。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-108",
+      "q": "We plan to _____ in new technology.",
+      "options": [
+        "invest",
+        "invent",
+        "investor",
+        "investment"
+      ],
+      "answer": 0,
+      "explain": "答案是 invest。invest（v.）＝投資。我們計畫投資新技術。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-109",
+      "q": "「launch」（v.）的中文意思是？",
+      "options": [
+        "評估",
+        "實施；執行",
+        "波動",
+        "推出；發表"
+      ],
+      "answer": 3,
+      "explain": "launch（v.）＝推出；發表。例句：The company will launch its new smartphone in June.（公司將於六月推出新手機。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-110",
+      "q": "「推出；發表」（動詞）的英文是？",
+      "options": [
+        "implement",
+        "assess",
+        "launch",
+        "fluctuate"
+      ],
+      "answer": 2,
+      "explain": "launch（v.）＝推出；發表。其他選項：assess＝評估；fluctuate＝波動；implement＝實施；執行。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-111",
+      "q": "The company will _____ its new smartphone in June.",
+      "options": [
+        "lounge",
+        "launch",
+        "laundry",
+        "lunch"
+      ],
+      "answer": 1,
+      "explain": "答案是 launch。launch（v.）＝推出；發表。公司將於六月推出新手機。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-112",
+      "q": "「lease」（n.）的中文意思是？",
+      "options": [
+        "租約",
+        "過剩；盈餘",
+        "遵守；合規",
+        "快遞員；快遞公司"
+      ],
+      "answer": 0,
+      "explain": "lease（n.）＝租約。例句：We signed a five-year lease on the office space.（我們簽了辦公室五年的租約。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-113",
+      "q": "「租約」（名詞）的英文是？",
+      "options": [
+        "compliance",
+        "surplus",
+        "courier",
+        "lease"
+      ],
+      "answer": 3,
+      "explain": "lease（n.）＝租約。其他選項：courier＝快遞員；快遞公司；surplus＝過剩；盈餘；compliance＝遵守；合規。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-114",
+      "q": "We signed a five-year _____ on the office space.",
+      "options": [
+        "leash",
+        "least",
+        "lease",
+        "release"
+      ],
+      "answer": 2,
+      "explain": "答案是 lease。lease（n.）＝租約。我們簽了辦公室五年的租約。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-115",
+      "q": "「liability」（n.）的中文意思是？",
+      "options": [
+        "租約",
+        "法律責任",
+        "交易",
+        "顧客；讀者；贊助者"
+      ],
+      "answer": 1,
+      "explain": "liability（n.）＝法律責任。例句：The company accepts no liability for lost items.（本公司對遺失物品不負任何責任。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-116",
+      "q": "「法律責任」（名詞）的英文是？",
+      "options": [
+        "liability",
+        "lease",
+        "transactions",
+        "patrons"
+      ],
+      "answer": 0,
+      "explain": "liability（n.）＝法律責任。其他選項：transactions＝交易；lease＝租約；patrons＝顧客；讀者；贊助者。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-117",
+      "q": "The company accepts no _____ for lost items.",
+      "options": [
+        "reliability",
+        "liable",
+        "library",
+        "liability"
+      ],
+      "answer": 3,
+      "explain": "答案是 liability。liability（n.）＝法律責任。本公司對遺失物品不負任何責任。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-118",
+      "q": "「lucrative」（adj.）的中文意思是？",
+      "options": [
+        "鄰近的",
+        "每季的",
+        "有利可圖的",
+        "即將到來的"
+      ],
+      "answer": 2,
+      "explain": "lucrative（adj.）＝有利可圖的。例句：Selling software has become a lucrative business.（賣軟體已成為很賺錢的生意。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-119",
+      "q": "「有利可圖的」（形容詞）的英文是？",
+      "options": [
+        "upcoming",
+        "lucrative",
+        "quarterly",
+        "adjacent"
+      ],
+      "answer": 1,
+      "explain": "lucrative（adj.）＝有利可圖的。其他選項：quarterly＝每季的；upcoming＝即將到來的；adjacent＝鄰近的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-120",
+      "q": "Selling software has become a _____ business.",
+      "options": [
+        "lucrative",
+        "lucidity",
+        "lucre",
+        "lucratively"
+      ],
+      "answer": 0,
+      "explain": "答案是 lucrative。lucrative（adj.）＝有利可圖的。賣軟體已成為很賺錢的生意。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-121",
+      "q": "「merger」（n.）的中文意思是？",
+      "options": [
+        "資產",
+        "水電瓦斯等費用",
+        "營收",
+        "合併"
+      ],
+      "answer": 3,
+      "explain": "merger（n.）＝合併。例句：The merger of the two banks created the largest bank in the country.（兩家銀行合併後成為全國最大的銀行。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-122",
+      "q": "「合併」（名詞）的英文是？",
+      "options": [
+        "asset",
+        "utilities",
+        "merger",
+        "revenue"
+      ],
+      "answer": 2,
+      "explain": "merger（n.）＝合併。其他選項：revenue＝營收；asset＝資產；utilities＝水電瓦斯等費用。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-123",
+      "q": "The _____ of the two banks created the largest bank in the country.",
+      "options": [
+        "merged",
+        "merger",
+        "merchant",
+        "merge"
+      ],
+      "answer": 1,
+      "explain": "答案是 merger。merger（n.）＝合併。兩家銀行合併後成為全國最大的銀行。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-124",
+      "q": "「minutes」（n.）的中文意思是？",
+      "options": [
+        "會議紀錄",
+        "營收",
+        "誘因；獎勵",
+        "專業知識"
+      ],
+      "answer": 0,
+      "explain": "minutes（n.）＝會議紀錄。例句：Who will take the minutes at today's meeting?（誰負責今天會議的紀錄？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-125",
+      "q": "「會議紀錄」（名詞）的英文是？",
+      "options": [
+        "incentive",
+        "expertise",
+        "revenue",
+        "minutes"
+      ],
+      "answer": 3,
+      "explain": "minutes（n.）＝會議紀錄。其他選項：revenue＝營收；expertise＝專業知識；incentive＝誘因；獎勵。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-126",
+      "q": "Who will take the _____ at today's meeting?",
+      "options": [
+        "mints",
+        "miners",
+        "minutes",
+        "moments"
+      ],
+      "answer": 2,
+      "explain": "答案是 minutes。minutes（n.）＝會議紀錄。誰負責今天會議的紀錄？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-127",
+      "q": "「obtain」（v.）的中文意思是？",
+      "options": [
+        "實施；執行",
+        "取得",
+        "調職；轉帳",
+        "進行；前往"
+      ],
+      "answer": 1,
+      "explain": "obtain（v.）＝取得。例句：You must obtain a permit before building a fence.（蓋圍籬前必須先取得許可證。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-128",
+      "q": "「取得」（動詞）的英文是？",
+      "options": [
+        "obtain",
+        "implement",
+        "proceed",
+        "transfer"
+      ],
+      "answer": 0,
+      "explain": "obtain（v.）＝取得。其他選項：transfer＝調職；轉帳；proceed＝進行；前往；implement＝實施；執行。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-129",
+      "q": "You must _____ a permit before building a fence.",
+      "options": [
+        "maintain",
+        "contain",
+        "obtainable",
+        "obtain"
+      ],
+      "answer": 3,
+      "explain": "答案是 obtain。obtain（v.）＝取得。蓋圍籬前必須先取得許可證。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-130",
+      "q": "「outlet」（n.）的中文意思是？",
+      "options": [
+        "加班",
+        "程序",
+        "插座；暢貨店",
+        "專業知識"
+      ],
+      "answer": 2,
+      "explain": "outlet（n.）＝插座；暢貨店。例句：Is there a power outlet near the desk?（桌子附近有電源插座嗎？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-131",
+      "q": "「插座；暢貨店」（名詞）的英文是？",
+      "options": [
+        "expertise",
+        "outlet",
+        "overtime",
+        "procedures"
+      ],
+      "answer": 1,
+      "explain": "outlet（n.）＝插座；暢貨店。其他選項：overtime＝加班；expertise＝專業知識；procedures＝程序。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-132",
+      "q": "Is there a power _____ near the desk?",
+      "options": [
+        "outlet",
+        "outlook",
+        "output",
+        "outline"
+      ],
+      "answer": 0,
+      "explain": "答案是 outlet。outlet（n.）＝插座；暢貨店。桌子附近有電源插座嗎？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-133",
+      "q": "「overtime」（n.）的中文意思是？",
+      "options": [
+        "零售",
+        "過剩；盈餘",
+        "副本",
+        "加班"
+      ],
+      "answer": 3,
+      "explain": "overtime（n.）＝加班。例句：I worked three hours of overtime last night.（我昨晚加班三小時。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-134",
+      "q": "「加班」（名詞）的英文是？",
+      "options": [
+        "surplus",
+        "retail",
+        "overtime",
+        "duplicate"
+      ],
+      "answer": 2,
+      "explain": "overtime（n.）＝加班。其他選項：duplicate＝副本；retail＝零售；surplus＝過剩；盈餘。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-135",
+      "q": "I worked three hours of _____ last night.",
+      "options": [
+        "overview",
+        "overtime",
+        "overtake",
+        "overturn"
+      ],
+      "answer": 1,
+      "explain": "答案是 overtime。overtime（n.）＝加班。我昨晚加班三小時。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-136",
+      "q": "「patrons」（n.）的中文意思是？",
+      "options": [
+        "顧客；讀者；贊助者",
+        "會議紀錄",
+        "人員流動率；營業額",
+        "零售"
+      ],
+      "answer": 0,
+      "explain": "patrons（n.）＝顧客；讀者；贊助者。例句：The library asks patrons to return books on time.（圖書館請讀者準時歸還書籍。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-137",
+      "q": "「顧客；讀者；贊助者」（名詞）的英文是？",
+      "options": [
+        "turnover",
+        "retail",
+        "minutes",
+        "patrons"
+      ],
+      "answer": 3,
+      "explain": "patrons（n.）＝顧客；讀者；贊助者。其他選項：retail＝零售；minutes＝會議紀錄；turnover＝人員流動率；營業額。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-138",
+      "q": "The library asks _____ to return books on time.",
+      "options": [
+        "patrols",
+        "pattern",
+        "patrons",
+        "patterns"
+      ],
+      "answer": 2,
+      "explain": "答案是 patrons。patrons（n.）＝顧客；讀者；贊助者。圖書館請讀者準時歸還書籍。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-139",
+      "q": "「permit」（n.）的中文意思是？",
+      "options": [
+        "收購",
+        "許可證",
+        "申請人",
+        "加班"
+      ],
+      "answer": 1,
+      "explain": "permit（n.）＝許可證。例句：You need a parking permit to park here.（在這裡停車需要停車證。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-140",
+      "q": "「許可證」（名詞）的英文是？",
+      "options": [
+        "permit",
+        "acquisition",
+        "applicant",
+        "overtime"
+      ],
+      "answer": 0,
+      "explain": "permit（n.）＝許可證。其他選項：acquisition＝收購；applicant＝申請人；overtime＝加班。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-141",
+      "q": "You need a parking _____ to park here.",
+      "options": [
+        "perimeter",
+        "permission",
+        "permanent",
+        "permit"
+      ],
+      "answer": 3,
+      "explain": "答案是 permit。permit（n.）＝許可證。在這裡停車需要停車證。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-142",
+      "q": "「preliminary」（adj.）的中文意思是？",
+      "options": [
+        "免費贈送的",
+        "每季的",
+        "初步的",
+        "簡短的"
+      ],
+      "answer": 2,
+      "explain": "preliminary（adj.）＝初步的。例句：The preliminary results look very promising.（初步結果看起來很有希望。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-143",
+      "q": "「初步的」（形容詞）的英文是？",
+      "options": [
+        "brief",
+        "preliminary",
+        "quarterly",
+        "complimentary"
+      ],
+      "answer": 1,
+      "explain": "preliminary（adj.）＝初步的。其他選項：complimentary＝免費贈送的；quarterly＝每季的；brief＝簡短的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-144",
+      "q": "The _____ results look very promising.",
+      "options": [
+        "preliminary",
+        "preliminaries",
+        "preliminarily",
+        "prelude"
+      ],
+      "answer": 0,
+      "explain": "答案是 preliminary。preliminary（adj.）＝初步的。初步結果看起來很有希望。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-145",
+      "q": "「proceed」（v.）的中文意思是？",
+      "options": [
+        "調職；轉帳",
+        "提升；增強",
+        "評估",
+        "進行；前往"
+      ],
+      "answer": 3,
+      "explain": "proceed（v.）＝進行；前往。例句：Passengers should proceed to Gate 7.（旅客請前往七號登機門。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-146",
+      "q": "「進行；前往」（動詞）的英文是？",
+      "options": [
+        "enhance",
+        "evaluate",
+        "proceed",
+        "transfer"
+      ],
+      "answer": 2,
+      "explain": "proceed（v.）＝進行；前往。其他選項：transfer＝調職；轉帳；enhance＝提升；增強；evaluate＝評估。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-147",
+      "q": "Passengers should _____ to Gate 7.",
+      "options": [
+        "process",
+        "proceed",
+        "procedure",
+        "precede"
+      ],
+      "answer": 1,
+      "explain": "答案是 proceed。proceed（v.）＝進行；前往。旅客請前往七號登機門。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-148",
+      "q": "「procedures」（n.）的中文意思是？",
+      "options": [
+        "程序",
+        "租約",
+        "零售",
+        "過剩；盈餘"
+      ],
+      "answer": 0,
+      "explain": "procedures（n.）＝程序。例句：Please follow the safety procedures at all times.（請隨時遵守安全程序。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-149",
+      "q": "「程序」（名詞）的英文是？",
+      "options": [
+        "lease",
+        "surplus",
+        "retail",
+        "procedures"
+      ],
+      "answer": 3,
+      "explain": "procedures（n.）＝程序。其他選項：lease＝租約；surplus＝過剩；盈餘；retail＝零售。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-150",
+      "q": "Please follow the safety _____ at all times.",
+      "options": [
+        "proceed",
+        "proceeds",
+        "procedures",
+        "processor"
+      ],
+      "answer": 2,
+      "explain": "答案是 procedures。procedures（n.）＝程序。請隨時遵守安全程序。 其他選項：proceed＝進行；前往。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-151",
+      "q": "「productivity」（n.）的中文意思是？",
+      "options": [
+        "人員流動率；營業額",
+        "生產力",
+        "往來信件",
+        "快遞員；快遞公司"
+      ],
+      "answer": 1,
+      "explain": "productivity（n.）＝生產力。例句：Working from home has increased our team's productivity.（在家工作提升了團隊的生產力。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-152",
+      "q": "「生產力」（名詞）的英文是？",
+      "options": [
+        "productivity",
+        "courier",
+        "turnover",
+        "correspondence"
+      ],
+      "answer": 0,
+      "explain": "productivity（n.）＝生產力。其他選項：turnover＝人員流動率；營業額；courier＝快遞員；快遞公司；correspondence＝往來信件。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-153",
+      "q": "Working from home has increased our team's _____.",
+      "options": [
+        "productively",
+        "producer",
+        "productive",
+        "productivity"
+      ],
+      "answer": 3,
+      "explain": "答案是 productivity。productivity（n.）＝生產力。在家工作提升了團隊的生產力。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-154",
+      "q": "「prospective」（adj.）的中文意思是？",
+      "options": [
+        "免費贈送的",
+        "獨家的；專屬的",
+        "潛在的；預期的",
+        "足夠的"
+      ],
+      "answer": 2,
+      "explain": "prospective（adj.）＝潛在的；預期的。例句：We are giving a tour to prospective clients.（我們正帶潛在客戶參觀。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-155",
+      "q": "「潛在的；預期的」（形容詞）的英文是？",
+      "options": [
+        "sufficient",
+        "prospective",
+        "exclusive",
+        "complimentary"
+      ],
+      "answer": 1,
+      "explain": "prospective（adj.）＝潛在的；預期的。其他選項：exclusive＝獨家的；專屬的；sufficient＝足夠的；complimentary＝免費贈送的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-156",
+      "q": "We are giving a tour to _____ clients.",
+      "options": [
+        "prospective",
+        "prospectively",
+        "perspective",
+        "prospect"
+      ],
+      "answer": 0,
+      "explain": "答案是 prospective。prospective（adj.）＝潛在的；預期的。我們正帶潛在客戶參觀。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-157",
+      "q": "「quarterly」（adj.）的中文意思是？",
+      "options": [
+        "有利可圖的",
+        "簡短的",
+        "鄰近的",
+        "每季的"
+      ],
+      "answer": 3,
+      "explain": "quarterly（adj.）＝每季的。例句：The quarterly report shows a rise in profits.（季度報告顯示利潤上升。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-158",
+      "q": "「每季的」（形容詞）的英文是？",
+      "options": [
+        "brief",
+        "adjacent",
+        "quarterly",
+        "lucrative"
+      ],
+      "answer": 2,
+      "explain": "quarterly（adj.）＝每季的。其他選項：lucrative＝有利可圖的；adjacent＝鄰近的；brief＝簡短的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-159",
+      "q": "The _____ report shows a rise in profits.",
+      "options": [
+        "quartet",
+        "quarterly",
+        "quarter",
+        "quarters"
+      ],
+      "answer": 1,
+      "explain": "答案是 quarterly。quarterly（adj.）＝每季的。季度報告顯示利潤上升。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-160",
+      "q": "「relocate」（v.）的中文意思是？",
+      "options": [
+        "搬遷；調職",
+        "提升；增強",
+        "遵守；符合",
+        "進行；前往"
+      ],
+      "answer": 0,
+      "explain": "relocate（v.）＝搬遷；調職。例句：The company will relocate its headquarters to Kaohsiung.（公司將把總部遷到高雄。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-161",
+      "q": "「搬遷；調職」（動詞）的英文是？",
+      "options": [
+        "comply",
+        "enhance",
+        "proceed",
+        "relocate"
+      ],
+      "answer": 3,
+      "explain": "relocate（v.）＝搬遷；調職。其他選項：proceed＝進行；前往；comply＝遵守；符合；enhance＝提升；增強。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-162",
+      "q": "The company will _____ its headquarters to Kaohsiung.",
+      "options": [
+        "locale",
+        "relocation",
+        "relocate",
+        "allocate"
+      ],
+      "answer": 2,
+      "explain": "答案是 relocate。relocate（v.）＝搬遷；調職。公司將把總部遷到高雄。 其他選項：allocate＝分配；撥出。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-163",
+      "q": "「resolve」（v.）的中文意思是？",
+      "options": [
+        "開始",
+        "解決",
+        "評估",
+        "分配；撥出"
+      ],
+      "answer": 1,
+      "explain": "resolve（v.）＝解決。例句：Our technicians will resolve the problem within 24 hours.（我們的技術人員會在 24 小時內解決問題。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-164",
+      "q": "「解決」（動詞）的英文是？",
+      "options": [
+        "resolve",
+        "commence",
+        "allocate",
+        "assess"
+      ],
+      "answer": 0,
+      "explain": "resolve（v.）＝解決。其他選項：commence＝開始；assess＝評估；allocate＝分配；撥出。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-165",
+      "q": "Our technicians will _____ the problem within 24 hours.",
+      "options": [
+        "resolute",
+        "revolve",
+        "resolution",
+        "resolve"
+      ],
+      "answer": 3,
+      "explain": "答案是 resolve。resolve（v.）＝解決。我們的技術人員會在 24 小時內解決問題。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-166",
+      "q": "「retail」（n.）的中文意思是？",
+      "options": [
+        "法律責任",
+        "數量；音量",
+        "零售",
+        "收購"
+      ],
+      "answer": 2,
+      "explain": "retail（n.）＝零售。例句：She has ten years of experience in retail.（她有十年零售業經驗。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-167",
+      "q": "「零售」（名詞）的英文是？",
+      "options": [
+        "liability",
+        "retail",
+        "acquisition",
+        "volume"
+      ],
+      "answer": 1,
+      "explain": "retail（n.）＝零售。其他選項：volume＝數量；音量；liability＝法律責任；acquisition＝收購。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-168",
+      "q": "She has ten years of experience in _____.",
+      "options": [
+        "retail",
+        "retain",
+        "retell",
+        "retailer"
+      ],
+      "answer": 0,
+      "explain": "答案是 retail。retail（n.）＝零售。她有十年零售業經驗。 其他選項：retain＝保留；留住。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-169",
+      "q": "「retain」（v.）的中文意思是？",
+      "options": [
+        "搬遷；調職",
+        "推出；發表",
+        "評估",
+        "保留；留住"
+      ],
+      "answer": 3,
+      "explain": "retain（v.）＝保留；留住。例句：It's important to retain skilled employees.（留住有技能的員工很重要。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-170",
+      "q": "「保留；留住」（動詞）的英文是？",
+      "options": [
+        "relocate",
+        "launch",
+        "retain",
+        "assess"
+      ],
+      "answer": 2,
+      "explain": "retain（v.）＝保留；留住。其他選項：launch＝推出；發表；relocate＝搬遷；調職；assess＝評估。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-171",
+      "q": "It's important to _____ skilled employees.",
+      "options": [
+        "retail",
+        "retain",
+        "retinue",
+        "retention"
+      ],
+      "answer": 1,
+      "explain": "答案是 retain。retain（v.）＝保留；留住。留住有技能的員工很重要。 其他選項：retail＝零售。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-172",
+      "q": "「revenue」（n.）的中文意思是？",
+      "options": [
+        "營收",
+        "專業知識",
+        "程序",
+        "生產力"
+      ],
+      "answer": 0,
+      "explain": "revenue（n.）＝營收。例句：The company's annual revenue reached $10 million.（公司年營收達到一千萬美元。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-173",
+      "q": "「營收」（名詞）的英文是？",
+      "options": [
+        "productivity",
+        "expertise",
+        "procedures",
+        "revenue"
+      ],
+      "answer": 3,
+      "explain": "revenue（n.）＝營收。其他選項：expertise＝專業知識；procedures＝程序；productivity＝生產力。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-174",
+      "q": "The company's annual _____ reached $10 million.",
+      "options": [
+        "avenue",
+        "reverence",
+        "revenue",
+        "revenge"
+      ],
+      "answer": 2,
+      "explain": "答案是 revenue。revenue（n.）＝營收。公司年營收達到一千萬美元。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-175",
+      "q": "「sufficient」（adj.）的中文意思是？",
+      "options": [
+        "有利可圖的",
+        "足夠的",
+        "免費贈送的",
+        "連續的"
+      ],
+      "answer": 1,
+      "explain": "sufficient（adj.）＝足夠的。例句：We don't have sufficient funds to finish the project.（我們沒有足夠的資金完成這項專案。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-176",
+      "q": "「足夠的」（形容詞）的英文是？",
+      "options": [
+        "sufficient",
+        "complimentary",
+        "consecutive",
+        "lucrative"
+      ],
+      "answer": 0,
+      "explain": "sufficient（adj.）＝足夠的。其他選項：consecutive＝連續的；lucrative＝有利可圖的；complimentary＝免費贈送的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-177",
+      "q": "We don't have _____ funds to finish the project.",
+      "options": [
+        "sufficiency",
+        "sufficiently",
+        "suffice",
+        "sufficient"
+      ],
+      "answer": 3,
+      "explain": "答案是 sufficient。sufficient（adj.）＝足夠的。我們沒有足夠的資金完成這項專案。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-178",
+      "q": "「surplus」（n.）的中文意思是？",
+      "options": [
+        "水電瓦斯等費用",
+        "許可證",
+        "過剩；盈餘",
+        "容量；產能"
+      ],
+      "answer": 2,
+      "explain": "surplus（n.）＝過剩；盈餘。例句：There is a surplus of workers in this industry.（這個產業的勞動力過剩。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-179",
+      "q": "「過剩；盈餘」（名詞）的英文是？",
+      "options": [
+        "permit",
+        "surplus",
+        "utilities",
+        "capacity"
+      ],
+      "answer": 1,
+      "explain": "surplus（n.）＝過剩；盈餘。其他選項：permit＝許可證；utilities＝水電瓦斯等費用；capacity＝容量；產能。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-180",
+      "q": "There is a _____ of workers in this industry.",
+      "options": [
+        "surplus",
+        "surface",
+        "purpose",
+        "surprise"
+      ],
+      "answer": 0,
+      "explain": "答案是 surplus。surplus（n.）＝過剩；盈餘。這個產業的勞動力過剩。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-181",
+      "q": "「tentative」（adj.）的中文意思是？",
+      "options": [
+        "初步的",
+        "足夠的",
+        "有利可圖的",
+        "暫定的"
+      ],
+      "answer": 3,
+      "explain": "tentative（adj.）＝暫定的。例句：We have a tentative date of May 10 for the launch.（我們的發表日暫定在五月十日。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-182",
+      "q": "「暫定的」（形容詞）的英文是？",
+      "options": [
+        "preliminary",
+        "lucrative",
+        "tentative",
+        "sufficient"
+      ],
+      "answer": 2,
+      "explain": "tentative（adj.）＝暫定的。其他選項：preliminary＝初步的；lucrative＝有利可圖的；sufficient＝足夠的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-183",
+      "q": "We have a _____ date of May 10 for the launch.",
+      "options": [
+        "attentive",
+        "tentative",
+        "tension",
+        "tentatively"
+      ],
+      "answer": 1,
+      "explain": "答案是 tentative。tentative（adj.）＝暫定的。我們的發表日暫定在五月十日。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-184",
+      "q": "「transactions」（n.）的中文意思是？",
+      "options": [
+        "交易",
+        "程序",
+        "合併",
+        "申請人"
+      ],
+      "answer": 0,
+      "explain": "transactions（n.）＝交易。例句：All transactions are recorded in the system.（所有交易都記錄在系統中。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-185",
+      "q": "「交易」（名詞）的英文是？",
+      "options": [
+        "applicant",
+        "procedures",
+        "merger",
+        "transactions"
+      ],
+      "answer": 3,
+      "explain": "transactions（n.）＝交易。其他選項：applicant＝申請人；merger＝合併；procedures＝程序。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-186",
+      "q": "All _____ are recorded in the system.",
+      "options": [
+        "transact",
+        "transacting",
+        "transactions",
+        "transactional"
+      ],
+      "answer": 2,
+      "explain": "答案是 transactions。transactions（n.）＝交易。所有交易都記錄在系統中。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-187",
+      "q": "「transfer」（v.）的中文意思是？",
+      "options": [
+        "到期",
+        "調職；轉帳",
+        "轉寄",
+        "解決"
+      ],
+      "answer": 1,
+      "explain": "transfer（v.）＝調職；轉帳。例句：He was transferred to the London office.（他被調到倫敦辦公室。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-188",
+      "q": "「調職；轉帳」（動詞）的英文是？",
+      "options": [
+        "transfer",
+        "resolve",
+        "expire",
+        "forward"
+      ],
+      "answer": 0,
+      "explain": "transfer（v.）＝調職；轉帳。其他選項：expire＝到期；forward＝轉寄；resolve＝解決。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-189",
+      "q": "He was _____ to the London office.",
+      "options": [
+        "transformed",
+        "transparent",
+        "transferring",
+        "transferred"
+      ],
+      "answer": 3,
+      "explain": "答案是 transferred。transfer（v.）＝調職；轉帳。他被調到倫敦辦公室。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-190",
+      "q": "「turnover」（n.）的中文意思是？",
+      "options": [
+        "會議紀錄",
+        "顧客；讀者；贊助者",
+        "人員流動率；營業額",
+        "收購"
+      ],
+      "answer": 2,
+      "explain": "turnover（n.）＝人員流動率；營業額。例句：High staff turnover is costly for any business.（員工流動率高對任何企業來說都代價高昂。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-191",
+      "q": "「人員流動率；營業額」（名詞）的英文是？",
+      "options": [
+        "acquisition",
+        "turnover",
+        "minutes",
+        "patrons"
+      ],
+      "answer": 1,
+      "explain": "turnover（n.）＝人員流動率；營業額。其他選項：patrons＝顧客；讀者；贊助者；minutes＝會議紀錄；acquisition＝收購。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-192",
+      "q": "High staff _____ is costly for any business.",
+      "options": [
+        "turnover",
+        "turnout",
+        "turnstile",
+        "overturn"
+      ],
+      "answer": 0,
+      "explain": "答案是 turnover。turnover（n.）＝人員流動率；營業額。員工流動率高對任何企業來說都代價高昂。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-193",
+      "q": "「unanimous」（adj.）的中文意思是？",
+      "options": [
+        "足夠的",
+        "獨家的；專屬的",
+        "免費贈送的",
+        "一致同意的"
+      ],
+      "answer": 3,
+      "explain": "unanimous（adj.）＝一致同意的。例句：The board made a unanimous decision to approve the plan.（董事會一致決定批准這項計畫。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-194",
+      "q": "「一致同意的」（形容詞）的英文是？",
+      "options": [
+        "complimentary",
+        "exclusive",
+        "unanimous",
+        "sufficient"
+      ],
+      "answer": 2,
+      "explain": "unanimous（adj.）＝一致同意的。其他選項：exclusive＝獨家的；專屬的；sufficient＝足夠的；complimentary＝免費贈送的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-195",
+      "q": "The board made a _____ decision to approve the plan.",
+      "options": [
+        "anonymous",
+        "unanimous",
+        "unanimity",
+        "unanimously"
+      ],
+      "answer": 1,
+      "explain": "答案是 unanimous。unanimous（adj.）＝一致同意的。董事會一致決定批准這項計畫。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-196",
+      "q": "「upcoming」（adj.）的中文意思是？",
+      "options": [
+        "即將到來的",
+        "初步的",
+        "潛在的；預期的",
+        "一致同意的"
+      ],
+      "answer": 0,
+      "explain": "upcoming（adj.）＝即將到來的。例句：Please register for the upcoming seminar.（請報名即將舉辦的研討會。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-197",
+      "q": "「即將到來的」（形容詞）的英文是？",
+      "options": [
+        "preliminary",
+        "prospective",
+        "unanimous",
+        "upcoming"
+      ],
+      "answer": 3,
+      "explain": "upcoming（adj.）＝即將到來的。其他選項：unanimous＝一致同意的；prospective＝潛在的；預期的；preliminary＝初步的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-198",
+      "q": "Please register for the _____ seminar.",
+      "options": [
+        "upkeep",
+        "uprising",
+        "upcoming",
+        "upbringing"
+      ],
+      "answer": 2,
+      "explain": "答案是 upcoming。upcoming（adj.）＝即將到來的。請報名即將舉辦的研討會。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-199",
+      "q": "「utilities」（n.）的中文意思是？",
+      "options": [
+        "法律責任",
+        "水電瓦斯等費用",
+        "程序",
+        "合併"
+      ],
+      "answer": 1,
+      "explain": "utilities（n.）＝水電瓦斯等費用。例句：The rent does not include utilities.（房租不含水電費。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-200",
+      "q": "「水電瓦斯等費用」（名詞）的英文是？",
+      "options": [
+        "utilities",
+        "liability",
+        "merger",
+        "procedures"
+      ],
+      "answer": 0,
+      "explain": "utilities（n.）＝水電瓦斯等費用。其他選項：procedures＝程序；merger＝合併；liability＝法律責任。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-201",
+      "q": "The rent does not include _____.",
+      "options": [
+        "utopias",
+        "utilized",
+        "utilize",
+        "utilities"
+      ],
+      "answer": 3,
+      "explain": "答案是 utilities。utilities（n.）＝水電瓦斯等費用。房租不含水電費。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-202",
+      "q": "「vacancy」（n.）的中文意思是？",
+      "options": [
+        "協議",
+        "副本",
+        "空缺；空房",
+        "水電瓦斯等費用"
+      ],
+      "answer": 2,
+      "explain": "vacancy（n.）＝空缺；空房。例句：We have a vacancy for a sales assistant.（我們有一個業務助理的職缺。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-203",
+      "q": "「空缺；空房」（名詞）的英文是？",
+      "options": [
+        "utilities",
+        "vacancy",
+        "duplicate",
+        "agreement"
+      ],
+      "answer": 1,
+      "explain": "vacancy（n.）＝空缺；空房。其他選項：agreement＝協議；utilities＝水電瓦斯等費用；duplicate＝副本。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-204",
+      "q": "We have a _____ for a sales assistant.",
+      "options": [
+        "vacancy",
+        "vacation",
+        "vacuum",
+        "vacant"
+      ],
+      "answer": 0,
+      "explain": "答案是 vacancy。vacancy（n.）＝空缺；空房。我們有一個業務助理的職缺。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-205",
+      "q": "「verify」（v.）的中文意思是？",
+      "options": [
+        "檢查",
+        "分發；配銷",
+        "評估",
+        "核實；驗證"
+      ],
+      "answer": 3,
+      "explain": "verify（v.）＝核實；驗證。例句：Please verify your email address by clicking the link.（請點擊連結驗證你的電子郵件地址。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-206",
+      "q": "「核實；驗證」（動詞）的英文是？",
+      "options": [
+        "distribute",
+        "evaluate",
+        "verify",
+        "inspect"
+      ],
+      "answer": 2,
+      "explain": "verify（v.）＝核實；驗證。其他選項：inspect＝檢查；distribute＝分發；配銷；evaluate＝評估。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-207",
+      "q": "Please _____ your email address by clicking the link.",
+      "options": [
+        "verdict",
+        "verify",
+        "verification",
+        "very"
+      ],
+      "answer": 1,
+      "explain": "答案是 verify。verify（v.）＝核實；驗證。請點擊連結驗證你的電子郵件地址。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-208",
+      "q": "「volume」（n.）的中文意思是？",
+      "options": [
+        "數量；音量",
+        "許可證",
+        "插座；暢貨店",
+        "零售"
+      ],
+      "answer": 0,
+      "explain": "volume（n.）＝數量；音量。例句：The volume of online orders doubled during the holidays.（假期間線上訂單量翻倍。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-209",
+      "q": "「數量；音量」（名詞）的英文是？",
+      "options": [
+        "retail",
+        "outlet",
+        "permit",
+        "volume"
+      ],
+      "answer": 3,
+      "explain": "volume（n.）＝數量；音量。其他選項：outlet＝插座；暢貨店；retail＝零售；permit＝許可證。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-210",
+      "q": "The _____ of online orders doubled during the holidays.",
+      "options": [
+        "voluntary",
+        "volunteer",
+        "volume",
+        "valve"
+      ],
+      "answer": 2,
+      "explain": "答案是 volume。volume（n.）＝數量；音量。假期間線上訂單量翻倍。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-211",
+      "q": "「withdraw」（v.）的中文意思是？",
+      "options": [
+        "遵守；符合",
+        "提款；撤回",
+        "檢查",
+        "到期"
+      ],
+      "answer": 1,
+      "explain": "withdraw（v.）＝提款；撤回。例句：I need to withdraw some cash from the ATM.（我需要從提款機領些現金。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-212",
+      "q": "「提款；撤回」（動詞）的英文是？",
+      "options": [
+        "withdraw",
+        "expire",
+        "inspect",
+        "comply"
+      ],
+      "answer": 0,
+      "explain": "withdraw（v.）＝提款；撤回。其他選項：comply＝遵守；符合；expire＝到期；inspect＝檢查。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-213",
+      "q": "I need to _____ some cash from the ATM.",
+      "options": [
+        "withdrawal",
+        "withstand",
+        "withhold",
+        "withdraw"
+      ],
+      "answer": 3,
+      "explain": "答案是 withdraw。withdraw（v.）＝提款；撤回。我需要從提款機領些現金。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-214",
+      "q": "「courier」（n.）的中文意思是？",
+      "options": [
+        "會議紀錄",
+        "法律責任",
+        "快遞員；快遞公司",
+        "副本"
+      ],
+      "answer": 2,
+      "explain": "courier（n.）＝快遞員；快遞公司。例句：The documents will be sent by courier this afternoon.（文件今天下午會用快遞寄出。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-215",
+      "q": "「快遞員；快遞公司」（名詞）的英文是？",
+      "options": [
+        "duplicate",
+        "courier",
+        "minutes",
+        "liability"
+      ],
+      "answer": 1,
+      "explain": "courier（n.）＝快遞員；快遞公司。其他選項：minutes＝會議紀錄；liability＝法律責任；duplicate＝副本。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-216",
+      "q": "The documents will be sent by _____ this afternoon.",
+      "options": [
+        "courier",
+        "courage",
+        "courtier",
+        "career"
+      ],
+      "answer": 0,
+      "explain": "答案是 courier。courier（n.）＝快遞員；快遞公司。文件今天下午會用快遞寄出。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t600-217",
+      "q": "「expire」（v.）的中文意思是？",
+      "options": [
+        "解決",
+        "進行；前往",
+        "評估",
+        "到期"
+      ],
+      "answer": 3,
+      "explain": "expire（v.）＝到期。例句：My driver's license expires next month.（我的駕照下個月到期。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-218",
+      "q": "「到期」（動詞）的英文是？",
+      "options": [
+        "assess",
+        "proceed",
+        "expire",
+        "resolve"
+      ],
+      "answer": 2,
+      "explain": "expire（v.）＝到期。其他選項：assess＝評估；proceed＝進行；前往；resolve＝解決。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-219",
+      "q": "My driver's license _____ next month.",
+      "options": [
+        "expiration",
+        "expires",
+        "expiring",
+        "inspires"
+      ],
+      "answer": 1,
+      "explain": "答案是 expires。expire（v.）＝到期。我的駕照下個月到期。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-220",
+      "q": "「complimentary」（adj.）的中文意思是？",
+      "options": [
+        "免費贈送的",
+        "有利可圖的",
+        "暫定的",
+        "即將到來的"
+      ],
+      "answer": 0,
+      "explain": "complimentary（adj.）＝免費贈送的。例句：Guests receive a complimentary breakfast.（房客享有免費早餐。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-221",
+      "q": "「免費贈送的」（形容詞）的英文是？",
+      "options": [
+        "tentative",
+        "lucrative",
+        "upcoming",
+        "complimentary"
+      ],
+      "answer": 3,
+      "explain": "complimentary（adj.）＝免費贈送的。其他選項：tentative＝暫定的；lucrative＝有利可圖的；upcoming＝即將到來的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-222",
+      "q": "Guests receive a _____ breakfast.",
+      "options": [
+        "complement",
+        "complementary",
+        "complimentary",
+        "compliment"
+      ],
+      "answer": 2,
+      "explain": "答案是 complimentary。complimentary（adj.）＝免費贈送的。房客享有免費早餐。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t600-223",
+      "q": "「commence」（v.）的中文意思是？",
+      "options": [
+        "進行；前往",
+        "開始",
+        "遵守；符合",
+        "預期"
+      ],
+      "answer": 1,
+      "explain": "commence（v.）＝開始。例句：The ceremony will commence at 10 a.m.（典禮將於上午十點開始。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-224",
+      "q": "「開始」（動詞）的英文是？",
+      "options": [
+        "commence",
+        "proceed",
+        "comply",
+        "anticipate"
+      ],
+      "answer": 0,
+      "explain": "commence（v.）＝開始。其他選項：anticipate＝預期；comply＝遵守；符合；proceed＝進行；前往。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t600-225",
+      "q": "The ceremony will _____ at 10 a.m.",
+      "options": [
+        "commerce",
+        "commend",
+        "comment",
+        "commence"
+      ],
+      "answer": 3,
+      "explain": "答案是 commence。commence（v.）＝開始。典禮將於上午十點開始。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    }
+  ]
+}

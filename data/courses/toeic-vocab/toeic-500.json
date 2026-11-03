@@ -1,0 +1,3700 @@
+{
+  "questions": [
+    {
+      "id": "t500-001",
+      "q": "「accommodate」（v.）的中文意思是？",
+      "options": [
+        "收到",
+        "晉升；促銷",
+        "容納；提供住宿",
+        "籌辦；整理"
+      ],
+      "answer": 2,
+      "explain": "accommodate（v.）＝容納；提供住宿。例句：The hall can accommodate up to 300 guests.（這個大廳最多可容納 300 位賓客。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-002",
+      "q": "「容納；提供住宿」（動詞）的英文是？",
+      "options": [
+        "organize",
+        "accommodate",
+        "promote",
+        "receive"
+      ],
+      "answer": 1,
+      "explain": "accommodate（v.）＝容納；提供住宿。其他選項：organize＝籌辦；整理；promote＝晉升；促銷；receive＝收到。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-003",
+      "q": "The hall can _____ up to 300 guests.",
+      "options": [
+        "accommodate",
+        "acknowledge",
+        "accompany",
+        "accumulate"
+      ],
+      "answer": 0,
+      "explain": "答案是 accommodate。accommodate（v.）＝容納；提供住宿。這個大廳最多可容納 300 位賓客。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-004",
+      "q": "「accommodation」（n.）的中文意思是？",
+      "options": [
+        "福利",
+        "存貨；庫存清點",
+        "預算",
+        "住宿"
+      ],
+      "answer": 3,
+      "explain": "accommodation（n.）＝住宿。例句：The price includes flights and accommodation.（價格包含機票與住宿。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-005",
+      "q": "「住宿」（名詞）的英文是？",
+      "options": [
+        "inventory",
+        "benefits",
+        "accommodation",
+        "budget"
+      ],
+      "answer": 2,
+      "explain": "accommodation（n.）＝住宿。其他選項：benefits＝福利；inventory＝存貨；庫存清點；budget＝預算。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-006",
+      "q": "The price includes flights and _____.",
+      "options": [
+        "accommodate",
+        "accommodation",
+        "accommodated",
+        "accommodating"
+      ],
+      "answer": 1,
+      "explain": "答案是 accommodation。accommodation（n.）＝住宿。價格包含機票與住宿。 其他選項：accommodate＝容納；提供住宿。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-007",
+      "q": "「affordable」（adj.）的中文意思是？",
+      "options": [
+        "負擔得起的",
+        "有效率的",
+        "合格的；有資格的",
+        "傑出的；未付清的"
+      ],
+      "answer": 0,
+      "explain": "affordable（adj.）＝負擔得起的。例句：We offer affordable housing for young families.（我們為年輕家庭提供負擔得起的住宅。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-008",
+      "q": "「負擔得起的」（形容詞）的英文是？",
+      "options": [
+        "outstanding",
+        "qualified",
+        "efficient",
+        "affordable"
+      ],
+      "answer": 3,
+      "explain": "affordable（adj.）＝負擔得起的。其他選項：qualified＝合格的；有資格的；outstanding＝傑出的；未付清的；efficient＝有效率的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-009",
+      "q": "We offer _____ housing for young families.",
+      "options": [
+        "afford",
+        "affordability",
+        "affordable",
+        "affordably"
+      ],
+      "answer": 2,
+      "explain": "答案是 affordable。affordable（adj.）＝負擔得起的。我們為年輕家庭提供負擔得起的住宅。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-010",
+      "q": "「annual」（adj.）的中文意思是？",
+      "options": [
+        "合格的；有資格的",
+        "每年的；年度的",
+        "有效的",
+        "有效率的"
+      ],
+      "answer": 1,
+      "explain": "annual（adj.）＝每年的；年度的。例句：The company holds an annual party every December.（公司每年十二月舉辦年度派對。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-011",
+      "q": "「每年的；年度的」（形容詞）的英文是？",
+      "options": [
+        "annual",
+        "qualified",
+        "valid",
+        "efficient"
+      ],
+      "answer": 0,
+      "explain": "annual（adj.）＝每年的；年度的。其他選項：efficient＝有效率的；qualified＝合格的；有資格的；valid＝有效的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-012",
+      "q": "The company holds an _____ party every December.",
+      "options": [
+        "announce",
+        "annul",
+        "annually",
+        "annual"
+      ],
+      "answer": 3,
+      "explain": "答案是 annual。annual（adj.）＝每年的；年度的。公司每年十二月舉辦年度派對。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-013",
+      "q": "「approve」（v.）的中文意思是？",
+      "options": [
+        "推薦；建議",
+        "籌辦；整理",
+        "批准；核准",
+        "通勤"
+      ],
+      "answer": 2,
+      "explain": "approve（v.）＝批准；核准。例句：The manager must approve all travel expenses.（所有差旅費都必須經過經理核准。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-014",
+      "q": "「批准；核准」（動詞）的英文是？",
+      "options": [
+        "recommend",
+        "approve",
+        "commute",
+        "organize"
+      ],
+      "answer": 1,
+      "explain": "approve（v.）＝批准；核准。其他選項：recommend＝推薦；建議；organize＝籌辦；整理；commute＝通勤。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-015",
+      "q": "The manager must _____ all travel expenses.",
+      "options": [
+        "approve",
+        "approximate",
+        "approach",
+        "approval"
+      ],
+      "answer": 0,
+      "explain": "答案是 approve。approve（v.）＝批准；核准。所有差旅費都必須經過經理核准。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-016",
+      "q": "「authorize」（v.）的中文意思是？",
+      "options": [
+        "參加",
+        "通勤",
+        "推薦；建議",
+        "授權"
+      ],
+      "answer": 3,
+      "explain": "authorize（v.）＝授權。例句：Only managers are authorized to sign this form.（只有經理被授權簽署這份表格。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-017",
+      "q": "「授權」（動詞）的英文是？",
+      "options": [
+        "recommend",
+        "commute",
+        "authorize",
+        "participate"
+      ],
+      "answer": 2,
+      "explain": "authorize（v.）＝授權。其他選項：commute＝通勤；recommend＝推薦；建議；participate＝參加。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-018",
+      "q": "Only managers are _____ to sign this form.",
+      "options": [
+        "author",
+        "authorized",
+        "authorization",
+        "authority"
+      ],
+      "answer": 1,
+      "explain": "答案是 authorized。authorize（v.）＝授權。只有經理被授權簽署這份表格。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-019",
+      "q": "「budget」（n.）的中文意思是？",
+      "options": [
+        "預算",
+        "職業",
+        "延誤",
+        "保固"
+      ],
+      "answer": 0,
+      "explain": "budget（n.）＝預算。例句：We have to stay within the budget this year.（今年我們必須控制在預算以內。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-020",
+      "q": "「預算」（名詞）的英文是？",
+      "options": [
+        "delay",
+        "warranty",
+        "occupation",
+        "budget"
+      ],
+      "answer": 3,
+      "explain": "budget（n.）＝預算。其他選項：occupation＝職業；delay＝延誤；warranty＝保固。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-021",
+      "q": "We have to stay within the _____ this year.",
+      "options": [
+        "budge",
+        "bucket",
+        "budget",
+        "badge"
+      ],
+      "answer": 2,
+      "explain": "答案是 budget。budget（n.）＝預算。今年我們必須控制在預算以內。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-022",
+      "q": "「candidate」（n.）的中文意思是？",
+      "options": [
+        "職業",
+        "候選人；應徵者",
+        "研討會；大型會議",
+        "訂金；押金"
+      ],
+      "answer": 1,
+      "explain": "candidate（n.）＝候選人；應徵者。例句：We interviewed five candidates for the position.（我們為這個職位面試了五位應徵者。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-023",
+      "q": "「候選人；應徵者」（名詞）的英文是？",
+      "options": [
+        "candidate",
+        "conference",
+        "occupation",
+        "deposit"
+      ],
+      "answer": 0,
+      "explain": "candidate（n.）＝候選人；應徵者。其他選項：occupation＝職業；conference＝研討會；大型會議；deposit＝訂金；押金。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-024",
+      "q": "We interviewed five _____ for the position.",
+      "options": [
+        "canvases",
+        "candles",
+        "candies",
+        "candidates"
+      ],
+      "answer": 3,
+      "explain": "答案是 candidates。candidate（n.）＝候選人；應徵者。我們為這個職位面試了五位應徵者。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-025",
+      "q": "「client」（n.）的中文意思是？",
+      "options": [
+        "商品",
+        "規定；法規",
+        "客戶",
+        "人員；人事"
+      ],
+      "answer": 2,
+      "explain": "client（n.）＝客戶。例句：I'm meeting a client for lunch to discuss the project.（我要和一位客戶吃午餐討論專案。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-026",
+      "q": "「客戶」（名詞）的英文是？",
+      "options": [
+        "regulations",
+        "client",
+        "merchandise",
+        "personnel"
+      ],
+      "answer": 1,
+      "explain": "client（n.）＝客戶。其他選項：personnel＝人員；人事；merchandise＝商品；regulations＝規定；法規。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-027",
+      "q": "I'm meeting a _____ for lunch to discuss the project.",
+      "options": [
+        "client",
+        "climate",
+        "cliff",
+        "climb"
+      ],
+      "answer": 0,
+      "explain": "答案是 client。client（n.）＝客戶。我要和一位客戶吃午餐討論專案。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-028",
+      "q": "「complaint」（n.）的中文意思是？",
+      "options": [
+        "攤販；供應商",
+        "回饋意見",
+        "福利",
+        "抱怨；投訴"
+      ],
+      "answer": 3,
+      "explain": "complaint（n.）＝抱怨；投訴。例句：We received a complaint about the noise.（我們收到一則關於噪音的投訴。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-029",
+      "q": "「抱怨；投訴」（名詞）的英文是？",
+      "options": [
+        "vendor",
+        "feedback",
+        "complaint",
+        "benefits"
+      ],
+      "answer": 2,
+      "explain": "complaint（n.）＝抱怨；投訴。其他選項：vendor＝攤販；供應商；benefits＝福利；feedback＝回饋意見。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-030",
+      "q": "We received a _____ about the noise.",
+      "options": [
+        "complain",
+        "complaint",
+        "complained",
+        "complaining"
+      ],
+      "answer": 1,
+      "explain": "答案是 complaint。complaint（n.）＝抱怨；投訴。我們收到一則關於噪音的投訴。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-031",
+      "q": "「complete」（v.）的中文意思是？",
+      "options": [
+        "完成",
+        "需要；要求",
+        "籌辦；整理",
+        "減少；降低"
+      ],
+      "answer": 0,
+      "explain": "complete（v.）＝完成。例句：Please complete the survey by the end of the week.（請在本週結束前完成問卷。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-032",
+      "q": "「完成」（動詞）的英文是？",
+      "options": [
+        "require",
+        "organize",
+        "reduce",
+        "complete"
+      ],
+      "answer": 3,
+      "explain": "complete（v.）＝完成。其他選項：reduce＝減少；降低；organize＝籌辦；整理；require＝需要；要求。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-033",
+      "q": "Please _____ the survey by the end of the week.",
+      "options": [
+        "complex",
+        "compete",
+        "complete",
+        "completely"
+      ],
+      "answer": 2,
+      "explain": "答案是 complete。complete（v.）＝完成。請在本週結束前完成問卷。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-034",
+      "q": "「conference」（n.）的中文意思是？",
+      "options": [
+        "人員；人事",
+        "研討會；大型會議",
+        "報價",
+        "行程表"
+      ],
+      "answer": 1,
+      "explain": "conference（n.）＝研討會；大型會議。例句：She flew to Tokyo to attend a medical conference.（她飛到東京參加醫學研討會。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-035",
+      "q": "「研討會；大型會議」（名詞）的英文是？",
+      "options": [
+        "conference",
+        "quote",
+        "itinerary",
+        "personnel"
+      ],
+      "answer": 0,
+      "explain": "conference（n.）＝研討會；大型會議。其他選項：quote＝報價；personnel＝人員；人事；itinerary＝行程表。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-036",
+      "q": "She flew to Tokyo to attend a medical _____.",
+      "options": [
+        "conscience",
+        "confidence",
+        "consequence",
+        "conference"
+      ],
+      "answer": 3,
+      "explain": "答案是 conference。conference（n.）＝研討會；大型會議。她飛到東京參加醫學研討會。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-037",
+      "q": "「deposit」（n.）的中文意思是？",
+      "options": [
+        "預算",
+        "研習會；工作坊",
+        "訂金；押金",
+        "車資；票價"
+      ],
+      "answer": 2,
+      "explain": "deposit（n.）＝訂金；押金。例句：A 20 percent deposit is required to hold the reservation.（需要支付兩成訂金才能保留訂位。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-038",
+      "q": "「訂金；押金」（名詞）的英文是？",
+      "options": [
+        "fare",
+        "deposit",
+        "workshop",
+        "budget"
+      ],
+      "answer": 1,
+      "explain": "deposit（n.）＝訂金；押金。其他選項：fare＝車資；票價；workshop＝研習會；工作坊；budget＝預算。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-039",
+      "q": "A 20 percent _____ is required to hold the reservation.",
+      "options": [
+        "deposit",
+        "deposited",
+        "depot",
+        "deport"
+      ],
+      "answer": 0,
+      "explain": "答案是 deposit。deposit（n.）＝訂金；押金。需要支付兩成訂金才能保留訂位。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-040",
+      "q": "「estimate」（n.）的中文意思是？",
+      "options": [
+        "場地",
+        "目標",
+        "政策；規定",
+        "估價；估計"
+      ],
+      "answer": 3,
+      "explain": "estimate（n.）＝估價；估計。例句：The contractor gave us an estimate of $5,000 for the repairs.（承包商給我們的修繕估價是 5,000 美元。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-041",
+      "q": "「估價；估計」（名詞）的英文是？",
+      "options": [
+        "policy",
+        "objective",
+        "estimate",
+        "venue"
+      ],
+      "answer": 2,
+      "explain": "estimate（n.）＝估價；估計。其他選項：venue＝場地；objective＝目標；policy＝政策；規定。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-042",
+      "q": "The contractor gave us an _____ of $5,000 for the repairs.",
+      "options": [
+        "estate",
+        "estimate",
+        "esteem",
+        "estimated"
+      ],
+      "answer": 1,
+      "explain": "答案是 estimate。estimate（n.）＝估價；估計。承包商給我們的修繕估價是 5,000 美元。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-043",
+      "q": "「expand」（v.）的中文意思是？",
+      "options": [
+        "擴展",
+        "修訂",
+        "延長",
+        "晉升；促銷"
+      ],
+      "answer": 0,
+      "explain": "expand（v.）＝擴展。例句：The company plans to expand into the Asian market.（公司計畫擴展至亞洲市場。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-044",
+      "q": "「擴展」（動詞）的英文是？",
+      "options": [
+        "revise",
+        "promote",
+        "extend",
+        "expand"
+      ],
+      "answer": 3,
+      "explain": "expand（v.）＝擴展。其他選項：promote＝晉升；促銷；revise＝修訂；extend＝延長。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-045",
+      "q": "The company plans to _____ into the Asian market.",
+      "options": [
+        "expense",
+        "expend",
+        "expand",
+        "expansion"
+      ],
+      "answer": 2,
+      "explain": "答案是 expand。expand（v.）＝擴展。公司計畫擴展至亞洲市場。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-046",
+      "q": "「expenses」（n.）的中文意思是？",
+      "options": [
+        "利潤",
+        "費用；開支",
+        "工資",
+        "設施"
+      ],
+      "answer": 1,
+      "explain": "expenses（n.）＝費用；開支。例句：Travel expenses will be paid by the company.（差旅費用將由公司支付。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-047",
+      "q": "「費用；開支」（名詞）的英文是？",
+      "options": [
+        "expenses",
+        "profit",
+        "facilities",
+        "wage"
+      ],
+      "answer": 0,
+      "explain": "expenses（n.）＝費用；開支。其他選項：facilities＝設施；profit＝利潤；wage＝工資。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-048",
+      "q": "Travel _____ will be paid by the company.",
+      "options": [
+        "expend",
+        "expensive",
+        "expensively",
+        "expenses"
+      ],
+      "answer": 3,
+      "explain": "答案是 expenses。expenses（n.）＝費用；開支。差旅費用將由公司支付。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-049",
+      "q": "「extend」（v.）的中文意思是？",
+      "options": [
+        "容納；提供住宿",
+        "減少；降低",
+        "延長",
+        "完成"
+      ],
+      "answer": 2,
+      "explain": "extend（v.）＝延長。例句：We decided to extend the deadline by one week.（我們決定把截止日期延長一週。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-050",
+      "q": "「延長」（動詞）的英文是？",
+      "options": [
+        "accommodate",
+        "extend",
+        "complete",
+        "reduce"
+      ],
+      "answer": 1,
+      "explain": "extend（v.）＝延長。其他選項：complete＝完成；accommodate＝容納；提供住宿；reduce＝減少；降低。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-051",
+      "q": "We decided to _____ the deadline by one week.",
+      "options": [
+        "extend",
+        "extension",
+        "extensive",
+        "extent"
+      ],
+      "answer": 0,
+      "explain": "答案是 extend。extend（v.）＝延長。我們決定把截止日期延長一週。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-052",
+      "q": "「facilities」（n.）的中文意思是？",
+      "options": [
+        "推薦人；推薦信",
+        "人員；人事",
+        "行程表",
+        "設施"
+      ],
+      "answer": 3,
+      "explain": "facilities（n.）＝設施。例句：The hotel has excellent fitness facilities.（飯店有很棒的健身設施。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-053",
+      "q": "「設施」（名詞）的英文是？",
+      "options": [
+        "personnel",
+        "references",
+        "facilities",
+        "itinerary"
+      ],
+      "answer": 2,
+      "explain": "facilities（n.）＝設施。其他選項：itinerary＝行程表；references＝推薦人；推薦信；personnel＝人員；人事。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-054",
+      "q": "The hotel has excellent fitness _____.",
+      "options": [
+        "facilitates",
+        "facilities",
+        "facile",
+        "facilitated"
+      ],
+      "answer": 1,
+      "explain": "答案是 facilities。facilities（n.）＝設施。飯店有很棒的健身設施。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-055",
+      "q": "「feedback」（n.）的中文意思是？",
+      "options": [
+        "回饋意見",
+        "推薦人；推薦信",
+        "保全；安全",
+        "研習會；工作坊"
+      ],
+      "answer": 0,
+      "explain": "feedback（n.）＝回饋意見。例句：Thank you for your feedback on our new website.（感謝您對我們新網站的意見回饋。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-056",
+      "q": "「回饋意見」（名詞）的英文是？",
+      "options": [
+        "security",
+        "workshop",
+        "references",
+        "feedback"
+      ],
+      "answer": 3,
+      "explain": "feedback（n.）＝回饋意見。其他選項：references＝推薦人；推薦信；security＝保全；安全；workshop＝研習會；工作坊。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-057",
+      "q": "Thank you for your _____ on our new website.",
+      "options": [
+        "fallback",
+        "feed",
+        "feedback",
+        "setback"
+      ],
+      "answer": 2,
+      "explain": "答案是 feedback。feedback（n.）＝回饋意見。感謝您對我們新網站的意見回饋。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-058",
+      "q": "「inquiry」（n.）的中文意思是？",
+      "options": [
+        "行程表",
+        "詢問",
+        "保全；安全",
+        "客戶"
+      ],
+      "answer": 1,
+      "explain": "inquiry（n.）＝詢問。例句：We will respond to your inquiry within 24 hours.（我們會在 24 小時內回覆您的詢問。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-059",
+      "q": "「詢問」（名詞）的英文是？",
+      "options": [
+        "inquiry",
+        "security",
+        "itinerary",
+        "client"
+      ],
+      "answer": 0,
+      "explain": "inquiry（n.）＝詢問。其他選項：security＝保全；安全；itinerary＝行程表；client＝客戶。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-060",
+      "q": "We will respond to your _____ within 24 hours.",
+      "options": [
+        "inquiring",
+        "inquire",
+        "inquired",
+        "inquiry"
+      ],
+      "answer": 3,
+      "explain": "答案是 inquiry。inquiry（n.）＝詢問。我們會在 24 小時內回覆您的詢問。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-061",
+      "q": "「inventory」（n.）的中文意思是？",
+      "options": [
+        "維修；保養",
+        "輪班",
+        "存貨；庫存清點",
+        "保固"
+      ],
+      "answer": 2,
+      "explain": "inventory（n.）＝存貨；庫存清點。例句：We take inventory at the end of every month.（我們每個月月底盤點庫存。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-062",
+      "q": "「存貨；庫存清點」（名詞）的英文是？",
+      "options": [
+        "shift",
+        "inventory",
+        "warranty",
+        "maintenance"
+      ],
+      "answer": 1,
+      "explain": "inventory（n.）＝存貨；庫存清點。其他選項：maintenance＝維修；保養；warranty＝保固；shift＝輪班。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-063",
+      "q": "We take _____ at the end of every month.",
+      "options": [
+        "inventory",
+        "invent",
+        "inventor",
+        "invention"
+      ],
+      "answer": 0,
+      "explain": "答案是 inventory。inventory（n.）＝存貨；庫存清點。我們每個月月底盤點庫存。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-064",
+      "q": "「itinerary」（n.）的中文意思是？",
+      "options": [
+        "茶點",
+        "客戶",
+        "（會議的）場次；課程",
+        "行程表"
+      ],
+      "answer": 3,
+      "explain": "itinerary（n.）＝行程表。例句：Your travel itinerary has been sent to your email.（您的旅遊行程已寄到您的電子信箱。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-065",
+      "q": "「行程表」（名詞）的英文是？",
+      "options": [
+        "refreshments",
+        "session",
+        "itinerary",
+        "client"
+      ],
+      "answer": 2,
+      "explain": "itinerary（n.）＝行程表。其他選項：session＝（會議的）場次；課程；client＝客戶；refreshments＝茶點。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-066",
+      "q": "Your travel _____ has been sent to your email.",
+      "options": [
+        "inventory",
+        "itinerary",
+        "itinerant",
+        "identity"
+      ],
+      "answer": 1,
+      "explain": "答案是 itinerary。itinerary（n.）＝行程表。您的旅遊行程已寄到您的電子信箱。 其他選項：inventory＝存貨；庫存清點。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-067",
+      "q": "「maintenance」（n.）的中文意思是？",
+      "options": [
+        "維修；保養",
+        "目標",
+        "候選人；應徵者",
+        "估價；估計"
+      ],
+      "answer": 0,
+      "explain": "maintenance（n.）＝維修；保養。例句：The pool is closed for maintenance this week.（游泳池本週因維修而關閉。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-068",
+      "q": "「維修；保養」（名詞）的英文是？",
+      "options": [
+        "estimate",
+        "objective",
+        "candidate",
+        "maintenance"
+      ],
+      "answer": 3,
+      "explain": "maintenance（n.）＝維修；保養。其他選項：objective＝目標；candidate＝候選人；應徵者；estimate＝估價；估計。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-069",
+      "q": "The pool is closed for _____ this week.",
+      "options": [
+        "maintained",
+        "maintain",
+        "maintenance",
+        "maintainable"
+      ],
+      "answer": 2,
+      "explain": "答案是 maintenance。maintenance（n.）＝維修；保養。游泳池本週因維修而關閉。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-070",
+      "q": "「merchandise」（n.）的中文意思是？",
+      "options": [
+        "費用；開支",
+        "商品",
+        "推薦人；推薦信",
+        "住宿"
+      ],
+      "answer": 1,
+      "explain": "merchandise（n.）＝商品。例句：All merchandise on this shelf is 30 percent off.（這個架上的所有商品打七折。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-071",
+      "q": "「商品」（名詞）的英文是？",
+      "options": [
+        "merchandise",
+        "accommodation",
+        "expenses",
+        "references"
+      ],
+      "answer": 0,
+      "explain": "merchandise（n.）＝商品。其他選項：accommodation＝住宿；references＝推薦人；推薦信；expenses＝費用；開支。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-072",
+      "q": "All _____ on this shelf is 30 percent off.",
+      "options": [
+        "merchandiser",
+        "mercenary",
+        "merchant",
+        "merchandise"
+      ],
+      "answer": 3,
+      "explain": "答案是 merchandise。merchandise（n.）＝商品。這個架上的所有商品打七折。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-073",
+      "q": "「negotiate」（v.）的中文意思是？",
+      "options": [
+        "參加",
+        "完成",
+        "協商；談判",
+        "製造"
+      ],
+      "answer": 2,
+      "explain": "negotiate（v.）＝協商；談判。例句：The two companies are negotiating a new contract.（兩家公司正在協商新合約。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-074",
+      "q": "「協商；談判」（動詞）的英文是？",
+      "options": [
+        "complete",
+        "negotiate",
+        "manufacture",
+        "participate"
+      ],
+      "answer": 1,
+      "explain": "negotiate（v.）＝協商；談判。其他選項：complete＝完成；manufacture＝製造；participate＝參加。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-075",
+      "q": "The two companies are _____ a new contract.",
+      "options": [
+        "negotiating",
+        "negotiator",
+        "negotiable",
+        "negotiation"
+      ],
+      "answer": 0,
+      "explain": "答案是 negotiating。negotiate（v.）＝協商；談判。兩家公司正在協商新合約。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-076",
+      "q": "「objective」（n.）的中文意思是？",
+      "options": [
+        "利潤",
+        "設施",
+        "保全；安全",
+        "目標"
+      ],
+      "answer": 3,
+      "explain": "objective（n.）＝目標。例句：Our main objective is to increase sales by 10 percent.（我們的主要目標是讓銷售額成長一成。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-077",
+      "q": "「目標」（名詞）的英文是？",
+      "options": [
+        "profit",
+        "security",
+        "objective",
+        "facilities"
+      ],
+      "answer": 2,
+      "explain": "objective（n.）＝目標。其他選項：profit＝利潤；security＝保全；安全；facilities＝設施。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-078",
+      "q": "Our main _____ is to increase sales by 10 percent.",
+      "options": [
+        "objection",
+        "objective",
+        "objectively",
+        "objectivity"
+      ],
+      "answer": 1,
+      "explain": "答案是 objective。objective（n.）＝目標。我們的主要目標是讓銷售額成長一成。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-079",
+      "q": "「occupation」（n.）的中文意思是？",
+      "options": [
+        "職業",
+        "詢問",
+        "目的地",
+        "住宿"
+      ],
+      "answer": 0,
+      "explain": "occupation（n.）＝職業。例句：Please write your name, age, and occupation on the form.（請在表格上寫下姓名、年齡與職業。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-080",
+      "q": "「職業」（名詞）的英文是？",
+      "options": [
+        "inquiry",
+        "accommodation",
+        "destination",
+        "occupation"
+      ],
+      "answer": 3,
+      "explain": "occupation（n.）＝職業。其他選項：destination＝目的地；accommodation＝住宿；inquiry＝詢問。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-081",
+      "q": "Please write your name, age, and _____ on the form.",
+      "options": [
+        "occupied",
+        "occupy",
+        "occupation",
+        "occasion"
+      ],
+      "answer": 2,
+      "explain": "答案是 occupation。occupation（n.）＝職業。請在表格上寫下姓名、年齡與職業。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-082",
+      "q": "「participate」（v.）的中文意思是？",
+      "options": [
+        "提交",
+        "參加",
+        "晉升；促銷",
+        "操作；營運"
+      ],
+      "answer": 1,
+      "explain": "participate（v.）＝參加。例句：All staff are encouraged to participate in the charity event.（鼓勵所有員工參加慈善活動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-083",
+      "q": "「參加」（動詞）的英文是？",
+      "options": [
+        "participate",
+        "submit",
+        "operate",
+        "promote"
+      ],
+      "answer": 0,
+      "explain": "participate（v.）＝參加。其他選項：promote＝晉升；促銷；operate＝操作；營運；submit＝提交。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-084",
+      "q": "All staff are encouraged to _____ in the charity event.",
+      "options": [
+        "participation",
+        "participant",
+        "particular",
+        "participate"
+      ],
+      "answer": 3,
+      "explain": "答案是 participate。participate（v.）＝參加。鼓勵所有員工參加慈善活動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-085",
+      "q": "「personnel」（n.）的中文意思是？",
+      "options": [
+        "工資",
+        "報價",
+        "人員；人事",
+        "茶點"
+      ],
+      "answer": 2,
+      "explain": "personnel（n.）＝人員；人事。例句：Only authorized personnel may enter this area.（只有經授權的人員可以進入此區。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-086",
+      "q": "「人員；人事」（名詞）的英文是？",
+      "options": [
+        "quote",
+        "personnel",
+        "wage",
+        "refreshments"
+      ],
+      "answer": 1,
+      "explain": "personnel（n.）＝人員；人事。其他選項：wage＝工資；refreshments＝茶點；quote＝報價。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-087",
+      "q": "Only authorized _____ may enter this area.",
+      "options": [
+        "personnel",
+        "personally",
+        "personal",
+        "personality"
+      ],
+      "answer": 0,
+      "explain": "答案是 personnel。personnel（n.）＝人員；人事。只有經授權的人員可以進入此區。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-088",
+      "q": "「policy」（n.）的中文意思是？",
+      "options": [
+        "利潤",
+        "費用；開支",
+        "候選人；應徵者",
+        "政策；規定"
+      ],
+      "answer": 3,
+      "explain": "policy（n.）＝政策；規定。例句：Our return policy allows exchanges within 14 days.（我們的退貨規定允許 14 天內換貨。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-089",
+      "q": "「政策；規定」（名詞）的英文是？",
+      "options": [
+        "expenses",
+        "candidate",
+        "policy",
+        "profit"
+      ],
+      "answer": 2,
+      "explain": "policy（n.）＝政策；規定。其他選項：expenses＝費用；開支；candidate＝候選人；應徵者；profit＝利潤。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-090",
+      "q": "Our return _____ allows exchanges within 14 days.",
+      "options": [
+        "polish",
+        "policy",
+        "politics",
+        "police"
+      ],
+      "answer": 1,
+      "explain": "答案是 policy。policy（n.）＝政策；規定。我們的退貨規定允許 14 天內換貨。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-091",
+      "q": "「promote」（v.）的中文意思是？",
+      "options": [
+        "晉升；促銷",
+        "收到",
+        "創立",
+        "修訂"
+      ],
+      "answer": 0,
+      "explain": "promote（v.）＝晉升；促銷。例句：She was promoted to sales manager last month.（她上個月被升為業務經理。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-092",
+      "q": "「晉升；促銷」（動詞）的英文是？",
+      "options": [
+        "receive",
+        "revise",
+        "found",
+        "promote"
+      ],
+      "answer": 3,
+      "explain": "promote（v.）＝晉升；促銷。其他選項：revise＝修訂；receive＝收到；found＝創立。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-093",
+      "q": "She was _____ to sales manager last month.",
+      "options": [
+        "promptly",
+        "promoter",
+        "promoted",
+        "promotion"
+      ],
+      "answer": 2,
+      "explain": "答案是 promoted。promote（v.）＝晉升；促銷。她上個月被升為業務經理。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-094",
+      "q": "「quote」（n.）的中文意思是？",
+      "options": [
+        "商品",
+        "報價",
+        "保全；安全",
+        "費用；開支"
+      ],
+      "answer": 1,
+      "explain": "quote（n.）＝報價。例句：Could you give me a quote for 200 printed T-shirts?（可以給我 200 件印製 T 恤的報價嗎？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-095",
+      "q": "「報價」（名詞）的英文是？",
+      "options": [
+        "quote",
+        "expenses",
+        "security",
+        "merchandise"
+      ],
+      "answer": 0,
+      "explain": "quote（n.）＝報價。其他選項：merchandise＝商品；security＝保全；安全；expenses＝費用；開支。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-096",
+      "q": "Could you give me a _____ for 200 printed T-shirts?",
+      "options": [
+        "quiet",
+        "quota",
+        "quit",
+        "quote"
+      ],
+      "answer": 3,
+      "explain": "答案是 quote。quote（n.）＝報價。可以給我 200 件印製 T 恤的報價嗎？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-097",
+      "q": "「recommend」（v.）的中文意思是？",
+      "options": [
+        "安裝",
+        "需要；要求",
+        "推薦；建議",
+        "通勤"
+      ],
+      "answer": 2,
+      "explain": "recommend（v.）＝推薦；建議。例句：I highly recommend the seafood pasta.（我強力推薦海鮮義大利麵。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-098",
+      "q": "「推薦；建議」（動詞）的英文是？",
+      "options": [
+        "require",
+        "recommend",
+        "commute",
+        "install"
+      ],
+      "answer": 1,
+      "explain": "recommend（v.）＝推薦；建議。其他選項：install＝安裝；commute＝通勤；require＝需要；要求。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-099",
+      "q": "I highly _____ the seafood pasta.",
+      "options": [
+        "recommend",
+        "remand",
+        "recommendation",
+        "recommendable"
+      ],
+      "answer": 0,
+      "explain": "答案是 recommend。recommend（v.）＝推薦；建議。我強力推薦海鮮義大利麵。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-100",
+      "q": "「reduce」（v.）的中文意思是？",
+      "options": [
+        "參加",
+        "製造",
+        "推薦；建議",
+        "減少；降低"
+      ],
+      "answer": 3,
+      "explain": "reduce（v.）＝減少；降低。例句：We need to reduce our energy costs.（我們需要降低能源成本。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-101",
+      "q": "「減少；降低」（動詞）的英文是？",
+      "options": [
+        "participate",
+        "manufacture",
+        "reduce",
+        "recommend"
+      ],
+      "answer": 2,
+      "explain": "reduce（v.）＝減少；降低。其他選項：recommend＝推薦；建議；manufacture＝製造；participate＝參加。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-102",
+      "q": "We need to _____ our energy costs.",
+      "options": [
+        "reduced",
+        "reduce",
+        "reductive",
+        "reduction"
+      ],
+      "answer": 1,
+      "explain": "答案是 reduce。reduce（v.）＝減少；降低。我們需要降低能源成本。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-103",
+      "q": "「reimburse」（v.）的中文意思是？",
+      "options": [
+        "核銷；償還",
+        "批准；核准",
+        "完成",
+        "通勤"
+      ],
+      "answer": 0,
+      "explain": "reimburse（v.）＝核銷；償還。例句：The company will reimburse you for travel expenses.（公司會核銷你的差旅費。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-104",
+      "q": "「核銷；償還」（動詞）的英文是？",
+      "options": [
+        "complete",
+        "commute",
+        "approve",
+        "reimburse"
+      ],
+      "answer": 3,
+      "explain": "reimburse（v.）＝核銷；償還。其他選項：complete＝完成；commute＝通勤；approve＝批准；核准。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-105",
+      "q": "The company will _____ you for travel expenses.",
+      "options": [
+        "reimbursement",
+        "reunite",
+        "reimburse",
+        "reinforce"
+      ],
+      "answer": 2,
+      "explain": "答案是 reimburse。reimburse（v.）＝核銷；償還。公司會核銷你的差旅費。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-106",
+      "q": "「renovate」（v.）的中文意思是？",
+      "options": [
+        "通勤",
+        "翻新；整修",
+        "籌辦；整理",
+        "推薦；建議"
+      ],
+      "answer": 1,
+      "explain": "renovate（v.）＝翻新；整修。例句：The hotel was renovated last year.（飯店去年翻新過。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-107",
+      "q": "「翻新；整修」（動詞）的英文是？",
+      "options": [
+        "renovate",
+        "recommend",
+        "organize",
+        "commute"
+      ],
+      "answer": 0,
+      "explain": "renovate（v.）＝翻新；整修。其他選項：recommend＝推薦；建議；organize＝籌辦；整理；commute＝通勤。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-108",
+      "q": "The hotel was _____ last year.",
+      "options": [
+        "renovation",
+        "innovative",
+        "renovator",
+        "renovated"
+      ],
+      "answer": 3,
+      "explain": "答案是 renovated。renovate（v.）＝翻新；整修。飯店去年翻新過。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-109",
+      "q": "「representative」（n.）的中文意思是？",
+      "options": [
+        "規定；法規",
+        "維修；保養",
+        "代表；專員",
+        "研習會；工作坊"
+      ],
+      "answer": 2,
+      "explain": "representative（n.）＝代表；專員。例句：A customer service representative will help you shortly.（客服專員很快就會協助您。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-110",
+      "q": "「代表；專員」（名詞）的英文是？",
+      "options": [
+        "regulations",
+        "representative",
+        "workshop",
+        "maintenance"
+      ],
+      "answer": 1,
+      "explain": "representative（n.）＝代表；專員。其他選項：maintenance＝維修；保養；workshop＝研習會；工作坊；regulations＝規定；法規。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-111",
+      "q": "A customer service _____ will help you shortly.",
+      "options": [
+        "representative",
+        "representing",
+        "represent",
+        "representation"
+      ],
+      "answer": 0,
+      "explain": "答案是 representative。representative（n.）＝代表；專員。客服專員很快就會協助您。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-112",
+      "q": "「require」（v.）的中文意思是？",
+      "options": [
+        "參加",
+        "翻新；整修",
+        "容納；提供住宿",
+        "需要；要求"
+      ],
+      "answer": 3,
+      "explain": "require（v.）＝需要；要求。例句：All visitors are required to wear a badge.（所有訪客都必須配戴識別證。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-113",
+      "q": "「需要；要求」（動詞）的英文是？",
+      "options": [
+        "renovate",
+        "participate",
+        "require",
+        "accommodate"
+      ],
+      "answer": 2,
+      "explain": "require（v.）＝需要；要求。其他選項：accommodate＝容納；提供住宿；participate＝參加；renovate＝翻新；整修。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-114",
+      "q": "All visitors are _____ to wear a badge.",
+      "options": [
+        "acquired",
+        "required",
+        "requiring",
+        "requirement"
+      ],
+      "answer": 1,
+      "explain": "答案是 required。require（v.）＝需要；要求。所有訪客都必須配戴識別證。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-115",
+      "q": "「revise」（v.）的中文意思是？",
+      "options": [
+        "修訂",
+        "需要；要求",
+        "翻新；整修",
+        "完成"
+      ],
+      "answer": 0,
+      "explain": "revise（v.）＝修訂。例句：Please revise the report and send it back by Monday.（請修改報告並在星期一前寄回。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-116",
+      "q": "「修訂」（動詞）的英文是？",
+      "options": [
+        "renovate",
+        "complete",
+        "require",
+        "revise"
+      ],
+      "answer": 3,
+      "explain": "revise（v.）＝修訂。其他選項：require＝需要；要求；complete＝完成；renovate＝翻新；整修。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-117",
+      "q": "Please _____ the report and send it back by Monday.",
+      "options": [
+        "reviser",
+        "revision",
+        "revise",
+        "revised"
+      ],
+      "answer": 2,
+      "explain": "答案是 revise。revise（v.）＝修訂。請修改報告並在星期一前寄回。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-118",
+      "q": "「shift」（n.）的中文意思是？",
+      "options": [
+        "行程表",
+        "輪班",
+        "預算",
+        "研討會；大型會議"
+      ],
+      "answer": 1,
+      "explain": "shift（n.）＝輪班。例句：I work the night shift at the hospital.（我在醫院上夜班。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-119",
+      "q": "「輪班」（名詞）的英文是？",
+      "options": [
+        "shift",
+        "budget",
+        "conference",
+        "itinerary"
+      ],
+      "answer": 0,
+      "explain": "shift（n.）＝輪班。其他選項：budget＝預算；itinerary＝行程表；conference＝研討會；大型會議。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-120",
+      "q": "I work the night _____ at the hospital.",
+      "options": [
+        "sheet",
+        "shelf",
+        "shirt",
+        "shift"
+      ],
+      "answer": 3,
+      "explain": "答案是 shift。shift（n.）＝輪班。我在醫院上夜班。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-121",
+      "q": "「submit」（v.）的中文意思是？",
+      "options": [
+        "安裝",
+        "通勤",
+        "提交",
+        "完成"
+      ],
+      "answer": 2,
+      "explain": "submit（v.）＝提交。例句：Please submit your application by May 1.（請在五月一日前提交申請。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-122",
+      "q": "「提交」（動詞）的英文是？",
+      "options": [
+        "commute",
+        "submit",
+        "complete",
+        "install"
+      ],
+      "answer": 1,
+      "explain": "submit（v.）＝提交。其他選項：commute＝通勤；complete＝完成；install＝安裝。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-123",
+      "q": "Please _____ your application by May 1.",
+      "options": [
+        "submit",
+        "summit",
+        "submissive",
+        "submission"
+      ],
+      "answer": 0,
+      "explain": "答案是 submit。submit（v.）＝提交。請在五月一日前提交申請。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-124",
+      "q": "「survey」（n.）的中文意思是？",
+      "options": [
+        "職業",
+        "推薦人；推薦信",
+        "工資",
+        "調查；問卷"
+      ],
+      "answer": 3,
+      "explain": "survey（n.）＝調查；問卷。例句：According to a recent survey, most customers prefer online shopping.（根據最近的一項調查，大多數顧客偏好網購。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-125",
+      "q": "「調查；問卷」（名詞）的英文是？",
+      "options": [
+        "occupation",
+        "wage",
+        "survey",
+        "references"
+      ],
+      "answer": 2,
+      "explain": "survey（n.）＝調查；問卷。其他選項：references＝推薦人；推薦信；occupation＝職業；wage＝工資。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-126",
+      "q": "According to a recent _____, most customers prefer online shopping.",
+      "options": [
+        "surveyed",
+        "survey",
+        "surveyor",
+        "surface"
+      ],
+      "answer": 1,
+      "explain": "答案是 survey。survey（n.）＝調查；問卷。根據最近的一項調查，大多數顧客偏好網購。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-127",
+      "q": "「temporary」（adj.）的中文意思是？",
+      "options": [
+        "暫時的；臨時的",
+        "合格的；有資格的",
+        "有效的",
+        "每年的；年度的"
+      ],
+      "answer": 0,
+      "explain": "temporary（adj.）＝暫時的；臨時的。例句：We hired temporary workers for the holiday season.（我們為假期旺季僱用了臨時員工。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-128",
+      "q": "「暫時的；臨時的」（形容詞）的英文是？",
+      "options": [
+        "valid",
+        "annual",
+        "qualified",
+        "temporary"
+      ],
+      "answer": 3,
+      "explain": "temporary（adj.）＝暫時的；臨時的。其他選項：qualified＝合格的；有資格的；annual＝每年的；年度的；valid＝有效的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-129",
+      "q": "We hired _____ workers for the holiday season.",
+      "options": [
+        "temper",
+        "tempo",
+        "temporary",
+        "temporarily"
+      ],
+      "answer": 2,
+      "explain": "答案是 temporary。temporary（adj.）＝暫時的；臨時的。我們為假期旺季僱用了臨時員工。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-130",
+      "q": "「valid」（adj.）的中文意思是？",
+      "options": [
+        "負責的",
+        "有效的",
+        "每年的；年度的",
+        "有資格的"
+      ],
+      "answer": 1,
+      "explain": "valid（adj.）＝有效的。例句：Your passport must be valid for at least six months.（你的護照必須至少還有六個月效期。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-131",
+      "q": "「有效的」（形容詞）的英文是？",
+      "options": [
+        "valid",
+        "responsible",
+        "eligible",
+        "annual"
+      ],
+      "answer": 0,
+      "explain": "valid（adj.）＝有效的。其他選項：eligible＝有資格的；annual＝每年的；年度的；responsible＝負責的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-132",
+      "q": "Your passport must be _____ for at least six months.",
+      "options": [
+        "validate",
+        "validity",
+        "validly",
+        "valid"
+      ],
+      "answer": 3,
+      "explain": "答案是 valid。valid（adj.）＝有效的。你的護照必須至少還有六個月效期。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-133",
+      "q": "「warranty」（n.）的中文意思是？",
+      "options": [
+        "場地",
+        "目標",
+        "保固",
+        "車資；票價"
+      ],
+      "answer": 2,
+      "explain": "warranty（n.）＝保固。例句：The laptop comes with a two-year warranty.（這台筆電附有兩年保固。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-134",
+      "q": "「保固」（名詞）的英文是？",
+      "options": [
+        "venue",
+        "warranty",
+        "fare",
+        "objective"
+      ],
+      "answer": 1,
+      "explain": "warranty（n.）＝保固。其他選項：venue＝場地；objective＝目標；fare＝車資；票價。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-135",
+      "q": "The laptop comes with a two-year _____.",
+      "options": [
+        "warranty",
+        "worry",
+        "wardrobe",
+        "warrior"
+      ],
+      "answer": 0,
+      "explain": "答案是 warranty。warranty（n.）＝保固。這台筆電附有兩年保固。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-136",
+      "q": "「workshop」（n.）的中文意思是？",
+      "options": [
+        "設施",
+        "候選人；應徵者",
+        "保全；安全",
+        "研習會；工作坊"
+      ],
+      "answer": 3,
+      "explain": "workshop（n.）＝研習會；工作坊。例句：The marketing workshop will be held in Room 305.（行銷研習會將在 305 室舉行。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-137",
+      "q": "「研習會；工作坊」（名詞）的英文是？",
+      "options": [
+        "candidate",
+        "security",
+        "workshop",
+        "facilities"
+      ],
+      "answer": 2,
+      "explain": "workshop（n.）＝研習會；工作坊。其他選項：candidate＝候選人；應徵者；security＝保全；安全；facilities＝設施。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-138",
+      "q": "The marketing _____ will be held in Room 305.",
+      "options": [
+        "workout",
+        "workshop",
+        "workforce",
+        "workload"
+      ],
+      "answer": 1,
+      "explain": "答案是 workshop。workshop（n.）＝研習會；工作坊。行銷研習會將在 305 室舉行。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-139",
+      "q": "「qualified」（adj.）的中文意思是？",
+      "options": [
+        "合格的；有資格的",
+        "負責的",
+        "負擔得起的",
+        "強制的；必須的"
+      ],
+      "answer": 0,
+      "explain": "qualified（adj.）＝合格的；有資格的。例句：We are looking for qualified engineers with five years of experience.（我們正在尋找有五年經驗的合格工程師。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-140",
+      "q": "「合格的；有資格的」（形容詞）的英文是？",
+      "options": [
+        "mandatory",
+        "responsible",
+        "affordable",
+        "qualified"
+      ],
+      "answer": 3,
+      "explain": "qualified（adj.）＝合格的；有資格的。其他選項：responsible＝負責的；mandatory＝強制的；必須的；affordable＝負擔得起的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-141",
+      "q": "We are looking for _____ engineers with five years of experience.",
+      "options": [
+        "qualifies",
+        "qualification",
+        "qualified",
+        "qualify"
+      ],
+      "answer": 2,
+      "explain": "答案是 qualified。qualified（adj.）＝合格的；有資格的。我們正在尋找有五年經驗的合格工程師。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-142",
+      "q": "「benefits」（n.）的中文意思是？",
+      "options": [
+        "目的地",
+        "福利",
+        "報價",
+        "費用；開支"
+      ],
+      "answer": 1,
+      "explain": "benefits（n.）＝福利。例句：The company offers health insurance and other benefits.（公司提供健康保險及其他福利。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-143",
+      "q": "「福利」（名詞）的英文是？",
+      "options": [
+        "benefits",
+        "expenses",
+        "destination",
+        "quote"
+      ],
+      "answer": 0,
+      "explain": "benefits（n.）＝福利。其他選項：destination＝目的地；expenses＝費用；開支；quote＝報價。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-144",
+      "q": "The company offers health insurance and other _____.",
+      "options": [
+        "beneficial",
+        "benefited",
+        "benevolent",
+        "benefits"
+      ],
+      "answer": 3,
+      "explain": "答案是 benefits。benefits（n.）＝福利。公司提供健康保險及其他福利。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-145",
+      "q": "「commute」（v.）的中文意思是？",
+      "options": [
+        "協商；談判",
+        "完成",
+        "通勤",
+        "參加"
+      ],
+      "answer": 2,
+      "explain": "commute（v.）＝通勤。例句：I commute to work by train every day.（我每天搭火車通勤上班。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-146",
+      "q": "「通勤」（動詞）的英文是？",
+      "options": [
+        "complete",
+        "commute",
+        "participate",
+        "negotiate"
+      ],
+      "answer": 1,
+      "explain": "commute（v.）＝通勤。其他選項：participate＝參加；negotiate＝協商；談判；complete＝完成。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-147",
+      "q": "I _____ to work by train every day.",
+      "options": [
+        "commute",
+        "compute",
+        "commuter",
+        "community"
+      ],
+      "answer": 0,
+      "explain": "答案是 commute。commute（v.）＝通勤。我每天搭火車通勤上班。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-148",
+      "q": "「delay」（n.）的中文意思是？",
+      "options": [
+        "抱怨；投訴",
+        "人員；人事",
+        "目標",
+        "延誤"
+      ],
+      "answer": 3,
+      "explain": "delay（n.）＝延誤。例句：We apologize for the delay in shipping your order.（很抱歉您的訂單出貨延誤。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-149",
+      "q": "「延誤」（名詞）的英文是？",
+      "options": [
+        "personnel",
+        "complaint",
+        "delay",
+        "objective"
+      ],
+      "answer": 2,
+      "explain": "delay（n.）＝延誤。其他選項：objective＝目標；complaint＝抱怨；投訴；personnel＝人員；人事。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-150",
+      "q": "We apologize for the _____ in shipping your order.",
+      "options": [
+        "delight",
+        "delay",
+        "delete",
+        "decay"
+      ],
+      "answer": 1,
+      "explain": "答案是 delay。delay（n.）＝延誤。很抱歉您的訂單出貨延誤。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-151",
+      "q": "「destination」（n.）的中文意思是？",
+      "options": [
+        "目的地",
+        "調查；問卷",
+        "延誤",
+        "車資；票價"
+      ],
+      "answer": 0,
+      "explain": "destination（n.）＝目的地。例句：Hawaii is a popular vacation destination.（夏威夷是熱門的度假地點。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-152",
+      "q": "「目的地」（名詞）的英文是？",
+      "options": [
+        "survey",
+        "delay",
+        "fare",
+        "destination"
+      ],
+      "answer": 3,
+      "explain": "destination（n.）＝目的地。其他選項：survey＝調查；問卷；fare＝車資；票價；delay＝延誤。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-153",
+      "q": "Hawaii is a popular vacation _____.",
+      "options": [
+        "destruction",
+        "destiny",
+        "destination",
+        "determination"
+      ],
+      "answer": 2,
+      "explain": "答案是 destination。destination（n.）＝目的地。夏威夷是熱門的度假地點。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-154",
+      "q": "「fare」（n.）的中文意思是？",
+      "options": [
+        "保全；安全",
+        "車資；票價",
+        "估價；估計",
+        "保固"
+      ],
+      "answer": 1,
+      "explain": "fare（n.）＝車資；票價。例句：The taxi fare from the airport was $40.（從機場搭計程車的車資是 40 美元。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-155",
+      "q": "「車資；票價」（名詞）的英文是？",
+      "options": [
+        "fare",
+        "security",
+        "warranty",
+        "estimate"
+      ],
+      "answer": 0,
+      "explain": "fare（n.）＝車資；票價。其他選項：warranty＝保固；estimate＝估價；估計；security＝保全；安全。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-156",
+      "q": "The taxi _____ from the airport was $40.",
+      "options": [
+        "fame",
+        "fear",
+        "fair",
+        "fare"
+      ],
+      "answer": 3,
+      "explain": "答案是 fare。fare（n.）＝車資；票價。從機場搭計程車的車資是 40 美元。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-157",
+      "q": "「found」（v.）的中文意思是？",
+      "options": [
+        "擴展",
+        "需要；要求",
+        "創立",
+        "容納；提供住宿"
+      ],
+      "answer": 2,
+      "explain": "found（v.）＝創立。例句：The company was founded in 1985.（公司創立於 1985 年。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-158",
+      "q": "「創立」（動詞）的英文是？",
+      "options": [
+        "accommodate",
+        "found",
+        "require",
+        "expand"
+      ],
+      "answer": 1,
+      "explain": "found（v.）＝創立。其他選項：require＝需要；要求；accommodate＝容納；提供住宿；expand＝擴展。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-159",
+      "q": "The company was _____ in 1985.",
+      "options": [
+        "founded",
+        "fondness",
+        "founder",
+        "foundation"
+      ],
+      "answer": 0,
+      "explain": "答案是 founded。found（v.）＝創立。公司創立於 1985 年。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-160",
+      "q": "「install」（v.）的中文意思是？",
+      "options": [
+        "協商；談判",
+        "修訂",
+        "延長",
+        "安裝"
+      ],
+      "answer": 3,
+      "explain": "install（v.）＝安裝。例句：A technician will install the new software tomorrow.（技術人員明天會安裝新軟體。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-161",
+      "q": "「安裝」（動詞）的英文是？",
+      "options": [
+        "negotiate",
+        "extend",
+        "install",
+        "revise"
+      ],
+      "answer": 2,
+      "explain": "install（v.）＝安裝。其他選項：revise＝修訂；negotiate＝協商；談判；extend＝延長。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-162",
+      "q": "A technician will _____ the new software tomorrow.",
+      "options": [
+        "installation",
+        "install",
+        "instant",
+        "instill"
+      ],
+      "answer": 1,
+      "explain": "答案是 install。install（v.）＝安裝。技術人員明天會安裝新軟體。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-163",
+      "q": "「manufacture」（v.）的中文意思是？",
+      "options": [
+        "製造",
+        "擴展",
+        "翻新；整修",
+        "需要；要求"
+      ],
+      "answer": 0,
+      "explain": "manufacture（v.）＝製造。例句：The company manufactures auto parts.（這家公司製造汽車零件。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-164",
+      "q": "「製造」（動詞）的英文是？",
+      "options": [
+        "renovate",
+        "expand",
+        "require",
+        "manufacture"
+      ],
+      "answer": 3,
+      "explain": "manufacture（v.）＝製造。其他選項：expand＝擴展；require＝需要；要求；renovate＝翻新；整修。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-165",
+      "q": "The company _____ auto parts.",
+      "options": [
+        "manufacturing",
+        "manufacturer",
+        "manufactures",
+        "manuscript"
+      ],
+      "answer": 2,
+      "explain": "答案是 manufactures。manufacture（v.）＝製造。這家公司製造汽車零件。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-166",
+      "q": "「operate」（v.）的中文意思是？",
+      "options": [
+        "減少；降低",
+        "操作；營運",
+        "創立",
+        "通勤"
+      ],
+      "answer": 1,
+      "explain": "operate（v.）＝操作；營運。例句：Only trained staff may operate this machine.（只有受過訓練的員工可以操作這台機器。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-167",
+      "q": "「操作；營運」（動詞）的英文是？",
+      "options": [
+        "operate",
+        "reduce",
+        "commute",
+        "found"
+      ],
+      "answer": 0,
+      "explain": "operate（v.）＝操作；營運。其他選項：commute＝通勤；reduce＝減少；降低；found＝創立。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-168",
+      "q": "Only trained staff may _____ this machine.",
+      "options": [
+        "operation",
+        "operational",
+        "operator",
+        "operate"
+      ],
+      "answer": 3,
+      "explain": "答案是 operate。operate（v.）＝操作；營運。只有受過訓練的員工可以操作這台機器。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-169",
+      "q": "「organize」（v.）的中文意思是？",
+      "options": [
+        "授權",
+        "推薦；建議",
+        "籌辦；整理",
+        "翻新；整修"
+      ],
+      "answer": 2,
+      "explain": "organize（v.）＝籌辦；整理。例句：She organized a farewell party for her boss.（她為上司籌辦了一場歡送會。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-170",
+      "q": "「籌辦；整理」（動詞）的英文是？",
+      "options": [
+        "authorize",
+        "organize",
+        "recommend",
+        "renovate"
+      ],
+      "answer": 1,
+      "explain": "organize（v.）＝籌辦；整理。其他選項：recommend＝推薦；建議；renovate＝翻新；整修；authorize＝授權。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-171",
+      "q": "She _____ a farewell party for her boss.",
+      "options": [
+        "organized",
+        "organic",
+        "organization",
+        "organism"
+      ],
+      "answer": 0,
+      "explain": "答案是 organized。organize（v.）＝籌辦；整理。她為上司籌辦了一場歡送會。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-172",
+      "q": "「profit」（n.）的中文意思是？",
+      "options": [
+        "預算",
+        "候選人；應徵者",
+        "保固",
+        "利潤"
+      ],
+      "answer": 3,
+      "explain": "profit（n.）＝利潤。例句：The company made a profit of $2 million last year.（公司去年獲利兩百萬美元。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-173",
+      "q": "「利潤」（名詞）的英文是？",
+      "options": [
+        "candidate",
+        "warranty",
+        "profit",
+        "budget"
+      ],
+      "answer": 2,
+      "explain": "profit（n.）＝利潤。其他選項：candidate＝候選人；應徵者；budget＝預算；warranty＝保固。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-174",
+      "q": "The company made a _____ of $2 million last year.",
+      "options": [
+        "prophet",
+        "profit",
+        "proficiency",
+        "profile"
+      ],
+      "answer": 1,
+      "explain": "答案是 profit。profit（n.）＝利潤。公司去年獲利兩百萬美元。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-175",
+      "q": "「receive」（v.）的中文意思是？",
+      "options": [
+        "收到",
+        "授權",
+        "核銷；償還",
+        "需要；要求"
+      ],
+      "answer": 0,
+      "explain": "receive（v.）＝收到。例句：Did you receive my email yesterday?（你昨天有收到我的電子郵件嗎？）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-176",
+      "q": "「收到」（動詞）的英文是？",
+      "options": [
+        "authorize",
+        "reimburse",
+        "require",
+        "receive"
+      ],
+      "answer": 3,
+      "explain": "receive（v.）＝收到。其他選項：authorize＝授權；require＝需要；要求；reimburse＝核銷；償還。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-177",
+      "q": "Did you _____ my email yesterday?",
+      "options": [
+        "reception",
+        "receiver",
+        "receive",
+        "receipt"
+      ],
+      "answer": 2,
+      "explain": "答案是 receive。receive（v.）＝收到。你昨天有收到我的電子郵件嗎？",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t500-178",
+      "q": "「refreshments」（n.）的中文意思是？",
+      "options": [
+        "職業",
+        "茶點",
+        "詢問",
+        "保全；安全"
+      ],
+      "answer": 1,
+      "explain": "refreshments（n.）＝茶點。例句：Light refreshments will be served after the talk.（演講結束後將提供簡單茶點。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-179",
+      "q": "「茶點」（名詞）的英文是？",
+      "options": [
+        "refreshments",
+        "security",
+        "inquiry",
+        "occupation"
+      ],
+      "answer": 0,
+      "explain": "refreshments（n.）＝茶點。其他選項：inquiry＝詢問；security＝保全；安全；occupation＝職業。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-180",
+      "q": "Light _____ will be served after the talk.",
+      "options": [
+        "refreshed",
+        "refreshing",
+        "refresh",
+        "refreshments"
+      ],
+      "answer": 3,
+      "explain": "答案是 refreshments。refreshments（n.）＝茶點。演講結束後將提供簡單茶點。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-181",
+      "q": "「regulations」（n.）的中文意思是？",
+      "options": [
+        "車資；票價",
+        "商品",
+        "規定；法規",
+        "研習會；工作坊"
+      ],
+      "answer": 2,
+      "explain": "regulations（n.）＝規定；法規。例句：Safety regulations require everyone to wear a helmet.（安全規定要求所有人配戴安全帽。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-182",
+      "q": "「規定；法規」（名詞）的英文是？",
+      "options": [
+        "fare",
+        "regulations",
+        "workshop",
+        "merchandise"
+      ],
+      "answer": 1,
+      "explain": "regulations（n.）＝規定；法規。其他選項：fare＝車資；票價；merchandise＝商品；workshop＝研習會；工作坊。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-183",
+      "q": "Safety _____ require everyone to wear a helmet.",
+      "options": [
+        "regulations",
+        "regulate",
+        "regular",
+        "regularly"
+      ],
+      "answer": 0,
+      "explain": "答案是 regulations。regulations（n.）＝規定；法規。安全規定要求所有人配戴安全帽。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-184",
+      "q": "「references」（n.）的中文意思是？",
+      "options": [
+        "人員；人事",
+        "客戶",
+        "預算",
+        "推薦人；推薦信"
+      ],
+      "answer": 3,
+      "explain": "references（n.）＝推薦人；推薦信。例句：Please list two professional references on your application.（請在申請表上列出兩位專業推薦人。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-185",
+      "q": "「推薦人；推薦信」（名詞）的英文是？",
+      "options": [
+        "budget",
+        "personnel",
+        "references",
+        "client"
+      ],
+      "answer": 2,
+      "explain": "references（n.）＝推薦人；推薦信。其他選項：client＝客戶；budget＝預算；personnel＝人員；人事。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-186",
+      "q": "Please list two professional _____ on your application.",
+      "options": [
+        "referring",
+        "references",
+        "reverence",
+        "refer"
+      ],
+      "answer": 1,
+      "explain": "答案是 references。references（n.）＝推薦人；推薦信。請在申請表上列出兩位專業推薦人。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-187",
+      "q": "「security」（n.）的中文意思是？",
+      "options": [
+        "保全；安全",
+        "攤販；供應商",
+        "估價；估計",
+        "費用；開支"
+      ],
+      "answer": 0,
+      "explain": "security（n.）＝保全；安全。例句：Please show your ID to security at the entrance.（請在入口處向保全出示證件。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-188",
+      "q": "「保全；安全」（名詞）的英文是？",
+      "options": [
+        "vendor",
+        "estimate",
+        "expenses",
+        "security"
+      ],
+      "answer": 3,
+      "explain": "security（n.）＝保全；安全。其他選項：vendor＝攤販；供應商；expenses＝費用；開支；estimate＝估價；估計。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-189",
+      "q": "Please show your ID to _____ at the entrance.",
+      "options": [
+        "securely",
+        "secure",
+        "security",
+        "secured"
+      ],
+      "answer": 2,
+      "explain": "答案是 security。security（n.）＝保全；安全。請在入口處向保全出示證件。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-190",
+      "q": "「session」（n.）的中文意思是？",
+      "options": [
+        "估價；估計",
+        "（會議的）場次；課程",
+        "人員；人事",
+        "訂金；押金"
+      ],
+      "answer": 1,
+      "explain": "session（n.）＝（會議的）場次；課程。例句：The afternoon session will focus on marketing strategy.（下午的場次將聚焦於行銷策略。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-191",
+      "q": "「（會議的）場次；課程」（名詞）的英文是？",
+      "options": [
+        "session",
+        "deposit",
+        "personnel",
+        "estimate"
+      ],
+      "answer": 0,
+      "explain": "session（n.）＝（會議的）場次；課程。其他選項：deposit＝訂金；押金；estimate＝估價；估計；personnel＝人員；人事。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-192",
+      "q": "The afternoon _____ will focus on marketing strategy.",
+      "options": [
+        "possession",
+        "seasoning",
+        "mission",
+        "session"
+      ],
+      "answer": 3,
+      "explain": "答案是 session。session（n.）＝（會議的）場次；課程。下午的場次將聚焦於行銷策略。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-193",
+      "q": "「vendor」（n.）的中文意思是？",
+      "options": [
+        "客戶",
+        "延誤",
+        "攤販；供應商",
+        "車資；票價"
+      ],
+      "answer": 2,
+      "explain": "vendor（n.）＝攤販；供應商。例句：We buy our paper from a local vendor.（我們向當地供應商購買紙張。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-194",
+      "q": "「攤販；供應商」（名詞）的英文是？",
+      "options": [
+        "client",
+        "vendor",
+        "delay",
+        "fare"
+      ],
+      "answer": 1,
+      "explain": "vendor（n.）＝攤販；供應商。其他選項：fare＝車資；票價；delay＝延誤；client＝客戶。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-195",
+      "q": "We buy our paper from a local _____.",
+      "options": [
+        "vendor",
+        "verdict",
+        "venue",
+        "vending"
+      ],
+      "answer": 0,
+      "explain": "答案是 vendor。vendor（n.）＝攤販；供應商。我們向當地供應商購買紙張。 其他選項：venue＝場地。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-196",
+      "q": "「venue」（n.）的中文意思是？",
+      "options": [
+        "推薦人；推薦信",
+        "保全；安全",
+        "估價；估計",
+        "場地"
+      ],
+      "answer": 3,
+      "explain": "venue（n.）＝場地。例句：The venue for the wedding has been changed.（婚禮的場地已經更換。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-197",
+      "q": "「場地」（名詞）的英文是？",
+      "options": [
+        "estimate",
+        "references",
+        "venue",
+        "security"
+      ],
+      "answer": 2,
+      "explain": "venue（n.）＝場地。其他選項：references＝推薦人；推薦信；estimate＝估價；估計；security＝保全；安全。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-198",
+      "q": "The _____ for the wedding has been changed.",
+      "options": [
+        "revenue",
+        "venue",
+        "avenue",
+        "venture"
+      ],
+      "answer": 1,
+      "explain": "答案是 venue。venue（n.）＝場地。婚禮的場地已經更換。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-199",
+      "q": "「wage」（n.）的中文意思是？",
+      "options": [
+        "工資",
+        "攤販；供應商",
+        "場地",
+        "利潤"
+      ],
+      "answer": 0,
+      "explain": "wage（n.）＝工資。例句：The minimum wage will rise next year.（基本工資明年將調漲。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-200",
+      "q": "「工資」（名詞）的英文是？",
+      "options": [
+        "venue",
+        "vendor",
+        "profit",
+        "wage"
+      ],
+      "answer": 3,
+      "explain": "wage（n.）＝工資。其他選項：venue＝場地；vendor＝攤販；供應商；profit＝利潤。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-201",
+      "q": "The minimum _____ will rise next year.",
+      "options": [
+        "wade",
+        "wake",
+        "wage",
+        "wedge"
+      ],
+      "answer": 2,
+      "explain": "答案是 wage。wage（n.）＝工資。基本工資明年將調漲。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t500-202",
+      "q": "「conveniently」（adv.）的中文意思是？",
+      "options": [
+        "保固",
+        "便利地",
+        "代表；專員",
+        "修訂"
+      ],
+      "answer": 1,
+      "explain": "conveniently（adv.）＝便利地。例句：The hotel is conveniently located near the station.（飯店位置便利，鄰近車站。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t500-203",
+      "q": "「便利地」（副詞）的英文是？",
+      "options": [
+        "conveniently",
+        "revise",
+        "representative",
+        "warranty"
+      ],
+      "answer": 0,
+      "explain": "conveniently（adv.）＝便利地。其他選項：warranty＝保固；representative＝代表；專員；revise＝修訂。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t500-204",
+      "q": "The hotel is _____ located near the station.",
+      "options": [
+        "convenience",
+        "convenient",
+        "convene",
+        "conveniently"
+      ],
+      "answer": 3,
+      "explain": "答案是 conveniently。conveniently（adv.）＝便利地。飯店位置便利，鄰近車站。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t500-205",
+      "q": "「efficient」（adj.）的中文意思是？",
+      "options": [
+        "負責的",
+        "負擔得起的",
+        "有效率的",
+        "暫時的；臨時的"
+      ],
+      "answer": 2,
+      "explain": "efficient（adj.）＝有效率的。例句：The new system is more efficient than the old one.（新系統比舊的更有效率。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-206",
+      "q": "「有效率的」（形容詞）的英文是？",
+      "options": [
+        "affordable",
+        "efficient",
+        "temporary",
+        "responsible"
+      ],
+      "answer": 1,
+      "explain": "efficient（adj.）＝有效率的。其他選項：responsible＝負責的；affordable＝負擔得起的；temporary＝暫時的；臨時的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-207",
+      "q": "The new system is more _____ than the old one.",
+      "options": [
+        "efficient",
+        "efficiency",
+        "effect",
+        "efficiently"
+      ],
+      "answer": 0,
+      "explain": "答案是 efficient。efficient（adj.）＝有效率的。新系統比舊的更有效率。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-208",
+      "q": "「responsible」（adj.）的中文意思是？",
+      "options": [
+        "合格的；有資格的",
+        "傑出的；未付清的",
+        "有效的",
+        "負責的"
+      ],
+      "answer": 3,
+      "explain": "responsible（adj.）＝負責的。例句：Who is responsible for ordering office supplies?（誰負責訂購辦公用品？）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-209",
+      "q": "「負責的」（形容詞）的英文是？",
+      "options": [
+        "valid",
+        "qualified",
+        "responsible",
+        "outstanding"
+      ],
+      "answer": 2,
+      "explain": "responsible（adj.）＝負責的。其他選項：outstanding＝傑出的；未付清的；valid＝有效的；qualified＝合格的；有資格的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-210",
+      "q": "Who is _____ for ordering office supplies?",
+      "options": [
+        "responsibly",
+        "responsible",
+        "response",
+        "responsibility"
+      ],
+      "answer": 1,
+      "explain": "答案是 responsible。responsible（adj.）＝負責的。誰負責訂購辦公用品？",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-211",
+      "q": "「eligible」（adj.）的中文意思是？",
+      "options": [
+        "有資格的",
+        "每年的；年度的",
+        "強制的；必須的",
+        "負責的"
+      ],
+      "answer": 0,
+      "explain": "eligible（adj.）＝有資格的。例句：Full-time employees are eligible for paid leave.（全職員工有資格享有帶薪假。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-212",
+      "q": "「有資格的」（形容詞）的英文是？",
+      "options": [
+        "annual",
+        "responsible",
+        "mandatory",
+        "eligible"
+      ],
+      "answer": 3,
+      "explain": "eligible（adj.）＝有資格的。其他選項：mandatory＝強制的；必須的；responsible＝負責的；annual＝每年的；年度的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-213",
+      "q": "Full-time employees are _____ for paid leave.",
+      "options": [
+        "legible",
+        "eligibility",
+        "eligible",
+        "elegant"
+      ],
+      "answer": 2,
+      "explain": "答案是 eligible。eligible（adj.）＝有資格的。全職員工有資格享有帶薪假。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-214",
+      "q": "「mandatory」（adj.）的中文意思是？",
+      "options": [
+        "每年的；年度的",
+        "強制的；必須的",
+        "有效率的",
+        "有效的"
+      ],
+      "answer": 1,
+      "explain": "mandatory（adj.）＝強制的；必須的。例句：Attendance at the safety meeting is mandatory.（安全會議必須出席。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-215",
+      "q": "「強制的；必須的」（形容詞）的英文是？",
+      "options": [
+        "mandatory",
+        "annual",
+        "valid",
+        "efficient"
+      ],
+      "answer": 0,
+      "explain": "mandatory（adj.）＝強制的；必須的。其他選項：annual＝每年的；年度的；valid＝有效的；efficient＝有效率的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-216",
+      "q": "Attendance at the safety meeting is _____.",
+      "options": [
+        "manage",
+        "mandarin",
+        "mandate",
+        "mandatory"
+      ],
+      "answer": 3,
+      "explain": "答案是 mandatory。mandatory（adj.）＝強制的；必須的。安全會議必須出席。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-217",
+      "q": "「outstanding」（adj.）的中文意思是？",
+      "options": [
+        "有資格的",
+        "負責的",
+        "傑出的；未付清的",
+        "有效的"
+      ],
+      "answer": 2,
+      "explain": "outstanding（adj.）＝傑出的；未付清的。例句：She received an award for outstanding performance.（她因傑出的表現獲獎。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-218",
+      "q": "「傑出的；未付清的」（形容詞）的英文是？",
+      "options": [
+        "responsible",
+        "outstanding",
+        "valid",
+        "eligible"
+      ],
+      "answer": 1,
+      "explain": "outstanding（adj.）＝傑出的；未付清的。其他選項：valid＝有效的；eligible＝有資格的；responsible＝負責的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-219",
+      "q": "She received an award for _____ performance.",
+      "options": [
+        "outstanding",
+        "outstandingly",
+        "outlook",
+        "outlet"
+      ],
+      "answer": 0,
+      "explain": "答案是 outstanding。outstanding（adj.）＝傑出的；未付清的。她因傑出的表現獲獎。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t500-220",
+      "q": "「prior to」（phr.）的中文意思是？",
+      "options": [
+        "修訂",
+        "由於",
+        "負責",
+        "在…之前"
+      ],
+      "answer": 3,
+      "explain": "prior to（phr.）＝在…之前。例句：Please arrive 30 minutes prior to departure.（請在出發前 30 分鐘抵達。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-221",
+      "q": "「在…之前」（片語）的英文是？",
+      "options": [
+        "revise",
+        "due to",
+        "prior to",
+        "in charge of"
+      ],
+      "answer": 2,
+      "explain": "prior to（phr.）＝在…之前。其他選項：in charge of＝負責；due to＝由於；revise＝修訂。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-222",
+      "q": "Please arrive 30 minutes _____ departure.",
+      "options": [
+        "due to",
+        "prior to",
+        "according to",
+        "owing to"
+      ],
+      "answer": 1,
+      "explain": "答案是 prior to。prior to（phr.）＝在…之前。請在出發前 30 分鐘抵達。 其他選項：due to＝由於。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-223",
+      "q": "「due to」（phr.）的中文意思是？",
+      "options": [
+        "由於",
+        "負責",
+        "在…之前",
+        "通勤"
+      ],
+      "answer": 0,
+      "explain": "due to（phr.）＝由於。例句：The game was canceled due to heavy rain.（比賽因大雨取消。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-224",
+      "q": "「由於」（片語）的英文是？",
+      "options": [
+        "prior to",
+        "in charge of",
+        "commute",
+        "due to"
+      ],
+      "answer": 3,
+      "explain": "due to（phr.）＝由於。其他選項：prior to＝在…之前；in charge of＝負責；commute＝通勤。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-225",
+      "q": "The game was canceled _____ heavy rain.",
+      "options": [
+        "instead of",
+        "in addition to",
+        "due to",
+        "prior to"
+      ],
+      "answer": 2,
+      "explain": "答案是 due to。due to（phr.）＝由於。比賽因大雨取消。 其他選項：prior to＝在…之前。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-226",
+      "q": "「in charge of」（phr.）的中文意思是？",
+      "options": [
+        "由於",
+        "負責",
+        "在…之前",
+        "推薦；建議"
+      ],
+      "answer": 1,
+      "explain": "in charge of（phr.）＝負責。例句：Mr. Lee is in charge of the marketing team.（李先生負責行銷團隊。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-227",
+      "q": "「負責」（片語）的英文是？",
+      "options": [
+        "in charge of",
+        "recommend",
+        "due to",
+        "prior to"
+      ],
+      "answer": 0,
+      "explain": "in charge of（phr.）＝負責。其他選項：prior to＝在…之前；due to＝由於；recommend＝推薦；建議。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-228",
+      "q": "Mr. Lee is _____ the marketing team.",
+      "options": [
+        "in spite of",
+        "in favor of",
+        "instead of",
+        "in charge of"
+      ],
+      "answer": 3,
+      "explain": "答案是 in charge of。in charge of（phr.）＝負責。李先生負責行銷團隊。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t500-229",
+      "q": "「regarding」（prep.）的中文意思是？",
+      "options": [
+        "暫時的；臨時的",
+        "設施",
+        "關於",
+        "人員；人事"
+      ],
+      "answer": 2,
+      "explain": "regarding（prep.）＝關於。例句：I'm calling regarding your job application.（我打電話是關於您的求職申請。）",
+      "tags": [
+        "字義",
+        "介系詞"
+      ]
+    },
+    {
+      "id": "t500-230",
+      "q": "「關於」（介系詞）的英文是？",
+      "options": [
+        "facilities",
+        "regarding",
+        "temporary",
+        "personnel"
+      ],
+      "answer": 1,
+      "explain": "regarding（prep.）＝關於。其他選項：personnel＝人員；人事；facilities＝設施；temporary＝暫時的；臨時的。",
+      "tags": [
+        "中翻英",
+        "介系詞"
+      ]
+    },
+    {
+      "id": "t500-231",
+      "q": "I'm calling _____ your job application.",
+      "options": [
+        "regarding",
+        "regard",
+        "regards",
+        "regardless"
+      ],
+      "answer": 0,
+      "explain": "答案是 regarding。regarding（prep.）＝關於。我打電話是關於您的求職申請。",
+      "tags": [
+        "填空",
+        "介系詞"
+      ]
+    }
+  ]
+}

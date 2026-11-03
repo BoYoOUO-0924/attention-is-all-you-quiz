@@ -1,0 +1,3604 @@
+{
+  "questions": [
+    {
+      "id": "t700-001",
+      "q": "「abolish」（v.）的中文意思是？",
+      "options": [
+        "整合；合併",
+        "調解",
+        "廢除",
+        "禁止"
+      ],
+      "answer": 2,
+      "explain": "abolish（v.）＝廢除。例句：The government decided to abolish the old tax.（政府決定廢除舊稅。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-002",
+      "q": "「廢除」（動詞）的英文是？",
+      "options": [
+        "mediate",
+        "abolish",
+        "prohibit",
+        "consolidate"
+      ],
+      "answer": 1,
+      "explain": "abolish（v.）＝廢除。其他選項：prohibit＝禁止；mediate＝調解；consolidate＝整合；合併。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-003",
+      "q": "The government decided to _____ the old tax.",
+      "options": [
+        "abolish",
+        "abolished",
+        "polish",
+        "abolition"
+      ],
+      "answer": 0,
+      "explain": "答案是 abolish。abolish（v.）＝廢除。政府決定廢除舊稅。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-004",
+      "q": "「accelerate」（v.）的中文意思是？",
+      "options": [
+        "招致；產生（費用）",
+        "扣除",
+        "撤銷；撤回",
+        "加速"
+      ],
+      "answer": 3,
+      "explain": "accelerate（v.）＝加速。例句：The new software will accelerate the approval process.（新軟體將加快審核流程。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-005",
+      "q": "「加速」（動詞）的英文是？",
+      "options": [
+        "deduct",
+        "rescind",
+        "accelerate",
+        "incur"
+      ],
+      "answer": 2,
+      "explain": "accelerate（v.）＝加速。其他選項：rescind＝撤銷；撤回；deduct＝扣除；incur＝招致；產生（費用）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-006",
+      "q": "The new software will _____ the approval process.",
+      "options": [
+        "accelerator",
+        "accelerate",
+        "acceleration",
+        "accumulate"
+      ],
+      "answer": 1,
+      "explain": "答案是 accelerate。accelerate（v.）＝加速。新軟體將加快審核流程。 其他選項：accumulate＝累積。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-007",
+      "q": "「accountable」（adj.）的中文意思是？",
+      "options": [
+        "應負責的",
+        "熟練的；精通的",
+        "強健的；穩健的",
+        "間歇的"
+      ],
+      "answer": 0,
+      "explain": "accountable（adj.）＝應負責的。例句：Managers are held accountable for their team's results.（經理須為團隊成果負責。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-008",
+      "q": "「應負責的」（形容詞）的英文是？",
+      "options": [
+        "proficient",
+        "robust",
+        "intermittent",
+        "accountable"
+      ],
+      "answer": 3,
+      "explain": "accountable（adj.）＝應負責的。其他選項：intermittent＝間歇的；proficient＝熟練的；精通的；robust＝強健的；穩健的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-009",
+      "q": "Managers are held _____ for their team's results.",
+      "options": [
+        "accountant",
+        "account",
+        "accountable",
+        "accountability"
+      ],
+      "answer": 2,
+      "explain": "答案是 accountable。accountable（adj.）＝應負責的。經理須為團隊成果負責。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-010",
+      "q": "「accumulate」（v.）的中文意思是？",
+      "options": [
+        "委派；分派",
+        "累積",
+        "精簡；提高效率",
+        "危害"
+      ],
+      "answer": 1,
+      "explain": "accumulate（v.）＝累積。例句：Points accumulate each time you shop with us.（每次在本店消費都會累積點數。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-011",
+      "q": "「累積」（動詞）的英文是？",
+      "options": [
+        "accumulate",
+        "delegate",
+        "jeopardize",
+        "streamline"
+      ],
+      "answer": 0,
+      "explain": "accumulate（v.）＝累積。其他選項：jeopardize＝危害；delegate＝委派；分派；streamline＝精簡；提高效率。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-012",
+      "q": "Points _____ each time you shop with us.",
+      "options": [
+        "accumulation",
+        "accurate",
+        "accommodate",
+        "accumulate"
+      ],
+      "answer": 3,
+      "explain": "答案是 accumulate。accumulate（v.）＝累積。每次在本店消費都會累積點數。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-013",
+      "q": "「adjourn」（v.）的中文意思是？",
+      "options": [
+        "核對（帳目）；調和",
+        "撤銷；撤回",
+        "休會；延期",
+        "接任；繼承"
+      ],
+      "answer": 2,
+      "explain": "adjourn（v.）＝休會；延期。例句：The meeting was adjourned until Thursday.（會議休會延至星期四。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-014",
+      "q": "「休會；延期」（動詞）的英文是？",
+      "options": [
+        "rescind",
+        "adjourn",
+        "reconcile",
+        "succeed"
+      ],
+      "answer": 1,
+      "explain": "adjourn（v.）＝休會；延期。其他選項：reconcile＝核對（帳目）；調和；rescind＝撤銷；撤回；succeed＝接任；繼承。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-015",
+      "q": "The meeting was _____ until Thursday.",
+      "options": [
+        "adjourned",
+        "journey",
+        "adjournment",
+        "adjoined"
+      ],
+      "answer": 0,
+      "explain": "答案是 adjourned。adjourn（v.）＝休會；延期。會議休會延至星期四。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-016",
+      "q": "「advocate」（v.）的中文意思是？",
+      "options": [
+        "居住",
+        "接任；繼承",
+        "休會；延期",
+        "提倡；擁護"
+      ],
+      "answer": 3,
+      "explain": "advocate（v.）＝提倡；擁護。例句：Many doctors advocate regular exercise.（許多醫生提倡規律運動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-017",
+      "q": "「提倡；擁護」（動詞）的英文是？",
+      "options": [
+        "adjourn",
+        "succeed",
+        "advocate",
+        "reside"
+      ],
+      "answer": 2,
+      "explain": "advocate（v.）＝提倡；擁護。其他選項：reside＝居住；succeed＝接任；繼承；adjourn＝休會；延期。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-018",
+      "q": "Many doctors _____ regular exercise.",
+      "options": [
+        "avocado",
+        "advocate",
+        "vocation",
+        "advocacy"
+      ],
+      "answer": 1,
+      "explain": "答案是 advocate。advocate（v.）＝提倡；擁護。許多醫生提倡規律運動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-019",
+      "q": "「amend」（v.）的中文意思是？",
+      "options": [
+        "修正（條文）",
+        "精簡；提高效率",
+        "調解",
+        "居住"
+      ],
+      "answer": 0,
+      "explain": "amend（v.）＝修正（條文）。例句：The contract was amended to include a new clause.（合約已修改以加入新條款。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-020",
+      "q": "「修正（條文）」（動詞）的英文是？",
+      "options": [
+        "streamline",
+        "mediate",
+        "reside",
+        "amend"
+      ],
+      "answer": 3,
+      "explain": "amend（v.）＝修正（條文）。其他選項：streamline＝精簡；提高效率；reside＝居住；mediate＝調解。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-021",
+      "q": "The contract was _____ to include a new clause.",
+      "options": [
+        "amenity",
+        "amendment",
+        "amended",
+        "amending"
+      ],
+      "answer": 2,
+      "explain": "答案是 amended。amend（v.）＝修正（條文）。合約已修改以加入新條款。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-022",
+      "q": "「amenities」（n.）的中文意思是？",
+      "options": [
+        "作品集；投資組合",
+        "便利設施",
+        "服裝",
+        "股利"
+      ],
+      "answer": 1,
+      "explain": "amenities（n.）＝便利設施。例句：The apartment has modern amenities such as a gym and pool.（這間公寓有健身房和泳池等現代化設施。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-023",
+      "q": "「便利設施」（名詞）的英文是？",
+      "options": [
+        "amenities",
+        "dividend",
+        "attire",
+        "portfolios"
+      ],
+      "answer": 0,
+      "explain": "amenities（n.）＝便利設施。其他選項：attire＝服裝；dividend＝股利；portfolios＝作品集；投資組合。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-024",
+      "q": "The apartment has modern _____ such as a gym and pool.",
+      "options": [
+        "amendments",
+        "animosities",
+        "amnesties",
+        "amenities"
+      ],
+      "answer": 3,
+      "explain": "答案是 amenities。amenities（n.）＝便利設施。這間公寓有健身房和泳池等現代化設施。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-025",
+      "q": "「apparel」（n.）的中文意思是？",
+      "options": [
+        "任期",
+        "仲裁",
+        "服飾",
+        "疏忽"
+      ],
+      "answer": 2,
+      "explain": "apparel（n.）＝服飾。例句：The store sells sports apparel and shoes.（這家店販售運動服飾和鞋子。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-026",
+      "q": "「服飾」（名詞）的英文是？",
+      "options": [
+        "arbitration",
+        "apparel",
+        "negligence",
+        "tenure"
+      ],
+      "answer": 1,
+      "explain": "apparel（n.）＝服飾。其他選項：tenure＝任期；arbitration＝仲裁；negligence＝疏忽。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-027",
+      "q": "The store sells sports _____ and shoes.",
+      "options": [
+        "apparel",
+        "apparent",
+        "appeal",
+        "apparition"
+      ],
+      "answer": 0,
+      "explain": "答案是 apparel。apparel（n.）＝服飾。這家店販售運動服飾和鞋子。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-028",
+      "q": "「appraisal」（n.）的中文意思是？",
+      "options": [
+        "專利",
+        "罰款；罰則",
+        "物流",
+        "評估；考核"
+      ],
+      "answer": 3,
+      "explain": "appraisal（n.）＝評估；考核。例句：Your performance appraisal is scheduled for next week.（你的績效考核安排在下週。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-029",
+      "q": "「評估；考核」（名詞）的英文是？",
+      "options": [
+        "patent",
+        "logistics",
+        "appraisal",
+        "penalty"
+      ],
+      "answer": 2,
+      "explain": "appraisal（n.）＝評估；考核。其他選項：penalty＝罰款；罰則；patent＝專利；logistics＝物流。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-030",
+      "q": "Your performance _____ is scheduled for next week.",
+      "options": [
+        "praise",
+        "appraisal",
+        "appraise",
+        "appraiser"
+      ],
+      "answer": 1,
+      "explain": "答案是 appraisal。appraisal（n.）＝評估；考核。你的績效考核安排在下週。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-031",
+      "q": "「arbitration」（n.）的中文意思是？",
+      "options": [
+        "仲裁",
+        "備忘錄",
+        "子公司",
+        "投標；出價"
+      ],
+      "answer": 0,
+      "explain": "arbitration（n.）＝仲裁。例句：The dispute was settled through arbitration.（這起糾紛透過仲裁解決。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-032",
+      "q": "「仲裁」（名詞）的英文是？",
+      "options": [
+        "subsidiary",
+        "bids",
+        "memorandum",
+        "arbitration"
+      ],
+      "answer": 3,
+      "explain": "arbitration（n.）＝仲裁。其他選項：memorandum＝備忘錄；subsidiary＝子公司；bids＝投標；出價。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-033",
+      "q": "The dispute was settled through _____.",
+      "options": [
+        "arbitrarily",
+        "arbitrate",
+        "arbitration",
+        "arbitrary"
+      ],
+      "answer": 2,
+      "explain": "答案是 arbitration。arbitration（n.）＝仲裁。這起糾紛透過仲裁解決。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-034",
+      "q": "「attire」（n.）的中文意思是？",
+      "options": [
+        "任期",
+        "服裝",
+        "佣金",
+        "（營業）場所"
+      ],
+      "answer": 1,
+      "explain": "attire（n.）＝服裝。例句：Business attire is required at the dinner.（晚宴須穿著商務服裝。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-035",
+      "q": "「服裝」（名詞）的英文是？",
+      "options": [
+        "attire",
+        "premises",
+        "tenure",
+        "commission"
+      ],
+      "answer": 0,
+      "explain": "attire（n.）＝服裝。其他選項：tenure＝任期；commission＝佣金；premises＝（營業）場所。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-036",
+      "q": "Business _____ is required at the dinner.",
+      "options": [
+        "attic",
+        "attribute",
+        "attain",
+        "attire"
+      ],
+      "answer": 3,
+      "explain": "答案是 attire。attire（n.）＝服裝。晚宴須穿著商務服裝。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-037",
+      "q": "「bankrupt」（adj.）的中文意思是？",
+      "options": [
+        "免除的",
+        "寬鬆的；寬容的",
+        "破產的",
+        "間歇的"
+      ],
+      "answer": 2,
+      "explain": "bankrupt（adj.）＝破產的。例句：The airline went bankrupt after years of losses.（這家航空公司在多年虧損後破產。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-038",
+      "q": "「破產的」（形容詞）的英文是？",
+      "options": [
+        "intermittent",
+        "bankrupt",
+        "exempt",
+        "lenient"
+      ],
+      "answer": 1,
+      "explain": "bankrupt（adj.）＝破產的。其他選項：lenient＝寬鬆的；寬容的；intermittent＝間歇的；exempt＝免除的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-039",
+      "q": "The airline went _____ after years of losses.",
+      "options": [
+        "bankrupt",
+        "bankruptcies",
+        "banker",
+        "bankruptcy"
+      ],
+      "answer": 0,
+      "explain": "答案是 bankrupt。bankrupt（adj.）＝破產的。這家航空公司在多年虧損後破產。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-040",
+      "q": "「bids」（n.）的中文意思是？",
+      "options": [
+        "服裝",
+        "加盟店；經銷權",
+        "罰款；罰則",
+        "投標；出價"
+      ],
+      "answer": 3,
+      "explain": "bids（n.）＝投標；出價。例句：Three companies submitted bids for the construction project.（有三家公司為這項建案投標。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-041",
+      "q": "「投標；出價」（名詞）的英文是？",
+      "options": [
+        "attire",
+        "penalty",
+        "bids",
+        "franchise"
+      ],
+      "answer": 2,
+      "explain": "bids（n.）＝投標；出價。其他選項：attire＝服裝；penalty＝罰款；罰則；franchise＝加盟店；經銷權。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-042",
+      "q": "Three companies submitted _____ for the construction project.",
+      "options": [
+        "bins",
+        "bids",
+        "buds",
+        "beds"
+      ],
+      "answer": 1,
+      "explain": "答案是 bids。bids（n.）＝投標；出價。有三家公司為這項建案投標。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-043",
+      "q": "「collaborate」（v.）的中文意思是？",
+      "options": [
+        "合作",
+        "休會；延期",
+        "監督",
+        "危害"
+      ],
+      "answer": 0,
+      "explain": "collaborate（v.）＝合作。例句：The two teams collaborated on the design.（兩個團隊合作完成設計。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-044",
+      "q": "「合作」（動詞）的英文是？",
+      "options": [
+        "jeopardize",
+        "oversee",
+        "adjourn",
+        "collaborate"
+      ],
+      "answer": 3,
+      "explain": "collaborate（v.）＝合作。其他選項：jeopardize＝危害；adjourn＝休會；延期；oversee＝監督。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-045",
+      "q": "The two teams _____ on the design.",
+      "options": [
+        "collaborator",
+        "collated",
+        "collaborated",
+        "collaboration"
+      ],
+      "answer": 2,
+      "explain": "答案是 collaborated。collaborate（v.）＝合作。兩個團隊合作完成設計。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-046",
+      "q": "「commission」（n.）的中文意思是？",
+      "options": [
+        "補助金",
+        "佣金",
+        "評估；考核",
+        "物流"
+      ],
+      "answer": 1,
+      "explain": "commission（n.）＝佣金。例句：Sales staff earn a 5 percent commission on each sale.（業務員每筆交易可賺 5% 佣金。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-047",
+      "q": "「佣金」（名詞）的英文是？",
+      "options": [
+        "commission",
+        "logistics",
+        "appraisal",
+        "subsidy"
+      ],
+      "answer": 0,
+      "explain": "commission（n.）＝佣金。其他選項：appraisal＝評估；考核；logistics＝物流；subsidy＝補助金。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-048",
+      "q": "Sales staff earn a 5 percent _____ on each sale.",
+      "options": [
+        "commissioner",
+        "omission",
+        "commotion",
+        "commission"
+      ],
+      "answer": 3,
+      "explain": "答案是 commission。commission（n.）＝佣金。業務員每筆交易可賺 5% 佣金。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-049",
+      "q": "「compensate」（v.）的中文意思是？",
+      "options": [
+        "產生（收益）",
+        "扣除",
+        "補償",
+        "撤銷；撤回"
+      ],
+      "answer": 2,
+      "explain": "compensate（v.）＝補償。例句：The airline will compensate passengers for the delay.（航空公司會補償旅客的延誤損失。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-050",
+      "q": "「補償」（動詞）的英文是？",
+      "options": [
+        "deduct",
+        "compensate",
+        "yield",
+        "rescind"
+      ],
+      "answer": 1,
+      "explain": "compensate（v.）＝補償。其他選項：rescind＝撤銷；撤回；deduct＝扣除；yield＝產生（收益）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-051",
+      "q": "The airline will _____ passengers for the delay.",
+      "options": [
+        "compensate",
+        "compensation",
+        "compensatory",
+        "complement"
+      ],
+      "answer": 0,
+      "explain": "答案是 compensate。compensate（v.）＝補償。航空公司會補償旅客的延誤損失。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-052",
+      "q": "「concise」（adj.）的中文意思是？",
+      "options": [
+        "寬鬆的；寬容的",
+        "前所未有的",
+        "多功能的；多才多藝的",
+        "簡潔的"
+      ],
+      "answer": 3,
+      "explain": "concise（adj.）＝簡潔的。例句：Please keep your summary concise.（請讓你的摘要保持簡潔。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-053",
+      "q": "「簡潔的」（形容詞）的英文是？",
+      "options": [
+        "lenient",
+        "versatile",
+        "concise",
+        "unprecedented"
+      ],
+      "answer": 2,
+      "explain": "concise（adj.）＝簡潔的。其他選項：lenient＝寬鬆的；寬容的；unprecedented＝前所未有的；versatile＝多功能的；多才多藝的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-054",
+      "q": "Please keep your summary _____.",
+      "options": [
+        "concisely",
+        "concise",
+        "concession",
+        "conceit"
+      ],
+      "answer": 1,
+      "explain": "答案是 concise。concise（adj.）＝簡潔的。請讓你的摘要保持簡潔。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-055",
+      "q": "「confidential」（adj.）的中文意思是？",
+      "options": [
+        "機密的",
+        "熟練的；精通的",
+        "簡潔的",
+        "可行的"
+      ],
+      "answer": 0,
+      "explain": "confidential（adj.）＝機密的。例句：This information is strictly confidential.（這項資訊嚴格保密。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-056",
+      "q": "「機密的」（形容詞）的英文是？",
+      "options": [
+        "feasible",
+        "concise",
+        "proficient",
+        "confidential"
+      ],
+      "answer": 3,
+      "explain": "confidential（adj.）＝機密的。其他選項：feasible＝可行的；concise＝簡潔的；proficient＝熟練的；精通的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-057",
+      "q": "This information is strictly _____.",
+      "options": [
+        "confident",
+        "confidence",
+        "confidential",
+        "confidentially"
+      ],
+      "answer": 2,
+      "explain": "答案是 confidential。confidential（adj.）＝機密的。這項資訊嚴格保密。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-058",
+      "q": "「consensus」（n.）的中文意思是？",
+      "options": [
+        "作品集；投資組合",
+        "共識",
+        "赤字",
+        "差異；不符"
+      ],
+      "answer": 1,
+      "explain": "consensus（n.）＝共識。例句：The committee reached a consensus on the budget.（委員會就預算達成共識。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-059",
+      "q": "「共識」（名詞）的英文是？",
+      "options": [
+        "consensus",
+        "deficit",
+        "discrepancy",
+        "portfolios"
+      ],
+      "answer": 0,
+      "explain": "consensus（n.）＝共識。其他選項：discrepancy＝差異；不符；deficit＝赤字；portfolios＝作品集；投資組合。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-060",
+      "q": "The committee reached a _____ on the budget.",
+      "options": [
+        "census",
+        "consequence",
+        "consensual",
+        "consensus"
+      ],
+      "answer": 3,
+      "explain": "答案是 consensus。consensus（n.）＝共識。委員會就預算達成共識。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-061",
+      "q": "「consolidate」（v.）的中文意思是？",
+      "options": [
+        "核對（帳目）；調和",
+        "終止",
+        "整合；合併",
+        "提倡；擁護"
+      ],
+      "answer": 2,
+      "explain": "consolidate（v.）＝整合；合併。例句：We plan to consolidate our three warehouses into one.（我們計畫把三座倉庫整併為一座。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-062",
+      "q": "「整合；合併」（動詞）的英文是？",
+      "options": [
+        "terminate",
+        "consolidate",
+        "reconcile",
+        "advocate"
+      ],
+      "answer": 1,
+      "explain": "consolidate（v.）＝整合；合併。其他選項：advocate＝提倡；擁護；terminate＝終止；reconcile＝核對（帳目）；調和。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-063",
+      "q": "We plan to _____ our three warehouses into one.",
+      "options": [
+        "consolidate",
+        "consolidation",
+        "console",
+        "consolation"
+      ],
+      "answer": 0,
+      "explain": "答案是 consolidate。consolidate（v.）＝整合；合併。我們計畫把三座倉庫整併為一座。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-064",
+      "q": "「contingency」（n.）的中文意思是？",
+      "options": [
+        "加盟店；經銷權",
+        "服飾",
+        "共識",
+        "意外事件；應變"
+      ],
+      "answer": 3,
+      "explain": "contingency（n.）＝意外事件；應變。例句：We have a contingency plan in case of a power outage.（我們有停電的應變計畫。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-065",
+      "q": "「意外事件；應變」（名詞）的英文是？",
+      "options": [
+        "consensus",
+        "apparel",
+        "contingency",
+        "franchise"
+      ],
+      "answer": 2,
+      "explain": "contingency（n.）＝意外事件；應變。其他選項：apparel＝服飾；consensus＝共識；franchise＝加盟店；經銷權。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-066",
+      "q": "We have a _____ plan in case of a power outage.",
+      "options": [
+        "contagion",
+        "contingency",
+        "continent",
+        "contingent"
+      ],
+      "answer": 1,
+      "explain": "答案是 contingency。contingency（n.）＝意外事件；應變。我們有停電的應變計畫。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-067",
+      "q": "「deduct」（v.）的中文意思是？",
+      "options": [
+        "扣除",
+        "危害",
+        "合作",
+        "委派；分派"
+      ],
+      "answer": 0,
+      "explain": "deduct（v.）＝扣除。例句：Taxes are deducted from your monthly salary.（稅金會從你的月薪中扣除。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-068",
+      "q": "「扣除」（動詞）的英文是？",
+      "options": [
+        "delegate",
+        "collaborate",
+        "jeopardize",
+        "deduct"
+      ],
+      "answer": 3,
+      "explain": "deduct（v.）＝扣除。其他選項：collaborate＝合作；jeopardize＝危害；delegate＝委派；分派。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-069",
+      "q": "Taxes are _____ from your monthly salary.",
+      "options": [
+        "deduction",
+        "deductible",
+        "deducted",
+        "deduced"
+      ],
+      "answer": 2,
+      "explain": "答案是 deducted。deduct（v.）＝扣除。稅金會從你的月薪中扣除。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-070",
+      "q": "「deficit」（n.）的中文意思是？",
+      "options": [
+        "任期",
+        "赤字",
+        "備忘錄",
+        "投標；出價"
+      ],
+      "answer": 1,
+      "explain": "deficit（n.）＝赤字。例句：The country has a large trade deficit.（這個國家有龐大的貿易赤字。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-071",
+      "q": "「赤字」（名詞）的英文是？",
+      "options": [
+        "deficit",
+        "tenure",
+        "bids",
+        "memorandum"
+      ],
+      "answer": 0,
+      "explain": "deficit（n.）＝赤字。其他選項：tenure＝任期；bids＝投標；出價；memorandum＝備忘錄。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-072",
+      "q": "The country has a large trade _____.",
+      "options": [
+        "definite",
+        "deficiently",
+        "deficient",
+        "deficit"
+      ],
+      "answer": 3,
+      "explain": "答案是 deficit。deficit（n.）＝赤字。這個國家有龐大的貿易赤字。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-073",
+      "q": "「delegate」（v.）的中文意思是？",
+      "options": [
+        "廢除",
+        "撤銷；撤回",
+        "委派；分派",
+        "背書；代言"
+      ],
+      "answer": 2,
+      "explain": "delegate（v.）＝委派；分派。例句：A good manager knows how to delegate tasks.（好主管懂得如何分派任務。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-074",
+      "q": "「委派；分派」（動詞）的英文是？",
+      "options": [
+        "endorse",
+        "delegate",
+        "rescind",
+        "abolish"
+      ],
+      "answer": 1,
+      "explain": "delegate（v.）＝委派；分派。其他選項：rescind＝撤銷；撤回；abolish＝廢除；endorse＝背書；代言。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-075",
+      "q": "A good manager knows how to _____ tasks.",
+      "options": [
+        "delegate",
+        "delegated",
+        "delegation",
+        "delicate"
+      ],
+      "answer": 0,
+      "explain": "答案是 delegate。delegate（v.）＝委派；分派。好主管懂得如何分派任務。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-076",
+      "q": "「depreciate」（v.）的中文意思是？",
+      "options": [
+        "居住",
+        "扣除",
+        "委派；分派",
+        "貶值；折舊"
+      ],
+      "answer": 3,
+      "explain": "depreciate（v.）＝貶值；折舊。例句：A new car depreciates quickly in its first year.（新車在第一年折舊很快。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-077",
+      "q": "「貶值；折舊」（動詞）的英文是？",
+      "options": [
+        "reside",
+        "deduct",
+        "depreciate",
+        "delegate"
+      ],
+      "answer": 2,
+      "explain": "depreciate（v.）＝貶值；折舊。其他選項：delegate＝委派；分派；deduct＝扣除；reside＝居住。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-078",
+      "q": "A new car _____ quickly in its first year.",
+      "options": [
+        "deprecates",
+        "depreciates",
+        "depressing",
+        "depreciation"
+      ],
+      "answer": 1,
+      "explain": "答案是 depreciates。depreciate（v.）＝貶值；折舊。新車在第一年折舊很快。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-079",
+      "q": "「discrepancy」（n.）的中文意思是？",
+      "options": [
+        "差異；不符",
+        "作品集；投資組合",
+        "（營業）場所",
+        "企業家；創業者"
+      ],
+      "answer": 0,
+      "explain": "discrepancy（n.）＝差異；不符。例句：There is a discrepancy between the invoice and the order.（請款單與訂單之間有出入。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-080",
+      "q": "「差異；不符」（名詞）的英文是？",
+      "options": [
+        "portfolios",
+        "premises",
+        "entrepreneur",
+        "discrepancy"
+      ],
+      "answer": 3,
+      "explain": "discrepancy（n.）＝差異；不符。其他選項：portfolios＝作品集；投資組合；entrepreneur＝企業家；創業者；premises＝（營業）場所。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-081",
+      "q": "There is a _____ between the invoice and the order.",
+      "options": [
+        "discretion",
+        "discrepant",
+        "discrepancy",
+        "disciple"
+      ],
+      "answer": 2,
+      "explain": "答案是 discrepancy。discrepancy（n.）＝差異；不符。請款單與訂單之間有出入。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-082",
+      "q": "「dispatch」（v.）的中文意思是？",
+      "options": [
+        "背書；代言",
+        "派遣；發送",
+        "調解",
+        "監督"
+      ],
+      "answer": 1,
+      "explain": "dispatch（v.）＝派遣；發送。例句：Your order will be dispatched within two business days.（您的訂單將於兩個工作天內出貨。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-083",
+      "q": "「派遣；發送」（動詞）的英文是？",
+      "options": [
+        "dispatch",
+        "oversee",
+        "endorse",
+        "mediate"
+      ],
+      "answer": 0,
+      "explain": "dispatch（v.）＝派遣；發送。其他選項：oversee＝監督；mediate＝調解；endorse＝背書；代言。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-084",
+      "q": "Your order will be _____ within two business days.",
+      "options": [
+        "dispatching",
+        "dispersal",
+        "dispatcher",
+        "dispatched"
+      ],
+      "answer": 3,
+      "explain": "答案是 dispatched。dispatch（v.）＝派遣；發送。您的訂單將於兩個工作天內出貨。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-085",
+      "q": "「dividend」（n.）的中文意思是？",
+      "options": [
+        "（營業）場所",
+        "佣金",
+        "股利",
+        "物流"
+      ],
+      "answer": 2,
+      "explain": "dividend（n.）＝股利。例句：Shareholders will receive a dividend of $1 per share.（股東每股可獲得 1 美元股利。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-086",
+      "q": "「股利」（名詞）的英文是？",
+      "options": [
+        "logistics",
+        "dividend",
+        "premises",
+        "commission"
+      ],
+      "answer": 1,
+      "explain": "dividend（n.）＝股利。其他選項：logistics＝物流；premises＝（營業）場所；commission＝佣金。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-087",
+      "q": "Shareholders will receive a _____ of $1 per share.",
+      "options": [
+        "dividend",
+        "dividing",
+        "divide",
+        "division"
+      ],
+      "answer": 0,
+      "explain": "答案是 dividend。dividend（n.）＝股利。股東每股可獲得 1 美元股利。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-088",
+      "q": "「endorse」（v.）的中文意思是？",
+      "options": [
+        "禁止",
+        "廢除",
+        "清算；變賣",
+        "背書；代言"
+      ],
+      "answer": 3,
+      "explain": "endorse（v.）＝背書；代言。例句：The famous athlete endorses a line of sports drinks.（這位知名運動員代言一系列運動飲料。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-089",
+      "q": "「背書；代言」（動詞）的英文是？",
+      "options": [
+        "liquidate",
+        "prohibit",
+        "endorse",
+        "abolish"
+      ],
+      "answer": 2,
+      "explain": "endorse（v.）＝背書；代言。其他選項：prohibit＝禁止；abolish＝廢除；liquidate＝清算；變賣。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-090",
+      "q": "The famous athlete _____ a line of sports drinks.",
+      "options": [
+        "enforces",
+        "endorses",
+        "endures",
+        "endorsement"
+      ],
+      "answer": 1,
+      "explain": "答案是 endorses。endorse（v.）＝背書；代言。這位知名運動員代言一系列運動飲料。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-091",
+      "q": "「entrepreneur」（n.）的中文意思是？",
+      "options": [
+        "企業家；創業者",
+        "補助金",
+        "意外事件；應變",
+        "投標；出價"
+      ],
+      "answer": 0,
+      "explain": "entrepreneur（n.）＝企業家；創業者。例句：The young entrepreneur started her first company at 22.（這位年輕創業家 22 歲創立第一家公司。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-092",
+      "q": "「企業家；創業者」（名詞）的英文是？",
+      "options": [
+        "bids",
+        "subsidy",
+        "contingency",
+        "entrepreneur"
+      ],
+      "answer": 3,
+      "explain": "entrepreneur（n.）＝企業家；創業者。其他選項：bids＝投標；出價；subsidy＝補助金；contingency＝意外事件；應變。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-093",
+      "q": "The young _____ started her first company at 22.",
+      "options": [
+        "entrepreneurship",
+        "enterprise",
+        "entrepreneur",
+        "entrepreneurial"
+      ],
+      "answer": 2,
+      "explain": "答案是 entrepreneur。entrepreneur（n.）＝企業家；創業者。這位年輕創業家 22 歲創立第一家公司。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-094",
+      "q": "「exempt」（adj.）的中文意思是？",
+      "options": [
+        "多功能的；多才多藝的",
+        "免除的",
+        "機密的",
+        "前所未有的"
+      ],
+      "answer": 1,
+      "explain": "exempt（adj.）＝免除的。例句：Small businesses are exempt from this tax.（小型企業免繳此稅。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-095",
+      "q": "「免除的」（形容詞）的英文是？",
+      "options": [
+        "exempt",
+        "confidential",
+        "versatile",
+        "unprecedented"
+      ],
+      "answer": 0,
+      "explain": "exempt（adj.）＝免除的。其他選項：unprecedented＝前所未有的；versatile＝多功能的；多才多藝的；confidential＝機密的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-096",
+      "q": "Small businesses are _____ from this tax.",
+      "options": [
+        "exemplary",
+        "example",
+        "exemption",
+        "exempt"
+      ],
+      "answer": 3,
+      "explain": "答案是 exempt。exempt（adj.）＝免除的。小型企業免繳此稅。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-097",
+      "q": "「feasible」（adj.）的中文意思是？",
+      "options": [
+        "破產的",
+        "強健的；穩健的",
+        "可行的",
+        "寬鬆的；寬容的"
+      ],
+      "answer": 2,
+      "explain": "feasible（adj.）＝可行的。例句：Is it feasible to finish the project by June?（在六月前完成專案可行嗎？）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-098",
+      "q": "「可行的」（形容詞）的英文是？",
+      "options": [
+        "lenient",
+        "feasible",
+        "robust",
+        "bankrupt"
+      ],
+      "answer": 1,
+      "explain": "feasible（adj.）＝可行的。其他選項：lenient＝寬鬆的；寬容的；bankrupt＝破產的；robust＝強健的；穩健的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-099",
+      "q": "Is it _____ to finish the project by June?",
+      "options": [
+        "feasible",
+        "feasibility",
+        "feast",
+        "feasibly"
+      ],
+      "answer": 0,
+      "explain": "答案是 feasible。feasible（adj.）＝可行的。在六月前完成專案可行嗎？",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-100",
+      "q": "「fiscal」（adj.）的中文意思是？",
+      "options": [
+        "簡潔的",
+        "應負責的",
+        "間歇的",
+        "財政的；會計年度的"
+      ],
+      "answer": 3,
+      "explain": "fiscal（adj.）＝財政的；會計年度的。例句：The fiscal year ends on March 31.（會計年度在三月三十一日結束。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-101",
+      "q": "「財政的；會計年度的」（形容詞）的英文是？",
+      "options": [
+        "intermittent",
+        "concise",
+        "fiscal",
+        "accountable"
+      ],
+      "answer": 2,
+      "explain": "fiscal（adj.）＝財政的；會計年度的。其他選項：concise＝簡潔的；intermittent＝間歇的；accountable＝應負責的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-102",
+      "q": "The _____ year ends on March 31.",
+      "options": [
+        "fist",
+        "fiscal",
+        "fiscally",
+        "physical"
+      ],
+      "answer": 1,
+      "explain": "答案是 fiscal。fiscal（adj.）＝財政的；會計年度的。會計年度在三月三十一日結束。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-103",
+      "q": "「franchise」（n.）的中文意思是？",
+      "options": [
+        "加盟店；經銷權",
+        "罰款；罰則",
+        "任期",
+        "仲裁"
+      ],
+      "answer": 0,
+      "explain": "franchise（n.）＝加盟店；經銷權。例句：He owns a fast-food franchise in the mall.（他在購物中心擁有一家速食加盟店。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-104",
+      "q": "「加盟店；經銷權」（名詞）的英文是？",
+      "options": [
+        "tenure",
+        "penalty",
+        "arbitration",
+        "franchise"
+      ],
+      "answer": 3,
+      "explain": "franchise（n.）＝加盟店；經銷權。其他選項：arbitration＝仲裁；tenure＝任期；penalty＝罰款；罰則。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-105",
+      "q": "He owns a fast-food _____ in the mall.",
+      "options": [
+        "frankness",
+        "frenzy",
+        "franchise",
+        "franchisee"
+      ],
+      "answer": 2,
+      "explain": "答案是 franchise。franchise（n.）＝加盟店；經銷權。他在購物中心擁有一家速食加盟店。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-106",
+      "q": "「incur」（v.）的中文意思是？",
+      "options": [
+        "提倡；擁護",
+        "招致；產生（費用）",
+        "終止",
+        "貶值；折舊"
+      ],
+      "answer": 1,
+      "explain": "incur（v.）＝招致；產生（費用）。例句：You may incur a fee if you cancel late.（如果太晚取消，你可能需要支付費用。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-107",
+      "q": "「招致；產生（費用）」（動詞）的英文是？",
+      "options": [
+        "incur",
+        "depreciate",
+        "terminate",
+        "advocate"
+      ],
+      "answer": 0,
+      "explain": "incur（v.）＝招致；產生（費用）。其他選項：terminate＝終止；advocate＝提倡；擁護；depreciate＝貶值；折舊。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-108",
+      "q": "You may _____ a fee if you cancel late.",
+      "options": [
+        "incurs",
+        "occur",
+        "incursion",
+        "incur"
+      ],
+      "answer": 3,
+      "explain": "答案是 incur。incur（v.）＝招致；產生（費用）。如果太晚取消，你可能需要支付費用。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-109",
+      "q": "「indispensable」（adj.）的中文意思是？",
+      "options": [
+        "強健的；穩健的",
+        "財政的；會計年度的",
+        "不可或缺的",
+        "間歇的"
+      ],
+      "answer": 2,
+      "explain": "indispensable（adj.）＝不可或缺的。例句：Her experience makes her indispensable to the team.（她的經驗讓她成為團隊不可或缺的一員。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-110",
+      "q": "「不可或缺的」（形容詞）的英文是？",
+      "options": [
+        "fiscal",
+        "indispensable",
+        "intermittent",
+        "robust"
+      ],
+      "answer": 1,
+      "explain": "indispensable（adj.）＝不可或缺的。其他選項：fiscal＝財政的；會計年度的；robust＝強健的；穩健的；intermittent＝間歇的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-111",
+      "q": "Her experience makes her _____ to the team.",
+      "options": [
+        "indispensable",
+        "indispensably",
+        "dispense",
+        "dispensary"
+      ],
+      "answer": 0,
+      "explain": "答案是 indispensable。indispensable（adj.）＝不可或缺的。她的經驗讓她成為團隊不可或缺的一員。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-112",
+      "q": "「intermittent」（adj.）的中文意思是？",
+      "options": [
+        "寬鬆的；寬容的",
+        "熟練的；精通的",
+        "多功能的；多才多藝的",
+        "間歇的"
+      ],
+      "answer": 3,
+      "explain": "intermittent（adj.）＝間歇的。例句：We experienced intermittent power outages during the storm.（暴風雨期間我們經歷了斷斷續續的停電。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-113",
+      "q": "「間歇的」（形容詞）的英文是？",
+      "options": [
+        "versatile",
+        "lenient",
+        "intermittent",
+        "proficient"
+      ],
+      "answer": 2,
+      "explain": "intermittent（adj.）＝間歇的。其他選項：versatile＝多功能的；多才多藝的；lenient＝寬鬆的；寬容的；proficient＝熟練的；精通的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-114",
+      "q": "We experienced _____ power outages during the storm.",
+      "options": [
+        "intermittently",
+        "intermittent",
+        "intermission",
+        "internment"
+      ],
+      "answer": 1,
+      "explain": "答案是 intermittent。intermittent（adj.）＝間歇的。暴風雨期間我們經歷了斷斷續續的停電。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-115",
+      "q": "「jeopardize」（v.）的中文意思是？",
+      "options": [
+        "危害",
+        "清算；變賣",
+        "免除；放棄（權利）",
+        "接任；繼承"
+      ],
+      "answer": 0,
+      "explain": "jeopardize（v.）＝危害。例句：Missing the deadline could jeopardize the whole project.（錯過期限可能會危及整個專案。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-116",
+      "q": "「危害」（動詞）的英文是？",
+      "options": [
+        "liquidate",
+        "waive",
+        "succeed",
+        "jeopardize"
+      ],
+      "answer": 3,
+      "explain": "jeopardize（v.）＝危害。其他選項：succeed＝接任；繼承；waive＝免除；放棄（權利）；liquidate＝清算；變賣。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-117",
+      "q": "Missing the deadline could _____ the whole project.",
+      "options": [
+        "jeopardy",
+        "jealous",
+        "jeopardize",
+        "jeopardizing"
+      ],
+      "answer": 2,
+      "explain": "答案是 jeopardize。jeopardize（v.）＝危害。錯過期限可能會危及整個專案。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-118",
+      "q": "「lenient」（adj.）的中文意思是？",
+      "options": [
+        "多功能的；多才多藝的",
+        "寬鬆的；寬容的",
+        "可行的",
+        "熟練的；精通的"
+      ],
+      "answer": 1,
+      "explain": "lenient（adj.）＝寬鬆的；寬容的。例句：The new manager is more lenient about dress codes.（新經理對服裝規定比較寬鬆。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-119",
+      "q": "「寬鬆的；寬容的」（形容詞）的英文是？",
+      "options": [
+        "lenient",
+        "versatile",
+        "feasible",
+        "proficient"
+      ],
+      "answer": 0,
+      "explain": "lenient（adj.）＝寬鬆的；寬容的。其他選項：versatile＝多功能的；多才多藝的；feasible＝可行的；proficient＝熟練的；精通的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-120",
+      "q": "The new manager is more _____ about dress codes.",
+      "options": [
+        "lent",
+        "leniency",
+        "leniently",
+        "lenient"
+      ],
+      "answer": 3,
+      "explain": "答案是 lenient。lenient（adj.）＝寬鬆的；寬容的。新經理對服裝規定比較寬鬆。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-121",
+      "q": "「liquidate」（v.）的中文意思是？",
+      "options": [
+        "加速",
+        "終止",
+        "清算；變賣",
+        "產生（收益）"
+      ],
+      "answer": 2,
+      "explain": "liquidate（v.）＝清算；變賣。例句：The store will liquidate its stock before closing.（這家店在結束營業前會出清庫存。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-122",
+      "q": "「清算；變賣」（動詞）的英文是？",
+      "options": [
+        "terminate",
+        "liquidate",
+        "accelerate",
+        "yield"
+      ],
+      "answer": 1,
+      "explain": "liquidate（v.）＝清算；變賣。其他選項：terminate＝終止；accelerate＝加速；yield＝產生（收益）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-123",
+      "q": "The store will _____ its stock before closing.",
+      "options": [
+        "liquidate",
+        "liquidation",
+        "liquidity",
+        "liquid"
+      ],
+      "answer": 0,
+      "explain": "答案是 liquidate。liquidate（v.）＝清算；變賣。這家店在結束營業前會出清庫存。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-124",
+      "q": "「logistics」（n.）的中文意思是？",
+      "options": [
+        "備忘錄",
+        "共識",
+        "便利設施",
+        "物流"
+      ],
+      "answer": 3,
+      "explain": "logistics（n.）＝物流。例句：The company handles logistics for several online retailers.（這家公司為多家網路零售商處理物流。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-125",
+      "q": "「物流」（名詞）的英文是？",
+      "options": [
+        "consensus",
+        "memorandum",
+        "logistics",
+        "amenities"
+      ],
+      "answer": 2,
+      "explain": "logistics（n.）＝物流。其他選項：amenities＝便利設施；consensus＝共識；memorandum＝備忘錄。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-126",
+      "q": "The company handles _____ for several online retailers.",
+      "options": [
+        "logically",
+        "logistics",
+        "logistical",
+        "logic"
+      ],
+      "answer": 1,
+      "explain": "答案是 logistics。logistics（n.）＝物流。這家公司為多家網路零售商處理物流。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-127",
+      "q": "「mediate」（v.）的中文意思是？",
+      "options": [
+        "調解",
+        "接任；繼承",
+        "撤銷；撤回",
+        "清算；變賣"
+      ],
+      "answer": 0,
+      "explain": "mediate（v.）＝調解。例句：A lawyer was hired to mediate the dispute.（聘請了一位律師調解糾紛。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-128",
+      "q": "「調解」（動詞）的英文是？",
+      "options": [
+        "succeed",
+        "liquidate",
+        "rescind",
+        "mediate"
+      ],
+      "answer": 3,
+      "explain": "mediate（v.）＝調解。其他選項：succeed＝接任；繼承；rescind＝撤銷；撤回；liquidate＝清算；變賣。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-129",
+      "q": "A lawyer was hired to _____ the dispute.",
+      "options": [
+        "mediation",
+        "meditate",
+        "mediate",
+        "medium"
+      ],
+      "answer": 2,
+      "explain": "答案是 mediate。mediate（v.）＝調解。聘請了一位律師調解糾紛。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-130",
+      "q": "「memorandum」（n.）的中文意思是？",
+      "options": [
+        "關稅",
+        "備忘錄",
+        "任期",
+        "報酬"
+      ],
+      "answer": 1,
+      "explain": "memorandum（n.）＝備忘錄。例句：The CEO sent a memorandum to all staff.（執行長發了備忘錄給全體員工。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-131",
+      "q": "「備忘錄」（名詞）的英文是？",
+      "options": [
+        "memorandum",
+        "remuneration",
+        "tariffs",
+        "tenure"
+      ],
+      "answer": 0,
+      "explain": "memorandum（n.）＝備忘錄。其他選項：tariffs＝關稅；tenure＝任期；remuneration＝報酬。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-132",
+      "q": "The CEO sent a _____ to all staff.",
+      "options": [
+        "memorable",
+        "memorize",
+        "memorial",
+        "memorandum"
+      ],
+      "answer": 3,
+      "explain": "答案是 memorandum。memorandum（n.）＝備忘錄。執行長發了備忘錄給全體員工。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-133",
+      "q": "「negligence」（n.）的中文意思是？",
+      "options": [
+        "仔細審查",
+        "關稅",
+        "疏忽",
+        "企業家；創業者"
+      ],
+      "answer": 2,
+      "explain": "negligence（n.）＝疏忽。例句：The accident was caused by the driver's negligence.（事故是駕駛人疏忽所致。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-134",
+      "q": "「疏忽」（名詞）的英文是？",
+      "options": [
+        "entrepreneur",
+        "negligence",
+        "tariffs",
+        "scrutiny"
+      ],
+      "answer": 1,
+      "explain": "negligence（n.）＝疏忽。其他選項：tariffs＝關稅；entrepreneur＝企業家；創業者；scrutiny＝仔細審查。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-135",
+      "q": "The accident was caused by the driver's _____.",
+      "options": [
+        "negligence",
+        "negligent",
+        "negligently",
+        "negligible"
+      ],
+      "answer": 0,
+      "explain": "答案是 negligence。negligence（n.）＝疏忽。事故是駕駛人疏忽所致。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-136",
+      "q": "「oversee」（v.）的中文意思是？",
+      "options": [
+        "貶值；折舊",
+        "派遣；發送",
+        "補償",
+        "監督"
+      ],
+      "answer": 3,
+      "explain": "oversee（v.）＝監督。例句：She will oversee the construction of the new plant.（她將負責監督新廠的興建。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-137",
+      "q": "「監督」（動詞）的英文是？",
+      "options": [
+        "dispatch",
+        "compensate",
+        "oversee",
+        "depreciate"
+      ],
+      "answer": 2,
+      "explain": "oversee（v.）＝監督。其他選項：dispatch＝派遣；發送；compensate＝補償；depreciate＝貶值；折舊。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-138",
+      "q": "She will _____ the construction of the new plant.",
+      "options": [
+        "oversight",
+        "oversee",
+        "oversaw",
+        "overseas"
+      ],
+      "answer": 1,
+      "explain": "答案是 oversee。oversee（v.）＝監督。她將負責監督新廠的興建。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-139",
+      "q": "「patent」（n.）的中文意思是？",
+      "options": [
+        "專利",
+        "關稅",
+        "服飾",
+        "作品集；投資組合"
+      ],
+      "answer": 0,
+      "explain": "patent（n.）＝專利。例句：The company holds a patent on this technology.（公司擁有這項技術的專利。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-140",
+      "q": "「專利」（名詞）的英文是？",
+      "options": [
+        "tariffs",
+        "portfolios",
+        "apparel",
+        "patent"
+      ],
+      "answer": 3,
+      "explain": "patent（n.）＝專利。其他選項：tariffs＝關稅；apparel＝服飾；portfolios＝作品集；投資組合。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-141",
+      "q": "The company holds a _____ on this technology.",
+      "options": [
+        "potent",
+        "patient",
+        "patent",
+        "parent"
+      ],
+      "answer": 2,
+      "explain": "答案是 patent。patent（n.）＝專利。公司擁有這項技術的專利。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-142",
+      "q": "「penalty」（n.）的中文意思是？",
+      "options": [
+        "物流",
+        "罰款；罰則",
+        "報酬",
+        "子公司"
+      ],
+      "answer": 1,
+      "explain": "penalty（n.）＝罰款；罰則。例句：There is a penalty for paying your taxes late.（逾期繳稅會受罰。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-143",
+      "q": "「罰款；罰則」（名詞）的英文是？",
+      "options": [
+        "penalty",
+        "logistics",
+        "subsidiary",
+        "remuneration"
+      ],
+      "answer": 0,
+      "explain": "penalty（n.）＝罰款；罰則。其他選項：logistics＝物流；remuneration＝報酬；subsidiary＝子公司。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-144",
+      "q": "There is a _____ for paying your taxes late.",
+      "options": [
+        "penal",
+        "penny",
+        "penalize",
+        "penalty"
+      ],
+      "answer": 3,
+      "explain": "答案是 penalty。penalty（n.）＝罰款；罰則。逾期繳稅會受罰。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-145",
+      "q": "「portfolios」（n.）的中文意思是？",
+      "options": [
+        "任期",
+        "報酬",
+        "作品集；投資組合",
+        "服飾"
+      ],
+      "answer": 2,
+      "explain": "portfolios（n.）＝作品集；投資組合。例句：Designers should bring their portfolios to the interview.（設計師面試時應帶作品集。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-146",
+      "q": "「作品集；投資組合」（名詞）的英文是？",
+      "options": [
+        "apparel",
+        "portfolios",
+        "remuneration",
+        "tenure"
+      ],
+      "answer": 1,
+      "explain": "portfolios（n.）＝作品集；投資組合。其他選項：tenure＝任期；remuneration＝報酬；apparel＝服飾。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-147",
+      "q": "Designers should bring their _____ to the interview.",
+      "options": [
+        "portfolios",
+        "portions",
+        "porticos",
+        "portals"
+      ],
+      "answer": 0,
+      "explain": "答案是 portfolios。portfolios（n.）＝作品集；投資組合。設計師面試時應帶作品集。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-148",
+      "q": "「predecessor」（n.）的中文意思是？",
+      "options": [
+        "關稅",
+        "作品集；投資組合",
+        "佣金",
+        "前任"
+      ],
+      "answer": 3,
+      "explain": "predecessor（n.）＝前任。例句：The new director is more open than her predecessor.（新任主任比她的前任更開放。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-149",
+      "q": "「前任」（名詞）的英文是？",
+      "options": [
+        "portfolios",
+        "tariffs",
+        "predecessor",
+        "commission"
+      ],
+      "answer": 2,
+      "explain": "predecessor（n.）＝前任。其他選項：commission＝佣金；portfolios＝作品集；投資組合；tariffs＝關稅。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-150",
+      "q": "The new director is more open than her _____.",
+      "options": [
+        "procession",
+        "predecessor",
+        "precedent",
+        "predicament"
+      ],
+      "answer": 1,
+      "explain": "答案是 predecessor。predecessor（n.）＝前任。新任主任比她的前任更開放。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-151",
+      "q": "「premises」（n.）的中文意思是？",
+      "options": [
+        "（營業）場所",
+        "佣金",
+        "任期",
+        "補助金"
+      ],
+      "answer": 0,
+      "explain": "premises（n.）＝（營業）場所。例句：Smoking is not allowed on the premises.（場所內禁止吸菸。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-152",
+      "q": "「（營業）場所」（名詞）的英文是？",
+      "options": [
+        "subsidy",
+        "commission",
+        "tenure",
+        "premises"
+      ],
+      "answer": 3,
+      "explain": "premises（n.）＝（營業）場所。其他選項：commission＝佣金；subsidy＝補助金；tenure＝任期。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-153",
+      "q": "Smoking is not allowed on the _____.",
+      "options": [
+        "promises",
+        "premiums",
+        "premises",
+        "premieres"
+      ],
+      "answer": 2,
+      "explain": "答案是 premises。premises（n.）＝（營業）場所。場所內禁止吸菸。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-154",
+      "q": "「proficient」（adj.）的中文意思是？",
+      "options": [
+        "免除的",
+        "熟練的；精通的",
+        "寬鬆的；寬容的",
+        "多功能的；多才多藝的"
+      ],
+      "answer": 1,
+      "explain": "proficient（adj.）＝熟練的；精通的。例句：Applicants must be proficient in English and Japanese.（應徵者必須精通英文和日文。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-155",
+      "q": "「熟練的；精通的」（形容詞）的英文是？",
+      "options": [
+        "proficient",
+        "versatile",
+        "lenient",
+        "exempt"
+      ],
+      "answer": 0,
+      "explain": "proficient（adj.）＝熟練的；精通的。其他選項：lenient＝寬鬆的；寬容的；exempt＝免除的；versatile＝多功能的；多才多藝的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-156",
+      "q": "Applicants must be _____ in English and Japanese.",
+      "options": [
+        "proficiency",
+        "profitable",
+        "proficiently",
+        "proficient"
+      ],
+      "answer": 3,
+      "explain": "答案是 proficient。proficient（adj.）＝熟練的；精通的。應徵者必須精通英文和日文。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-157",
+      "q": "「prohibit」（v.）的中文意思是？",
+      "options": [
+        "委派；分派",
+        "監督",
+        "禁止",
+        "招致；產生（費用）"
+      ],
+      "answer": 2,
+      "explain": "prohibit（v.）＝禁止。例句：The law prohibits smoking in restaurants.（法律禁止在餐廳吸菸。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-158",
+      "q": "「禁止」（動詞）的英文是？",
+      "options": [
+        "oversee",
+        "prohibit",
+        "incur",
+        "delegate"
+      ],
+      "answer": 1,
+      "explain": "prohibit（v.）＝禁止。其他選項：incur＝招致；產生（費用）；oversee＝監督；delegate＝委派；分派。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-159",
+      "q": "The law _____ smoking in restaurants.",
+      "options": [
+        "prohibits",
+        "prohibition",
+        "exhibits",
+        "prohibitive"
+      ],
+      "answer": 0,
+      "explain": "答案是 prohibits。prohibit（v.）＝禁止。法律禁止在餐廳吸菸。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-160",
+      "q": "「reconcile」（v.）的中文意思是？",
+      "options": [
+        "修正（條文）",
+        "產生（收益）",
+        "休會；延期",
+        "核對（帳目）；調和"
+      ],
+      "answer": 3,
+      "explain": "reconcile（v.）＝核對（帳目）；調和。例句：The accountant reconciled the bank statements.（會計核對了銀行對帳單。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-161",
+      "q": "「核對（帳目）；調和」（動詞）的英文是？",
+      "options": [
+        "amend",
+        "yield",
+        "reconcile",
+        "adjourn"
+      ],
+      "answer": 2,
+      "explain": "reconcile（v.）＝核對（帳目）；調和。其他選項：yield＝產生（收益）；amend＝修正（條文）；adjourn＝休會；延期。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-162",
+      "q": "The accountant _____ the bank statements.",
+      "options": [
+        "reconnaissance",
+        "reconciled",
+        "reconcilable",
+        "reconciliation"
+      ],
+      "answer": 1,
+      "explain": "答案是 reconciled。reconcile（v.）＝核對（帳目）；調和。會計核對了銀行對帳單。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-163",
+      "q": "「redundant」（adj.）的中文意思是？",
+      "options": [
+        "多餘的；被裁員的",
+        "寬鬆的；寬容的",
+        "熟練的；精通的",
+        "簡潔的"
+      ],
+      "answer": 0,
+      "explain": "redundant（adj.）＝多餘的；被裁員的。例句：Several steps in the process are redundant.（流程中有好幾個步驟是多餘的。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-164",
+      "q": "「多餘的；被裁員的」（形容詞）的英文是？",
+      "options": [
+        "proficient",
+        "concise",
+        "lenient",
+        "redundant"
+      ],
+      "answer": 3,
+      "explain": "redundant（adj.）＝多餘的；被裁員的。其他選項：concise＝簡潔的；lenient＝寬鬆的；寬容的；proficient＝熟練的；精通的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-165",
+      "q": "Several steps in the process are _____.",
+      "options": [
+        "redound",
+        "redundantly",
+        "redundant",
+        "redundancy"
+      ],
+      "answer": 2,
+      "explain": "答案是 redundant。redundant（adj.）＝多餘的；被裁員的。流程中有好幾個步驟是多餘的。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-166",
+      "q": "「remuneration」（n.）的中文意思是？",
+      "options": [
+        "企業家；創業者",
+        "報酬",
+        "差異；不符",
+        "子公司"
+      ],
+      "answer": 1,
+      "explain": "remuneration（n.）＝報酬。例句：The position offers attractive remuneration.（這個職位提供優渥的報酬。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-167",
+      "q": "「報酬」（名詞）的英文是？",
+      "options": [
+        "remuneration",
+        "discrepancy",
+        "entrepreneur",
+        "subsidiary"
+      ],
+      "answer": 0,
+      "explain": "remuneration（n.）＝報酬。其他選項：entrepreneur＝企業家；創業者；subsidiary＝子公司；discrepancy＝差異；不符。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-168",
+      "q": "The position offers attractive _____.",
+      "options": [
+        "enumeration",
+        "remunerate",
+        "remunerative",
+        "remuneration"
+      ],
+      "answer": 3,
+      "explain": "答案是 remuneration。remuneration（n.）＝報酬。這個職位提供優渥的報酬。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-169",
+      "q": "「rescind」（v.）的中文意思是？",
+      "options": [
+        "危害",
+        "扣除",
+        "撤銷；撤回",
+        "貶值；折舊"
+      ],
+      "answer": 2,
+      "explain": "rescind（v.）＝撤銷；撤回。例句：The company rescinded the job offer.（公司撤回了工作邀約。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-170",
+      "q": "「撤銷；撤回」（動詞）的英文是？",
+      "options": [
+        "depreciate",
+        "rescind",
+        "jeopardize",
+        "deduct"
+      ],
+      "answer": 1,
+      "explain": "rescind（v.）＝撤銷；撤回。其他選項：deduct＝扣除；depreciate＝貶值；折舊；jeopardize＝危害。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-171",
+      "q": "The company _____ the job offer.",
+      "options": [
+        "rescinded",
+        "rescued",
+        "rescinding",
+        "rescission"
+      ],
+      "answer": 0,
+      "explain": "答案是 rescinded。rescind（v.）＝撤銷；撤回。公司撤回了工作邀約。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-172",
+      "q": "「reside」（v.）的中文意思是？",
+      "options": [
+        "免除；放棄（權利）",
+        "加速",
+        "產生（收益）",
+        "居住"
+      ],
+      "answer": 3,
+      "explain": "reside（v.）＝居住。例句：Applicants must reside in Taipei City.（申請人必須居住在台北市。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-173",
+      "q": "「居住」（動詞）的英文是？",
+      "options": [
+        "yield",
+        "accelerate",
+        "reside",
+        "waive"
+      ],
+      "answer": 2,
+      "explain": "reside（v.）＝居住。其他選項：yield＝產生（收益）；accelerate＝加速；waive＝免除；放棄（權利）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-174",
+      "q": "Applicants must _____ in Taipei City.",
+      "options": [
+        "resign",
+        "reside",
+        "resident",
+        "residence"
+      ],
+      "answer": 1,
+      "explain": "答案是 reside。reside（v.）＝居住。申請人必須居住在台北市。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-175",
+      "q": "「robust」（adj.）的中文意思是？",
+      "options": [
+        "強健的；穩健的",
+        "寬鬆的；寬容的",
+        "間歇的",
+        "應負責的"
+      ],
+      "answer": 0,
+      "explain": "robust（adj.）＝強健的；穩健的。例句：The economy showed robust growth last year.（去年經濟展現強勁成長。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-176",
+      "q": "「強健的；穩健的」（形容詞）的英文是？",
+      "options": [
+        "intermittent",
+        "lenient",
+        "accountable",
+        "robust"
+      ],
+      "answer": 3,
+      "explain": "robust（adj.）＝強健的；穩健的。其他選項：accountable＝應負責的；intermittent＝間歇的；lenient＝寬鬆的；寬容的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-177",
+      "q": "The economy showed _____ growth last year.",
+      "options": [
+        "robustly",
+        "robustness",
+        "robust",
+        "robe"
+      ],
+      "answer": 2,
+      "explain": "答案是 robust。robust（adj.）＝強健的；穩健的。去年經濟展現強勁成長。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-178",
+      "q": "「scrutiny」（n.）的中文意思是？",
+      "options": [
+        "罰款；罰則",
+        "仔細審查",
+        "子公司",
+        "差異；不符"
+      ],
+      "answer": 1,
+      "explain": "scrutiny（n.）＝仔細審查。例句：The company's accounts came under close scrutiny.（公司的帳目受到嚴格審查。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-179",
+      "q": "「仔細審查」（名詞）的英文是？",
+      "options": [
+        "scrutiny",
+        "subsidiary",
+        "penalty",
+        "discrepancy"
+      ],
+      "answer": 0,
+      "explain": "scrutiny（n.）＝仔細審查。其他選項：penalty＝罰款；罰則；subsidiary＝子公司；discrepancy＝差異；不符。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-180",
+      "q": "The company's accounts came under close _____.",
+      "options": [
+        "scrutinizing",
+        "security",
+        "scrutinize",
+        "scrutiny"
+      ],
+      "answer": 3,
+      "explain": "答案是 scrutiny。scrutiny（n.）＝仔細審查。公司的帳目受到嚴格審查。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-181",
+      "q": "「stipulate」（v.）的中文意思是？",
+      "options": [
+        "提倡；擁護",
+        "撤銷；撤回",
+        "規定；明訂",
+        "精簡；提高效率"
+      ],
+      "answer": 2,
+      "explain": "stipulate（v.）＝規定；明訂。例句：The contract stipulates that payment must be made within 30 days.（合約明訂須於 30 天內付款。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-182",
+      "q": "「規定；明訂」（動詞）的英文是？",
+      "options": [
+        "rescind",
+        "stipulate",
+        "streamline",
+        "advocate"
+      ],
+      "answer": 1,
+      "explain": "stipulate（v.）＝規定；明訂。其他選項：streamline＝精簡；提高效率；rescind＝撤銷；撤回；advocate＝提倡；擁護。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-183",
+      "q": "The contract _____ that payment must be made within 30 days.",
+      "options": [
+        "stipulates",
+        "stimulates",
+        "stipend",
+        "stipulation"
+      ],
+      "answer": 0,
+      "explain": "答案是 stipulates。stipulate（v.）＝規定；明訂。合約明訂須於 30 天內付款。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-184",
+      "q": "「streamline」（v.）的中文意思是？",
+      "options": [
+        "監督",
+        "危害",
+        "提倡；擁護",
+        "精簡；提高效率"
+      ],
+      "answer": 3,
+      "explain": "streamline（v.）＝精簡；提高效率。例句：We need to streamline our ordering process.（我們需要精簡訂購流程。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-185",
+      "q": "「精簡；提高效率」（動詞）的英文是？",
+      "options": [
+        "advocate",
+        "jeopardize",
+        "streamline",
+        "oversee"
+      ],
+      "answer": 2,
+      "explain": "streamline（v.）＝精簡；提高效率。其他選項：oversee＝監督；jeopardize＝危害；advocate＝提倡；擁護。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-186",
+      "q": "We need to _____ our ordering process.",
+      "options": [
+        "mainstream",
+        "streamline",
+        "stream",
+        "streamlined"
+      ],
+      "answer": 1,
+      "explain": "答案是 streamline。streamline（v.）＝精簡；提高效率。我們需要精簡訂購流程。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-187",
+      "q": "「subsidiary」（n.）的中文意思是？",
+      "options": [
+        "子公司",
+        "物流",
+        "加盟店；經銷權",
+        "差異；不符"
+      ],
+      "answer": 0,
+      "explain": "subsidiary（n.）＝子公司。例句：The firm opened a subsidiary in Vietnam.（這家公司在越南設立子公司。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-188",
+      "q": "「子公司」（名詞）的英文是？",
+      "options": [
+        "franchise",
+        "discrepancy",
+        "logistics",
+        "subsidiary"
+      ],
+      "answer": 3,
+      "explain": "subsidiary（n.）＝子公司。其他選項：logistics＝物流；franchise＝加盟店；經銷權；discrepancy＝差異；不符。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-189",
+      "q": "The firm opened a _____ in Vietnam.",
+      "options": [
+        "subsidize",
+        "subsidy",
+        "subsidiary",
+        "subsidence"
+      ],
+      "answer": 2,
+      "explain": "答案是 subsidiary。subsidiary（n.）＝子公司。這家公司在越南設立子公司。 其他選項：subsidy＝補助金。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-190",
+      "q": "「subsidy」（n.）的中文意思是？",
+      "options": [
+        "佣金",
+        "補助金",
+        "投標；出價",
+        "赤字"
+      ],
+      "answer": 1,
+      "explain": "subsidy（n.）＝補助金。例句：Farmers receive a government subsidy for growing rice.（農民種稻可獲得政府補助。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-191",
+      "q": "「補助金」（名詞）的英文是？",
+      "options": [
+        "subsidy",
+        "deficit",
+        "commission",
+        "bids"
+      ],
+      "answer": 0,
+      "explain": "subsidy（n.）＝補助金。其他選項：bids＝投標；出價；commission＝佣金；deficit＝赤字。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-192",
+      "q": "Farmers receive a government _____ for growing rice.",
+      "options": [
+        "subsidize",
+        "subside",
+        "subsidiary",
+        "subsidy"
+      ],
+      "answer": 3,
+      "explain": "答案是 subsidy。subsidy（n.）＝補助金。農民種稻可獲得政府補助。 其他選項：subsidiary＝子公司。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-193",
+      "q": "「succeed」（v.）的中文意思是？",
+      "options": [
+        "清算；變賣",
+        "調解",
+        "接任；繼承",
+        "居住"
+      ],
+      "answer": 2,
+      "explain": "succeed（v.）＝接任；繼承。例句：Ms. Chen will succeed Mr. Wang as CEO.（陳女士將接替王先生擔任執行長。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-194",
+      "q": "「接任；繼承」（動詞）的英文是？",
+      "options": [
+        "reside",
+        "succeed",
+        "mediate",
+        "liquidate"
+      ],
+      "answer": 1,
+      "explain": "succeed（v.）＝接任；繼承。其他選項：mediate＝調解；liquidate＝清算；變賣；reside＝居住。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-195",
+      "q": "Ms. Chen will _____ Mr. Wang as CEO.",
+      "options": [
+        "succeed",
+        "successor",
+        "successive",
+        "success"
+      ],
+      "answer": 0,
+      "explain": "答案是 succeed。succeed（v.）＝接任；繼承。陳女士將接替王先生擔任執行長。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-196",
+      "q": "「tariffs」（n.）的中文意思是？",
+      "options": [
+        "報酬",
+        "（營業）場所",
+        "補助金",
+        "關稅"
+      ],
+      "answer": 3,
+      "explain": "tariffs（n.）＝關稅。例句：The government raised tariffs on imported steel.（政府提高了進口鋼鐵的關稅。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-197",
+      "q": "「關稅」（名詞）的英文是？",
+      "options": [
+        "premises",
+        "subsidy",
+        "tariffs",
+        "remuneration"
+      ],
+      "answer": 2,
+      "explain": "tariffs（n.）＝關稅。其他選項：premises＝（營業）場所；subsidy＝補助金；remuneration＝報酬。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-198",
+      "q": "The government raised _____ on imported steel.",
+      "options": [
+        "terraces",
+        "tariffs",
+        "tactics",
+        "traffic"
+      ],
+      "answer": 1,
+      "explain": "答案是 tariffs。tariffs（n.）＝關稅。政府提高了進口鋼鐵的關稅。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-199",
+      "q": "「terminate」（v.）的中文意思是？",
+      "options": [
+        "終止",
+        "精簡；提高效率",
+        "產生（收益）",
+        "補償"
+      ],
+      "answer": 0,
+      "explain": "terminate（v.）＝終止。例句：Either party may terminate the contract with 30 days' notice.（任何一方都可以提前 30 天通知終止合約。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-200",
+      "q": "「終止」（動詞）的英文是？",
+      "options": [
+        "compensate",
+        "yield",
+        "streamline",
+        "terminate"
+      ],
+      "answer": 3,
+      "explain": "terminate（v.）＝終止。其他選項：streamline＝精簡；提高效率；yield＝產生（收益）；compensate＝補償。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-201",
+      "q": "Either party may _____ the contract with 30 days' notice.",
+      "options": [
+        "termination",
+        "terminal",
+        "terminate",
+        "determinate"
+      ],
+      "answer": 2,
+      "explain": "答案是 terminate。terminate（v.）＝終止。任何一方都可以提前 30 天通知終止合約。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-202",
+      "q": "「tenure」（n.）的中文意思是？",
+      "options": [
+        "股利",
+        "任期",
+        "投標；出價",
+        "差異；不符"
+      ],
+      "answer": 1,
+      "explain": "tenure（n.）＝任期。例句：During his tenure as mayor, the city grew rapidly.（在他擔任市長期間，城市快速發展。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-203",
+      "q": "「任期」（名詞）的英文是？",
+      "options": [
+        "tenure",
+        "dividend",
+        "discrepancy",
+        "bids"
+      ],
+      "answer": 0,
+      "explain": "tenure（n.）＝任期。其他選項：discrepancy＝差異；不符；dividend＝股利；bids＝投標；出價。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-204",
+      "q": "During his _____ as mayor, the city grew rapidly.",
+      "options": [
+        "tenor",
+        "tenant",
+        "tension",
+        "tenure"
+      ],
+      "answer": 3,
+      "explain": "答案是 tenure。tenure（n.）＝任期。在他擔任市長期間，城市快速發展。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t700-205",
+      "q": "「unprecedented」（adj.）的中文意思是？",
+      "options": [
+        "財政的；會計年度的",
+        "免除的",
+        "前所未有的",
+        "寬鬆的；寬容的"
+      ],
+      "answer": 2,
+      "explain": "unprecedented（adj.）＝前所未有的。例句：The company saw unprecedented growth this year.（公司今年出現前所未有的成長。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-206",
+      "q": "「前所未有的」（形容詞）的英文是？",
+      "options": [
+        "exempt",
+        "unprecedented",
+        "lenient",
+        "fiscal"
+      ],
+      "answer": 1,
+      "explain": "unprecedented（adj.）＝前所未有的。其他選項：fiscal＝財政的；會計年度的；exempt＝免除的；lenient＝寬鬆的；寬容的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-207",
+      "q": "The company saw _____ growth this year.",
+      "options": [
+        "unprecedented",
+        "unprecedentedly",
+        "precedent",
+        "precedence"
+      ],
+      "answer": 0,
+      "explain": "答案是 unprecedented。unprecedented（adj.）＝前所未有的。公司今年出現前所未有的成長。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-208",
+      "q": "「versatile」（adj.）的中文意思是？",
+      "options": [
+        "財政的；會計年度的",
+        "前所未有的",
+        "多餘的；被裁員的",
+        "多功能的；多才多藝的"
+      ],
+      "answer": 3,
+      "explain": "versatile（adj.）＝多功能的；多才多藝的。例句：This versatile tool can cut, drill, and sand.（這個多功能工具可以切割、鑽孔和打磨。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-209",
+      "q": "「多功能的；多才多藝的」（形容詞）的英文是？",
+      "options": [
+        "fiscal",
+        "redundant",
+        "versatile",
+        "unprecedented"
+      ],
+      "answer": 2,
+      "explain": "versatile（adj.）＝多功能的；多才多藝的。其他選項：redundant＝多餘的；被裁員的；fiscal＝財政的；會計年度的；unprecedented＝前所未有的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-210",
+      "q": "This _____ tool can cut, drill, and sand.",
+      "options": [
+        "verse",
+        "versatile",
+        "version",
+        "versatility"
+      ],
+      "answer": 1,
+      "explain": "答案是 versatile。versatile（adj.）＝多功能的；多才多藝的。這個多功能工具可以切割、鑽孔和打磨。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t700-211",
+      "q": "「waive」（v.）的中文意思是？",
+      "options": [
+        "免除；放棄（權利）",
+        "補償",
+        "扣除",
+        "終止"
+      ],
+      "answer": 0,
+      "explain": "waive（v.）＝免除；放棄（權利）。例句：The bank agreed to waive the annual fee.（銀行同意免除年費。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-212",
+      "q": "「免除；放棄（權利）」（動詞）的英文是？",
+      "options": [
+        "compensate",
+        "deduct",
+        "terminate",
+        "waive"
+      ],
+      "answer": 3,
+      "explain": "waive（v.）＝免除；放棄（權利）。其他選項：terminate＝終止；compensate＝補償；deduct＝扣除。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-213",
+      "q": "The bank agreed to _____ the annual fee.",
+      "options": [
+        "waver",
+        "waiver",
+        "waive",
+        "wave"
+      ],
+      "answer": 2,
+      "explain": "答案是 waive。waive（v.）＝免除；放棄（權利）。銀行同意免除年費。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-214",
+      "q": "「yield」（v.）的中文意思是？",
+      "options": [
+        "加速",
+        "產生（收益）",
+        "核對（帳目）；調和",
+        "撤銷；撤回"
+      ],
+      "answer": 1,
+      "explain": "yield（v.）＝產生（收益）。例句：The investment yielded a 7 percent return.（這筆投資帶來 7% 的報酬。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-215",
+      "q": "「產生（收益）」（動詞）的英文是？",
+      "options": [
+        "yield",
+        "rescind",
+        "reconcile",
+        "accelerate"
+      ],
+      "answer": 0,
+      "explain": "yield（v.）＝產生（收益）。其他選項：rescind＝撤銷；撤回；accelerate＝加速；reconcile＝核對（帳目）；調和。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-216",
+      "q": "The investment _____ a 7 percent return.",
+      "options": [
+        "yielding",
+        "wielded",
+        "fielded",
+        "yielded"
+      ],
+      "answer": 3,
+      "explain": "答案是 yielded。yield（v.）＝產生（收益）。這筆投資帶來 7% 的報酬。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t700-217",
+      "q": "「whereas」（conj.）的中文意思是？",
+      "options": [
+        "罰款；罰則",
+        "居住",
+        "然而；相較之下",
+        "只要；倘若"
+      ],
+      "answer": 2,
+      "explain": "whereas（conj.）＝然而；相較之下。例句：Some staff prefer working from home, whereas others prefer the office.（有些員工喜歡在家工作，而其他人偏好辦公室。）",
+      "tags": [
+        "字義",
+        "連接詞"
+      ]
+    },
+    {
+      "id": "t700-218",
+      "q": "「然而；相較之下」（連接詞）的英文是？",
+      "options": [
+        "penalty",
+        "whereas",
+        "provided that",
+        "reside"
+      ],
+      "answer": 1,
+      "explain": "whereas（conj.）＝然而；相較之下。其他選項：provided that＝只要；倘若；reside＝居住；penalty＝罰款；罰則。",
+      "tags": [
+        "中翻英",
+        "連接詞"
+      ]
+    },
+    {
+      "id": "t700-219",
+      "q": "Some staff prefer working from home, _____ others prefer the office.",
+      "options": [
+        "whereas",
+        "whether",
+        "wherever",
+        "whereby"
+      ],
+      "answer": 0,
+      "explain": "答案是 whereas。whereas（conj.）＝然而；相較之下。有些員工喜歡在家工作，而其他人偏好辦公室。",
+      "tags": [
+        "填空",
+        "連接詞"
+      ]
+    },
+    {
+      "id": "t700-220",
+      "q": "「notwithstanding」（prep.）的中文意思是？",
+      "options": [
+        "禁止",
+        "整合；合併",
+        "機密的",
+        "儘管"
+      ],
+      "answer": 3,
+      "explain": "notwithstanding（prep.）＝儘管。例句：Notwithstanding the bad weather, the event was a success.（儘管天氣不佳，活動仍很成功。）",
+      "tags": [
+        "字義",
+        "介系詞"
+      ]
+    },
+    {
+      "id": "t700-221",
+      "q": "「儘管」（介系詞）的英文是？",
+      "options": [
+        "confidential",
+        "prohibit",
+        "notwithstanding",
+        "consolidate"
+      ],
+      "answer": 2,
+      "explain": "notwithstanding（prep.）＝儘管。其他選項：prohibit＝禁止；confidential＝機密的；consolidate＝整合；合併。",
+      "tags": [
+        "中翻英",
+        "介系詞"
+      ]
+    },
+    {
+      "id": "t700-222",
+      "q": "_____ the bad weather, the event was a success.",
+      "options": [
+        "Moreover",
+        "Notwithstanding",
+        "Nevertheless",
+        "Therefore"
+      ],
+      "answer": 1,
+      "explain": "答案是 Notwithstanding。notwithstanding（prep.）＝儘管。儘管天氣不佳，活動仍很成功。",
+      "tags": [
+        "填空",
+        "介系詞"
+      ]
+    },
+    {
+      "id": "t700-223",
+      "q": "「provided that」（conj.）的中文意思是？",
+      "options": [
+        "只要；倘若",
+        "然而；相較之下",
+        "前任",
+        "提倡；擁護"
+      ],
+      "answer": 0,
+      "explain": "provided that（conj.）＝只要；倘若。例句：You can leave early provided that your work is done.（只要工作做完，你就可以提早離開。）",
+      "tags": [
+        "字義",
+        "連接詞"
+      ]
+    },
+    {
+      "id": "t700-224",
+      "q": "「只要；倘若」（連接詞）的英文是？",
+      "options": [
+        "advocate",
+        "predecessor",
+        "whereas",
+        "provided that"
+      ],
+      "answer": 3,
+      "explain": "provided that（conj.）＝只要；倘若。其他選項：whereas＝然而；相較之下；predecessor＝前任；advocate＝提倡；擁護。",
+      "tags": [
+        "中翻英",
+        "連接詞"
+      ]
+    },
+    {
+      "id": "t700-225",
+      "q": "You can leave early _____ your work is done.",
+      "options": [
+        "in spite of",
+        "in order that",
+        "provided that",
+        "so as to"
+      ],
+      "answer": 2,
+      "explain": "答案是 provided that。provided that（conj.）＝只要；倘若。只要工作做完，你就可以提早離開。",
+      "tags": [
+        "填空",
+        "連接詞"
+      ]
+    }
+  ]
+}

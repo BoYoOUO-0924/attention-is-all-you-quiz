@@ -1,0 +1,2644 @@
+{
+  "questions": [
+    {
+      "id": "t900-001",
+      "q": "「abeyance」（n.）的中文意思是？",
+      "options": [
+        "意外之財",
+        "擱置；暫緩",
+        "授權；命令",
+        "退款；折讓"
+      ],
+      "answer": 1,
+      "explain": "abeyance（n.）＝擱置；暫緩。例句：The project is in abeyance until funding is secured.（專案在取得資金前暫時擱置。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-002",
+      "q": "「擱置；暫緩」（名詞）的英文是？",
+      "options": [
+        "abeyance",
+        "windfall",
+        "mandate",
+        "rebate"
+      ],
+      "answer": 0,
+      "explain": "abeyance（n.）＝擱置；暫緩。其他選項：mandate＝授權；命令；rebate＝退款；折讓；windfall＝意外之財。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-003",
+      "q": "The project is in _____ until funding is secured.",
+      "options": [
+        "abundance",
+        "abatement",
+        "obeisance",
+        "abeyance"
+      ],
+      "answer": 3,
+      "explain": "答案是 abeyance。abeyance（n.）＝擱置；暫緩。專案在取得資金前暫時擱置。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-004",
+      "q": "「abrogate」（v.）的中文意思是？",
+      "options": [
+        "證實",
+        "平息",
+        "廢止（協議）",
+        "阻礙"
+      ],
+      "answer": 2,
+      "explain": "abrogate（v.）＝廢止（協議）。例句：The government voted to abrogate the treaty.（政府投票廢止該條約。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-005",
+      "q": "「廢止（協議）」（動詞）的英文是？",
+      "options": [
+        "corroborate",
+        "abrogate",
+        "impede",
+        "quell"
+      ],
+      "answer": 1,
+      "explain": "abrogate（v.）＝廢止（協議）。其他選項：quell＝平息；corroborate＝證實；impede＝阻礙。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-006",
+      "q": "The government voted to _____ the treaty.",
+      "options": [
+        "abrogate",
+        "abrogation",
+        "abdicate",
+        "arrogate"
+      ],
+      "answer": 0,
+      "explain": "答案是 abrogate。abrogate（v.）＝廢止（協議）。政府投票廢止該條約。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-007",
+      "q": "「acquiesce」（v.）的中文意思是？",
+      "options": [
+        "阻礙",
+        "收回（損失）",
+        "證明…是對的",
+        "默許；勉強同意"
+      ],
+      "answer": 3,
+      "explain": "acquiesce（v.）＝默許；勉強同意。例句：The board finally acquiesced to the union's demands.（董事會最終同意了工會的要求。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-008",
+      "q": "「默許；勉強同意」（動詞）的英文是？",
+      "options": [
+        "vindicate",
+        "impede",
+        "acquiesce",
+        "recoup"
+      ],
+      "answer": 2,
+      "explain": "acquiesce（v.）＝默許；勉強同意。其他選項：recoup＝收回（損失）；vindicate＝證明…是對的；impede＝阻礙。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-009",
+      "q": "The board finally _____ to the union's demands.",
+      "options": [
+        "acquiescence",
+        "acquiesced",
+        "acquainted",
+        "acquired"
+      ],
+      "answer": 1,
+      "explain": "答案是 acquiesced。acquiesce（v.）＝默許；勉強同意。董事會最終同意了工會的要求。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-010",
+      "q": "「amortize」（v.）的中文意思是？",
+      "options": [
+        "分期攤還",
+        "衰退；減弱",
+        "挪用公款",
+        "耗盡"
+      ],
+      "answer": 0,
+      "explain": "amortize（v.）＝分期攤還。例句：The loan will be amortized over 20 years.（這筆貸款將分 20 年攤還。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-011",
+      "q": "「分期攤還」（動詞）的英文是？",
+      "options": [
+        "embezzle",
+        "wane",
+        "deplete",
+        "amortize"
+      ],
+      "answer": 3,
+      "explain": "amortize（v.）＝分期攤還。其他選項：deplete＝耗盡；embezzle＝挪用公款；wane＝衰退；減弱。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-012",
+      "q": "The loan will be _____ over 20 years.",
+      "options": [
+        "amorous",
+        "amortization",
+        "amortized",
+        "mortified"
+      ],
+      "answer": 2,
+      "explain": "答案是 amortized。amortize（v.）＝分期攤還。這筆貸款將分 20 年攤還。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-013",
+      "q": "「ancillary」（adj.）的中文意思是？",
+      "options": [
+        "節儉的",
+        "輔助的；附屬的",
+        "有說服力的",
+        "無力償債的"
+      ],
+      "answer": 1,
+      "explain": "ancillary（adj.）＝輔助的；附屬的。例句：The hotel charges extra for ancillary services such as laundry.（飯店對洗衣等附加服務另外收費。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-014",
+      "q": "「輔助的；附屬的」（形容詞）的英文是？",
+      "options": [
+        "ancillary",
+        "frugal",
+        "insolvent",
+        "cogent"
+      ],
+      "answer": 0,
+      "explain": "ancillary（adj.）＝輔助的；附屬的。其他選項：frugal＝節儉的；insolvent＝無力償債的；cogent＝有說服力的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-015",
+      "q": "The hotel charges extra for _____ services such as laundry.",
+      "options": [
+        "ancient",
+        "anchorage",
+        "ancestral",
+        "ancillary"
+      ],
+      "answer": 3,
+      "explain": "答案是 ancillary。ancillary（adj.）＝輔助的；附屬的。飯店對洗衣等附加服務另外收費。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-016",
+      "q": "「antiquated」（adj.）的中文意思是？",
+      "options": [
+        "即將出現的",
+        "默許的；心照不宣的",
+        "老舊過時的",
+        "自滿的"
+      ],
+      "answer": 2,
+      "explain": "antiquated（adj.）＝老舊過時的。例句：The factory still uses antiquated equipment.（工廠仍在使用老舊過時的設備。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-017",
+      "q": "「老舊過時的」（形容詞）的英文是？",
+      "options": [
+        "tacit",
+        "antiquated",
+        "complacent",
+        "forthcoming"
+      ],
+      "answer": 1,
+      "explain": "antiquated（adj.）＝老舊過時的。其他選項：complacent＝自滿的；tacit＝默許的；心照不宣的；forthcoming＝即將出現的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-018",
+      "q": "The factory still uses _____ equipment.",
+      "options": [
+        "antiquated",
+        "antiquity",
+        "anticipated",
+        "antiquate"
+      ],
+      "answer": 0,
+      "explain": "答案是 antiquated。antiquated（adj.）＝老舊過時的。工廠仍在使用老舊過時的設備。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-019",
+      "q": "「assiduous」（adj.）的中文意思是？",
+      "options": [
+        "自滿的",
+        "名義上的；極少的",
+        "萎靡的；遲緩的",
+        "勤勉的"
+      ],
+      "answer": 3,
+      "explain": "assiduous（adj.）＝勤勉的。例句：Thanks to her assiduous research, the report was accurate.（多虧她勤勉的研究，報告非常精確。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-020",
+      "q": "「勤勉的」（形容詞）的英文是？",
+      "options": [
+        "nominal",
+        "lethargic",
+        "assiduous",
+        "complacent"
+      ],
+      "answer": 2,
+      "explain": "assiduous（adj.）＝勤勉的。其他選項：lethargic＝萎靡的；遲緩的；nominal＝名義上的；極少的；complacent＝自滿的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-021",
+      "q": "Thanks to her _____ research, the report was accurate.",
+      "options": [
+        "assiduity",
+        "assiduous",
+        "assiduously",
+        "acidulous"
+      ],
+      "answer": 1,
+      "explain": "答案是 assiduous。assiduous（adj.）＝勤勉的。多虧她勤勉的研究，報告非常精確。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-022",
+      "q": "「caveat」（n.）的中文意思是？",
+      "options": [
+        "附帶條件；警告",
+        "擱置；暫緩",
+        "授權；命令",
+        "退款；折讓"
+      ],
+      "answer": 0,
+      "explain": "caveat（n.）＝附帶條件；警告。例句：The offer comes with one caveat: it applies only to new customers.（這個優惠有個附帶條件：僅適用新客戶。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-023",
+      "q": "「附帶條件；警告」（名詞）的英文是？",
+      "options": [
+        "abeyance",
+        "mandate",
+        "rebate",
+        "caveat"
+      ],
+      "answer": 3,
+      "explain": "caveat（n.）＝附帶條件；警告。其他選項：abeyance＝擱置；暫緩；mandate＝授權；命令；rebate＝退款；折讓。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-024",
+      "q": "The offer comes with one _____: it applies only to new customers.",
+      "options": [
+        "caviar",
+        "caveman",
+        "caveat",
+        "cavity"
+      ],
+      "answer": 2,
+      "explain": "答案是 caveat。caveat（n.）＝附帶條件；警告。這個優惠有個附帶條件：僅適用新客戶。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-025",
+      "q": "「cogent」（adj.）的中文意思是？",
+      "options": [
+        "無所不在的",
+        "有說服力的",
+        "已停止運作的；已倒閉的",
+        "輔助的；附屬的"
+      ],
+      "answer": 1,
+      "explain": "cogent（adj.）＝有說服力的。例句：She made a cogent case for increasing the budget.（她為增加預算提出了有說服力的理由。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-026",
+      "q": "「有說服力的」（形容詞）的英文是？",
+      "options": [
+        "cogent",
+        "ubiquitous",
+        "defunct",
+        "ancillary"
+      ],
+      "answer": 0,
+      "explain": "cogent（adj.）＝有說服力的。其他選項：defunct＝已停止運作的；已倒閉的；ancillary＝輔助的；附屬的；ubiquitous＝無所不在的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-027",
+      "q": "She made a _____ case for increasing the budget.",
+      "options": [
+        "cogency",
+        "cognate",
+        "cogently",
+        "cogent"
+      ],
+      "answer": 3,
+      "explain": "答案是 cogent。cogent（adj.）＝有說服力的。她為增加預算提出了有說服力的理由。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-028",
+      "q": "「complacent」（adj.）的中文意思是？",
+      "options": [
+        "有說服力的",
+        "無所不在的",
+        "自滿的",
+        "熱心的；熱衷的"
+      ],
+      "answer": 2,
+      "explain": "complacent（adj.）＝自滿的。例句：Market leaders cannot afford to become complacent.（市場龍頭不能變得自滿。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-029",
+      "q": "「自滿的」（形容詞）的英文是？",
+      "options": [
+        "ubiquitous",
+        "complacent",
+        "zealous",
+        "cogent"
+      ],
+      "answer": 1,
+      "explain": "complacent（adj.）＝自滿的。其他選項：zealous＝熱心的；熱衷的；cogent＝有說服力的；ubiquitous＝無所不在的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-030",
+      "q": "Market leaders cannot afford to become _____.",
+      "options": [
+        "complacent",
+        "complacently",
+        "complacency",
+        "complaisant"
+      ],
+      "answer": 0,
+      "explain": "答案是 complacent。complacent（adj.）＝自滿的。市場龍頭不能變得自滿。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-031",
+      "q": "「concur」（v.）的中文意思是？",
+      "options": [
+        "引出；誘出",
+        "激增",
+        "補充",
+        "同意"
+      ],
+      "answer": 3,
+      "explain": "concur（v.）＝同意。例句：I concur with the committee's findings.（我同意委員會的調查結論。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-032",
+      "q": "「同意」（動詞）的英文是？",
+      "options": [
+        "replenish",
+        "proliferate",
+        "concur",
+        "elicit"
+      ],
+      "answer": 2,
+      "explain": "concur（v.）＝同意。其他選項：elicit＝引出；誘出；replenish＝補充；proliferate＝激增。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-033",
+      "q": "I _____ with the committee's findings.",
+      "options": [
+        "concurrent",
+        "concur",
+        "occur",
+        "concurrence"
+      ],
+      "answer": 1,
+      "explain": "答案是 concur。concur（v.）＝同意。我同意委員會的調查結論。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-034",
+      "q": "「corroborate」（v.）的中文意思是？",
+      "options": [
+        "證實",
+        "證明…是對的",
+        "阻礙",
+        "平息"
+      ],
+      "answer": 0,
+      "explain": "corroborate（v.）＝證實。例句：The data corroborate our initial findings.（數據證實了我們最初的發現。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-035",
+      "q": "「證實」（動詞）的英文是？",
+      "options": [
+        "vindicate",
+        "impede",
+        "quell",
+        "corroborate"
+      ],
+      "answer": 3,
+      "explain": "corroborate（v.）＝證實。其他選項：quell＝平息；impede＝阻礙；vindicate＝證明…是對的。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-036",
+      "q": "The data _____ our initial findings.",
+      "options": [
+        "corroboration",
+        "corrode",
+        "corroborate",
+        "collaborate"
+      ],
+      "answer": 2,
+      "explain": "答案是 corroborate。corroborate（v.）＝證實。數據證實了我們最初的發現。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-037",
+      "q": "「defunct」（adj.）的中文意思是？",
+      "options": [
+        "自滿的",
+        "已停止運作的；已倒閉的",
+        "有償債能力的",
+        "嚴格的"
+      ],
+      "answer": 1,
+      "explain": "defunct（adj.）＝已停止運作的；已倒閉的。例句：The website belongs to a now-defunct company.（這個網站屬於一家已倒閉的公司。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-038",
+      "q": "「已停止運作的；已倒閉的」（形容詞）的英文是？",
+      "options": [
+        "defunct",
+        "complacent",
+        "stringent",
+        "solvent"
+      ],
+      "answer": 0,
+      "explain": "defunct（adj.）＝已停止運作的；已倒閉的。其他選項：solvent＝有償債能力的；stringent＝嚴格的；complacent＝自滿的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-039",
+      "q": "The website belongs to a now-_____ company.",
+      "options": [
+        "deficit",
+        "defect",
+        "default",
+        "defunct"
+      ],
+      "answer": 3,
+      "explain": "答案是 defunct。defunct（adj.）＝已停止運作的；已倒閉的。這個網站屬於一家已倒閉的公司。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-040",
+      "q": "「delineate」（v.）的中文意思是？",
+      "options": [
+        "使惡化",
+        "帶頭；領導",
+        "描述；劃定",
+        "平息"
+      ],
+      "answer": 2,
+      "explain": "delineate（v.）＝描述；劃定。例句：The contract clearly delineates each party's responsibilities.（合約清楚劃定各方的責任。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-041",
+      "q": "「描述；劃定」（動詞）的英文是？",
+      "options": [
+        "exacerbate",
+        "delineate",
+        "quell",
+        "spearhead"
+      ],
+      "answer": 1,
+      "explain": "delineate（v.）＝描述；劃定。其他選項：spearhead＝帶頭；領導；exacerbate＝使惡化；quell＝平息。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-042",
+      "q": "The contract clearly _____ each party's responsibilities.",
+      "options": [
+        "delineates",
+        "delinquent",
+        "deliberates",
+        "delineation"
+      ],
+      "answer": 0,
+      "explain": "答案是 delineates。delineate（v.）＝描述；劃定。合約清楚劃定各方的責任。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-043",
+      "q": "「deplete」（v.）的中文意思是？",
+      "options": [
+        "賠償；保障",
+        "補充",
+        "混淆；使模糊",
+        "耗盡"
+      ],
+      "answer": 3,
+      "explain": "deplete（v.）＝耗盡。例句：The long strike depleted the company's cash reserves.（長期罷工耗盡了公司的現金儲備。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-044",
+      "q": "「耗盡」（動詞）的英文是？",
+      "options": [
+        "obfuscate",
+        "replenish",
+        "deplete",
+        "indemnify"
+      ],
+      "answer": 2,
+      "explain": "deplete（v.）＝耗盡。其他選項：obfuscate＝混淆；使模糊；replenish＝補充；indemnify＝賠償；保障。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-045",
+      "q": "The long strike _____ the company's cash reserves.",
+      "options": [
+        "deleted",
+        "depleted",
+        "depletion",
+        "completed"
+      ],
+      "answer": 1,
+      "explain": "答案是 depleted。deplete（v.）＝耗盡。長期罷工耗盡了公司的現金儲備。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-046",
+      "q": "「disparity」（n.）的中文意思是？",
+      "options": [
+        "差距；不平等",
+        "授權；命令",
+        "退款；折讓",
+        "意外之財"
+      ],
+      "answer": 0,
+      "explain": "disparity（n.）＝差距；不平等。例句：There is a wide disparity in income between the two regions.（兩地區的收入差距很大。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-047",
+      "q": "「差距；不平等」（名詞）的英文是？",
+      "options": [
+        "windfall",
+        "mandate",
+        "rebate",
+        "disparity"
+      ],
+      "answer": 3,
+      "explain": "disparity（n.）＝差距；不平等。其他選項：mandate＝授權；命令；rebate＝退款；折讓；windfall＝意外之財。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-048",
+      "q": "There is a wide _____ in income between the two regions.",
+      "options": [
+        "disparate",
+        "dispersal",
+        "disparity",
+        "disparage"
+      ],
+      "answer": 2,
+      "explain": "答案是 disparity。disparity（n.）＝差距；不平等。兩地區的收入差距很大。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-049",
+      "q": "「elicit」（v.）的中文意思是？",
+      "options": [
+        "阻礙",
+        "引出；誘出",
+        "證明…是對的",
+        "分期攤還"
+      ],
+      "answer": 1,
+      "explain": "elicit（v.）＝引出；誘出。例句：The survey was designed to elicit honest responses.（這份問卷旨在引出真實的回答。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-050",
+      "q": "「引出；誘出」（動詞）的英文是？",
+      "options": [
+        "elicit",
+        "vindicate",
+        "amortize",
+        "impede"
+      ],
+      "answer": 0,
+      "explain": "elicit（v.）＝引出；誘出。其他選項：impede＝阻礙；vindicate＝證明…是對的；amortize＝分期攤還。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-051",
+      "q": "The survey was designed to _____ honest responses.",
+      "options": [
+        "illicit",
+        "elucidate",
+        "elicitation",
+        "elicit"
+      ],
+      "answer": 3,
+      "explain": "答案是 elicit。elicit（v.）＝引出；誘出。這份問卷旨在引出真實的回答。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-052",
+      "q": "「embezzle」（v.）的中文意思是？",
+      "options": [
+        "分期攤還",
+        "混淆；使模糊",
+        "挪用公款",
+        "補充"
+      ],
+      "answer": 2,
+      "explain": "embezzle（v.）＝挪用公款。例句：The accountant was arrested for embezzling company funds.（會計因挪用公款被捕。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-053",
+      "q": "「挪用公款」（動詞）的英文是？",
+      "options": [
+        "obfuscate",
+        "embezzle",
+        "amortize",
+        "replenish"
+      ],
+      "answer": 1,
+      "explain": "embezzle（v.）＝挪用公款。其他選項：replenish＝補充；obfuscate＝混淆；使模糊；amortize＝分期攤還。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-054",
+      "q": "The accountant was arrested for _____ company funds.",
+      "options": [
+        "embezzling",
+        "embodying",
+        "embellishing",
+        "embezzlement"
+      ],
+      "answer": 0,
+      "explain": "答案是 embezzling。embezzle（v.）＝挪用公款。會計因挪用公款被捕。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-055",
+      "q": "「exacerbate」（v.）的中文意思是？",
+      "options": [
+        "描述；劃定",
+        "混淆；使模糊",
+        "賠償；保障",
+        "使惡化"
+      ],
+      "answer": 3,
+      "explain": "exacerbate（v.）＝使惡化。例句：The price cuts only exacerbated the company's losses.（降價只讓公司的虧損更加嚴重。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-056",
+      "q": "「使惡化」（動詞）的英文是？",
+      "options": [
+        "obfuscate",
+        "delineate",
+        "exacerbate",
+        "indemnify"
+      ],
+      "answer": 2,
+      "explain": "exacerbate（v.）＝使惡化。其他選項：delineate＝描述；劃定；obfuscate＝混淆；使模糊；indemnify＝賠償；保障。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-057",
+      "q": "The price cuts only _____ the company's losses.",
+      "options": [
+        "exacerbation",
+        "exacerbated",
+        "exonerated",
+        "excavated"
+      ],
+      "answer": 1,
+      "explain": "答案是 exacerbated。exacerbate（v.）＝使惡化。降價只讓公司的虧損更加嚴重。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-058",
+      "q": "「exorbitant」（adj.）的中文意思是？",
+      "options": [
+        "（價格）過高的",
+        "顯著的；重要的",
+        "熱心的；熱衷的",
+        "一絲不苟的；正直的"
+      ],
+      "answer": 0,
+      "explain": "exorbitant（adj.）＝（價格）過高的。例句：The hotel charges exorbitant prices for room service.（飯店客房服務收費高得離譜。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-059",
+      "q": "「（價格）過高的」（形容詞）的英文是？",
+      "options": [
+        "scrupulous",
+        "zealous",
+        "salient",
+        "exorbitant"
+      ],
+      "answer": 3,
+      "explain": "exorbitant（adj.）＝（價格）過高的。其他選項：scrupulous＝一絲不苟的；正直的；salient＝顯著的；重要的；zealous＝熱心的；熱衷的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-060",
+      "q": "The hotel charges _____ prices for room service.",
+      "options": [
+        "exorbitance",
+        "exorbitantly",
+        "exorbitant",
+        "orbital"
+      ],
+      "answer": 2,
+      "explain": "答案是 exorbitant。exorbitant（adj.）＝（價格）過高的。飯店客房服務收費高得離譜。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-061",
+      "q": "「fledgling」（adj.）的中文意思是？",
+      "options": [
+        "默許的；心照不宣的",
+        "剛起步的；新興的",
+        "即將出現的",
+        "萎靡的；遲緩的"
+      ],
+      "answer": 1,
+      "explain": "fledgling（adj.）＝剛起步的；新興的。例句：The fledgling company struggled to find investors.（這家剛起步的公司很難找到投資人。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-062",
+      "q": "「剛起步的；新興的」（形容詞）的英文是？",
+      "options": [
+        "fledgling",
+        "tacit",
+        "forthcoming",
+        "lethargic"
+      ],
+      "answer": 0,
+      "explain": "fledgling（adj.）＝剛起步的；新興的。其他選項：lethargic＝萎靡的；遲緩的；tacit＝默許的；心照不宣的；forthcoming＝即將出現的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-063",
+      "q": "The _____ company struggled to find investors.",
+      "options": [
+        "fledge",
+        "fledglings",
+        "fleeting",
+        "fledgling"
+      ],
+      "answer": 3,
+      "explain": "答案是 fledgling。fledgling（adj.）＝剛起步的；新興的。這家剛起步的公司很難找到投資人。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-064",
+      "q": "「forthcoming」（adj.）的中文意思是？",
+      "options": [
+        "輔助的；附屬的",
+        "自滿的",
+        "即將出現的",
+        "有償債能力的"
+      ],
+      "answer": 2,
+      "explain": "forthcoming（adj.）＝即將出現的。例句：Details of the merger will be announced in a forthcoming press release.（合併細節將在即將發布的新聞稿中公布。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-065",
+      "q": "「即將出現的」（形容詞）的英文是？",
+      "options": [
+        "complacent",
+        "forthcoming",
+        "ancillary",
+        "solvent"
+      ],
+      "answer": 1,
+      "explain": "forthcoming（adj.）＝即將出現的。其他選項：solvent＝有償債能力的；ancillary＝輔助的；附屬的；complacent＝自滿的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-066",
+      "q": "Details of the merger will be announced in a _____ press release.",
+      "options": [
+        "forthcoming",
+        "forthwith",
+        "forthright",
+        "forgoing"
+      ],
+      "answer": 0,
+      "explain": "答案是 forthcoming。forthcoming（adj.）＝即將出現的。合併細節將在即將發布的新聞稿中公布。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-067",
+      "q": "「frugal」（adj.）的中文意思是？",
+      "options": [
+        "無所不在的",
+        "名義上的；極少的",
+        "默許的；心照不宣的",
+        "節儉的"
+      ],
+      "answer": 3,
+      "explain": "frugal（adj.）＝節儉的。例句：In hard times, consumers become more frugal.（景氣不好時，消費者會變得更加節儉。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-068",
+      "q": "「節儉的」（形容詞）的英文是？",
+      "options": [
+        "ubiquitous",
+        "tacit",
+        "frugal",
+        "nominal"
+      ],
+      "answer": 2,
+      "explain": "frugal（adj.）＝節儉的。其他選項：ubiquitous＝無所不在的；tacit＝默許的；心照不宣的；nominal＝名義上的；極少的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-069",
+      "q": "In hard times, consumers become more _____.",
+      "options": [
+        "frugality",
+        "frugal",
+        "fragile",
+        "frugally"
+      ],
+      "answer": 1,
+      "explain": "答案是 frugal。frugal（adj.）＝節儉的。景氣不好時，消費者會變得更加節儉。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-070",
+      "q": "「gratuity」（n.）的中文意思是？",
+      "options": [
+        "小費",
+        "附帶條件；警告",
+        "退款；折讓",
+        "意外之財"
+      ],
+      "answer": 0,
+      "explain": "gratuity（n.）＝小費。例句：A 15 percent gratuity will be added for groups of eight or more.（八人以上將加收 15% 小費。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-071",
+      "q": "「小費」（名詞）的英文是？",
+      "options": [
+        "rebate",
+        "caveat",
+        "windfall",
+        "gratuity"
+      ],
+      "answer": 3,
+      "explain": "gratuity（n.）＝小費。其他選項：rebate＝退款；折讓；windfall＝意外之財；caveat＝附帶條件；警告。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-072",
+      "q": "A 15 percent _____ will be added for groups of eight or more.",
+      "options": [
+        "gravity",
+        "gratuitous",
+        "gratuity",
+        "gratitude"
+      ],
+      "answer": 2,
+      "explain": "答案是 gratuity。gratuity（n.）＝小費。八人以上將加收 15% 小費。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-073",
+      "q": "「impede」（v.）的中文意思是？",
+      "options": [
+        "克服",
+        "阻礙",
+        "賠償；保障",
+        "補充"
+      ],
+      "answer": 1,
+      "explain": "impede（v.）＝阻礙。例句：Heavy traffic impeded the delivery of supplies.（交通壅塞阻礙了物資運送。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-074",
+      "q": "「阻礙」（動詞）的英文是？",
+      "options": [
+        "impede",
+        "replenish",
+        "surmount",
+        "indemnify"
+      ],
+      "answer": 0,
+      "explain": "impede（v.）＝阻礙。其他選項：surmount＝克服；replenish＝補充；indemnify＝賠償；保障。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-075",
+      "q": "Heavy traffic _____ the delivery of supplies.",
+      "options": [
+        "impended",
+        "impediment",
+        "impeached",
+        "impeded"
+      ],
+      "answer": 3,
+      "explain": "答案是 impeded。impede（v.）＝阻礙。交通壅塞阻礙了物資運送。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-076",
+      "q": "「indemnify」（v.）的中文意思是？",
+      "options": [
+        "描述；劃定",
+        "分期攤還",
+        "賠償；保障",
+        "暴跌"
+      ],
+      "answer": 2,
+      "explain": "indemnify（v.）＝賠償；保障。例句：The insurer will indemnify the company against any losses.（保險公司將賠償公司的任何損失。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-077",
+      "q": "「賠償；保障」（動詞）的英文是？",
+      "options": [
+        "plummet",
+        "indemnify",
+        "amortize",
+        "delineate"
+      ],
+      "answer": 1,
+      "explain": "indemnify（v.）＝賠償；保障。其他選項：amortize＝分期攤還；plummet＝暴跌；delineate＝描述；劃定。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-078",
+      "q": "The insurer will _____ the company against any losses.",
+      "options": [
+        "indemnify",
+        "indemnity",
+        "intensify",
+        "identify"
+      ],
+      "answer": 0,
+      "explain": "答案是 indemnify。indemnify（v.）＝賠償；保障。保險公司將賠償公司的任何損失。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-079",
+      "q": "「insolvent」（adj.）的中文意思是？",
+      "options": [
+        "熱心的；熱衷的",
+        "無所不在的",
+        "節儉的",
+        "無力償債的"
+      ],
+      "answer": 3,
+      "explain": "insolvent（adj.）＝無力償債的。例句：The bank declared the firm insolvent.（銀行宣告該公司無力償債。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-080",
+      "q": "「無力償債的」（形容詞）的英文是？",
+      "options": [
+        "frugal",
+        "zealous",
+        "insolvent",
+        "ubiquitous"
+      ],
+      "answer": 2,
+      "explain": "insolvent（adj.）＝無力償債的。其他選項：frugal＝節儉的；ubiquitous＝無所不在的；zealous＝熱心的；熱衷的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-081",
+      "q": "The bank declared the firm _____.",
+      "options": [
+        "dissolving",
+        "insolvent",
+        "resolve",
+        "insolvency"
+      ],
+      "answer": 1,
+      "explain": "答案是 insolvent。insolvent（adj.）＝無力償債的。銀行宣告該公司無力償債。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-082",
+      "q": "「lethargic」（adj.）的中文意思是？",
+      "options": [
+        "萎靡的；遲緩的",
+        "（價格）過高的",
+        "有償債能力的",
+        "自滿的"
+      ],
+      "answer": 0,
+      "explain": "lethargic（adj.）＝萎靡的；遲緩的。例句：Sales have been lethargic since the holidays.（假期過後銷售一直很疲軟。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-083",
+      "q": "「萎靡的；遲緩的」（形容詞）的英文是？",
+      "options": [
+        "complacent",
+        "exorbitant",
+        "solvent",
+        "lethargic"
+      ],
+      "answer": 3,
+      "explain": "lethargic（adj.）＝萎靡的；遲緩的。其他選項：complacent＝自滿的；solvent＝有償債能力的；exorbitant＝（價格）過高的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-084",
+      "q": "Sales have been _____ since the holidays.",
+      "options": [
+        "lethargy",
+        "lethargically",
+        "lethargic",
+        "lethal"
+      ],
+      "answer": 2,
+      "explain": "答案是 lethargic。lethargic（adj.）＝萎靡的；遲緩的。假期過後銷售一直很疲軟。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-085",
+      "q": "「mandate」（n.）的中文意思是？",
+      "options": [
+        "小費",
+        "授權；命令",
+        "差距；不平等",
+        "退款；折讓"
+      ],
+      "answer": 1,
+      "explain": "mandate（n.）＝授權；命令。例句：The new CEO has a mandate to cut costs.（新任執行長獲授權削減成本。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-086",
+      "q": "「授權；命令」（名詞）的英文是？",
+      "options": [
+        "mandate",
+        "disparity",
+        "rebate",
+        "gratuity"
+      ],
+      "answer": 0,
+      "explain": "mandate（n.）＝授權；命令。其他選項：disparity＝差距；不平等；gratuity＝小費；rebate＝退款；折讓。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-087",
+      "q": "The new CEO has a _____ to cut costs.",
+      "options": [
+        "mandated",
+        "mandible",
+        "mandatory",
+        "mandate"
+      ],
+      "answer": 3,
+      "explain": "答案是 mandate。mandate（n.）＝授權；命令。新任執行長獲授權削減成本。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-088",
+      "q": "「nominal」（adj.）的中文意思是？",
+      "options": [
+        "輔助的；附屬的",
+        "（價格）過高的",
+        "名義上的；極少的",
+        "嚴格的"
+      ],
+      "answer": 2,
+      "explain": "nominal（adj.）＝名義上的；極少的。例句：Members pay a nominal fee of $5 per year.（會員每年只需付 5 美元的象徵性費用。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-089",
+      "q": "「名義上的；極少的」（形容詞）的英文是？",
+      "options": [
+        "ancillary",
+        "nominal",
+        "exorbitant",
+        "stringent"
+      ],
+      "answer": 1,
+      "explain": "nominal（adj.）＝名義上的；極少的。其他選項：ancillary＝輔助的；附屬的；exorbitant＝（價格）過高的；stringent＝嚴格的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-090",
+      "q": "Members pay a _____ fee of $5 per year.",
+      "options": [
+        "nominal",
+        "nominate",
+        "nominee",
+        "nominally"
+      ],
+      "answer": 0,
+      "explain": "答案是 nominal。nominal（adj.）＝名義上的；極少的。會員每年只需付 5 美元的象徵性費用。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-091",
+      "q": "「obfuscate」（v.）的中文意思是？",
+      "options": [
+        "阻礙",
+        "證明…是對的",
+        "暴跌",
+        "混淆；使模糊"
+      ],
+      "answer": 3,
+      "explain": "obfuscate（v.）＝混淆；使模糊。例句：The report seemed designed to obfuscate the real problem.（這份報告似乎刻意模糊真正的問題。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-092",
+      "q": "「混淆；使模糊」（動詞）的英文是？",
+      "options": [
+        "impede",
+        "plummet",
+        "obfuscate",
+        "vindicate"
+      ],
+      "answer": 2,
+      "explain": "obfuscate（v.）＝混淆；使模糊。其他選項：impede＝阻礙；vindicate＝證明…是對的；plummet＝暴跌。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-093",
+      "q": "The report seemed designed to _____ the real problem.",
+      "options": [
+        "obligate",
+        "obfuscate",
+        "obstinate",
+        "obfuscation"
+      ],
+      "answer": 1,
+      "explain": "答案是 obfuscate。obfuscate（v.）＝混淆；使模糊。這份報告似乎刻意模糊真正的問題。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-094",
+      "q": "「ostensibly」（adv.）的中文意思是？",
+      "options": [
+        "表面上",
+        "收回（損失）",
+        "激增",
+        "差距；不平等"
+      ],
+      "answer": 0,
+      "explain": "ostensibly（adv.）＝表面上。例句：The trip was ostensibly for business, but he spent most of it golfing.（這趟行程表面上是出差，但他大部分時間都在打高爾夫。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t900-095",
+      "q": "「表面上」（副詞）的英文是？",
+      "options": [
+        "recoup",
+        "proliferate",
+        "disparity",
+        "ostensibly"
+      ],
+      "answer": 3,
+      "explain": "ostensibly（adv.）＝表面上。其他選項：recoup＝收回（損失）；proliferate＝激增；disparity＝差距；不平等。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t900-096",
+      "q": "The trip was _____ for business, but he spent most of it golfing.",
+      "options": [
+        "ostentatious",
+        "ostracize",
+        "ostensibly",
+        "ostensible"
+      ],
+      "answer": 2,
+      "explain": "答案是 ostensibly。ostensibly（adv.）＝表面上。這趟行程表面上是出差，但他大部分時間都在打高爾夫。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t900-097",
+      "q": "「paramount」（adj.）的中文意思是？",
+      "options": [
+        "即將出現的",
+        "最重要的",
+        "默許的；心照不宣的",
+        "熱心的；熱衷的"
+      ],
+      "answer": 1,
+      "explain": "paramount（adj.）＝最重要的。例句：Customer safety is of paramount importance.（顧客安全至關重要。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-098",
+      "q": "「最重要的」（形容詞）的英文是？",
+      "options": [
+        "paramount",
+        "tacit",
+        "zealous",
+        "forthcoming"
+      ],
+      "answer": 0,
+      "explain": "paramount（adj.）＝最重要的。其他選項：zealous＝熱心的；熱衷的；forthcoming＝即將出現的；tacit＝默許的；心照不宣的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-099",
+      "q": "Customer safety is of _____ importance.",
+      "options": [
+        "parameter",
+        "amount",
+        "tantamount",
+        "paramount"
+      ],
+      "answer": 3,
+      "explain": "答案是 paramount。paramount（adj.）＝最重要的。顧客安全至關重要。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-100",
+      "q": "「plummet」（v.）的中文意思是？",
+      "options": [
+        "引出；誘出",
+        "同意",
+        "暴跌",
+        "放棄；讓出"
+      ],
+      "answer": 2,
+      "explain": "plummet（v.）＝暴跌。例句：Shares plummeted after the scandal broke.（醜聞爆發後股價暴跌。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-101",
+      "q": "「暴跌」（動詞）的英文是？",
+      "options": [
+        "concur",
+        "plummet",
+        "relinquish",
+        "elicit"
+      ],
+      "answer": 1,
+      "explain": "plummet（v.）＝暴跌。其他選項：concur＝同意；elicit＝引出；誘出；relinquish＝放棄；讓出。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-102",
+      "q": "Shares _____ after the scandal broke.",
+      "options": [
+        "plummeted",
+        "plundered",
+        "plumped",
+        "plumbed"
+      ],
+      "answer": 0,
+      "explain": "答案是 plummeted。plummet（v.）＝暴跌。醜聞爆發後股價暴跌。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-103",
+      "q": "「precarious」（adj.）的中文意思是？",
+      "options": [
+        "有說服力的",
+        "剛起步的；新興的",
+        "無所不在的",
+        "不穩定的；岌岌可危的"
+      ],
+      "answer": 3,
+      "explain": "precarious（adj.）＝不穩定的；岌岌可危的。例句：The company is in a precarious financial position.（公司財務狀況岌岌可危。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-104",
+      "q": "「不穩定的；岌岌可危的」（形容詞）的英文是？",
+      "options": [
+        "cogent",
+        "ubiquitous",
+        "precarious",
+        "fledgling"
+      ],
+      "answer": 2,
+      "explain": "precarious（adj.）＝不穩定的；岌岌可危的。其他選項：fledgling＝剛起步的；新興的；ubiquitous＝無所不在的；cogent＝有說服力的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-105",
+      "q": "The company is in a _____ financial position.",
+      "options": [
+        "precariously",
+        "precarious",
+        "precocious",
+        "precious"
+      ],
+      "answer": 1,
+      "explain": "答案是 precarious。precarious（adj.）＝不穩定的；岌岌可危的。公司財務狀況岌岌可危。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-106",
+      "q": "「proliferate」（v.）的中文意思是？",
+      "options": [
+        "激增",
+        "暴跌",
+        "阻礙",
+        "同意"
+      ],
+      "answer": 0,
+      "explain": "proliferate（v.）＝激增。例句：Online shops have proliferated in recent years.（網路商店近年激增。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-107",
+      "q": "「激增」（動詞）的英文是？",
+      "options": [
+        "plummet",
+        "concur",
+        "impede",
+        "proliferate"
+      ],
+      "answer": 3,
+      "explain": "proliferate（v.）＝激增。其他選項：concur＝同意；impede＝阻礙；plummet＝暴跌。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-108",
+      "q": "Online shops have _____ in recent years.",
+      "options": [
+        "proliferation",
+        "perforated",
+        "proliferated",
+        "prolific"
+      ],
+      "answer": 2,
+      "explain": "答案是 proliferated。proliferate（v.）＝激增。網路商店近年激增。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-109",
+      "q": "「quell」（v.）的中文意思是？",
+      "options": [
+        "分期攤還",
+        "平息",
+        "引出；誘出",
+        "默許；勉強同意"
+      ],
+      "answer": 1,
+      "explain": "quell（v.）＝平息。例句：The CEO tried to quell fears about job losses.（執行長試圖平息對裁員的憂慮。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-110",
+      "q": "「平息」（動詞）的英文是？",
+      "options": [
+        "quell",
+        "elicit",
+        "acquiesce",
+        "amortize"
+      ],
+      "answer": 0,
+      "explain": "quell（v.）＝平息。其他選項：elicit＝引出；誘出；amortize＝分期攤還；acquiesce＝默許；勉強同意。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-111",
+      "q": "The CEO tried to _____ fears about job losses.",
+      "options": [
+        "quail",
+        "quill",
+        "quest",
+        "quell"
+      ],
+      "answer": 3,
+      "explain": "答案是 quell。quell（v.）＝平息。執行長試圖平息對裁員的憂慮。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-112",
+      "q": "「rebate」（n.）的中文意思是？",
+      "options": [
+        "授權；命令",
+        "小費",
+        "退款；折讓",
+        "意外之財"
+      ],
+      "answer": 2,
+      "explain": "rebate（n.）＝退款；折讓。例句：Customers who buy before June 30 get a $50 rebate.（六月三十日前購買的顧客可獲得 50 美元退款。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-113",
+      "q": "「退款；折讓」（名詞）的英文是？",
+      "options": [
+        "gratuity",
+        "rebate",
+        "mandate",
+        "windfall"
+      ],
+      "answer": 1,
+      "explain": "rebate（n.）＝退款；折讓。其他選項：gratuity＝小費；mandate＝授權；命令；windfall＝意外之財。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-114",
+      "q": "Customers who buy before June 30 get a $50 _____.",
+      "options": [
+        "rebate",
+        "rebuttal",
+        "debate",
+        "rebuke"
+      ],
+      "answer": 0,
+      "explain": "答案是 rebate。rebate（n.）＝退款；折讓。六月三十日前購買的顧客可獲得 50 美元退款。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-115",
+      "q": "「recoup」（v.）的中文意思是？",
+      "options": [
+        "暴跌",
+        "分期攤還",
+        "激增",
+        "收回（損失）"
+      ],
+      "answer": 3,
+      "explain": "recoup（v.）＝收回（損失）。例句：It will take years to recoup our initial investment.（收回最初的投資要花好幾年。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-116",
+      "q": "「收回（損失）」（動詞）的英文是？",
+      "options": [
+        "proliferate",
+        "amortize",
+        "recoup",
+        "plummet"
+      ],
+      "answer": 2,
+      "explain": "recoup（v.）＝收回（損失）。其他選項：proliferate＝激增；amortize＝分期攤還；plummet＝暴跌。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-117",
+      "q": "It will take years to _____ our initial investment.",
+      "options": [
+        "recourse",
+        "recoup",
+        "coup",
+        "regroup"
+      ],
+      "answer": 1,
+      "explain": "答案是 recoup。recoup（v.）＝收回（損失）。收回最初的投資要花好幾年。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-118",
+      "q": "「relinquish」（v.）的中文意思是？",
+      "options": [
+        "放棄；讓出",
+        "補充",
+        "平息",
+        "使惡化"
+      ],
+      "answer": 0,
+      "explain": "relinquish（v.）＝放棄；讓出。例句：He agreed to relinquish control of the company.（他同意放棄公司的經營權。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-119",
+      "q": "「放棄；讓出」（動詞）的英文是？",
+      "options": [
+        "exacerbate",
+        "replenish",
+        "quell",
+        "relinquish"
+      ],
+      "answer": 3,
+      "explain": "relinquish（v.）＝放棄；讓出。其他選項：replenish＝補充；exacerbate＝使惡化；quell＝平息。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-120",
+      "q": "He agreed to _____ control of the company.",
+      "options": [
+        "relinquishment",
+        "linguist",
+        "relinquish",
+        "relish"
+      ],
+      "answer": 2,
+      "explain": "答案是 relinquish。relinquish（v.）＝放棄；讓出。他同意放棄公司的經營權。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-121",
+      "q": "「replenish」（v.）的中文意思是？",
+      "options": [
+        "使惡化",
+        "補充",
+        "衰退；減弱",
+        "證明…是對的"
+      ],
+      "answer": 1,
+      "explain": "replenish（v.）＝補充。例句：We need to replenish our stock before the holiday rush.（我們需要在假日潮前補貨。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-122",
+      "q": "「補充」（動詞）的英文是？",
+      "options": [
+        "replenish",
+        "exacerbate",
+        "vindicate",
+        "wane"
+      ],
+      "answer": 0,
+      "explain": "replenish（v.）＝補充。其他選項：exacerbate＝使惡化；wane＝衰退；減弱；vindicate＝證明…是對的。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-123",
+      "q": "We need to _____ our stock before the holiday rush.",
+      "options": [
+        "plenitude",
+        "replenishment",
+        "repel",
+        "replenish"
+      ],
+      "answer": 3,
+      "explain": "答案是 replenish。replenish（v.）＝補充。我們需要在假日潮前補貨。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-124",
+      "q": "「reticent」（adj.）的中文意思是？",
+      "options": [
+        "勤勉的",
+        "剛起步的；新興的",
+        "沉默寡言的；不願透露的",
+        "默許的；心照不宣的"
+      ],
+      "answer": 2,
+      "explain": "reticent（adj.）＝沉默寡言的；不願透露的。例句：The company has been reticent about its plans.（公司對其計畫一直守口如瓶。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-125",
+      "q": "「沉默寡言的；不願透露的」（形容詞）的英文是？",
+      "options": [
+        "tacit",
+        "reticent",
+        "assiduous",
+        "fledgling"
+      ],
+      "answer": 1,
+      "explain": "reticent（adj.）＝沉默寡言的；不願透露的。其他選項：tacit＝默許的；心照不宣的；assiduous＝勤勉的；fledgling＝剛起步的；新興的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-126",
+      "q": "The company has been _____ about its plans.",
+      "options": [
+        "reticent",
+        "retinue",
+        "reticence",
+        "reticently"
+      ],
+      "answer": 0,
+      "explain": "答案是 reticent。reticent（adj.）＝沉默寡言的；不願透露的。公司對其計畫一直守口如瓶。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-127",
+      "q": "「salient」（adj.）的中文意思是？",
+      "options": [
+        "老舊過時的",
+        "輔助的；附屬的",
+        "有償債能力的",
+        "顯著的；重要的"
+      ],
+      "answer": 3,
+      "explain": "salient（adj.）＝顯著的；重要的。例句：Let me summarize the salient points of the proposal.（讓我總結提案的重點。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-128",
+      "q": "「顯著的；重要的」（形容詞）的英文是？",
+      "options": [
+        "solvent",
+        "antiquated",
+        "salient",
+        "ancillary"
+      ],
+      "answer": 2,
+      "explain": "salient（adj.）＝顯著的；重要的。其他選項：ancillary＝輔助的；附屬的；antiquated＝老舊過時的；solvent＝有償債能力的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-129",
+      "q": "Let me summarize the _____ points of the proposal.",
+      "options": [
+        "salary",
+        "salient",
+        "saline",
+        "salience"
+      ],
+      "answer": 1,
+      "explain": "答案是 salient。salient（adj.）＝顯著的；重要的。讓我總結提案的重點。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-130",
+      "q": "「scrupulous」（adj.）的中文意思是？",
+      "options": [
+        "一絲不苟的；正直的",
+        "已停止運作的；已倒閉的",
+        "明確的；毫不含糊的",
+        "最重要的"
+      ],
+      "answer": 0,
+      "explain": "scrupulous（adj.）＝一絲不苟的；正直的。例句：The auditors were scrupulous in checking every figure.（稽核人員一絲不苟地檢查每個數字。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-131",
+      "q": "「一絲不苟的；正直的」（形容詞）的英文是？",
+      "options": [
+        "defunct",
+        "paramount",
+        "unequivocal",
+        "scrupulous"
+      ],
+      "answer": 3,
+      "explain": "scrupulous（adj.）＝一絲不苟的；正直的。其他選項：unequivocal＝明確的；毫不含糊的；defunct＝已停止運作的；已倒閉的；paramount＝最重要的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-132",
+      "q": "The auditors were _____ in checking every figure.",
+      "options": [
+        "scrupulously",
+        "scrutiny",
+        "scrupulous",
+        "scruple"
+      ],
+      "answer": 2,
+      "explain": "答案是 scrupulous。scrupulous（adj.）＝一絲不苟的；正直的。稽核人員一絲不苟地檢查每個數字。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-133",
+      "q": "「solvent」（adj.）的中文意思是？",
+      "options": [
+        "節儉的",
+        "有償債能力的",
+        "（價格）過高的",
+        "無所不在的"
+      ],
+      "answer": 1,
+      "explain": "solvent（adj.）＝有償債能力的。例句：Despite the losses, the company remains solvent.（儘管虧損，公司仍有償債能力。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-134",
+      "q": "「有償債能力的」（形容詞）的英文是？",
+      "options": [
+        "solvent",
+        "frugal",
+        "exorbitant",
+        "ubiquitous"
+      ],
+      "answer": 0,
+      "explain": "solvent（adj.）＝有償債能力的。其他選項：ubiquitous＝無所不在的；exorbitant＝（價格）過高的；frugal＝節儉的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-135",
+      "q": "Despite the losses, the company remains _____.",
+      "options": [
+        "solution",
+        "solve",
+        "solvency",
+        "solvent"
+      ],
+      "answer": 3,
+      "explain": "答案是 solvent。solvent（adj.）＝有償債能力的。儘管虧損，公司仍有償債能力。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-136",
+      "q": "「spearhead」（v.）的中文意思是？",
+      "options": [
+        "廢止（協議）",
+        "賠償；保障",
+        "帶頭；領導",
+        "描述；劃定"
+      ],
+      "answer": 2,
+      "explain": "spearhead（v.）＝帶頭；領導。例句：Ms. Tan will spearhead the new marketing campaign.（陳女士將帶領新的行銷活動。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-137",
+      "q": "「帶頭；領導」（動詞）的英文是？",
+      "options": [
+        "abrogate",
+        "spearhead",
+        "indemnify",
+        "delineate"
+      ],
+      "answer": 1,
+      "explain": "spearhead（v.）＝帶頭；領導。其他選項：indemnify＝賠償；保障；delineate＝描述；劃定；abrogate＝廢止（協議）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-138",
+      "q": "Ms. Tan will _____ the new marketing campaign.",
+      "options": [
+        "spearhead",
+        "spearheaded",
+        "forehead",
+        "spearmint"
+      ],
+      "answer": 0,
+      "explain": "答案是 spearhead。spearhead（v.）＝帶頭；領導。陳女士將帶領新的行銷活動。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-139",
+      "q": "「stringent」（adj.）的中文意思是？",
+      "options": [
+        "最重要的",
+        "節儉的",
+        "不穩定的；岌岌可危的",
+        "嚴格的"
+      ],
+      "answer": 3,
+      "explain": "stringent（adj.）＝嚴格的。例句：The lab follows stringent safety standards.（實驗室遵循嚴格的安全標準。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-140",
+      "q": "「嚴格的」（形容詞）的英文是？",
+      "options": [
+        "precarious",
+        "frugal",
+        "stringent",
+        "paramount"
+      ],
+      "answer": 2,
+      "explain": "stringent（adj.）＝嚴格的。其他選項：precarious＝不穩定的；岌岌可危的；paramount＝最重要的；frugal＝節儉的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-141",
+      "q": "The lab follows _____ safety standards.",
+      "options": [
+        "string",
+        "stringent",
+        "stringency",
+        "stringently"
+      ],
+      "answer": 1,
+      "explain": "答案是 stringent。stringent（adj.）＝嚴格的。實驗室遵循嚴格的安全標準。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-142",
+      "q": "「surmount」（v.）的中文意思是？",
+      "options": [
+        "克服",
+        "描述；劃定",
+        "挪用公款",
+        "同意"
+      ],
+      "answer": 0,
+      "explain": "surmount（v.）＝克服。例句：The team surmounted every obstacle to finish on time.（團隊克服重重障礙準時完工。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-143",
+      "q": "「克服」（動詞）的英文是？",
+      "options": [
+        "embezzle",
+        "concur",
+        "delineate",
+        "surmount"
+      ],
+      "answer": 3,
+      "explain": "surmount（v.）＝克服。其他選項：concur＝同意；delineate＝描述；劃定；embezzle＝挪用公款。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-144",
+      "q": "The team _____ every obstacle to finish on time.",
+      "options": [
+        "surrendered",
+        "summoned",
+        "surmounted",
+        "surmised"
+      ],
+      "answer": 2,
+      "explain": "答案是 surmounted。surmount（v.）＝克服。團隊克服重重障礙準時完工。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-145",
+      "q": "「tacit」（adj.）的中文意思是？",
+      "options": [
+        "明確的；毫不含糊的",
+        "默許的；心照不宣的",
+        "無所不在的",
+        "有說服力的"
+      ],
+      "answer": 1,
+      "explain": "tacit（adj.）＝默許的；心照不宣的。例句：They gave their tacit approval to the plan.（他們默許了這項計畫。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-146",
+      "q": "「默許的；心照不宣的」（形容詞）的英文是？",
+      "options": [
+        "tacit",
+        "ubiquitous",
+        "unequivocal",
+        "cogent"
+      ],
+      "answer": 0,
+      "explain": "tacit（adj.）＝默許的；心照不宣的。其他選項：cogent＝有說服力的；unequivocal＝明確的；毫不含糊的；ubiquitous＝無所不在的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-147",
+      "q": "They gave their _____ approval to the plan.",
+      "options": [
+        "tactile",
+        "tactic",
+        "tacitly",
+        "tacit"
+      ],
+      "answer": 3,
+      "explain": "答案是 tacit。tacit（adj.）＝默許的；心照不宣的。他們默許了這項計畫。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-148",
+      "q": "「ubiquitous」（adj.）的中文意思是？",
+      "options": [
+        "節儉的",
+        "一絲不苟的；正直的",
+        "無所不在的",
+        "有償債能力的"
+      ],
+      "answer": 2,
+      "explain": "ubiquitous（adj.）＝無所不在的。例句：Smartphones have become ubiquitous in modern life.（智慧型手機在現代生活中無所不在。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-149",
+      "q": "「無所不在的」（形容詞）的英文是？",
+      "options": [
+        "frugal",
+        "ubiquitous",
+        "scrupulous",
+        "solvent"
+      ],
+      "answer": 1,
+      "explain": "ubiquitous（adj.）＝無所不在的。其他選項：solvent＝有償債能力的；frugal＝節儉的；scrupulous＝一絲不苟的；正直的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-150",
+      "q": "Smartphones have become _____ in modern life.",
+      "options": [
+        "ubiquitous",
+        "ubiquity",
+        "iniquitous",
+        "ubiquitously"
+      ],
+      "answer": 0,
+      "explain": "答案是 ubiquitous。ubiquitous（adj.）＝無所不在的。智慧型手機在現代生活中無所不在。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-151",
+      "q": "「unequivocal」（adj.）的中文意思是？",
+      "options": [
+        "無所不在的",
+        "萎靡的；遲緩的",
+        "最重要的",
+        "明確的；毫不含糊的"
+      ],
+      "answer": 3,
+      "explain": "unequivocal（adj.）＝明確的；毫不含糊的。例句：The CEO gave an unequivocal answer: no layoffs.（執行長給了明確的答覆：不裁員。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-152",
+      "q": "「明確的；毫不含糊的」（形容詞）的英文是？",
+      "options": [
+        "ubiquitous",
+        "paramount",
+        "unequivocal",
+        "lethargic"
+      ],
+      "answer": 2,
+      "explain": "unequivocal（adj.）＝明確的；毫不含糊的。其他選項：lethargic＝萎靡的；遲緩的；ubiquitous＝無所不在的；paramount＝最重要的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-153",
+      "q": "The CEO gave an _____ answer: no layoffs.",
+      "options": [
+        "equivocate",
+        "unequivocal",
+        "equivalent",
+        "unequivocally"
+      ],
+      "answer": 1,
+      "explain": "答案是 unequivocal。unequivocal（adj.）＝明確的；毫不含糊的。執行長給了明確的答覆：不裁員。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-154",
+      "q": "「vindicate」（v.）的中文意思是？",
+      "options": [
+        "證明…是對的",
+        "廢止（協議）",
+        "平息",
+        "引出；誘出"
+      ],
+      "answer": 0,
+      "explain": "vindicate（v.）＝證明…是對的。例句：The strong sales vindicated her decision to launch early.（強勁的銷售證明她提前上市的決定是對的。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-155",
+      "q": "「證明…是對的」（動詞）的英文是？",
+      "options": [
+        "quell",
+        "elicit",
+        "abrogate",
+        "vindicate"
+      ],
+      "answer": 3,
+      "explain": "vindicate（v.）＝證明…是對的。其他選項：quell＝平息；elicit＝引出；誘出；abrogate＝廢止（協議）。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-156",
+      "q": "The strong sales _____ her decision to launch early.",
+      "options": [
+        "vindication",
+        "vandalized",
+        "vindicated",
+        "vindictive"
+      ],
+      "answer": 2,
+      "explain": "答案是 vindicated。vindicate（v.）＝證明…是對的。強勁的銷售證明她提前上市的決定是對的。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-157",
+      "q": "「windfall」（n.）的中文意思是？",
+      "options": [
+        "擱置；暫緩",
+        "意外之財",
+        "退款；折讓",
+        "小費"
+      ],
+      "answer": 1,
+      "explain": "windfall（n.）＝意外之財。例句：The company received a tax windfall this year.（公司今年獲得一筆意外的稅收收益。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-158",
+      "q": "「意外之財」（名詞）的英文是？",
+      "options": [
+        "windfall",
+        "abeyance",
+        "gratuity",
+        "rebate"
+      ],
+      "answer": 0,
+      "explain": "windfall（n.）＝意外之財。其他選項：rebate＝退款；折讓；gratuity＝小費；abeyance＝擱置；暫緩。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-159",
+      "q": "The company received a tax _____ this year.",
+      "options": [
+        "windmill",
+        "landfall",
+        "waterfall",
+        "windfall"
+      ],
+      "answer": 3,
+      "explain": "答案是 windfall。windfall（n.）＝意外之財。公司今年獲得一筆意外的稅收收益。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t900-160",
+      "q": "「wane」（v.）的中文意思是？",
+      "options": [
+        "激增",
+        "收回（損失）",
+        "衰退；減弱",
+        "克服"
+      ],
+      "answer": 2,
+      "explain": "wane（v.）＝衰退；減弱。例句：Interest in the product began to wane after a few months.（幾個月後對這項產品的興趣開始減退。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-161",
+      "q": "「衰退；減弱」（動詞）的英文是？",
+      "options": [
+        "recoup",
+        "wane",
+        "proliferate",
+        "surmount"
+      ],
+      "answer": 1,
+      "explain": "wane（v.）＝衰退；減弱。其他選項：surmount＝克服；recoup＝收回（損失）；proliferate＝激增。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-162",
+      "q": "Interest in the product began to _____ after a few months.",
+      "options": [
+        "wane",
+        "wean",
+        "wade",
+        "wake"
+      ],
+      "answer": 0,
+      "explain": "答案是 wane。wane（v.）＝衰退；減弱。幾個月後對這項產品的興趣開始減退。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t900-163",
+      "q": "「zealous」（adj.）的中文意思是？",
+      "options": [
+        "已停止運作的；已倒閉的",
+        "明確的；毫不含糊的",
+        "老舊過時的",
+        "熱心的；熱衷的"
+      ],
+      "answer": 3,
+      "explain": "zealous（adj.）＝熱心的；熱衷的。例句：She is a zealous supporter of environmental causes.（她是環保運動的熱心支持者。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-164",
+      "q": "「熱心的；熱衷的」（形容詞）的英文是？",
+      "options": [
+        "antiquated",
+        "defunct",
+        "zealous",
+        "unequivocal"
+      ],
+      "answer": 2,
+      "explain": "zealous（adj.）＝熱心的；熱衷的。其他選項：defunct＝已停止運作的；已倒閉的；unequivocal＝明確的；毫不含糊的；antiquated＝老舊過時的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t900-165",
+      "q": "She is a _____ supporter of environmental causes.",
+      "options": [
+        "zealously",
+        "zealous",
+        "zeal",
+        "jealous"
+      ],
+      "answer": 1,
+      "explain": "答案是 zealous。zealous（adj.）＝熱心的；熱衷的。她是環保運動的熱心支持者。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    }
+  ]
+}

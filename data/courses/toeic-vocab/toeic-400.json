@@ -1,0 +1,4180 @@
+{
+  "questions": [
+    {
+      "id": "t400-001",
+      "q": "「appointment」（n.）的中文意思是？",
+      "options": [
+        "表格",
+        "面試",
+        "履歷",
+        "約會；預約"
+      ],
+      "answer": 3,
+      "explain": "appointment（n.）＝約會；預約。例句：I have a dentist appointment at three o'clock.（我三點有牙醫的預約。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-002",
+      "q": "「約會；預約」（名詞）的英文是？",
+      "options": [
+        "form",
+        "resume",
+        "appointment",
+        "interview"
+      ],
+      "answer": 2,
+      "explain": "appointment（n.）＝約會；預約。其他選項：interview＝面試；form＝表格；resume＝履歷。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-003",
+      "q": "I have a dentist _____ at three o'clock.",
+      "options": [
+        "department",
+        "appointment",
+        "advertisement",
+        "equipment"
+      ],
+      "answer": 1,
+      "explain": "答案是 appointment。appointment（n.）＝約會；預約。我三點有牙醫的預約。 其他選項：department＝部門；equipment＝設備；器材；advertisement＝廣告。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-004",
+      "q": "「available」（adj.）的中文意思是？",
+      "options": [
+        "可用的；有空的",
+        "昂貴的",
+        "當地的",
+        "舒適的"
+      ],
+      "answer": 0,
+      "explain": "available（adj.）＝可用的；有空的。例句：Is the manager available for a short call this afternoon?（經理今天下午有空講個簡短電話嗎？）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-005",
+      "q": "「可用的；有空的」（形容詞）的英文是？",
+      "options": [
+        "expensive",
+        "local",
+        "comfortable",
+        "available"
+      ],
+      "answer": 3,
+      "explain": "available（adj.）＝可用的；有空的。其他選項：comfortable＝舒適的；expensive＝昂貴的；local＝當地的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-006",
+      "q": "Is the manager _____ for a short call this afternoon?",
+      "options": [
+        "availably",
+        "availability",
+        "available",
+        "avail"
+      ],
+      "answer": 2,
+      "explain": "答案是 available。available（adj.）＝可用的；有空的。經理今天下午有空講個簡短電話嗎？",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-007",
+      "q": "「receipt」（n.）的中文意思是？",
+      "options": [
+        "小冊子；手冊",
+        "收據",
+        "運送的貨物",
+        "面試"
+      ],
+      "answer": 1,
+      "explain": "receipt（n.）＝收據。例句：Please keep your receipt in case you need to return the item.（請保留收據，以便需要退貨時使用。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-008",
+      "q": "「收據」（名詞）的英文是？",
+      "options": [
+        "receipt",
+        "brochure",
+        "shipment",
+        "interview"
+      ],
+      "answer": 0,
+      "explain": "receipt（n.）＝收據。其他選項：brochure＝小冊子；手冊；interview＝面試；shipment＝運送的貨物。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-009",
+      "q": "Please keep your _____ in case you need to return the item.",
+      "options": [
+        "reception",
+        "recipe",
+        "receiver",
+        "receipt"
+      ],
+      "answer": 3,
+      "explain": "答案是 receipt。receipt（n.）＝收據。請保留收據，以便需要退貨時使用。 其他選項：reception＝接待處；櫃檯；recipe＝食譜。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-010",
+      "q": "「deliver」（v.）的中文意思是？",
+      "options": [
+        "延期",
+        "確認",
+        "遞送；交付",
+        "簽名"
+      ],
+      "answer": 2,
+      "explain": "deliver（v.）＝遞送；交付。例句：The store will deliver the sofa to your home on Monday.（店家會在星期一把沙發送到你家。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-011",
+      "q": "「遞送；交付」（動詞）的英文是？",
+      "options": [
+        "confirm",
+        "deliver",
+        "sign",
+        "postpone"
+      ],
+      "answer": 1,
+      "explain": "deliver（v.）＝遞送；交付。其他選項：postpone＝延期；confirm＝確認；sign＝簽名。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-012",
+      "q": "The store will _____ the sofa to your home on Monday.",
+      "options": [
+        "deliver",
+        "describe",
+        "decide",
+        "depart"
+      ],
+      "answer": 0,
+      "explain": "答案是 deliver。deliver（v.）＝遞送；交付。店家會在星期一把沙發送到你家。 其他選項：depart＝出發；離開。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-013",
+      "q": "「invoice」（n.）的中文意思是？",
+      "options": [
+        "總部",
+        "運送的貨物",
+        "員工",
+        "發票；請款單"
+      ],
+      "answer": 3,
+      "explain": "invoice（n.）＝發票；請款單。例句：The supplier sent us an invoice for the office chairs.（供應商寄給我們辦公椅的請款單。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-014",
+      "q": "「發票；請款單」（名詞）的英文是？",
+      "options": [
+        "headquarters",
+        "shipment",
+        "invoice",
+        "employee"
+      ],
+      "answer": 2,
+      "explain": "invoice（n.）＝發票；請款單。其他選項：employee＝員工；headquarters＝總部；shipment＝運送的貨物。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-015",
+      "q": "The supplier sent us an _____ for the office chairs.",
+      "options": [
+        "invention",
+        "invoice",
+        "instance",
+        "interview"
+      ],
+      "answer": 1,
+      "explain": "答案是 invoice。invoice（n.）＝發票；請款單。供應商寄給我們辦公椅的請款單。 其他選項：interview＝面試。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-016",
+      "q": "「customer」（n.）的中文意思是？",
+      "options": [
+        "顧客",
+        "路線指引",
+        "食譜",
+        "假期"
+      ],
+      "answer": 0,
+      "explain": "customer（n.）＝顧客。例句：The customer asked for a refund because the shirt was too small.（顧客因為襯衫太小要求退款。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-017",
+      "q": "「顧客」（名詞）的英文是？",
+      "options": [
+        "vacation",
+        "directions",
+        "recipe",
+        "customer"
+      ],
+      "answer": 3,
+      "explain": "customer（n.）＝顧客。其他選項：recipe＝食譜；vacation＝假期；directions＝路線指引。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-018",
+      "q": "The _____ asked for a refund because the shirt was too small.",
+      "options": [
+        "customs",
+        "costume",
+        "customer",
+        "custom"
+      ],
+      "answer": 2,
+      "explain": "答案是 customer。customer（n.）＝顧客。顧客因為襯衫太小要求退款。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-019",
+      "q": "「employee」（n.）的中文意思是？",
+      "options": [
+        "食品雜貨",
+        "員工",
+        "店員；職員",
+        "收據"
+      ],
+      "answer": 1,
+      "explain": "employee（n.）＝員工。例句：Every new employee must attend the training session.（每位新員工都必須參加訓練課程。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-020",
+      "q": "「員工」（名詞）的英文是？",
+      "options": [
+        "employee",
+        "receipt",
+        "clerk",
+        "groceries"
+      ],
+      "answer": 0,
+      "explain": "employee（n.）＝員工。其他選項：groceries＝食品雜貨；receipt＝收據；clerk＝店員；職員。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-021",
+      "q": "Every new _____ must attend the training session.",
+      "options": [
+        "equipment",
+        "employment",
+        "envelope",
+        "employee"
+      ],
+      "answer": 3,
+      "explain": "答案是 employee。employee（n.）＝員工。每位新員工都必須參加訓練課程。 其他選項：equipment＝設備；器材。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-022",
+      "q": "「department」（n.）的中文意思是？",
+      "options": [
+        "價格",
+        "同事",
+        "部門",
+        "產品"
+      ],
+      "answer": 2,
+      "explain": "department（n.）＝部門。例句：She works in the sales department.（她在業務部門工作。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-023",
+      "q": "「部門」（名詞）的英文是？",
+      "options": [
+        "product",
+        "department",
+        "colleague",
+        "price"
+      ],
+      "answer": 1,
+      "explain": "department（n.）＝部門。其他選項：product＝產品；colleague＝同事；price＝價格。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-024",
+      "q": "She works in the sales _____.",
+      "options": [
+        "department",
+        "apartment",
+        "development",
+        "departure"
+      ],
+      "answer": 0,
+      "explain": "答案是 department。department（n.）＝部門。她在業務部門工作。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-025",
+      "q": "「reserve」（v.）的中文意思是？",
+      "options": [
+        "購買",
+        "通知",
+        "訂購；點餐",
+        "預訂；保留"
+      ],
+      "answer": 3,
+      "explain": "reserve（v.）＝預訂；保留。例句：I'd like to reserve a table for four at seven o'clock.（我想訂一張七點的四人桌。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-026",
+      "q": "「預訂；保留」（動詞）的英文是？",
+      "options": [
+        "order",
+        "purchase",
+        "reserve",
+        "inform"
+      ],
+      "answer": 2,
+      "explain": "reserve（v.）＝預訂；保留。其他選項：purchase＝購買；inform＝通知；order＝訂購；點餐。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-027",
+      "q": "I'd like to _____ a table for four at seven o'clock.",
+      "options": [
+        "remove",
+        "reserve",
+        "resemble",
+        "reverse"
+      ],
+      "answer": 1,
+      "explain": "答案是 reserve。reserve（v.）＝預訂；保留。我想訂一張七點的四人桌。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-028",
+      "q": "「confirm」（v.）的中文意思是？",
+      "options": [
+        "確認",
+        "延期",
+        "協助",
+        "租用"
+      ],
+      "answer": 0,
+      "explain": "confirm（v.）＝確認。例句：Please call the hotel to confirm your reservation.（請打電話給飯店確認你的訂房。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-029",
+      "q": "「確認」（動詞）的英文是？",
+      "options": [
+        "postpone",
+        "rent",
+        "assist",
+        "confirm"
+      ],
+      "answer": 3,
+      "explain": "confirm（v.）＝確認。其他選項：rent＝租用；assist＝協助；postpone＝延期。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-030",
+      "q": "Please call the hotel to _____ your reservation.",
+      "options": [
+        "conform",
+        "consume",
+        "confirm",
+        "confuse"
+      ],
+      "answer": 2,
+      "explain": "答案是 confirm。confirm（v.）＝確認。請打電話給飯店確認你的訂房。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-031",
+      "q": "「cancel」（v.）的中文意思是？",
+      "options": [
+        "協助",
+        "取消",
+        "改善",
+        "宣布"
+      ],
+      "answer": 1,
+      "explain": "cancel（v.）＝取消。例句：The flight was canceled because of the storm.（航班因為暴風雨被取消了。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-032",
+      "q": "「取消」（動詞）的英文是？",
+      "options": [
+        "cancel",
+        "assist",
+        "announce",
+        "improve"
+      ],
+      "answer": 0,
+      "explain": "cancel（v.）＝取消。其他選項：improve＝改善；assist＝協助；announce＝宣布。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-033",
+      "q": "The flight was _____ because of the storm.",
+      "options": [
+        "contained",
+        "collected",
+        "counted",
+        "canceled"
+      ],
+      "answer": 3,
+      "explain": "答案是 canceled。cancel（v.）＝取消。航班因為暴風雨被取消了。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-034",
+      "q": "「postpone」（v.）的中文意思是？",
+      "options": [
+        "宣布",
+        "出發；離開",
+        "延期",
+        "取消"
+      ],
+      "answer": 2,
+      "explain": "postpone（v.）＝延期。例句：The picnic has been postponed until next Saturday.（野餐已延期到下週六。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-035",
+      "q": "「延期」（動詞）的英文是？",
+      "options": [
+        "depart",
+        "postpone",
+        "announce",
+        "cancel"
+      ],
+      "answer": 1,
+      "explain": "postpone（v.）＝延期。其他選項：cancel＝取消；depart＝出發；離開；announce＝宣布。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-036",
+      "q": "The picnic has been _____ until next Saturday.",
+      "options": [
+        "postponed",
+        "preferred",
+        "prevented",
+        "produced"
+      ],
+      "answer": 0,
+      "explain": "答案是 postponed。postpone（v.）＝延期。野餐已延期到下週六。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-037",
+      "q": "「deadline」（n.）的中文意思是？",
+      "options": [
+        "費用",
+        "工廠",
+        "同事",
+        "截止期限"
+      ],
+      "answer": 3,
+      "explain": "deadline（n.）＝截止期限。例句：The deadline for the report is Friday at noon.（報告的截止期限是星期五中午。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-038",
+      "q": "「截止期限」（名詞）的英文是？",
+      "options": [
+        "fee",
+        "colleague",
+        "deadline",
+        "factory"
+      ],
+      "answer": 2,
+      "explain": "deadline（n.）＝截止期限。其他選項：factory＝工廠；colleague＝同事；fee＝費用。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-039",
+      "q": "The _____ for the report is Friday at noon.",
+      "options": [
+        "headline",
+        "deadline",
+        "guideline",
+        "airline"
+      ],
+      "answer": 1,
+      "explain": "答案是 deadline。deadline（n.）＝截止期限。報告的截止期限是星期五中午。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-040",
+      "q": "「refund」（n.）的中文意思是？",
+      "options": [
+        "退款",
+        "員工",
+        "路線指引",
+        "總部"
+      ],
+      "answer": 0,
+      "explain": "refund（n.）＝退款。例句：You can get a full refund within 30 days of purchase.（購買後 30 天內可全額退款。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-041",
+      "q": "「退款」（名詞）的英文是？",
+      "options": [
+        "headquarters",
+        "directions",
+        "employee",
+        "refund"
+      ],
+      "answer": 3,
+      "explain": "refund（n.）＝退款。其他選項：headquarters＝總部；employee＝員工；directions＝路線指引。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-042",
+      "q": "You can get a full _____ within 30 days of purchase.",
+      "options": [
+        "reform",
+        "refusal",
+        "refund",
+        "region"
+      ],
+      "answer": 2,
+      "explain": "答案是 refund。refund（n.）＝退款。購買後 30 天內可全額退款。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-043",
+      "q": "「discount」（n.）的中文意思是？",
+      "options": [
+        "截止期限",
+        "折扣",
+        "接待處；櫃檯",
+        "同事"
+      ],
+      "answer": 1,
+      "explain": "discount（n.）＝折扣。例句：Members receive a 10 percent discount on all items.（會員所有商品享九折優惠。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-044",
+      "q": "「折扣」（名詞）的英文是？",
+      "options": [
+        "discount",
+        "colleague",
+        "deadline",
+        "reception"
+      ],
+      "answer": 0,
+      "explain": "discount（n.）＝折扣。其他選項：deadline＝截止期限；reception＝接待處；櫃檯；colleague＝同事。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-045",
+      "q": "Members receive a 10 percent _____ on all items.",
+      "options": [
+        "amount",
+        "discovery",
+        "account",
+        "discount"
+      ],
+      "answer": 3,
+      "explain": "答案是 discount。discount（n.）＝折扣。會員所有商品享九折優惠。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-046",
+      "q": "「purchase」（v.）的中文意思是？",
+      "options": [
+        "簽名",
+        "出席；參加",
+        "購買",
+        "僱用"
+      ],
+      "answer": 2,
+      "explain": "purchase（v.）＝購買。例句：You can purchase tickets online or at the box office.（你可以在網路上或售票處購買門票。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-047",
+      "q": "「購買」（動詞）的英文是？",
+      "options": [
+        "attend",
+        "purchase",
+        "hire",
+        "sign"
+      ],
+      "answer": 1,
+      "explain": "purchase（v.）＝購買。其他選項：hire＝僱用；sign＝簽名；attend＝出席；參加。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-048",
+      "q": "You can _____ tickets online or at the box office.",
+      "options": [
+        "purchase",
+        "punish",
+        "pursue",
+        "publish"
+      ],
+      "answer": 0,
+      "explain": "答案是 purchase。purchase（v.）＝購買。你可以在網路上或售票處購買門票。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-049",
+      "q": "「repair」（v.）的中文意思是？",
+      "options": [
+        "改善",
+        "訂購；點餐",
+        "出席；參加",
+        "修理"
+      ],
+      "answer": 3,
+      "explain": "repair（v.）＝修理。例句：A technician came to repair the broken printer.（一位技術人員來修理壞掉的印表機。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-050",
+      "q": "「修理」（動詞）的英文是？",
+      "options": [
+        "attend",
+        "improve",
+        "repair",
+        "order"
+      ],
+      "answer": 2,
+      "explain": "repair（v.）＝修理。其他選項：attend＝出席；參加；order＝訂購；點餐；improve＝改善。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-051",
+      "q": "A technician came to _____ the broken printer.",
+      "options": [
+        "require",
+        "repair",
+        "repeat",
+        "reply"
+      ],
+      "answer": 1,
+      "explain": "答案是 repair。repair（v.）＝修理。一位技術人員來修理壞掉的印表機。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-052",
+      "q": "「replace」（v.）的中文意思是？",
+      "options": [
+        "更換；取代",
+        "修理",
+        "確認",
+        "遞送；交付"
+      ],
+      "answer": 0,
+      "explain": "replace（v.）＝更換；取代。例句：We need to replace the old light bulbs with new ones.（我們需要把舊燈泡換成新的。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-053",
+      "q": "「更換；取代」（動詞）的英文是？",
+      "options": [
+        "repair",
+        "deliver",
+        "confirm",
+        "replace"
+      ],
+      "answer": 3,
+      "explain": "replace（v.）＝更換；取代。其他選項：confirm＝確認；deliver＝遞送；交付；repair＝修理。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-054",
+      "q": "We need to _____ the old light bulbs with new ones.",
+      "options": [
+        "relate",
+        "remain",
+        "replace",
+        "rely"
+      ],
+      "answer": 2,
+      "explain": "答案是 replace。replace（v.）＝更換；取代。我們需要把舊燈泡換成新的。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-055",
+      "q": "「equipment」（n.）的中文意思是？",
+      "options": [
+        "顧客",
+        "設備；器材",
+        "接待處；櫃檯",
+        "總部"
+      ],
+      "answer": 1,
+      "explain": "equipment（n.）＝設備；器材。例句：The gym has a lot of new exercise equipment.（健身房有很多新的運動器材。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-056",
+      "q": "「設備；器材」（名詞）的英文是？",
+      "options": [
+        "equipment",
+        "headquarters",
+        "reception",
+        "customer"
+      ],
+      "answer": 0,
+      "explain": "equipment（n.）＝設備；器材。其他選項：customer＝顧客；headquarters＝總部；reception＝接待處；櫃檯。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-057",
+      "q": "The gym has a lot of new exercise _____.",
+      "options": [
+        "entertainment",
+        "agreement",
+        "employment",
+        "equipment"
+      ],
+      "answer": 3,
+      "explain": "答案是 equipment。equipment（n.）＝設備；器材。健身房有很多新的運動器材。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-058",
+      "q": "「supplies」（n.）的中文意思是？",
+      "options": [
+        "房客；租戶",
+        "影本；份數",
+        "用品；補給品",
+        "退款"
+      ],
+      "answer": 2,
+      "explain": "supplies（n.）＝用品；補給品。例句：We are running low on office supplies.（我們的辦公用品快用完了。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-059",
+      "q": "「用品；補給品」（名詞）的英文是？",
+      "options": [
+        "copies",
+        "supplies",
+        "tenant",
+        "refund"
+      ],
+      "answer": 1,
+      "explain": "supplies（n.）＝用品；補給品。其他選項：refund＝退款；tenant＝房客；租戶；copies＝影本；份數。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-060",
+      "q": "We are running low on office _____.",
+      "options": [
+        "supplies",
+        "surprises",
+        "surveys",
+        "suits"
+      ],
+      "answer": 0,
+      "explain": "答案是 supplies。supplies（n.）＝用品；補給品。我們的辦公用品快用完了。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-061",
+      "q": "「colleague」（n.）的中文意思是？",
+      "options": [
+        "食品雜貨",
+        "現金",
+        "店員；職員",
+        "同事"
+      ],
+      "answer": 3,
+      "explain": "colleague（n.）＝同事。例句：My colleague will cover my shift while I'm on vacation.（我休假時同事會幫我代班。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-062",
+      "q": "「同事」（名詞）的英文是？",
+      "options": [
+        "clerk",
+        "groceries",
+        "colleague",
+        "cash"
+      ],
+      "answer": 2,
+      "explain": "colleague（n.）＝同事。其他選項：cash＝現金；groceries＝食品雜貨；clerk＝店員；職員。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-063",
+      "q": "My _____ will cover my shift while I'm on vacation.",
+      "options": [
+        "collar",
+        "colleague",
+        "collection",
+        "college"
+      ],
+      "answer": 1,
+      "explain": "答案是 colleague。colleague（n.）＝同事。我休假時同事會幫我代班。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-064",
+      "q": "「salary」（n.）的中文意思是？",
+      "options": [
+        "薪水",
+        "退款",
+        "總部",
+        "廣告"
+      ],
+      "answer": 0,
+      "explain": "salary（n.）＝薪水。例句：The job offers a good salary and paid vacation.（這份工作提供不錯的薪水和帶薪休假。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-065",
+      "q": "「薪水」（名詞）的英文是？",
+      "options": [
+        "advertisement",
+        "refund",
+        "headquarters",
+        "salary"
+      ],
+      "answer": 3,
+      "explain": "salary（n.）＝薪水。其他選項：headquarters＝總部；refund＝退款；advertisement＝廣告。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-066",
+      "q": "The job offers a good _____ and paid vacation.",
+      "options": [
+        "gallery",
+        "summary",
+        "salary",
+        "celery"
+      ],
+      "answer": 2,
+      "explain": "答案是 salary。salary（n.）＝薪水。這份工作提供不錯的薪水和帶薪休假。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-067",
+      "q": "「apply」（v.）的中文意思是？",
+      "options": [
+        "僱用",
+        "申請；應徵",
+        "修理",
+        "取消"
+      ],
+      "answer": 1,
+      "explain": "apply（v.）＝申請；應徵。例句：She decided to apply for the marketing position.（她決定應徵行銷職位。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-068",
+      "q": "「申請；應徵」（動詞）的英文是？",
+      "options": [
+        "apply",
+        "hire",
+        "cancel",
+        "fix"
+      ],
+      "answer": 0,
+      "explain": "apply（v.）＝申請；應徵。其他選項：cancel＝取消；fix＝修理；hire＝僱用。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-069",
+      "q": "She decided to _____ for the marketing position.",
+      "options": [
+        "imply",
+        "supply",
+        "reply",
+        "apply"
+      ],
+      "answer": 3,
+      "explain": "答案是 apply。apply（v.）＝申請；應徵。她決定應徵行銷職位。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-070",
+      "q": "「resume」（n.）的中文意思是？",
+      "options": [
+        "食品雜貨",
+        "收據",
+        "履歷",
+        "影本；份數"
+      ],
+      "answer": 2,
+      "explain": "resume（n.）＝履歷。例句：Please send your resume and a cover letter to the HR office.（請將履歷和求職信寄到人資辦公室。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-071",
+      "q": "「履歷」（名詞）的英文是？",
+      "options": [
+        "receipt",
+        "resume",
+        "copies",
+        "groceries"
+      ],
+      "answer": 1,
+      "explain": "resume（n.）＝履歷。其他選項：receipt＝收據；copies＝影本；份數；groceries＝食品雜貨。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-072",
+      "q": "Please send your _____ and a cover letter to the HR office.",
+      "options": [
+        "resume",
+        "receipt",
+        "routine",
+        "reason"
+      ],
+      "answer": 0,
+      "explain": "答案是 resume。resume（n.）＝履歷。請將履歷和求職信寄到人資辦公室。 其他選項：receipt＝收據。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-073",
+      "q": "「interview」（n.）的中文意思是？",
+      "options": [
+        "會議",
+        "工廠",
+        "乘客",
+        "面試"
+      ],
+      "answer": 3,
+      "explain": "interview（n.）＝面試。例句：I have a job interview tomorrow morning.（我明天早上有一場工作面試。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-074",
+      "q": "「面試」（名詞）的英文是？",
+      "options": [
+        "factory",
+        "meeting",
+        "interview",
+        "passenger"
+      ],
+      "answer": 2,
+      "explain": "interview（n.）＝面試。其他選項：meeting＝會議；factory＝工廠；passenger＝乘客。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-075",
+      "q": "I have a job _____ tomorrow morning.",
+      "options": [
+        "introduction",
+        "interview",
+        "interest",
+        "instruction"
+      ],
+      "answer": 1,
+      "explain": "答案是 interview。interview（n.）＝面試。我明天早上有一場工作面試。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-076",
+      "q": "「hire」（v.）的中文意思是？",
+      "options": [
+        "僱用",
+        "抵達",
+        "訂購；點餐",
+        "延期"
+      ],
+      "answer": 0,
+      "explain": "hire（v.）＝僱用。例句：The restaurant plans to hire three more servers.（這家餐廳打算再僱用三名服務生。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-077",
+      "q": "「僱用」（動詞）的英文是？",
+      "options": [
+        "postpone",
+        "order",
+        "arrive",
+        "hire"
+      ],
+      "answer": 3,
+      "explain": "hire（v.）＝僱用。其他選項：arrive＝抵達；postpone＝延期；order＝訂購；點餐。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-078",
+      "q": "The restaurant plans to _____ three more servers.",
+      "options": [
+        "hang",
+        "hike",
+        "hire",
+        "hide"
+      ],
+      "answer": 2,
+      "explain": "答案是 hire。hire（v.）＝僱用。這家餐廳打算再僱用三名服務生。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-079",
+      "q": "「arrive」（v.）的中文意思是？",
+      "options": [
+        "申請；應徵",
+        "抵達",
+        "取消",
+        "購買"
+      ],
+      "answer": 1,
+      "explain": "arrive（v.）＝抵達。例句：The train will arrive at platform 2 in five minutes.（火車五分鐘後抵達第二月台。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-080",
+      "q": "「抵達」（動詞）的英文是？",
+      "options": [
+        "arrive",
+        "cancel",
+        "apply",
+        "purchase"
+      ],
+      "answer": 0,
+      "explain": "arrive（v.）＝抵達。其他選項：purchase＝購買；apply＝申請；應徵；cancel＝取消。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-081",
+      "q": "The train will _____ at platform 2 in five minutes.",
+      "options": [
+        "admire",
+        "allow",
+        "arrange",
+        "arrive"
+      ],
+      "answer": 3,
+      "explain": "答案是 arrive。arrive（v.）＝抵達。火車五分鐘後抵達第二月台。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-082",
+      "q": "「depart」（v.）的中文意思是？",
+      "options": [
+        "確認",
+        "取消",
+        "出發；離開",
+        "延期"
+      ],
+      "answer": 2,
+      "explain": "depart（v.）＝出發；離開。例句：Flight 302 will depart from Gate 15.（302 航班將從 15 號登機門出發。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-083",
+      "q": "「出發；離開」（動詞）的英文是？",
+      "options": [
+        "confirm",
+        "depart",
+        "cancel",
+        "postpone"
+      ],
+      "answer": 1,
+      "explain": "depart（v.）＝出發；離開。其他選項：postpone＝延期；cancel＝取消；confirm＝確認。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-084",
+      "q": "Flight 302 will _____ from Gate 15.",
+      "options": [
+        "depart",
+        "deny",
+        "divide",
+        "deposit"
+      ],
+      "answer": 0,
+      "explain": "答案是 depart。depart（v.）＝出發；離開。302 航班將從 15 號登機門出發。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-085",
+      "q": "「passenger」（n.）的中文意思是？",
+      "options": [
+        "總部",
+        "簡報",
+        "經理",
+        "乘客"
+      ],
+      "answer": 3,
+      "explain": "passenger（n.）＝乘客。例句：All passengers must show their boarding passes.（所有乘客都必須出示登機證。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-086",
+      "q": "「乘客」（名詞）的英文是？",
+      "options": [
+        "manager",
+        "headquarters",
+        "passenger",
+        "presentation"
+      ],
+      "answer": 2,
+      "explain": "passenger（n.）＝乘客。其他選項：headquarters＝總部；manager＝經理；presentation＝簡報。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-087",
+      "q": "All _____ must show their boarding passes.",
+      "options": [
+        "passages",
+        "passengers",
+        "packages",
+        "pastries"
+      ],
+      "answer": 1,
+      "explain": "答案是 passengers。passenger（n.）＝乘客。所有乘客都必須出示登機證。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-088",
+      "q": "「luggage」（n.）的中文意思是？",
+      "options": [
+        "行李",
+        "收據",
+        "部門",
+        "顧客"
+      ],
+      "answer": 0,
+      "explain": "luggage（n.）＝行李。例句：You may bring one piece of carry-on luggage.（你可以攜帶一件隨身行李。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-089",
+      "q": "「行李」（名詞）的英文是？",
+      "options": [
+        "department",
+        "receipt",
+        "customer",
+        "luggage"
+      ],
+      "answer": 3,
+      "explain": "luggage（n.）＝行李。其他選項：department＝部門；receipt＝收據；customer＝顧客。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-090",
+      "q": "You may bring one piece of carry-on _____.",
+      "options": [
+        "language",
+        "lounge",
+        "luggage",
+        "landing"
+      ],
+      "answer": 2,
+      "explain": "答案是 luggage。luggage（n.）＝行李。你可以攜帶一件隨身行李。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-091",
+      "q": "「reception」（n.）的中文意思是？",
+      "options": [
+        "顧客",
+        "接待處；櫃檯",
+        "材料；成分",
+        "約會；預約"
+      ],
+      "answer": 1,
+      "explain": "reception（n.）＝接待處；櫃檯。例句：Please leave the key at the reception desk.（請把鑰匙留在接待櫃檯。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-092",
+      "q": "「接待處；櫃檯」（名詞）的英文是？",
+      "options": [
+        "reception",
+        "customer",
+        "appointment",
+        "ingredient"
+      ],
+      "answer": 0,
+      "explain": "reception（n.）＝接待處；櫃檯。其他選項：ingredient＝材料；成分；customer＝顧客；appointment＝約會；預約。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-093",
+      "q": "Please leave the key at the _____ desk.",
+      "options": [
+        "recreation",
+        "receipt",
+        "recession",
+        "reception"
+      ],
+      "answer": 3,
+      "explain": "答案是 reception。reception（n.）＝接待處；櫃檯。請把鑰匙留在接待櫃檯。 其他選項：receipt＝收據。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-094",
+      "q": "「directions」（n.）的中文意思是？",
+      "options": [
+        "發票；請款單",
+        "帳單",
+        "路線指引",
+        "倉庫"
+      ],
+      "answer": 2,
+      "explain": "directions（n.）＝路線指引。例句：Can you give me directions to the train station?（你可以告訴我去火車站怎麼走嗎？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-095",
+      "q": "「路線指引」（名詞）的英文是？",
+      "options": [
+        "bill",
+        "directions",
+        "warehouse",
+        "invoice"
+      ],
+      "answer": 1,
+      "explain": "directions（n.）＝路線指引。其他選項：bill＝帳單；warehouse＝倉庫；invoice＝發票；請款單。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-096",
+      "q": "Can you give me _____ to the train station?",
+      "options": [
+        "directions",
+        "discussions",
+        "devices",
+        "decisions"
+      ],
+      "answer": 0,
+      "explain": "答案是 directions。directions（n.）＝路線指引。你可以告訴我去火車站怎麼走嗎？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-097",
+      "q": "「brochure」（n.）的中文意思是？",
+      "options": [
+        "假期",
+        "收據",
+        "路線指引",
+        "小冊子；手冊"
+      ],
+      "answer": 3,
+      "explain": "brochure（n.）＝小冊子；手冊。例句：You can find our prices in this brochure.（你可以在這本小冊子裡找到我們的價格。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-098",
+      "q": "「小冊子；手冊」（名詞）的英文是？",
+      "options": [
+        "vacation",
+        "receipt",
+        "brochure",
+        "directions"
+      ],
+      "answer": 2,
+      "explain": "brochure（n.）＝小冊子；手冊。其他選項：vacation＝假期；directions＝路線指引；receipt＝收據。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-099",
+      "q": "You can find our prices in this _____.",
+      "options": [
+        "broker",
+        "brochure",
+        "brush",
+        "bronze"
+      ],
+      "answer": 1,
+      "explain": "答案是 brochure。brochure（n.）＝小冊子；手冊。你可以在這本小冊子裡找到我們的價格。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-100",
+      "q": "「advertisement」（n.）的中文意思是？",
+      "options": [
+        "廣告",
+        "收據",
+        "薪水",
+        "表格"
+      ],
+      "answer": 0,
+      "explain": "advertisement（n.）＝廣告。例句：We saw your advertisement in the newspaper.（我們在報紙上看到你們的廣告。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-101",
+      "q": "「廣告」（名詞）的英文是？",
+      "options": [
+        "form",
+        "salary",
+        "receipt",
+        "advertisement"
+      ],
+      "answer": 3,
+      "explain": "advertisement（n.）＝廣告。其他選項：salary＝薪水；form＝表格；receipt＝收據。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-102",
+      "q": "We saw your _____ in the newspaper.",
+      "options": [
+        "amusement",
+        "advancement",
+        "advertisement",
+        "adjustment"
+      ],
+      "answer": 2,
+      "explain": "答案是 advertisement。advertisement（n.）＝廣告。我們在報紙上看到你們的廣告。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-103",
+      "q": "「product」（n.）的中文意思是？",
+      "options": [
+        "收據",
+        "產品",
+        "食品雜貨",
+        "食譜"
+      ],
+      "answer": 1,
+      "explain": "product（n.）＝產品。例句：This new product will be on sale next month.（這項新產品下個月開賣。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-104",
+      "q": "「產品」（名詞）的英文是？",
+      "options": [
+        "product",
+        "recipe",
+        "receipt",
+        "groceries"
+      ],
+      "answer": 0,
+      "explain": "product（n.）＝產品。其他選項：recipe＝食譜；receipt＝收據；groceries＝食品雜貨。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-105",
+      "q": "This new _____ will be on sale next month.",
+      "options": [
+        "process",
+        "progress",
+        "protest",
+        "product"
+      ],
+      "answer": 3,
+      "explain": "答案是 product。product（n.）＝產品。這項新產品下個月開賣。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-106",
+      "q": "「price」（n.）的中文意思是？",
+      "options": [
+        "分公司；分店",
+        "收據",
+        "價格",
+        "合約"
+      ],
+      "answer": 2,
+      "explain": "price（n.）＝價格。例句：The price of gasoline went up again.（汽油價格又上漲了。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-107",
+      "q": "「價格」（名詞）的英文是？",
+      "options": [
+        "receipt",
+        "price",
+        "branch",
+        "contract"
+      ],
+      "answer": 1,
+      "explain": "price（n.）＝價格。其他選項：branch＝分公司；分店；contract＝合約；receipt＝收據。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-108",
+      "q": "The _____ of gasoline went up again.",
+      "options": [
+        "price",
+        "prince",
+        "prize",
+        "pride"
+      ],
+      "answer": 0,
+      "explain": "答案是 price。price（n.）＝價格。汽油價格又上漲了。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-109",
+      "q": "「order」（v.）的中文意思是？",
+      "options": [
+        "登記；報名",
+        "修理",
+        "簽名",
+        "訂購；點餐"
+      ],
+      "answer": 3,
+      "explain": "order（v.）＝訂購；點餐。例句：I'd like to order a large pizza for delivery.（我想訂一個大披薩外送。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-110",
+      "q": "「訂購；點餐」（動詞）的英文是？",
+      "options": [
+        "fix",
+        "register",
+        "order",
+        "sign"
+      ],
+      "answer": 2,
+      "explain": "order（v.）＝訂購；點餐。其他選項：register＝登記；報名；sign＝簽名；fix＝修理。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-111",
+      "q": "I'd like to _____ a large pizza for delivery.",
+      "options": [
+        "owe",
+        "order",
+        "obey",
+        "occur"
+      ],
+      "answer": 1,
+      "explain": "答案是 order。order（v.）＝訂購；點餐。我想訂一個大披薩外送。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-112",
+      "q": "「free of charge」（phr.）的中文意思是？",
+      "options": [
+        "免費",
+        "事先；預先",
+        "故障",
+        "準時"
+      ],
+      "answer": 0,
+      "explain": "free of charge（phr.）＝免費。例句：Parking is available free of charge for hotel guests.（飯店房客可免費停車。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-113",
+      "q": "「免費」（片語）的英文是？",
+      "options": [
+        "in advance",
+        "on time",
+        "out of order",
+        "free of charge"
+      ],
+      "answer": 3,
+      "explain": "free of charge（phr.）＝免費。其他選項：out of order＝故障；on time＝準時；in advance＝事先；預先。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-114",
+      "q": "Parking is available _____ for hotel guests.",
+      "options": [
+        "out of order",
+        "in charge of",
+        "free of charge",
+        "on behalf of"
+      ],
+      "answer": 2,
+      "explain": "答案是 free of charge。free of charge（phr.）＝免費。飯店房客可免費停車。 其他選項：out of order＝故障。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-115",
+      "q": "「out of order」（phr.）的中文意思是？",
+      "options": [
+        "免費",
+        "故障",
+        "病假",
+        "準時"
+      ],
+      "answer": 1,
+      "explain": "out of order（phr.）＝故障。例句：The elevator is out of order, so please use the stairs.（電梯故障了，請走樓梯。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-116",
+      "q": "「故障」（片語）的英文是？",
+      "options": [
+        "out of order",
+        "free of charge",
+        "on time",
+        "sick leave"
+      ],
+      "answer": 0,
+      "explain": "out of order（phr.）＝故障。其他選項：sick leave＝病假；on time＝準時；free of charge＝免費。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-117",
+      "q": "The elevator is _____, so please use the stairs.",
+      "options": [
+        "on time",
+        "in person",
+        "in advance",
+        "out of order"
+      ],
+      "answer": 3,
+      "explain": "答案是 out of order。out of order（phr.）＝故障。電梯故障了，請走樓梯。 其他選項：in advance＝事先；預先；on time＝準時。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-118",
+      "q": "「in advance」（phr.）的中文意思是？",
+      "options": [
+        "免費",
+        "準時",
+        "事先；預先",
+        "故障"
+      ],
+      "answer": 2,
+      "explain": "in advance（phr.）＝事先；預先。例句：Please book your tickets at least two weeks in advance.（請至少提前兩週訂票。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-119",
+      "q": "「事先；預先」（片語）的英文是？",
+      "options": [
+        "out of order",
+        "in advance",
+        "on time",
+        "free of charge"
+      ],
+      "answer": 1,
+      "explain": "in advance（phr.）＝事先；預先。其他選項：free of charge＝免費；on time＝準時；out of order＝故障。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-120",
+      "q": "Please book your tickets at least two weeks _____.",
+      "options": [
+        "in advance",
+        "on duty",
+        "in charge",
+        "in total"
+      ],
+      "answer": 0,
+      "explain": "答案是 in advance。in advance（phr.）＝事先；預先。請至少提前兩週訂票。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-121",
+      "q": "「on time」（phr.）的中文意思是？",
+      "options": [
+        "事先；預先",
+        "故障",
+        "免費",
+        "準時"
+      ],
+      "answer": 3,
+      "explain": "on time（phr.）＝準時。例句：The bus rarely arrives on time during rush hour.（尖峰時段公車很少準時到。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-122",
+      "q": "「準時」（片語）的英文是？",
+      "options": [
+        "in advance",
+        "free of charge",
+        "on time",
+        "out of order"
+      ],
+      "answer": 2,
+      "explain": "on time（phr.）＝準時。其他選項：free of charge＝免費；in advance＝事先；預先；out of order＝故障。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-123",
+      "q": "The bus rarely arrives _____ during rush hour.",
+      "options": [
+        "on display",
+        "on time",
+        "in stock",
+        "on sale"
+      ],
+      "answer": 1,
+      "explain": "答案是 on time。on time（phr.）＝準時。尖峰時段公車很少準時到。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-124",
+      "q": "「borrow」（v.）的中文意思是？",
+      "options": [
+        "借入",
+        "更換；取代",
+        "登記；報名",
+        "訂購；點餐"
+      ],
+      "answer": 0,
+      "explain": "borrow（v.）＝借入。例句：Can I borrow your pen for a moment?（我可以借用一下你的筆嗎？）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-125",
+      "q": "「借入」（動詞）的英文是？",
+      "options": [
+        "order",
+        "register",
+        "replace",
+        "borrow"
+      ],
+      "answer": 3,
+      "explain": "borrow（v.）＝借入。其他選項：order＝訂購；點餐；register＝登記；報名；replace＝更換；取代。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-126",
+      "q": "Can I _____ your pen for a moment?",
+      "options": [
+        "bother",
+        "blow",
+        "borrow",
+        "lend"
+      ],
+      "answer": 2,
+      "explain": "答案是 borrow。borrow（v.）＝借入。我可以借用一下你的筆嗎？ 其他選項：lend＝借出。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-127",
+      "q": "「lend」（v.）的中文意思是？",
+      "options": [
+        "通知",
+        "借出",
+        "簽名",
+        "宣布"
+      ],
+      "answer": 1,
+      "explain": "lend（v.）＝借出。例句：Could you lend me ten dollars until tomorrow?（你可以借我十塊錢到明天嗎？）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-128",
+      "q": "「借出」（動詞）的英文是？",
+      "options": [
+        "lend",
+        "inform",
+        "sign",
+        "announce"
+      ],
+      "answer": 0,
+      "explain": "lend（v.）＝借出。其他選項：sign＝簽名；announce＝宣布；inform＝通知。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-129",
+      "q": "Could you _____ me ten dollars until tomorrow?",
+      "options": [
+        "borrow",
+        "spend",
+        "earn",
+        "lend"
+      ],
+      "answer": 3,
+      "explain": "答案是 lend。lend（v.）＝借出。你可以借我十塊錢到明天嗎？ 其他選項：borrow＝借入。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-130",
+      "q": "「assist」（v.）的中文意思是？",
+      "options": [
+        "修理",
+        "登記；報名",
+        "協助",
+        "借出"
+      ],
+      "answer": 2,
+      "explain": "assist（v.）＝協助。例句：Our staff will be happy to assist you with your bags.（我們的員工很樂意協助你提行李。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-131",
+      "q": "「協助」（動詞）的英文是？",
+      "options": [
+        "fix",
+        "assist",
+        "register",
+        "lend"
+      ],
+      "answer": 1,
+      "explain": "assist（v.）＝協助。其他選項：register＝登記；報名；lend＝借出；fix＝修理。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-132",
+      "q": "Our staff will be happy to _____ you with your bags.",
+      "options": [
+        "assist",
+        "resist",
+        "insist",
+        "consist"
+      ],
+      "answer": 0,
+      "explain": "答案是 assist。assist（v.）＝協助。我們的員工很樂意協助你提行李。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-133",
+      "q": "「manager」（n.）的中文意思是？",
+      "options": [
+        "房客；租戶",
+        "表格",
+        "房東",
+        "經理"
+      ],
+      "answer": 3,
+      "explain": "manager（n.）＝經理。例句：Please ask the store manager if you have any complaints.（如果有任何抱怨，請找店經理。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-134",
+      "q": "「經理」（名詞）的英文是？",
+      "options": [
+        "form",
+        "tenant",
+        "manager",
+        "landlord"
+      ],
+      "answer": 2,
+      "explain": "manager（n.）＝經理。其他選項：tenant＝房客；租戶；landlord＝房東；form＝表格。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-135",
+      "q": "Please ask the store _____ if you have any complaints.",
+      "options": [
+        "manual",
+        "manager",
+        "margin",
+        "manner"
+      ],
+      "answer": 1,
+      "explain": "答案是 manager。manager（n.）＝經理。如果有任何抱怨，請找店經理。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-136",
+      "q": "「package」（n.）的中文意思是？",
+      "options": [
+        "包裹",
+        "房客；租戶",
+        "簡報",
+        "店員；職員"
+      ],
+      "answer": 0,
+      "explain": "package（n.）＝包裹。例句：A package arrived for you this morning.（今天早上有你的包裹送到。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-137",
+      "q": "「包裹」（名詞）的英文是？",
+      "options": [
+        "presentation",
+        "tenant",
+        "clerk",
+        "package"
+      ],
+      "answer": 3,
+      "explain": "package（n.）＝包裹。其他選項：clerk＝店員；職員；tenant＝房客；租戶；presentation＝簡報。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-138",
+      "q": "A _____ arrived for you this morning.",
+      "options": [
+        "passage",
+        "parking",
+        "package",
+        "painting"
+      ],
+      "answer": 2,
+      "explain": "答案是 package。package（n.）＝包裹。今天早上有你的包裹送到。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-139",
+      "q": "「clerk」（n.）的中文意思是？",
+      "options": [
+        "顧客",
+        "店員；職員",
+        "通知；公告",
+        "假期"
+      ],
+      "answer": 1,
+      "explain": "clerk（n.）＝店員；職員。例句：The clerk at the counter helped me find the right size.（櫃檯的店員幫我找到合適的尺寸。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-140",
+      "q": "「店員；職員」（名詞）的英文是？",
+      "options": [
+        "clerk",
+        "customer",
+        "notice",
+        "vacation"
+      ],
+      "answer": 0,
+      "explain": "clerk（n.）＝店員；職員。其他選項：notice＝通知；公告；vacation＝假期；customer＝顧客。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-141",
+      "q": "The _____ at the counter helped me find the right size.",
+      "options": [
+        "climate",
+        "clock",
+        "closet",
+        "clerk"
+      ],
+      "answer": 3,
+      "explain": "答案是 clerk。clerk（n.）＝店員；職員。櫃檯的店員幫我找到合適的尺寸。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-142",
+      "q": "「fee」（n.）的中文意思是？",
+      "options": [
+        "廣告",
+        "乘客",
+        "費用",
+        "假期"
+      ],
+      "answer": 2,
+      "explain": "fee（n.）＝費用。例句：There is a small fee for late returns.（逾期歸還需支付小額費用。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-143",
+      "q": "「費用」（名詞）的英文是？",
+      "options": [
+        "passenger",
+        "fee",
+        "advertisement",
+        "vacation"
+      ],
+      "answer": 1,
+      "explain": "fee（n.）＝費用。其他選項：vacation＝假期；passenger＝乘客；advertisement＝廣告。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-144",
+      "q": "There is a small _____ for late returns.",
+      "options": [
+        "fee",
+        "feast",
+        "feed",
+        "fear"
+      ],
+      "answer": 0,
+      "explain": "答案是 fee。fee（n.）＝費用。逾期歸還需支付小額費用。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-145",
+      "q": "「bill」（n.）的中文意思是？",
+      "options": [
+        "食譜",
+        "材料；成分",
+        "會議",
+        "帳單"
+      ],
+      "answer": 3,
+      "explain": "bill（n.）＝帳單。例句：Could we have the bill, please?（可以給我們帳單嗎？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-146",
+      "q": "「帳單」（名詞）的英文是？",
+      "options": [
+        "ingredient",
+        "meeting",
+        "bill",
+        "recipe"
+      ],
+      "answer": 2,
+      "explain": "bill（n.）＝帳單。其他選項：recipe＝食譜；meeting＝會議；ingredient＝材料；成分。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-147",
+      "q": "Could we have the _____, please?",
+      "options": [
+        "bell",
+        "bill",
+        "ball",
+        "bull"
+      ],
+      "answer": 1,
+      "explain": "答案是 bill。bill（n.）＝帳單。可以給我們帳單嗎？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-148",
+      "q": "「cash」（n.）的中文意思是？",
+      "options": [
+        "現金",
+        "分公司；分店",
+        "面試",
+        "食譜"
+      ],
+      "answer": 0,
+      "explain": "cash（n.）＝現金。例句：Do you accept cash or only credit cards?（你們收現金還是只收信用卡？）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-149",
+      "q": "「現金」（名詞）的英文是？",
+      "options": [
+        "branch",
+        "recipe",
+        "interview",
+        "cash"
+      ],
+      "answer": 3,
+      "explain": "cash（n.）＝現金。其他選項：branch＝分公司；分店；recipe＝食譜；interview＝面試。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-150",
+      "q": "Do you accept _____ or only credit cards?",
+      "options": [
+        "catch",
+        "cast",
+        "cash",
+        "case"
+      ],
+      "answer": 2,
+      "explain": "答案是 cash。cash（n.）＝現金。你們收現金還是只收信用卡？",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-151",
+      "q": "「meeting」（n.）的中文意思是？",
+      "options": [
+        "履歷",
+        "會議",
+        "房東",
+        "工廠"
+      ],
+      "answer": 1,
+      "explain": "meeting（n.）＝會議。例句：The weekly staff meeting starts at nine.（每週員工會議九點開始。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-152",
+      "q": "「會議」（名詞）的英文是？",
+      "options": [
+        "meeting",
+        "resume",
+        "factory",
+        "landlord"
+      ],
+      "answer": 0,
+      "explain": "meeting（n.）＝會議。其他選項：factory＝工廠；landlord＝房東；resume＝履歷。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-153",
+      "q": "The weekly staff _____ starts at nine.",
+      "options": [
+        "melting",
+        "measure",
+        "mention",
+        "meeting"
+      ],
+      "answer": 3,
+      "explain": "答案是 meeting。meeting（n.）＝會議。每週員工會議九點開始。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-154",
+      "q": "「agenda」（n.）的中文意思是？",
+      "options": [
+        "退款",
+        "合約",
+        "議程",
+        "材料；成分"
+      ],
+      "answer": 2,
+      "explain": "agenda（n.）＝議程。例句：The first item on the agenda is the new budget.（議程的第一項是新的預算。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-155",
+      "q": "「議程」（名詞）的英文是？",
+      "options": [
+        "contract",
+        "agenda",
+        "refund",
+        "ingredient"
+      ],
+      "answer": 1,
+      "explain": "agenda（n.）＝議程。其他選項：refund＝退款；ingredient＝材料；成分；contract＝合約。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-156",
+      "q": "The first item on the _____ is the new budget.",
+      "options": [
+        "agenda",
+        "agency",
+        "agent",
+        "angle"
+      ],
+      "answer": 0,
+      "explain": "答案是 agenda。agenda（n.）＝議程。議程的第一項是新的預算。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-157",
+      "q": "「attend」（v.）的中文意思是？",
+      "options": [
+        "預訂；保留",
+        "通知",
+        "確認",
+        "出席；參加"
+      ],
+      "answer": 3,
+      "explain": "attend（v.）＝出席；參加。例句：About fifty people will attend the conference.（大約有五十人會參加這場會議。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-158",
+      "q": "「出席；參加」（動詞）的英文是？",
+      "options": [
+        "inform",
+        "confirm",
+        "attend",
+        "reserve"
+      ],
+      "answer": 2,
+      "explain": "attend（v.）＝出席；參加。其他選項：reserve＝預訂；保留；confirm＝確認；inform＝通知。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-159",
+      "q": "About fifty people will _____ the conference.",
+      "options": [
+        "attract",
+        "attend",
+        "attach",
+        "attempt"
+      ],
+      "answer": 1,
+      "explain": "答案是 attend。attend（v.）＝出席；參加。大約有五十人會參加這場會議。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-160",
+      "q": "「prepare」（v.）的中文意思是？",
+      "options": [
+        "準備",
+        "出發；離開",
+        "增加",
+        "修理"
+      ],
+      "answer": 0,
+      "explain": "prepare（v.）＝準備。例句：I need to prepare some slides for the presentation.（我需要為簡報準備一些投影片。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-161",
+      "q": "「準備」（動詞）的英文是？",
+      "options": [
+        "fix",
+        "increase",
+        "depart",
+        "prepare"
+      ],
+      "answer": 3,
+      "explain": "prepare（v.）＝準備。其他選項：fix＝修理；increase＝增加；depart＝出發；離開。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-162",
+      "q": "I need to _____ some slides for the presentation.",
+      "options": [
+        "prevent",
+        "prefer",
+        "prepare",
+        "pretend"
+      ],
+      "answer": 2,
+      "explain": "答案是 prepare。prepare（v.）＝準備。我需要為簡報準備一些投影片。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-163",
+      "q": "「presentation」（n.）的中文意思是？",
+      "options": [
+        "通知；公告",
+        "簡報",
+        "食品雜貨",
+        "費用"
+      ],
+      "answer": 1,
+      "explain": "presentation（n.）＝簡報。例句：Her presentation on sales trends was very clear.（她關於銷售趨勢的簡報非常清楚。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-164",
+      "q": "「簡報」（名詞）的英文是？",
+      "options": [
+        "presentation",
+        "notice",
+        "fee",
+        "groceries"
+      ],
+      "answer": 0,
+      "explain": "presentation（n.）＝簡報。其他選項：groceries＝食品雜貨；notice＝通知；公告；fee＝費用。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-165",
+      "q": "Her _____ on sales trends was very clear.",
+      "options": [
+        "prescription",
+        "possession",
+        "preservation",
+        "presentation"
+      ],
+      "answer": 3,
+      "explain": "答案是 presentation。presentation（n.）＝簡報。她關於銷售趨勢的簡報非常清楚。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-166",
+      "q": "「copies」（n.）的中文意思是？",
+      "options": [
+        "價格",
+        "折扣",
+        "影本；份數",
+        "房東"
+      ],
+      "answer": 2,
+      "explain": "copies（n.）＝影本；份數。例句：Please make ten copies of this document.（請把這份文件影印十份。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-167",
+      "q": "「影本；份數」（名詞）的英文是？",
+      "options": [
+        "landlord",
+        "copies",
+        "price",
+        "discount"
+      ],
+      "answer": 1,
+      "explain": "copies（n.）＝影本；份數。其他選項：landlord＝房東；discount＝折扣；price＝價格。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-168",
+      "q": "Please make ten _____ of this document.",
+      "options": [
+        "copies",
+        "coins",
+        "cops",
+        "cookies"
+      ],
+      "answer": 0,
+      "explain": "答案是 copies。copies（n.）＝影本；份數。請把這份文件影印十份。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-169",
+      "q": "「fix」（v.）的中文意思是？",
+      "options": [
+        "預訂；保留",
+        "申請；應徵",
+        "確認",
+        "修理"
+      ],
+      "answer": 3,
+      "explain": "fix（v.）＝修理。例句：The plumber will come to fix the leaky faucet.（水電工會來修漏水的水龍頭。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-170",
+      "q": "「修理」（動詞）的英文是？",
+      "options": [
+        "confirm",
+        "apply",
+        "fix",
+        "reserve"
+      ],
+      "answer": 2,
+      "explain": "fix（v.）＝修理。其他選項：apply＝申請；應徵；confirm＝確認；reserve＝預訂；保留。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-171",
+      "q": "The plumber will come to _____ the leaky faucet.",
+      "options": [
+        "fill",
+        "fix",
+        "fit",
+        "fold"
+      ],
+      "answer": 1,
+      "explain": "答案是 fix。fix（v.）＝修理。水電工會來修漏水的水龍頭。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-172",
+      "q": "「improve」（v.）的中文意思是？",
+      "options": [
+        "改善",
+        "簽名",
+        "抵達",
+        "借入"
+      ],
+      "answer": 0,
+      "explain": "improve（v.）＝改善。例句：We are trying to improve our customer service.（我們正努力改善客戶服務。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-173",
+      "q": "「改善」（動詞）的英文是？",
+      "options": [
+        "arrive",
+        "borrow",
+        "sign",
+        "improve"
+      ],
+      "answer": 3,
+      "explain": "improve（v.）＝改善。其他選項：sign＝簽名；arrive＝抵達；borrow＝借入。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-174",
+      "q": "We are trying to _____ our customer service.",
+      "options": [
+        "impose",
+        "import",
+        "improve",
+        "impress"
+      ],
+      "answer": 2,
+      "explain": "答案是 improve。improve（v.）＝改善。我們正努力改善客戶服務。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-175",
+      "q": "「increase」（v.）的中文意思是？",
+      "options": [
+        "借出",
+        "增加",
+        "抵達",
+        "取消"
+      ],
+      "answer": 1,
+      "explain": "increase（v.）＝增加。例句：Sales increased by 15 percent last year.（去年銷售額增加了 15%。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-176",
+      "q": "「增加」（動詞）的英文是？",
+      "options": [
+        "increase",
+        "arrive",
+        "lend",
+        "cancel"
+      ],
+      "answer": 0,
+      "explain": "increase（v.）＝增加。其他選項：lend＝借出；arrive＝抵達；cancel＝取消。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-177",
+      "q": "Sales _____ by 15 percent last year.",
+      "options": [
+        "instructed",
+        "inspected",
+        "insisted",
+        "increased"
+      ],
+      "answer": 3,
+      "explain": "答案是 increased。increase（v.）＝增加。去年銷售額增加了 15%。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-178",
+      "q": "「local」（adj.）的中文意思是？",
+      "options": [
+        "擁擠的",
+        "舒適的",
+        "當地的",
+        "方便的"
+      ],
+      "answer": 2,
+      "explain": "local（adj.）＝當地的。例句：We buy our vegetables from local farmers.（我們向當地農民購買蔬菜。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-179",
+      "q": "「當地的」（形容詞）的英文是？",
+      "options": [
+        "comfortable",
+        "local",
+        "convenient",
+        "crowded"
+      ],
+      "answer": 1,
+      "explain": "local（adj.）＝當地的。其他選項：comfortable＝舒適的；convenient＝方便的；crowded＝擁擠的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-180",
+      "q": "We buy our vegetables from _____ farmers.",
+      "options": [
+        "local",
+        "location",
+        "locate",
+        "locally"
+      ],
+      "answer": 0,
+      "explain": "答案是 local。local（adj.）＝當地的。我們向當地農民購買蔬菜。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-181",
+      "q": "「convenient」（adj.）的中文意思是？",
+      "options": [
+        "昂貴的",
+        "當地的",
+        "舒適的",
+        "方便的"
+      ],
+      "answer": 3,
+      "explain": "convenient（adj.）＝方便的。例句：What time is convenient for you?（你什麼時間方便？）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-182",
+      "q": "「方便的」（形容詞）的英文是？",
+      "options": [
+        "expensive",
+        "local",
+        "convenient",
+        "comfortable"
+      ],
+      "answer": 2,
+      "explain": "convenient（adj.）＝方便的。其他選項：comfortable＝舒適的；expensive＝昂貴的；local＝當地的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-183",
+      "q": "What time is _____ for you?",
+      "options": [
+        "convene",
+        "convenient",
+        "convenience",
+        "conveniently"
+      ],
+      "answer": 1,
+      "explain": "答案是 convenient。convenient（adj.）＝方便的。你什麼時間方便？",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-184",
+      "q": "「comfortable」（adj.）的中文意思是？",
+      "options": [
+        "舒適的",
+        "擁擠的",
+        "昂貴的",
+        "可用的；有空的"
+      ],
+      "answer": 0,
+      "explain": "comfortable（adj.）＝舒適的。例句：These shoes are very comfortable for walking.（這雙鞋走起路來很舒適。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-185",
+      "q": "「舒適的」（形容詞）的英文是？",
+      "options": [
+        "crowded",
+        "available",
+        "expensive",
+        "comfortable"
+      ],
+      "answer": 3,
+      "explain": "comfortable（adj.）＝舒適的。其他選項：expensive＝昂貴的；available＝可用的；有空的；crowded＝擁擠的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-186",
+      "q": "These shoes are very _____ for walking.",
+      "options": [
+        "comfort",
+        "comfortably",
+        "comfortable",
+        "comforter"
+      ],
+      "answer": 2,
+      "explain": "答案是 comfortable。comfortable（adj.）＝舒適的。這雙鞋走起路來很舒適。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-187",
+      "q": "「crowded」（adj.）的中文意思是？",
+      "options": [
+        "昂貴的",
+        "擁擠的",
+        "方便的",
+        "舒適的"
+      ],
+      "answer": 1,
+      "explain": "crowded（adj.）＝擁擠的。例句：The subway is always crowded in the morning.（早上地鐵總是很擠。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-188",
+      "q": "「擁擠的」（形容詞）的英文是？",
+      "options": [
+        "crowded",
+        "expensive",
+        "comfortable",
+        "convenient"
+      ],
+      "answer": 0,
+      "explain": "crowded（adj.）＝擁擠的。其他選項：comfortable＝舒適的；convenient＝方便的；expensive＝昂貴的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-189",
+      "q": "The subway is always _____ in the morning.",
+      "options": [
+        "crown",
+        "crowd",
+        "crowds",
+        "crowded"
+      ],
+      "answer": 3,
+      "explain": "答案是 crowded。crowded（adj.）＝擁擠的。早上地鐵總是很擠。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-190",
+      "q": "「expensive」（adj.）的中文意思是？",
+      "options": [
+        "擁擠的",
+        "當地的",
+        "昂貴的",
+        "舒適的"
+      ],
+      "answer": 2,
+      "explain": "expensive（adj.）＝昂貴的。例句：That restaurant is too expensive for a team lunch.（那家餐廳辦團隊午餐太貴了。）",
+      "tags": [
+        "字義",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-191",
+      "q": "「昂貴的」（形容詞）的英文是？",
+      "options": [
+        "comfortable",
+        "expensive",
+        "local",
+        "crowded"
+      ],
+      "answer": 1,
+      "explain": "expensive（adj.）＝昂貴的。其他選項：crowded＝擁擠的；comfortable＝舒適的；local＝當地的。",
+      "tags": [
+        "中翻英",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-192",
+      "q": "That restaurant is too _____ for a team lunch.",
+      "options": [
+        "expensive",
+        "expenses",
+        "expense",
+        "expend"
+      ],
+      "answer": 0,
+      "explain": "答案是 expensive。expensive（adj.）＝昂貴的。那家餐廳辦團隊午餐太貴了。",
+      "tags": [
+        "填空",
+        "形容詞"
+      ]
+    },
+    {
+      "id": "t400-193",
+      "q": "「recently」（adv.）的中文意思是？",
+      "options": [
+        "通常",
+        "立刻",
+        "倉庫",
+        "最近"
+      ],
+      "answer": 3,
+      "explain": "recently（adv.）＝最近。例句：The company recently moved to a larger office.（公司最近搬到更大的辦公室。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-194",
+      "q": "「最近」（副詞）的英文是？",
+      "options": [
+        "usually",
+        "warehouse",
+        "recently",
+        "immediately"
+      ],
+      "answer": 2,
+      "explain": "recently（adv.）＝最近。其他選項：immediately＝立刻；usually＝通常；warehouse＝倉庫。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-195",
+      "q": "The company _____ moved to a larger office.",
+      "options": [
+        "recite",
+        "recently",
+        "receive",
+        "recent"
+      ],
+      "answer": 1,
+      "explain": "答案是 recently。recently（adv.）＝最近。公司最近搬到更大的辦公室。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-196",
+      "q": "「immediately」（adv.）的中文意思是？",
+      "options": [
+        "立刻",
+        "簽名",
+        "通常",
+        "最近"
+      ],
+      "answer": 0,
+      "explain": "immediately（adv.）＝立刻。例句：Please call me immediately if there is a problem.（如果有問題請立刻打給我。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-197",
+      "q": "「立刻」（副詞）的英文是？",
+      "options": [
+        "sign",
+        "usually",
+        "recently",
+        "immediately"
+      ],
+      "answer": 3,
+      "explain": "immediately（adv.）＝立刻。其他選項：recently＝最近；usually＝通常；sign＝簽名。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-198",
+      "q": "Please call me _____ if there is a problem.",
+      "options": [
+        "immediate",
+        "immediacy",
+        "immediately",
+        "immigrate"
+      ],
+      "answer": 2,
+      "explain": "答案是 immediately。immediately（adv.）＝立刻。如果有問題請立刻打給我。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-199",
+      "q": "「usually」（adv.）的中文意思是？",
+      "options": [
+        "最近",
+        "通常",
+        "立刻",
+        "免費"
+      ],
+      "answer": 1,
+      "explain": "usually（adv.）＝通常。例句：I usually take the bus to work.（我通常搭公車上班。）",
+      "tags": [
+        "字義",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-200",
+      "q": "「通常」（副詞）的英文是？",
+      "options": [
+        "usually",
+        "recently",
+        "immediately",
+        "free of charge"
+      ],
+      "answer": 0,
+      "explain": "usually（adv.）＝通常。其他選項：recently＝最近；immediately＝立刻；free of charge＝免費。",
+      "tags": [
+        "中翻英",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-201",
+      "q": "I _____ take the bus to work.",
+      "options": [
+        "use",
+        "useful",
+        "usual",
+        "usually"
+      ],
+      "answer": 3,
+      "explain": "答案是 usually。usually（adv.）＝通常。我通常搭公車上班。",
+      "tags": [
+        "填空",
+        "副詞"
+      ]
+    },
+    {
+      "id": "t400-202",
+      "q": "「rent」（v.）的中文意思是？",
+      "options": [
+        "改善",
+        "訂購；點餐",
+        "租用",
+        "增加"
+      ],
+      "answer": 2,
+      "explain": "rent（v.）＝租用。例句：We decided to rent a car for the trip.（我們決定這趟旅行租一輛車。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-203",
+      "q": "「租用」（動詞）的英文是？",
+      "options": [
+        "improve",
+        "rent",
+        "increase",
+        "order"
+      ],
+      "answer": 1,
+      "explain": "rent（v.）＝租用。其他選項：increase＝增加；order＝訂購；點餐；improve＝改善。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-204",
+      "q": "We decided to _____ a car for the trip.",
+      "options": [
+        "rent",
+        "rely",
+        "remain",
+        "rest"
+      ],
+      "answer": 0,
+      "explain": "答案是 rent。rent（v.）＝租用。我們決定這趟旅行租一輛車。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-205",
+      "q": "「tenant」（n.）的中文意思是？",
+      "options": [
+        "通知；公告",
+        "行李",
+        "總部",
+        "房客；租戶"
+      ],
+      "answer": 3,
+      "explain": "tenant（n.）＝房客；租戶。例句：The landlord asked the tenant to pay the rent on time.（房東要求房客準時繳房租。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-206",
+      "q": "「房客；租戶」（名詞）的英文是？",
+      "options": [
+        "luggage",
+        "headquarters",
+        "tenant",
+        "notice"
+      ],
+      "answer": 2,
+      "explain": "tenant（n.）＝房客；租戶。其他選項：luggage＝行李；headquarters＝總部；notice＝通知；公告。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-207",
+      "q": "The landlord asked the _____ to pay the rent on time.",
+      "options": [
+        "tension",
+        "tenant",
+        "talent",
+        "tendency"
+      ],
+      "answer": 1,
+      "explain": "答案是 tenant。tenant（n.）＝房客；租戶。房東要求房客準時繳房租。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-208",
+      "q": "「landlord」（n.）的中文意思是？",
+      "options": [
+        "房東",
+        "乘客",
+        "發票；請款單",
+        "薪水"
+      ],
+      "answer": 0,
+      "explain": "landlord（n.）＝房東。例句：Call the landlord if the heater stops working.（如果暖氣壞了就打給房東。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-209",
+      "q": "「房東」（名詞）的英文是？",
+      "options": [
+        "passenger",
+        "invoice",
+        "salary",
+        "landlord"
+      ],
+      "answer": 3,
+      "explain": "landlord（n.）＝房東。其他選項：salary＝薪水；invoice＝發票；請款單；passenger＝乘客。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-210",
+      "q": "Call the _____ if the heater stops working.",
+      "options": [
+        "landscape",
+        "landing",
+        "landlord",
+        "landmark"
+      ],
+      "answer": 2,
+      "explain": "答案是 landlord。landlord（n.）＝房東。如果暖氣壞了就打給房東。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-211",
+      "q": "「groceries」（n.）的中文意思是？",
+      "options": [
+        "工廠",
+        "食品雜貨",
+        "簡報",
+        "發票；請款單"
+      ],
+      "answer": 1,
+      "explain": "groceries（n.）＝食品雜貨。例句：I stopped at the supermarket to buy groceries.（我順路到超市買食品雜貨。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-212",
+      "q": "「食品雜貨」（名詞）的英文是？",
+      "options": [
+        "groceries",
+        "factory",
+        "invoice",
+        "presentation"
+      ],
+      "answer": 0,
+      "explain": "groceries（n.）＝食品雜貨。其他選項：presentation＝簡報；invoice＝發票；請款單；factory＝工廠。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-213",
+      "q": "I stopped at the supermarket to buy _____.",
+      "options": [
+        "galleries",
+        "greetings",
+        "glories",
+        "groceries"
+      ],
+      "answer": 3,
+      "explain": "答案是 groceries。groceries（n.）＝食品雜貨。我順路到超市買食品雜貨。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-214",
+      "q": "「ingredient」（n.）的中文意思是？",
+      "options": [
+        "經理",
+        "費用",
+        "材料；成分",
+        "乘客"
+      ],
+      "answer": 2,
+      "explain": "ingredient（n.）＝材料；成分。例句：Flour is the main ingredient in bread.（麵粉是麵包的主要成分。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-215",
+      "q": "「材料；成分」（名詞）的英文是？",
+      "options": [
+        "manager",
+        "ingredient",
+        "fee",
+        "passenger"
+      ],
+      "answer": 1,
+      "explain": "ingredient（n.）＝材料；成分。其他選項：fee＝費用；manager＝經理；passenger＝乘客。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-216",
+      "q": "Flour is the main _____ in bread.",
+      "options": [
+        "ingredient",
+        "incident",
+        "instrument",
+        "intention"
+      ],
+      "answer": 0,
+      "explain": "答案是 ingredient。ingredient（n.）＝材料；成分。麵粉是麵包的主要成分。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-217",
+      "q": "「recipe」（n.）的中文意思是？",
+      "options": [
+        "廣告",
+        "運送的貨物",
+        "小冊子；手冊",
+        "食譜"
+      ],
+      "answer": 3,
+      "explain": "recipe（n.）＝食譜。例句：This cake recipe calls for three eggs.（這個蛋糕食譜需要三顆蛋。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-218",
+      "q": "「食譜」（名詞）的英文是？",
+      "options": [
+        "brochure",
+        "advertisement",
+        "recipe",
+        "shipment"
+      ],
+      "answer": 2,
+      "explain": "recipe（n.）＝食譜。其他選項：brochure＝小冊子；手冊；shipment＝運送的貨物；advertisement＝廣告。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-219",
+      "q": "This cake _____ calls for three eggs.",
+      "options": [
+        "receipt",
+        "recipe",
+        "reception",
+        "recital"
+      ],
+      "answer": 1,
+      "explain": "答案是 recipe。recipe（n.）＝食譜。這個蛋糕食譜需要三顆蛋。 其他選項：receipt＝收據；reception＝接待處；櫃檯。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-220",
+      "q": "「register」（v.）的中文意思是？",
+      "options": [
+        "登記；報名",
+        "修理",
+        "預訂；保留",
+        "遞送；交付"
+      ],
+      "answer": 0,
+      "explain": "register（v.）＝登記；報名。例句：You must register online before the workshop.（研討會前你必須先在網路上報名。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-221",
+      "q": "「登記；報名」（動詞）的英文是？",
+      "options": [
+        "deliver",
+        "reserve",
+        "fix",
+        "register"
+      ],
+      "answer": 3,
+      "explain": "register（v.）＝登記；報名。其他選項：reserve＝預訂；保留；deliver＝遞送；交付；fix＝修理。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-222",
+      "q": "You must _____ online before the workshop.",
+      "options": [
+        "regard",
+        "regret",
+        "register",
+        "regulate"
+      ],
+      "answer": 2,
+      "explain": "答案是 register。register（v.）＝登記；報名。研討會前你必須先在網路上報名。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-223",
+      "q": "「form」（n.）的中文意思是？",
+      "options": [
+        "運送的貨物",
+        "表格",
+        "用品；補給品",
+        "員工"
+      ],
+      "answer": 1,
+      "explain": "form（n.）＝表格。例句：Please fill out this form and return it to the front desk.（請填寫這張表格並交回櫃檯。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-224",
+      "q": "「表格」（名詞）的英文是？",
+      "options": [
+        "form",
+        "shipment",
+        "employee",
+        "supplies"
+      ],
+      "answer": 0,
+      "explain": "form（n.）＝表格。其他選項：employee＝員工；shipment＝運送的貨物；supplies＝用品；補給品。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-225",
+      "q": "Please fill out this _____ and return it to the front desk.",
+      "options": [
+        "fort",
+        "farm",
+        "foam",
+        "form"
+      ],
+      "answer": 3,
+      "explain": "答案是 form。form（n.）＝表格。請填寫這張表格並交回櫃檯。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-226",
+      "q": "「sign」（v.）的中文意思是？",
+      "options": [
+        "申請；應徵",
+        "出發；離開",
+        "簽名",
+        "借出"
+      ],
+      "answer": 2,
+      "explain": "sign（v.）＝簽名。例句：Please sign your name at the bottom of the page.（請在頁面底部簽名。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-227",
+      "q": "「簽名」（動詞）的英文是？",
+      "options": [
+        "apply",
+        "sign",
+        "depart",
+        "lend"
+      ],
+      "answer": 1,
+      "explain": "sign（v.）＝簽名。其他選項：lend＝借出；apply＝申請；應徵；depart＝出發；離開。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-228",
+      "q": "Please _____ your name at the bottom of the page.",
+      "options": [
+        "sign",
+        "sing",
+        "sigh",
+        "sink"
+      ],
+      "answer": 0,
+      "explain": "答案是 sign。sign（v.）＝簽名。請在頁面底部簽名。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-229",
+      "q": "「contract」（n.）的中文意思是？",
+      "options": [
+        "通知；公告",
+        "分公司；分店",
+        "面試",
+        "合約"
+      ],
+      "answer": 3,
+      "explain": "contract（n.）＝合約。例句：Both parties signed the contract yesterday.（雙方昨天簽了合約。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-230",
+      "q": "「合約」（名詞）的英文是？",
+      "options": [
+        "branch",
+        "notice",
+        "contract",
+        "interview"
+      ],
+      "answer": 2,
+      "explain": "contract（n.）＝合約。其他選項：notice＝通知；公告；branch＝分公司；分店；interview＝面試。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-231",
+      "q": "Both parties signed the _____ yesterday.",
+      "options": [
+        "contrast",
+        "contract",
+        "contact",
+        "context"
+      ],
+      "answer": 1,
+      "explain": "答案是 contract。contract（n.）＝合約。雙方昨天簽了合約。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-232",
+      "q": "「branch」（n.）的中文意思是？",
+      "options": [
+        "分公司；分店",
+        "食品雜貨",
+        "產品",
+        "顧客"
+      ],
+      "answer": 0,
+      "explain": "branch（n.）＝分公司；分店。例句：The bank is opening a new branch downtown.（銀行正在市中心開設新分行。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-233",
+      "q": "「分公司；分店」（名詞）的英文是？",
+      "options": [
+        "product",
+        "customer",
+        "groceries",
+        "branch"
+      ],
+      "answer": 3,
+      "explain": "branch（n.）＝分公司；分店。其他選項：customer＝顧客；groceries＝食品雜貨；product＝產品。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-234",
+      "q": "The bank is opening a new _____ downtown.",
+      "options": [
+        "bench",
+        "brunch",
+        "branch",
+        "beach"
+      ],
+      "answer": 2,
+      "explain": "答案是 branch。branch（n.）＝分公司；分店。銀行正在市中心開設新分行。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-235",
+      "q": "「headquarters」（n.）的中文意思是？",
+      "options": [
+        "假期",
+        "總部",
+        "費用",
+        "顧客"
+      ],
+      "answer": 1,
+      "explain": "headquarters（n.）＝總部。例句：The company's headquarters is located in Taipei.（公司總部位於台北。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-236",
+      "q": "「總部」（名詞）的英文是？",
+      "options": [
+        "headquarters",
+        "fee",
+        "customer",
+        "vacation"
+      ],
+      "answer": 0,
+      "explain": "headquarters（n.）＝總部。其他選項：fee＝費用；customer＝顧客；vacation＝假期。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-237",
+      "q": "The company's _____ is located in Taipei.",
+      "options": [
+        "headphones",
+        "headaches",
+        "headlines",
+        "headquarters"
+      ],
+      "answer": 3,
+      "explain": "答案是 headquarters。headquarters（n.）＝總部。公司總部位於台北。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-238",
+      "q": "「factory」（n.）的中文意思是？",
+      "options": [
+        "行李",
+        "表格",
+        "工廠",
+        "食品雜貨"
+      ],
+      "answer": 2,
+      "explain": "factory（n.）＝工廠。例句：The factory produces 500 cars a day.（這座工廠每天生產 500 輛車。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-239",
+      "q": "「工廠」（名詞）的英文是？",
+      "options": [
+        "luggage",
+        "factory",
+        "form",
+        "groceries"
+      ],
+      "answer": 1,
+      "explain": "factory（n.）＝工廠。其他選項：form＝表格；groceries＝食品雜貨；luggage＝行李。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-240",
+      "q": "The _____ produces 500 cars a day.",
+      "options": [
+        "factory",
+        "fact",
+        "factor",
+        "faculty"
+      ],
+      "answer": 0,
+      "explain": "答案是 factory。factory（n.）＝工廠。這座工廠每天生產 500 輛車。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-241",
+      "q": "「warehouse」（n.）的中文意思是？",
+      "options": [
+        "退款",
+        "總部",
+        "員工",
+        "倉庫"
+      ],
+      "answer": 3,
+      "explain": "warehouse（n.）＝倉庫。例句：Extra stock is kept in the warehouse.（多出來的庫存存放在倉庫。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-242",
+      "q": "「倉庫」（名詞）的英文是？",
+      "options": [
+        "headquarters",
+        "refund",
+        "warehouse",
+        "employee"
+      ],
+      "answer": 2,
+      "explain": "warehouse（n.）＝倉庫。其他選項：refund＝退款；employee＝員工；headquarters＝總部。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-243",
+      "q": "Extra stock is kept in the _____.",
+      "options": [
+        "welfare",
+        "warehouse",
+        "warfare",
+        "warmth"
+      ],
+      "answer": 1,
+      "explain": "答案是 warehouse。warehouse（n.）＝倉庫。多出來的庫存存放在倉庫。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-244",
+      "q": "「shipment」（n.）的中文意思是？",
+      "options": [
+        "運送的貨物",
+        "折扣",
+        "倉庫",
+        "通知；公告"
+      ],
+      "answer": 0,
+      "explain": "shipment（n.）＝運送的貨物。例句：The shipment of laptops will arrive on Thursday.（這批筆電將於星期四到貨。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-245",
+      "q": "「運送的貨物」（名詞）的英文是？",
+      "options": [
+        "discount",
+        "warehouse",
+        "notice",
+        "shipment"
+      ],
+      "answer": 3,
+      "explain": "shipment（n.）＝運送的貨物。其他選項：notice＝通知；公告；discount＝折扣；warehouse＝倉庫。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-246",
+      "q": "The _____ of laptops will arrive on Thursday.",
+      "options": [
+        "settlement",
+        "statement",
+        "shipment",
+        "sentiment"
+      ],
+      "answer": 2,
+      "explain": "答案是 shipment。shipment（n.）＝運送的貨物。這批筆電將於星期四到貨。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-247",
+      "q": "「inform」（v.）的中文意思是？",
+      "options": [
+        "修理",
+        "通知",
+        "出席；參加",
+        "申請；應徵"
+      ],
+      "answer": 1,
+      "explain": "inform（v.）＝通知。例句：Please inform us of any changes to your address.（若地址有任何變動請通知我們。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-248",
+      "q": "「通知」（動詞）的英文是？",
+      "options": [
+        "inform",
+        "fix",
+        "attend",
+        "apply"
+      ],
+      "answer": 0,
+      "explain": "inform（v.）＝通知。其他選項：attend＝出席；參加；fix＝修理；apply＝申請；應徵。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-249",
+      "q": "Please _____ us of any changes to your address.",
+      "options": [
+        "conform",
+        "perform",
+        "reform",
+        "inform"
+      ],
+      "answer": 3,
+      "explain": "答案是 inform。inform（v.）＝通知。若地址有任何變動請通知我們。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-250",
+      "q": "「notice」（n.）的中文意思是？",
+      "options": [
+        "用品；補給品",
+        "收據",
+        "通知；公告",
+        "退款"
+      ],
+      "answer": 2,
+      "explain": "notice（n.）＝通知；公告。例句：The notice on the board says the office will close early.（佈告欄上的公告說辦公室會提早關門。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-251",
+      "q": "「通知；公告」（名詞）的英文是？",
+      "options": [
+        "supplies",
+        "notice",
+        "refund",
+        "receipt"
+      ],
+      "answer": 1,
+      "explain": "notice（n.）＝通知；公告。其他選項：receipt＝收據；supplies＝用品；補給品；refund＝退款。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-252",
+      "q": "The _____ on the board says the office will close early.",
+      "options": [
+        "notice",
+        "notion",
+        "nature",
+        "novel"
+      ],
+      "answer": 0,
+      "explain": "答案是 notice。notice（n.）＝通知；公告。佈告欄上的公告說辦公室會提早關門。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-253",
+      "q": "「announce」（v.）的中文意思是？",
+      "options": [
+        "增加",
+        "協助",
+        "訂購；點餐",
+        "宣布"
+      ],
+      "answer": 3,
+      "explain": "announce（v.）＝宣布。例句：The CEO will announce the new plan at the meeting.（執行長會在會議上宣布新計畫。）",
+      "tags": [
+        "字義",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-254",
+      "q": "「宣布」（動詞）的英文是？",
+      "options": [
+        "order",
+        "assist",
+        "announce",
+        "increase"
+      ],
+      "answer": 2,
+      "explain": "announce（v.）＝宣布。其他選項：order＝訂購；點餐；assist＝協助；increase＝增加。",
+      "tags": [
+        "中翻英",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-255",
+      "q": "The CEO will _____ the new plan at the meeting.",
+      "options": [
+        "amount",
+        "announce",
+        "pronounce",
+        "renounce"
+      ],
+      "answer": 1,
+      "explain": "答案是 announce。announce（v.）＝宣布。執行長會在會議上宣布新計畫。",
+      "tags": [
+        "填空",
+        "動詞"
+      ]
+    },
+    {
+      "id": "t400-256",
+      "q": "「vacation」（n.）的中文意思是？",
+      "options": [
+        "假期",
+        "收據",
+        "現金",
+        "薪水"
+      ],
+      "answer": 0,
+      "explain": "vacation（n.）＝假期。例句：She is on vacation until next Wednesday.（她休假到下週三。）",
+      "tags": [
+        "字義",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-257",
+      "q": "「假期」（名詞）的英文是？",
+      "options": [
+        "receipt",
+        "salary",
+        "cash",
+        "vacation"
+      ],
+      "answer": 3,
+      "explain": "vacation（n.）＝假期。其他選項：salary＝薪水；receipt＝收據；cash＝現金。",
+      "tags": [
+        "中翻英",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-258",
+      "q": "She is on _____ until next Wednesday.",
+      "options": [
+        "vocation",
+        "variation",
+        "vacation",
+        "vaccination"
+      ],
+      "answer": 2,
+      "explain": "答案是 vacation。vacation（n.）＝假期。她休假到下週三。",
+      "tags": [
+        "填空",
+        "名詞"
+      ]
+    },
+    {
+      "id": "t400-259",
+      "q": "「sick leave」（phr.）的中文意思是？",
+      "options": [
+        "準時",
+        "病假",
+        "故障",
+        "免費"
+      ],
+      "answer": 1,
+      "explain": "sick leave（phr.）＝病假。例句：He is on sick leave today because he has a fever.（他今天請病假，因為發燒了。）",
+      "tags": [
+        "字義",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-260",
+      "q": "「病假」（片語）的英文是？",
+      "options": [
+        "sick leave",
+        "out of order",
+        "free of charge",
+        "on time"
+      ],
+      "answer": 0,
+      "explain": "sick leave（phr.）＝病假。其他選項：out of order＝故障；free of charge＝免費；on time＝準時。",
+      "tags": [
+        "中翻英",
+        "片語"
+      ]
+    },
+    {
+      "id": "t400-261",
+      "q": "He is on _____ today because he has a fever.",
+      "options": [
+        "leaves",
+        "sickness",
+        "day off",
+        "sick leave"
+      ],
+      "answer": 3,
+      "explain": "答案是 sick leave。sick leave（phr.）＝病假。他今天請病假，因為發燒了。",
+      "tags": [
+        "填空",
+        "片語"
+      ]
+    }
+  ]
+}
