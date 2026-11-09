@@ -1,0 +1,472 @@
+{
+  "questions": [
+    {
+      "id": "py4-001",
+      "q": "在 Python 中，單行註解使用哪個符號開頭？",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answer": 0,
+      "explain": "# 之後到行尾都是註解，直譯器會忽略。// 是 Python 的整數除法運算子。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-002",
+      "q": "函式的 docstring 應該寫在哪裡？",
+      "options": [
+        "def 那一行的下一行，作為函式本體的第一個敘述",
+        "def 那一行的上一行",
+        "函式的最後一行",
+        "任何位置都可以，只要用三引號"
+      ],
+      "answer": 0,
+      "explain": "docstring 必須是模組、類別或函式本體的第一個字串，才會被存進 __doc__，help() 與 pydoc 才讀得到。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-003",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def area(r):\n    \"\"\"計算圓面積。\"\"\"\n    return 3.14 * r * r\n\nprint(area.__doc__)",
+      "options": [
+        "None",
+        "計算圓面積。",
+        "area",
+        "3.14 * r * r"
+      ],
+      "answer": 1,
+      "explain": "寫在函式第一行的字串會成為 __doc__ 屬性，可以用 help(area) 或 area.__doc__ 查看。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-004",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def f():\n    # 這是一般註解\n    return 1\n\nprint(f.__doc__)",
+      "options": [
+        "# 這是一般註解",
+        "這是一般註解",
+        "None",
+        "1"
+      ],
+      "answer": 2,
+      "explain": "# 開頭的是一般註解，不會成為 docstring，所以 __doc__ 是 None。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-005",
+      "q": "要從命令列查看某個模組（例如 math）的說明文件，可以使用哪個指令？",
+      "options": [
+        "python -m doc math",
+        "python --help math",
+        "pip show math",
+        "python -m pydoc math"
+      ],
+      "answer": 3,
+      "explain": "pydoc 會讀取模組、類別、函式的 docstring 產生說明文件；python -m pydoc -w 模組名 還能輸出成 HTML。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-006",
+      "type": "truefalse",
+      "q": "以三引號包住、但沒有指派給變數的多行字串，常被拿來當作多行註解使用。",
+      "answer": true,
+      "explain": "Python 沒有專門的多行註解語法。沒有指派的字串只是被計算後丟棄；放在函式第一行則成為 docstring。",
+      "tags": [
+        "註解與 docstring"
+      ]
+    },
+    {
+      "id": "py4-007",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def greet():\n    print(\"Hi\")\n      print(\"Bye\")\ngreet()",
+      "options": [
+        "Hi\nBye",
+        "Hi",
+        "拋出 NameError",
+        "拋出 IndentationError"
+      ],
+      "answer": 3,
+      "explain": "同一個程式區塊內的縮排必須一致。第三行多縮了兩格，會拋出 IndentationError。",
+      "tags": [
+        "縮排與程式結構"
+      ]
+    },
+    {
+      "id": "py4-008",
+      "q": "PEP 8 建議一層縮排使用幾個空白？",
+      "options": [
+        "2 個空白",
+        "4 個空白",
+        "1 個 Tab 加 2 個空白",
+        "8 個空白"
+      ],
+      "answer": 1,
+      "explain": "PEP 8 建議每層縮排 4 個空白，且不要混用 Tab 與空白。",
+      "tags": [
+        "縮排與程式結構"
+      ]
+    },
+    {
+      "id": "py4-009",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 5\nif x > 3:\n    print(\"A\")\nprint(\"B\")\nif x > 10:\n    print(\"C\")\nprint(\"D\")",
+      "options": [
+        "A\nB\nD",
+        "A\nB\nC\nD",
+        "A",
+        "B\nD"
+      ],
+      "answer": 0,
+      "explain": "沒有縮排的 print 不屬於 if 區塊，無論條件如何都會執行。x > 10 不成立，所以只略過 C。",
+      "tags": [
+        "縮排與程式結構"
+      ]
+    },
+    {
+      "id": "py4-010",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def todo():\n\nprint(\"完成\")",
+      "options": [
+        "完成",
+        "拋出 IndentationError",
+        "（沒有輸出）",
+        "拋出 NameError"
+      ],
+      "answer": 1,
+      "explain": "函式本體不能是空的，會拋出 IndentationError（expected an indented block）。還沒寫好的函式可以先放 pass。",
+      "tags": [
+        "縮排與程式結構"
+      ]
+    },
+    {
+      "id": "py4-011",
+      "q": "關於 if __name__ == \"__main__\": 的用途，何者正確？",
+      "options": [
+        "讓檔案只能被 import",
+        "宣告主程式的進入點，沒有它程式無法執行",
+        "讓函式可以被其他檔案呼叫",
+        "檔案被直接執行時才會執行該區塊，被 import 時不會執行"
+      ],
+      "answer": 3,
+      "explain": "直接執行時 __name__ 是 \"__main__\"；被 import 時 __name__ 是模組名稱。常用來放測試或主程式。",
+      "tags": [
+        "縮排與程式結構"
+      ]
+    },
+    {
+      "id": "py4-012",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def show():\n    print(\"in show\")\n\nprint(\"start\")\nshow()\nshow\nprint(\"end\")",
+      "options": [
+        "start\nin show\nin show\nend",
+        "in show\nstart\nend",
+        "start\nend",
+        "start\nin show\nend"
+      ],
+      "answer": 3,
+      "explain": "def 只是定義函式，不會執行。加上括號 show() 才是呼叫；只寫 show 不會執行函式。",
+      "tags": [
+        "函式定義與呼叫"
+      ]
+    },
+    {
+      "id": "py4-013",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "say_hi()\n\ndef say_hi():\n    print(\"Hi\")",
+      "options": [
+        "拋出 NameError",
+        "Hi",
+        "（沒有輸出）",
+        "拋出 SyntaxError"
+      ],
+      "answer": 0,
+      "explain": "Python 由上往下執行，呼叫時 say_hi 還沒被定義，會拋出 NameError。函式必須先定義再呼叫。",
+      "tags": [
+        "函式定義與呼叫"
+      ]
+    },
+    {
+      "id": "py4-014",
+      "q": "下列哪一個函式定義的語法正確？",
+      "options": [
+        "def add(a, b)",
+        "function add(a, b):",
+        "def add(a, b):",
+        "def add[a, b]:"
+      ],
+      "answer": 2,
+      "explain": "def 函式名稱(參數): 最後一定要有冒號，下一行開始縮排撰寫本體。",
+      "tags": [
+        "函式定義與呼叫"
+      ]
+    },
+    {
+      "id": "py4-015",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def square(n):\n    return n * n\n\nprint(square(square(2)))",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "256"
+      ],
+      "answer": 2,
+      "explain": "先算內層 square(2) = 4，再算 square(4) = 16。",
+      "tags": [
+        "函式定義與呼叫"
+      ]
+    },
+    {
+      "id": "py4-016",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def power(base, exp=2):\n    return base ** exp\n\nprint(power(3), power(3, 3), power(exp=0, base=9))",
+      "options": [
+        "9 9 9",
+        "6 9 0",
+        "3 27 1",
+        "9 27 1"
+      ],
+      "answer": 3,
+      "explain": "exp 沒給就用預設值 2；用關鍵字引數時順序可以調換。9 ** 0 = 1。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-017",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def f(a=1, b):\n    return a + b",
+      "options": [
+        "定義成功",
+        "拋出 SyntaxError",
+        "回傳 None",
+        "拋出 TypeError"
+      ],
+      "answer": 1,
+      "explain": "有預設值的參數必須放在沒有預設值的參數後面，否則是 SyntaxError。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-018",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def info(name, age):\n    print(name, age)\n\ninfo(\"Amy\")",
+      "options": [
+        "Amy None",
+        "Amy",
+        "拋出 TypeError",
+        "Amy 0"
+      ],
+      "answer": 2,
+      "explain": "呼叫時少給了必要參數 age，會拋出 TypeError（missing 1 required positional argument）。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-019",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def add_item(item, box=[]):\n    box.append(item)\n    return box\n\nadd_item(\"a\")\nprint(add_item(\"b\"))",
+      "options": [
+        "['b']",
+        "['a', 'b']",
+        "['a']",
+        "拋出 TypeError"
+      ],
+      "answer": 1,
+      "explain": "預設值只在定義函式時建立一次。可變的預設值（串列）會在多次呼叫之間共用。正確寫法是 box=None，再在函式內 if box is None: box = []。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-020",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def total(*nums):\n    return sum(nums)\n\nprint(total(), total(1, 2, 3))",
+      "options": [
+        "拋出 TypeError",
+        "0 6",
+        "None 6",
+        "0 [1, 2, 3]"
+      ],
+      "answer": 1,
+      "explain": "*nums 把多個位置引數收集成 tuple，沒有傳也可以（空 tuple）。sum(()) 為 0。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-021",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def show(a, b=2, c=3):\n    print(a, b, c)\n\nshow(1, c=5)",
+      "options": [
+        "1 5 3",
+        "1 2 5",
+        "1 2 3",
+        "拋出 TypeError"
+      ],
+      "answer": 1,
+      "explain": "b 沒給用預設值 2；c 用關鍵字引數指定為 5。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-022",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def f(x):\n    if x > 0:\n        return \"正\"\n    print(\"非正\")\n\nprint(f(5))\nprint(f(-1))",
+      "options": [
+        "正\n非正",
+        "正\n非正\n非正",
+        "正\n拋出錯誤",
+        "正\n非正\nNone"
+      ],
+      "answer": 3,
+      "explain": "return 會立刻結束函式。f(-1) 沒有執行到 return，印出「非正」後回傳 None。",
+      "tags": [
+        "回傳值"
+      ]
+    },
+    {
+      "id": "py4-023",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def stats(nums):\n    return min(nums), max(nums)\n\nlo, hi = stats([4, 9, 1])\nprint(lo, hi, type(stats([1])).__name__)",
+      "options": [
+        "1 9 tuple",
+        "4 9 list",
+        "1 9 list",
+        "9 1 tuple"
+      ],
+      "answer": 0,
+      "explain": "return a, b 會回傳一個 tuple，可以用多個變數拆開接收。",
+      "tags": [
+        "回傳值"
+      ]
+    },
+    {
+      "id": "py4-024",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def f():\n    return 1\n    return 2\n\nprint(f())",
+      "options": [
+        "2",
+        "1",
+        "1 2",
+        "拋出 SyntaxError"
+      ],
+      "answer": 1,
+      "explain": "第一個 return 執行後函式就結束了，之後的程式碼永遠不會執行。",
+      "tags": [
+        "回傳值"
+      ]
+    },
+    {
+      "id": "py4-025",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "result = print(\"Hi\")\nprint(result)",
+      "options": [
+        "Hi\nHi",
+        "Hi",
+        "（沒有輸出）",
+        "Hi\nNone"
+      ],
+      "answer": 3,
+      "explain": "print() 本身沒有 return 值，所以回傳 None。沒有 return 的函式都回傳 None。",
+      "tags": [
+        "回傳值"
+      ]
+    },
+    {
+      "id": "py4-026",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 10\ndef change():\n    x = 20\n    print(x, end=\" \")\n\nchange()\nprint(x)",
+      "options": [
+        "20 20",
+        "20 10",
+        "10 10",
+        "拋出 UnboundLocalError"
+      ],
+      "answer": 1,
+      "explain": "函式內指派 x 會建立一個新的區域變數，不影響外面的全域變數 x。",
+      "tags": [
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "py4-027",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 10\ndef change():\n    global x\n    x = 20\n\nchange()\nprint(x)",
+      "options": [
+        "20",
+        "10",
+        "拋出 NameError",
+        "None"
+      ],
+      "answer": 0,
+      "explain": "宣告 global x 之後，函式內的 x 就是全域變數，修改會反映到外面。",
+      "tags": [
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "py4-028",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "count = 0\ndef inc():\n    count += 1\n\ninc()\nprint(count)",
+      "options": [
+        "1",
+        "0",
+        "拋出 NameError",
+        "拋出 UnboundLocalError"
+      ],
+      "answer": 3,
+      "explain": "函式內對 count 指派，Python 就把它當成區域變數；但 += 需要先讀取它的值，而區域的 count 還沒有值，所以拋出 UnboundLocalError。加上 global count 才能修改全域變數。",
+      "tags": [
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "py4-029",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def f():\n    secret = 42\n\nf()\nprint(secret)",
+      "options": [
+        "42",
+        "None",
+        "拋出 UnboundLocalError",
+        "拋出 NameError"
+      ],
+      "answer": 3,
+      "explain": "secret 是 f 的區域變數，函式結束就消失，在外面使用會拋出 NameError。",
+      "tags": [
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "py4-030",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 5\ndef show():\n    print(x)\n\nx = 7\nshow()",
+      "options": [
+        "5",
+        "拋出 NameError",
+        "7",
+        "None"
+      ],
+      "answer": 2,
+      "explain": "函式內只讀取、沒有指派 x，就會使用全域變數。呼叫時 x 已經改成 7。",
+      "tags": [
+        "變數範圍"
+      ]
+    }
+  ]
+}

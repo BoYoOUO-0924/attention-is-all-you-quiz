@@ -142,6 +142,9 @@ export function courseView(S, ctx, course) {
 }
 
 /* ---------- 作答 ---------- */
+// 題目附的程式碼（選填的 code 欄位），保留縮排與換行
+const codeHtml = q => q.code ? `<pre class="qcode"><code>${esc(q.code)}</code></pre>` : "";
+
 export function optsHtml(q, it, pick, reveal) {
   return it.perm.map((oi, di) => {
     let cls = "opt", mark = "";
@@ -150,7 +153,7 @@ export function optsHtml(q, it, pick, reveal) {
       else if (di === pick) { cls += " wrong"; mark = "你的答案"; }
     } else if (di === pick) cls += " sel";
     return `<button type="button" class="${cls}" data-act="pick" data-i="${di}" aria-pressed="${di === pick}" ${reveal ? "disabled" : ""}>
-      <span class="bub">${LETTERS[di]}</span><span class="txt">${esc(q.options[oi])}</span>${mark ? `<span class="mark">${mark}</span>` : ""}</button>`;
+      <span class="bub">${LETTERS[di]}</span><span class="txt${q.code || q.options[oi].includes("\n") ? " code" : ""}">${esc(q.options[oi])}</span>${mark ? `<span class="mark">${mark}</span>` : ""}</button>`;
   }).join("");
 }
 
@@ -192,6 +195,7 @@ export function quizView(S, ctx, course) {
         ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
         ${q.type === "truefalse" ? `<span class="tag">是非題</span>` : ""}</div>
       <h2 class="qtext">${esc(q.q)}</h2>
+      ${codeHtml(q)}
       <div class="opts">${optsHtml(q, it, pick, reveal)}</div>
       ${fb}
       <div class="qnav">
@@ -266,6 +270,7 @@ export function resultView(S, ctx, course) {
             ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
             <span class="tag">${ok ? "答對" : p === null ? "未作答" : "答錯"}</span></div>
           <h3 class="qtext">${esc(q.q)}</h3>
+          ${codeHtml(q)}
           <div class="opts">${optsHtml(q, it, p, true)}</div>
           ${q.explain ? `<div class="explain"><b>解析</b>${esc(q.explain)}</div>` : ""}
         </article>`;

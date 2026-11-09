@@ -12,6 +12,9 @@
     },
     {
       "path": "courses/toeic-vocab/course.json"
+    },
+    {
+      "path": "courses/its-python/course.json"
     }
   ]
 }

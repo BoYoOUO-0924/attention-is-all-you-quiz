@@ -1,0 +1,479 @@
+{
+  "questions": [
+    {
+      "id": "py5-001",
+      "q": "程式可以執行、沒有出現錯誤訊息，但計算結果不正確，這屬於哪一種錯誤？",
+      "options": [
+        "語法錯誤（syntax error）",
+        "執行期錯誤（runtime error）",
+        "縮排錯誤（indentation error）",
+        "邏輯錯誤（logic error）"
+      ],
+      "answer": 3,
+      "explain": "邏輯錯誤不會讓程式停止，只會得到錯誤的結果，最難發現，通常要靠測試或除錯找出。",
+      "tags": [
+        "語法、執行期與邏輯錯誤"
+      ]
+    },
+    {
+      "id": "py5-002",
+      "q": "下列程式碼想計算平均，但結果錯誤。錯誤的原因是？",
+      "code": "a, b, c = 80, 90, 70\navg = a + b + c / 3\nprint(avg)",
+      "options": [
+        "/ 會做整數除法",
+        "運算子優先順序：只有 c 被除以 3，應寫成 (a + b + c) / 3",
+        "變數名稱不能是單一字母",
+        "缺少 return 時 avg 不會被指派"
+      ],
+      "answer": 1,
+      "explain": "除法優先於加法，a + b + c / 3 等於 a + b + (c / 3)。這是典型的邏輯錯誤。",
+      "tags": [
+        "語法、執行期與邏輯錯誤"
+      ]
+    },
+    {
+      "id": "py5-003",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "if True\n    print(\"ok\")",
+      "options": [
+        "ok",
+        "拋出 SyntaxError",
+        "（沒有輸出）",
+        "拋出 NameError"
+      ],
+      "answer": 1,
+      "explain": "if 敘述最後少了冒號，屬於語法錯誤，程式在執行前就會被拒絕，拋出 SyntaxError。",
+      "tags": [
+        "語法、執行期與邏輯錯誤"
+      ]
+    },
+    {
+      "id": "py5-004",
+      "q": "下列程式要印出 1 到 5 的總和，但結果是 10。應如何修正？",
+      "code": "total = 0\nfor i in range(1, 5):\n    total += i\nprint(total)",
+      "options": [
+        "把 total = 0 改成 total = 1",
+        "把 range(1, 5) 改成 range(1, 6)",
+        "把 += 改成 =+",
+        "把 print 移進迴圈內"
+      ],
+      "answer": 1,
+      "explain": "range 不含終點，range(1, 5) 只有 1 到 4。這種「差一」（off-by-one）是很常見的邏輯錯誤。",
+      "tags": [
+        "語法、執行期與邏輯錯誤"
+      ]
+    },
+    {
+      "id": "py5-005",
+      "type": "truefalse",
+      "q": "語法錯誤（SyntaxError）可以用 try / except 包住同一段程式碼來攔截。",
+      "answer": false,
+      "explain": "語法錯誤在程式開始執行前、解析階段就發生了，try 根本還沒執行，所以攔不到。",
+      "tags": [
+        "語法、執行期與邏輯錯誤"
+      ]
+    },
+    {
+      "id": "py5-006",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "nums = [1, 2, 3]\nprint(nums[3])",
+      "options": [
+        "拋出 IndexError",
+        "3",
+        "None",
+        "拋出 KeyError"
+      ],
+      "answer": 0,
+      "explain": "串列只有索引 0 到 2，nums[3] 超出範圍，拋出 IndexError。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-007",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "d = {\"a\": 1}\nprint(d[\"b\"])",
+      "options": [
+        "拋出 KeyError",
+        "None",
+        "拋出 IndexError",
+        "拋出 NameError"
+      ],
+      "answer": 0,
+      "explain": "字典沒有這個鍵時拋出 KeyError。不確定鍵是否存在可以用 d.get(\"b\")，找不到會回傳 None。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-008",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "print(total_score)",
+      "options": [
+        "0",
+        "拋出 NameError",
+        "None",
+        "拋出 KeyError"
+      ],
+      "answer": 1,
+      "explain": "使用尚未定義的變數會拋出 NameError，常見原因是拼錯變數名稱。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-009",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "print(len(5))",
+      "options": [
+        "1",
+        "5",
+        "拋出 TypeError",
+        "拋出 ValueError"
+      ],
+      "answer": 2,
+      "explain": "int 沒有長度，傳入不支援的型別會拋出 TypeError。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-010",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "x = \"abc\"\nx.append(\"d\")",
+      "options": [
+        "拋出 AttributeError",
+        "abcd",
+        "拋出 TypeError",
+        "拋出 NameError"
+      ],
+      "answer": 0,
+      "explain": "str 物件沒有 append 方法，存取不存在的屬性或方法會拋出 AttributeError。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-011",
+      "q": "int(\"abc\") 和 int([1]) 分別會拋出哪種例外？",
+      "options": [
+        "TypeError、TypeError",
+        "ValueError、ValueError",
+        "ValueError、TypeError",
+        "TypeError、ValueError"
+      ],
+      "answer": 2,
+      "explain": "型別對但值不合法（字串的內容無法轉成整數）是 ValueError；型別本身就不支援（串列不能轉 int）是 TypeError。",
+      "tags": [
+        "常見例外類型"
+      ]
+    },
+    {
+      "id": "py5-012",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    x = 10 / 0\n    print(\"A\")\nexcept ZeroDivisionError:\n    print(\"B\")\nprint(\"C\")",
+      "options": [
+        "B\nC",
+        "A\nC",
+        "A\nB\nC",
+        "B"
+      ],
+      "answer": 0,
+      "explain": "第一行就出錯，try 區塊剩下的程式不會執行，直接跳到對應的 except。處理完後程式繼續往下執行。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-013",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    n = int(\"x\")\nexcept ZeroDivisionError:\n    print(\"除以零\")\nexcept ValueError:\n    print(\"格式錯誤\")\nexcept Exception:\n    print(\"其他\")",
+      "options": [
+        "除以零",
+        "格式錯誤\n其他",
+        "格式錯誤",
+        "其他"
+      ],
+      "answer": 2,
+      "explain": "except 由上往下比對，只會執行第一個符合的。ValueError 在 Exception 之前被攔下。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-014",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    items = [1, 2]\n    print(items[5])\nexcept (IndexError, KeyError) as e:\n    print(\"錯誤：\", type(e).__name__)",
+      "options": [
+        "錯誤： KeyError",
+        "錯誤： (IndexError, KeyError)",
+        "拋出 IndexError",
+        "錯誤： IndexError"
+      ],
+      "answer": 3,
+      "explain": "一個 except 可以用 tuple 攔截多種例外；as e 取得例外物件。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-015",
+      "q": "下列 except 的排列有什麼問題？",
+      "code": "try:\n    n = int(input())\nexcept Exception:\n    print(\"錯誤\")\nexcept ValueError:\n    print(\"請輸入數字\")",
+      "options": [
+        "沒有問題",
+        "except 後面不能接 Exception",
+        "Exception 放在最前面會攔下所有例外，後面的 ValueError 永遠不會執行",
+        "一個 try 只能有一個 except"
+      ],
+      "answer": 2,
+      "explain": "子類別例外要寫在父類別之前。Exception 幾乎是所有例外的父類別，應放在最後。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-016",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def safe_div(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return None\n\nprint(safe_div(6, 3), safe_div(1, 0))",
+      "options": [
+        "2 None",
+        "2.0 拋出 ZeroDivisionError",
+        "2.0 0",
+        "2.0 None"
+      ],
+      "answer": 3,
+      "explain": "6 / 3 = 2.0；1 / 0 被攔下回傳 None。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-017",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    x = int(\"5\")\nexcept ValueError:\n    print(\"錯誤\")\nelse:\n    print(\"成功\", x)\nfinally:\n    print(\"結束\")",
+      "options": [
+        "成功 5",
+        "錯誤\n結束",
+        "成功 5\n結束",
+        "結束"
+      ],
+      "answer": 2,
+      "explain": "沒有發生例外時執行 else；finally 不論有沒有例外都會執行。",
+      "tags": [
+        "else 與 finally"
+      ]
+    },
+    {
+      "id": "py5-018",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    x = int(\"five\")\nexcept ValueError:\n    print(\"錯誤\")\nelse:\n    print(\"成功\")\nfinally:\n    print(\"結束\")",
+      "options": [
+        "錯誤",
+        "錯誤\n結束",
+        "成功\n結束",
+        "錯誤\n成功\n結束"
+      ],
+      "answer": 1,
+      "explain": "發生例外時跳過 else，執行 except，最後一定執行 finally。",
+      "tags": [
+        "else 與 finally"
+      ]
+    },
+    {
+      "id": "py5-019",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def f():\n    try:\n        return \"try\"\n    finally:\n        print(\"finally\")\n\nprint(f())",
+      "options": [
+        "finally\ntry",
+        "try",
+        "try\nfinally",
+        "finally"
+      ],
+      "answer": 0,
+      "explain": "即使 try 裡面已經 return，finally 仍會在函式真正離開前執行，所以先印 finally，再印回傳值。",
+      "tags": [
+        "else 與 finally"
+      ]
+    },
+    {
+      "id": "py5-020",
+      "q": "finally 區塊最適合用來做什麼？",
+      "options": [
+        "只在發生例外時顯示錯誤訊息",
+        "釋放資源，例如關閉檔案或網路連線",
+        "只在沒有例外時儲存結果",
+        "重新執行 try 區塊"
+      ],
+      "answer": 1,
+      "explain": "finally 一定會執行，適合放清理工作。只在成功時要做的事放 else；只在失敗時要做的事放 except。",
+      "tags": [
+        "else 與 finally"
+      ]
+    },
+    {
+      "id": "py5-021",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "def set_age(age):\n    if age < 0:\n        raise ValueError(\"年齡不可為負數\")\n    return age\n\ntry:\n    set_age(-3)\nexcept ValueError as e:\n    print(e)",
+      "options": [
+        "ValueError",
+        "-3",
+        "拋出 ValueError",
+        "年齡不可為負數"
+      ],
+      "answer": 3,
+      "explain": "raise 主動拋出例外，並可附上說明文字。print(e) 會印出這段文字。",
+      "tags": [
+        "raise 主動拋出例外"
+      ]
+    },
+    {
+      "id": "py5-022",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "def check(score):\n    if not 0 <= score <= 100:\n        raise ValueError(\"分數超出範圍\")\n    print(\"OK\")\n\ncheck(120)",
+      "options": [
+        "拋出 ValueError",
+        "OK",
+        "（沒有輸出）",
+        "拋出 TypeError"
+      ],
+      "answer": 0,
+      "explain": "120 不在 0 到 100 之間，raise 拋出 ValueError；沒有 try 攔截，程式就停止。",
+      "tags": [
+        "raise 主動拋出例外"
+      ]
+    },
+    {
+      "id": "py5-023",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "try:\n    try:\n        1 / 0\n    except ZeroDivisionError:\n        print(\"內層\")\n        raise\nexcept ZeroDivisionError:\n    print(\"外層\")",
+      "options": [
+        "內層",
+        "外層",
+        "內層\n外層",
+        "拋出 ZeroDivisionError"
+      ],
+      "answer": 2,
+      "explain": "except 裡單獨寫 raise 會把同一個例外再往外拋，讓外層也能處理。",
+      "tags": [
+        "raise 主動拋出例外"
+      ]
+    },
+    {
+      "id": "py5-024",
+      "q": "要定義自己的例外類別，下列寫法何者正確？",
+      "options": [
+        "def ScoreError(Exception):\n    pass",
+        "exception ScoreError:\n    pass",
+        "class ScoreError(raise):\n    pass",
+        "class ScoreError(Exception):\n    pass"
+      ],
+      "answer": 3,
+      "explain": "自訂例外是繼承 Exception 的類別，之後可以 raise ScoreError(\"訊息\")。",
+      "tags": [
+        "raise 主動拋出例外"
+      ]
+    },
+    {
+      "id": "py5-025",
+      "q": "執行下列測試檔，結果為何？",
+      "code": "import unittest\n\ndef add(a, b):\n    return a + b\n\nclass TestAdd(unittest.TestCase):\n    def test_int(self):\n        self.assertEqual(add(2, 3), 5)\n\n    def test_float(self):\n        self.assertEqual(add(0.1, 0.2), 0.3)\n\n    def helper(self):\n        self.assertEqual(add(1, 1), 3)\n\nif __name__ == \"__main__\":\n    unittest.main()",
+      "options": [
+        "執行 3 個測試，2 個失敗",
+        "執行 2 個測試，全部通過",
+        "執行 2 個測試，1 個失敗",
+        "執行 3 個測試，1 個失敗"
+      ],
+      "answer": 2,
+      "explain": "只有名稱以 test 開頭的方法才會被當成測試，helper 不會執行。0.1 + 0.2 在浮點數運算下是 0.30000000000000004，assertEqual 失敗；比較浮點數應改用 assertAlmostEqual。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-026",
+      "q": "使用 unittest 撰寫測試時，測試類別必須繼承哪一個類別？",
+      "options": [
+        "unittest.Test",
+        "unittest.main",
+        "unittest.TestCase",
+        "object.TestCase"
+      ],
+      "answer": 2,
+      "explain": "測試類別繼承 unittest.TestCase，裡面以 test 開頭的方法才會被當成測試案例執行。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-027",
+      "q": "要確認「呼叫 int(\"abc\") 會拋出 ValueError」，應使用哪一個斷言方法？",
+      "options": [
+        "self.assertEqual(int(\"abc\"), ValueError)",
+        "self.assertTrue(ValueError)",
+        "self.assertRaises(ValueError, int, \"abc\")",
+        "self.assertIs(int(\"abc\"), None)"
+      ],
+      "answer": 2,
+      "explain": "assertRaises(例外類別, 函式, 引數…)，也可以用 with self.assertRaises(ValueError): 的寫法。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-028",
+      "q": "要檢查 result 不是 None，應使用哪一個斷言方法？",
+      "options": [
+        "assertNotEqual(result)",
+        "assertNotNone(result)",
+        "assertNone(result, False)",
+        "assertIsNotNone(result)"
+      ],
+      "answer": 3,
+      "explain": "常用斷言：assertEqual / assertNotEqual、assertTrue / assertFalse、assertIs / assertIsNot、assertIsNone / assertIsNotNone、assertIn / assertNotIn、assertIsInstance、assertRaises。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-029",
+      "q": "要確認 3 在串列 nums 之中，應使用哪一個斷言？",
+      "options": [
+        "self.assertIn(nums, 3)",
+        "self.assertEqual(3, nums)",
+        "self.assertIn(3, nums)",
+        "self.assertIs(3 in nums)"
+      ],
+      "answer": 2,
+      "explain": "assertIn(成員, 容器)，順序是先成員後容器。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-030",
+      "q": "每個測試方法執行前都要建立一份新的測試資料，應該寫在哪個方法？",
+      "options": [
+        "__init__(self)",
+        "tearDown(self)",
+        "setUp(self)",
+        "setUpClass(cls)"
+      ],
+      "answer": 2,
+      "explain": "setUp 在每個測試方法之前執行；tearDown 在每個測試方法之後執行；setUpClass 整個類別只執行一次。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "py5-031",
+      "type": "truefalse",
+      "q": "在測試檔最後寫 if __name__ == \"__main__\": unittest.main()，就可以用 python 測試檔.py 直接執行所有測試。",
+      "answer": true,
+      "explain": "unittest.main() 會自動找出這個模組中所有 TestCase 的 test 方法並執行。",
+      "tags": [
+        "unittest 單元測試"
+      ]
+    }
+  ]
+}

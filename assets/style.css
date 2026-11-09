@@ -126,12 +126,15 @@ h1{margin:0;font-family:var(--f-display);font-weight:900;font-size:clamp(30px,6v
 .qno{font-family:var(--f-mono);font-weight:600;font-size:14px;color:var(--print)}
 .tag{font-size:12px;padding:1px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
 .qtext{margin:0;font-family:var(--f-display);font-weight:700;font-size:clamp(19px,2.6vw,23px);line-height:1.55;text-wrap:pretty}
+.qcode{margin:0;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-family:var(--f-mono);font-size:14px;line-height:1.6;tab-size:4}
+.qcode code{background:none;color:var(--ink);padding:0;font-size:inherit}
 .opts{display:grid;gap:10px}
 .opt{display:flex;gap:14px;align-items:flex-start;width:100%;text-align:left;padding:13px 16px;border:1px solid var(--line);background:var(--surface);border-radius:10px;cursor:pointer;line-height:1.6;transition:border-color .15s}
 .opt:hover:not([disabled]){border-color:var(--print)}
 .opt[disabled]{cursor:default}
 .bub{flex:none;margin-top:1px;width:34px;height:23px;border:1.5px solid var(--print);color:var(--print);border-radius:999px;display:grid;place-items:center;font-family:var(--f-mono);font-size:12px;font-weight:600}
-.opt .txt{min-width:0;flex:1;overflow-wrap:anywhere}
+.opt .txt{min-width:0;flex:1;overflow-wrap:anywhere;white-space:pre-wrap}
+.opt .txt.code{font-family:var(--f-mono),var(--f-body);font-size:.95em}
 .opt .mark{flex:none;font-size:12px;font-weight:700;padding-top:3px}
 .opt.sel{border-color:var(--graphite)}
 .opt.sel .bub{background:var(--graphite);border-color:var(--graphite);color:var(--on-graphite)}

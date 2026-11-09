@@ -1,0 +1,498 @@
+{
+  "questions": [
+    {
+      "id": "py2-001",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "score = 85\nif score >= 90:\n    print(\"A\")\nelif score >= 80:\n    print(\"B\")\nelif score >= 70:\n    print(\"C\")\nelse:\n    print(\"D\")",
+      "options": [
+        "B",
+        "A",
+        "B\nC",
+        "D"
+      ],
+      "answer": 0,
+      "explain": "elif 由上往下檢查，第一個成立（score >= 80）就執行並跳出整個 if 結構，後面的 elif 不會再檢查。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-002",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "score = 85\nif score >= 70:\n    print(\"C\")\nif score >= 80:\n    print(\"B\")\nif score >= 90:\n    print(\"A\")",
+      "options": [
+        "C",
+        "B",
+        "C\nB",
+        "C\nB\nA"
+      ],
+      "answer": 2,
+      "explain": "三個獨立的 if 會各自判斷，條件成立的都會執行，所以印出 C 和 B。要「只取一個等第」必須用 if / elif。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-003",
+      "q": "依年齡判斷票價：未滿 12 歲 100 元、12 到 64 歲 250 元、65 歲以上 150 元。下列程式碼的空格依序應填入？",
+      "code": "___ age < 12:\n    price = 100\n___ age < 65:\n    price = 250\n___:\n    price = 150",
+      "options": [
+        "if、if、else",
+        "elif、if、else",
+        "if、else、elif",
+        "if、elif、else"
+      ],
+      "answer": 3,
+      "explain": "第一個條件用 if，中間的條件用 elif，最後「其他情況」用 else，而且 else 不能寫條件。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-004",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "x = 3\nif x > 0:\nprint(\"正數\")",
+      "options": [
+        "正數",
+        "拋出 IndentationError",
+        "（沒有輸出）",
+        "拋出 NameError"
+      ],
+      "answer": 1,
+      "explain": "if 下面的程式區塊必須縮排。沒有縮排會拋出 IndentationError（屬於 SyntaxError 的一種），程式根本無法執行。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-005",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 0\nif x:\n    print(\"有值\")\nelse:\n    print(\"沒有值\")",
+      "options": [
+        "有值",
+        "（沒有輸出）",
+        "沒有值",
+        "False"
+      ],
+      "answer": 2,
+      "explain": "if 會把條件轉成 bool：0、空字串、空串列、None 都視為 False。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-006",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "age, member = 20, False\nif age >= 18 and member:\n    print(\"會員價\")\nelif age >= 18 or member:\n    print(\"一般價\")\nelse:\n    print(\"兒童價\")",
+      "options": [
+        "會員價",
+        "一般價",
+        "兒童價",
+        "會員價\n一般價"
+      ],
+      "answer": 1,
+      "explain": "age >= 18 為 True、member 為 False：and 需要兩者都真，不成立；or 只要一個真就成立，所以印出「一般價」。",
+      "tags": [
+        "巢狀與複合條件"
+      ]
+    },
+    {
+      "id": "py2-007",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "x = 7\nif x > 5:\n    if x % 2 == 0:\n        print(\"大偶數\")\n    else:\n        print(\"大奇數\")\nelse:\n    print(\"小\")",
+      "options": [
+        "大偶數",
+        "小",
+        "大奇數",
+        "大奇數\n小"
+      ],
+      "answer": 2,
+      "explain": "x > 5 成立進入外層，7 % 2 為 1 不等於 0，所以執行內層的 else。",
+      "tags": [
+        "巢狀與複合條件"
+      ]
+    },
+    {
+      "id": "py2-008",
+      "q": "要判斷 year 是不是閏年（能被 4 整除但不能被 100 整除，或能被 400 整除），哪一個條件正確？",
+      "options": [
+        "year % 4 == 0 or year % 100 != 0 and year % 400 == 0",
+        "(year % 4 == 0 and year % 100 != 0) or year % 400 == 0",
+        "year % 4 == 0 and (year % 100 != 0 or year % 400 != 0)",
+        "year % 400 == 0 and year % 4 == 0 or year % 100 == 0"
+      ],
+      "answer": 1,
+      "explain": "照題意直接翻譯：前半段「能被 4 整除且不能被 100 整除」用 and，再跟「能被 400 整除」用 or 連接。例如 1900 不是閏年、2000 是閏年。",
+      "tags": [
+        "巢狀與複合條件"
+      ]
+    },
+    {
+      "id": "py2-009",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "temp = 28\nrain = True\nmsg = \"出門\" if temp < 30 and not rain else \"在家\"\nprint(msg)",
+      "options": [
+        "出門",
+        "True",
+        "拋出 SyntaxError",
+        "在家"
+      ],
+      "answer": 3,
+      "explain": "條件運算式 A if 條件 else B。not rain 為 False，所以整個條件不成立，取 else 後的 \"在家\"。",
+      "tags": [
+        "巢狀與複合條件"
+      ]
+    },
+    {
+      "id": "py2-010",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "n = 15\nif n % 3 == 0 and n % 5 == 0:\n    print(\"FizzBuzz\")\nelif n % 3 == 0:\n    print(\"Fizz\")\nelif n % 5 == 0:\n    print(\"Buzz\")",
+      "options": [
+        "Fizz",
+        "FizzBuzz",
+        "Buzz",
+        "Fizz\nBuzz"
+      ],
+      "answer": 1,
+      "explain": "15 同時是 3 和 5 的倍數，第一個條件就成立。如果把「同時整除」放在後面，會先被 n % 3 == 0 攔下，永遠印不出 FizzBuzz。",
+      "tags": [
+        "巢狀與複合條件"
+      ]
+    },
+    {
+      "id": "py2-011",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "n = 1\nwhile n < 20:\n    n *= 3\nprint(n)",
+      "options": [
+        "27",
+        "9",
+        "20",
+        "18"
+      ],
+      "answer": 0,
+      "explain": "1 → 3 → 9 → 27，n 等於 27 時 27 < 20 不成立，離開迴圈後印出 27。",
+      "tags": [
+        "while 迴圈"
+      ]
+    },
+    {
+      "id": "py2-012",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "count = 0\nn = 10\nwhile n > 0:\n    n -= 3\n    count += 1\nprint(count, n)",
+      "options": [
+        "3 1",
+        "4 -1",
+        "4 -2",
+        "3 -2"
+      ],
+      "answer": 2,
+      "explain": "n 的變化：10 → 7 → 4 → 1 → -2，共執行 4 次，最後 n = -2。",
+      "tags": [
+        "while 迴圈"
+      ]
+    },
+    {
+      "id": "py2-013",
+      "q": "下列程式碼會發生什麼問題？",
+      "code": "i = 0\nwhile i < 5:\n    print(i)",
+      "options": [
+        "印出 0 到 4",
+        "無窮迴圈，因為 i 永遠不會改變",
+        "拋出 SyntaxError",
+        "只印出 0"
+      ],
+      "answer": 1,
+      "explain": "迴圈內沒有改變 i，條件 i < 5 永遠成立。while 迴圈一定要讓條件有機會變成 False（例如加上 i += 1）。",
+      "tags": [
+        "while 迴圈"
+      ]
+    },
+    {
+      "id": "py2-014",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "total = 0\nnums = [4, 8, 15, 16, 23, 42]\ni = 0\nwhile i < len(nums) and total < 20:\n    total += nums[i]\n    i += 1\nprint(i, total)",
+      "options": [
+        "2 12",
+        "3 27",
+        "4 43",
+        "6 108"
+      ],
+      "answer": 1,
+      "explain": "複合條件：每次都要 i 還在範圍內且 total < 20。4 + 8 = 12、再加 15 = 27，此時 total 不再小於 20，停止，i = 3。",
+      "tags": [
+        "while 迴圈"
+      ]
+    },
+    {
+      "id": "py2-015",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(2, 10, 3):\n    print(i, end=\" \")",
+      "options": [
+        "2 5 8 11",
+        "2 3 4 5 6 7 8 9",
+        "3 6 9",
+        "2 5 8"
+      ],
+      "answer": 3,
+      "explain": "range(start, stop, step)：從 2 開始每次加 3，不含 10，得 2、5、8。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-016",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "print(list(range(5, 0, -2)))",
+      "options": [
+        "[5, 4, 3, 2, 1]",
+        "[5, 3, 1, -1]",
+        "[]",
+        "[5, 3, 1]"
+      ],
+      "answer": 3,
+      "explain": "step 為負數時由大往小數，不含 stop（0），得 [5, 3, 1]。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-017",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "print(list(range(3)), list(range(3, 3)))",
+      "options": [
+        "[0, 1, 2] []",
+        "[1, 2, 3] []",
+        "[0, 1, 2, 3] [3]",
+        "[0, 1, 2] [3]"
+      ],
+      "answer": 0,
+      "explain": "range(3) 是 0、1、2（不含 3）；range(3, 3) 起點等於終點，是空的。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-018",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "total = 0\nfor n in range(1, 11):\n    if n % 2 == 0:\n        total += n\nprint(total)",
+      "options": [
+        "55",
+        "25",
+        "20",
+        "30"
+      ],
+      "answer": 3,
+      "explain": "1 到 10 的偶數 2 + 4 + 6 + 8 + 10 = 30。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-019",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "word = \"banana\"\ncount = 0\nfor ch in word:\n    if ch == \"a\":\n        count += 1\nprint(count, word.count(\"a\"))",
+      "options": [
+        "3 3",
+        "2 3",
+        "3 2",
+        "6 3"
+      ],
+      "answer": 0,
+      "explain": "for 可以直接走訪字串的每個字元。\"banana\" 有 3 個 a，str.count 也能得到一樣的結果。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-020",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "fruits = [\"蘋果\", \"香蕉\", \"芒果\"]\nfor idx, f in enumerate(fruits, start=1):\n    print(idx, f, end=\"；\")",
+      "options": [
+        "0 蘋果；1 香蕉；2 芒果；",
+        "蘋果 1；香蕉 2；芒果 3；",
+        "1 蘋果；2 香蕉；3 芒果；",
+        "1；2；3；"
+      ],
+      "answer": 2,
+      "explain": "enumerate 同時取得索引與元素；start=1 讓編號從 1 開始。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-021",
+      "q": "要印出 10、8、6、4、2，range 應如何填寫？",
+      "code": "for i in ______:\n    print(i)",
+      "options": [
+        "range(10, 2, -2)",
+        "range(2, 10, 2)",
+        "range(10, 0, -2)",
+        "range(10, 1, 2)"
+      ],
+      "answer": 2,
+      "explain": "從 10 開始每次減 2，終點必須「超過」2 一格：0 或 1 都可以，range(10, 2, -2) 只會到 4。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-022",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(1, 10):\n    if i % 4 == 0:\n        break\n    print(i, end=\" \")",
+      "options": [
+        "1 2 3 4",
+        "1 2 3 5 6 7 9",
+        "1 2 3",
+        "4 8"
+      ],
+      "answer": 2,
+      "explain": "break 直接結束整個迴圈。i = 4 時跳出，所以只印出 1 2 3。",
+      "tags": [
+        "break、continue、pass"
+      ]
+    },
+    {
+      "id": "py2-023",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(1, 10):\n    if i % 4 == 0:\n        continue\n    print(i, end=\" \")",
+      "options": [
+        "1 2 3",
+        "4 8",
+        "1 2 3 5 6 7 9",
+        "1 2 3 4 5 6 7 8 9"
+      ],
+      "answer": 2,
+      "explain": "continue 跳過這一輪剩下的程式，直接進入下一輪。4 和 8 被跳過。",
+      "tags": [
+        "break、continue、pass"
+      ]
+    },
+    {
+      "id": "py2-024",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(3):\n    pass\nprint(i)",
+      "options": [
+        "（沒有輸出）",
+        "3",
+        "拋出 NameError",
+        "2"
+      ],
+      "answer": 3,
+      "explain": "pass 什麼都不做，只是佔位。迴圈結束後 i 仍保留最後一次的值 2。",
+      "tags": [
+        "break、continue、pass"
+      ]
+    },
+    {
+      "id": "py2-025",
+      "q": "關於 pass、continue、break 的敘述，何者正確？",
+      "options": [
+        "pass 會跳過這一輪迴圈",
+        "pass 不做任何事，常用來保留之後要寫的程式區塊",
+        "continue 會結束整個迴圈",
+        "break 只能用在 while 迴圈"
+      ],
+      "answer": 1,
+      "explain": "continue 是跳到下一輪；break 結束整個迴圈，for 和 while 都能用；pass 只是語法上的佔位。",
+      "tags": [
+        "break、continue、pass"
+      ]
+    },
+    {
+      "id": "py2-026",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "n = 0\nwhile True:\n    n += 1\n    if n == 2:\n        continue\n    if n > 4:\n        break\n    print(n, end=\" \")",
+      "options": [
+        "1 3 4",
+        "1 2 3 4",
+        "1 3 4 5",
+        "1"
+      ],
+      "answer": 0,
+      "explain": "while True 搭配 break 是常見寫法。n = 2 時 continue 跳過列印；n = 5 時 break 離開。",
+      "tags": [
+        "break、continue、pass"
+      ]
+    },
+    {
+      "id": "py2-027",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(1, 4):\n    for j in range(1, i + 1):\n        print(\"*\", end=\"\")\n    print()",
+      "options": [
+        "***\n***\n***",
+        "*\n*\n*",
+        "***\n**\n*",
+        "*\n**\n***"
+      ],
+      "answer": 3,
+      "explain": "外層跑 3 次；內層次數等於 i，所以每列的星號是 1、2、3 個。內層結束後 print() 換行。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
+    },
+    {
+      "id": "py2-028",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "count = 0\nfor i in range(3):\n    for j in range(4):\n        count += 1\nprint(count)",
+      "options": [
+        "7",
+        "3",
+        "12",
+        "4"
+      ],
+      "answer": 2,
+      "explain": "巢狀迴圈的總次數是外層次數 × 內層次數：3 × 4 = 12。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
+    },
+    {
+      "id": "py2-029",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(i, j)",
+      "options": [
+        "0 0\n1 0\n2 0",
+        "0 0",
+        "0 0\n0 1\n1 0\n1 1\n2 0\n2 1",
+        "0 0\n0 2\n1 0\n1 2\n2 0\n2 2"
+      ],
+      "answer": 0,
+      "explain": "break 只會跳出它所在的那一層（內層），外層仍繼續執行。所以每個 i 都只印出 j = 0。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
+    },
+    {
+      "id": "py2-030",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for n in [3, 5, 7]:\n    if n % 2 == 0:\n        print(\"找到偶數\")\n        break\nelse:\n    print(\"沒有偶數\")",
+      "options": [
+        "找到偶數",
+        "（沒有輸出）",
+        "沒有偶數",
+        "沒有偶數\n沒有偶數\n沒有偶數"
+      ],
+      "answer": 2,
+      "explain": "for 後面的 else 在迴圈「正常結束」（沒有被 break 打斷）時執行一次。串列裡沒有偶數，所以印出「沒有偶數」。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
+    },
+    {
+      "id": "py2-031",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "for i in range(2, 4):\n    for j in range(1, 3):\n        print(i * j, end=\" \")",
+      "options": [
+        "2 3 4 6 8",
+        "2 3 4 6",
+        "2 4 3 6",
+        "1 2 2 4"
+      ],
+      "answer": 2,
+      "explain": "i = 2 時印 2、4；i = 3 時印 3、6。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
+    }
+  ]
+}

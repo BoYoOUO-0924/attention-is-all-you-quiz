@@ -32,11 +32,12 @@ export function normalizeQuestion(raw, where, errors) {
   } else if (!Number.isInteger(answer) || answer < 0 || answer >= options.length) {
     errors.push(`${where}：answer 必須是 0 到 ${options.length - 1} 的整數（0 代表第一個選項）`);
   }
+  if (raw.code !== undefined && !isStr(raw.code)) errors.push(`${where}：code 必須是非空字串`);
   if (raw.explain !== undefined && typeof raw.explain !== "string") errors.push(`${where}：explain 必須是字串`);
   if (raw.tags !== undefined && !(Array.isArray(raw.tags) && raw.tags.every(isStr))) errors.push(`${where}：tags 必須是字串陣列`);
   if (errors.length > before) return null;
 
-  return { id: raw.id.trim(), type, q: raw.q, options, answer, explain: raw.explain ?? "", tags: raw.tags ?? [] };
+  return { id: raw.id.trim(), type, q: raw.q, code: raw.code ?? "", options, answer, explain: raw.explain ?? "", tags: raw.tags ?? [] };
 }
 
 // raw.units[].questions 必須已經是陣列（題庫放在單元檔裡的，要先讀進來再傳入）
