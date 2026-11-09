@@ -1,7 +1,7 @@
 import { shuffle } from "./util.js";
 import { store } from "./store.js";
 import { loadSiteCourses, normalizeCourse } from "./data.js";
-import { buildItems, makeItem, indexCourse, scoreQuiz } from "./engine.js";
+import { buildItems, makeItem, indexCourse, scoreQuiz, isRight, initialWork } from "./engine.js";
 import { homeView, courseView, quizView, resultView, loadingView, fatalView } from "./views.js";
 
 const app = document.getElementById("app");
@@ -78,6 +78,7 @@ function startQuiz({ scope, items, title, origin }) {
     cur: 0, start: Date.now(), elapsed: 0, done: false
   };
   S.quiz.picks = S.quiz.items.map(() => null);
+  S.quiz.work = S.quiz.items.map(() => null); // 排序題、填空題還沒確認的作答
   S.view = "quiz"; S.ask = null; S.filter = "all";
   render(); top();
 }
@@ -114,9 +115,39 @@ function go(i) {
 function pick(i) {
   const quiz = S.quiz;
   const it = quiz.items[quiz.cur];
-  if (i >= it.perm.length) return;
+  if (it.kind === "order" || it.kind === "fill" || i >= it.perm.length) return;
   if (quiz.mode === "practice" && quiz.picks[quiz.cur] !== null) return;
   quiz.picks[quiz.cur] = i; S.ask = null; render();
+}
+
+/* 排序題、填空題：先改暫存的 work，按「確認作答」才寫進 picks */
+function editWork(fn) {
+  const quiz = S.quiz;
+  const i = quiz.cur;
+  if (quiz.mode === "practice" && quiz.picks[i] !== null) return; // 練習模式作答後就鎖定
+  if (!quiz.work) quiz.work = quiz.items.map(() => null);
+  const w = (quiz.work[i] || quiz.picks[i] || initialWork(quiz.items[i])).slice();
+  fn(w);
+  quiz.work[i] = w;
+  render();
+}
+
+function moveRow(from, to) {
+  editWork(w => {
+    if (to < 0 || to >= w.length || from === to) return;
+    const [x] = w.splice(from, 1);
+    w.splice(to, 0, x);
+  });
+}
+
+function confirmWork() {
+  const quiz = S.quiz;
+  const i = quiz.cur;
+  const w = (quiz.work && quiz.work[i]) || quiz.picks[i] || initialWork(quiz.items[i]);
+  if (quiz.items[i].kind === "fill" && w.includes(null)) return;
+  quiz.picks[i] = w.slice();
+  S.ask = null;
+  render();
 }
 
 function trySubmit() {
@@ -149,6 +180,8 @@ app.addEventListener("click", e => {
       else S.ask = "clear-wrong";
       render(); break;
     case "pick": pick(Number(b.dataset.i)); break;
+    case "move": { const k = Number(b.dataset.k); moveRow(k, k + Number(b.dataset.d)); break; }
+    case "confirm": confirmWork(); break;
     case "prev": go(S.quiz.cur - 1); break;
     case "next": go(S.quiz.cur + 1); break;
     case "goto": go(Number(b.dataset.n)); break;
@@ -172,7 +205,7 @@ app.addEventListener("click", e => {
       const q = S.quiz;
       const c = course();
       const index = indexCourse(c);
-      const items = shuffle(q.items.filter((it, i) => q.picks[i] !== it.ans))
+      const items = shuffle(q.items.filter((it, i) => !isRight(index.get(it.key).q, it, q.picks[i])))
         .map(it => makeItem(it.unit, index.get(it.key).q, S.set.shuffle));
       startQuiz({ scope: "keys", items, title: q.title.replace(/（錯題）$/, "") + "（錯題）", origin: q.origin });
       break;
@@ -206,14 +239,51 @@ function selectTemplate() {
 }
 
 app.addEventListener("change", e => {
+  if (e.target.matches("select[data-blank]")) {
+    const b = Number(e.target.dataset.blank);
+    const v = e.target.value === "" ? null : Number(e.target.value);
+    editWork(w => { w[b] = v; });
+    return;
+  }
   if (e.target.id === "import-file" && e.target.files[0]) {
     importFile(e.target.files[0]);
     e.target.value = "";
   }
 });
 
+/* 排序題的拖曳（滑鼠）。手機上用 ↑ ↓ 按鈕 */
+let dragFrom = null;
+app.addEventListener("dragstart", e => {
+  const row = e.target.closest("[data-drag]");
+  if (!row) return;
+  dragFrom = Number(row.dataset.drag);
+  e.dataTransfer.effectAllowed = "move";
+  e.dataTransfer.setData("text/plain", String(dragFrom));
+  row.classList.add("dragging");
+});
+app.addEventListener("dragover", e => {
+  const row = e.target.closest("[data-drag]");
+  if (!row || dragFrom === null) return;
+  e.preventDefault();
+  app.querySelectorAll(".orow.over").forEach(r => r !== row && r.classList.remove("over"));
+  row.classList.add("over");
+});
+app.addEventListener("drop", e => {
+  const row = e.target.closest("[data-drag]");
+  if (!row || dragFrom === null) return;
+  e.preventDefault();
+  const from = dragFrom;
+  dragFrom = null;
+  moveRow(from, Number(row.dataset.drag));
+});
+app.addEventListener("dragend", () => {
+  dragFrom = null;
+  app.querySelectorAll(".orow.over, .orow.dragging").forEach(r => r.classList.remove("over", "dragging"));
+});
+
 document.addEventListener("keydown", e => {
   if (S.view !== "quiz" || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.target.closest && e.target.closest("select")) return; // 下拉選單用方向鍵選選項，不要換題
   const k = e.key.toLowerCase();
   const map = { 1: 0, 2: 1, 3: 2, 4: 3, 5: 4, 6: 5, a: 0, b: 1, c: 2, d: 3, e: 4, f: 5 };
   if (k in map) { pick(map[k]); e.preventDefault(); }

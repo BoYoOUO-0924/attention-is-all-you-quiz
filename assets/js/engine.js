@@ -10,9 +10,37 @@ export function indexCourse(course) {
   return map;
 }
 
+// 作答紀錄（picks）的格式依題型不同：
+//   single / truefalse：選到的顯示位置（數字）
+//   order：使用者排好的順序，元素是 q.items 的原始索引
+//   fill：每個空格選到的選項原始索引（未選為 null）
 export function makeItem(unitId, q, shuffleOptions) {
+  const base = { key: qkey(unitId, q.id), unit: unitId, kind: q.type };
+  if (q.type === "order") {
+    // 打亂順序；盡量避免一開始就剛好是正確順序
+    let perm = shuffle(range(q.items.length));
+    for (let t = 0; t < 10 && orderRight(q, perm); t++) perm = shuffle(range(q.items.length));
+    return { ...base, perm };
+  }
+  if (q.type === "fill") {
+    return { ...base, perm: q.blanks.map(b => (shuffleOptions ? shuffle(range(b.options.length)) : range(b.options.length))) };
+  }
   const perm = shuffleOptions ? shuffle(range(q.options.length)) : range(q.options.length);
-  return { key: qkey(unitId, q.id), unit: unitId, perm, ans: perm.indexOf(q.answer) };
+  return { ...base, perm, ans: perm.indexOf(q.answer) };
+}
+
+// 排序題用文字比對，所以內容相同的兩行（例如兩個 break）互換位置也算對
+const orderRight = (q, order) => order.every((oi, k) => q.items[oi] === q.items[k]);
+
+// 排序題、填空題作答中的暫存狀態（按「確認作答」才會寫進 picks）
+export const initialWork = it =>
+  it.kind === "order" ? it.perm.slice() : it.kind === "fill" ? it.perm.map(() => null) : null;
+
+export function isRight(q, it, pick) {
+  if (pick === null || pick === undefined) return false;
+  if (q.type === "order") return orderRight(q, pick);
+  if (q.type === "fill") return pick.every((v, b) => v === q.blanks[b].answer);
+  return pick === it.ans;
 }
 
 // scope：單元 id、"mix"（全部單元平均抽題）或傳入 keys（錯題本、重做錯題）
@@ -44,7 +72,8 @@ export function buildItems(course, { scope, count, shuffleOptions, keys }) {
 }
 
 export function scoreQuiz(quiz, course) {
-  const okArr = quiz.items.map((it, i) => quiz.picks[i] === it.ans);
+  const index = indexCourse(course);
+  const okArr = quiz.items.map((it, i) => index.has(it.key) && isRight(index.get(it.key).q, it, quiz.picks[i]));
   const correct = okArr.filter(Boolean).length;
   const total = quiz.items.length;
   const byUnit = course.units

@@ -494,6 +494,90 @@
       "tags": [
         "os、os.path 與 sys 模組"
       ]
+    },
+    {
+      "id": "py6-f01",
+      "type": "fill",
+      "q": "只匯入 randint，並模擬擲一次骰子。完成程式碼。",
+      "code": "[[1]] random [[2]] randint\ndice = [[3]](1, 6)\nprint(1 <= dice <= 6)",
+      "blanks": [
+        {
+          "options": [
+            "import",
+            "include",
+            "from",
+            "using"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "import",
+            "from",
+            "as",
+            "use"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "randint",
+            "random.randint",
+            "randrange.int",
+            "rand"
+          ],
+          "answer": 0
+        }
+      ],
+      "explain": "from 模組 import 名稱，匯入後直接用 randint(1, 6) 呼叫。這種寫法沒有定義 random 這個名稱，所以 random.randint 會拋出 NameError。",
+      "tags": [
+        "import 語法"
+      ]
+    },
+    {
+      "id": "py6-f02",
+      "type": "fill",
+      "q": "印出 2024/03/09 以及當天是星期幾（星期一為 0）。完成程式碼。",
+      "code": "from datetime import date\nd = date(2024, 3, 9)\nprint(d.[[1]](\"%Y/%m/%d\"), d.[[2]]())",
+      "blanks": [
+        {
+          "options": [
+            "strptime",
+            "format_date",
+            "isoformat",
+            "strftime"
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "isoweekday",
+            "day",
+            "weekday",
+            "week"
+          ],
+          "answer": 2
+        }
+      ],
+      "explain": "strftime 把日期格式化成字串（strptime 是反過來解析字串）。weekday() 星期一為 0，2024/3/9 是星期六，所以是 5；isoweekday() 星期一為 1，會得到 6。",
+      "tags": [
+        "datetime 模組"
+      ]
+    },
+    {
+      "id": "py6-o01",
+      "type": "order",
+      "q": "排列下列程式碼：把輸入的數取絕對值後，再無條件進位成整數。輸入 -3.2 時應印出 4。",
+      "items": [
+        "import math",
+        "x = math.fabs(float(input()))",
+        "x = math.ceil(x)",
+        "print(x)"
+      ],
+      "explain": "先 fabs 取絕對值得 3.2，再 ceil 無條件進位得 4。若順序相反，ceil(-3.2) 是 -3，取絕對值後變成 3.0。",
+      "tags": [
+        "math 模組"
+      ]
     }
   ]
 }

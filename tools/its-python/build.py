@@ -4,7 +4,7 @@ u1.py–u6.py 是六個單元的題目。輸出題的正解由實際執行程式
 正解若與誘答選項重複、或程式碼執行出錯，產生時就會中斷。
 """
 import json, os, sys
-import qlib, u1, u2, u3, u4, u5, u6
+import qlib, u1, u2, u3, u4, u5, u6, interactive  # noqa: F401（interactive 把排序題、填空題加進各單元）
 
 out_dir = sys.argv[1] if len(sys.argv) > 1 else "data/courses/its-python"
 os.makedirs(out_dir, exist_ok=True)

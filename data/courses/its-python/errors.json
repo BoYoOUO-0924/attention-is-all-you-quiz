@@ -474,6 +474,103 @@
       "tags": [
         "unittest 單元測試"
       ]
+    },
+    {
+      "id": "py5-f01",
+      "type": "fill",
+      "q": "使用者輸入的不是整數時，提示並要求重新輸入；輸入正確才印出並結束。完成程式碼。",
+      "code": "while True:\n    [[1]]\n        n = int(input())\n    [[2]] ValueError:\n        print(\"請輸入整數\")\n    [[3]]\n        print(\"收到\", n)\n        break",
+      "blanks": [
+        {
+          "options": [
+            "try:",
+            "try",
+            "except:",
+            "finally:"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "catch",
+            "else",
+            "raise",
+            "except"
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "finally:",
+            "else:",
+            "else",
+            "elif:"
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "try 包住可能出錯的轉型；except ValueError 處理格式錯誤；else 只在沒有例外時執行，所以印出並 break。若用 finally，出錯時也會執行，n 還沒有值就會拋出 NameError。Python 沒有 catch。",
+      "tags": [
+        "try / except"
+      ]
+    },
+    {
+      "id": "py5-o01",
+      "type": "order",
+      "q": "排列下列程式碼，讓輸出為「成功 5」再「結束」。",
+      "items": [
+        "try:",
+        "    x = int('5')",
+        "except ValueError:",
+        "    print('錯誤')",
+        "else:",
+        "    print('成功', x)",
+        "finally:",
+        "    print('結束')"
+      ],
+      "explain": "順序固定是 try → except → else → finally。else 在沒有例外時執行，finally 不論如何都會執行。",
+      "tags": [
+        "else 與 finally"
+      ]
+    },
+    {
+      "id": "py5-f02",
+      "type": "fill",
+      "q": "完成單元測試，確認 add(2, 3) 等於 5。",
+      "code": "import unittest\n\ndef add(a, b):\n    return a + b\n\nclass TestAdd([[1]]):\n    def [[2]](self):\n        self.[[3]](add(2, 3), 5)\n\nif __name__ == \"__main__\":\n    unittest.main()",
+      "blanks": [
+        {
+          "options": [
+            "unittest.TestCase",
+            "unittest",
+            "TestCase.unittest",
+            "object"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "add_test",
+            "test_add",
+            "check_add",
+            "Test_add"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "assertIn",
+            "assertEqual",
+            "assertIsNone",
+            "assertRaises"
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "測試類別繼承 unittest.TestCase；方法名稱要以小寫 test 開頭才會被執行；比較兩個值是否相等用 assertEqual。",
+      "tags": [
+        "unittest 單元測試"
+      ]
     }
   ]
 }

@@ -68,7 +68,7 @@ python -m http.server 8765
 | `answer` | 是 | 正解在 `options` 的位置，**0 代表第一個** |
 | `explain` | 否 | 解析，作答後顯示。沒填會出現提醒 |
 | `tags` | 否 | 標籤。第一個 tag 當作「講義章節」，作答時會顯示，並用來檢查章節覆蓋 |
-| `type` | 否 | `single`（預設，單選）或 `truefalse`（是非題） |
+| `type` | 否 | `single`（預設，單選）、`truefalse`（是非題）、`order`（排序題）或 `fill`（填空題），後兩種的格式見下方 |
 | `code` | 否 | 題目附的程式碼，會以等寬字型、保留縮排顯示在題幹下方。換行寫成 `\n` |
 
 程式題範例：
@@ -89,6 +89,42 @@ python -m http.server 8765
 ```json
 { "id": "tl-031", "type": "truefalse", "q": "凍結層的參數在反向傳播時不會更新。", "answer": true, "explain": "…" }
 ```
+
+### 排序題（拖曳排序）
+
+`items` 依**正確順序**列出，網站會打亂後讓使用者拖曳（或用 ↑ ↓ 按鈕）排回來。每行開頭的空白會保留，可以用來考縮排。內容完全相同的兩行互換位置也算對。
+
+```json
+{
+  "id": "py-o01",
+  "type": "order",
+  "q": "排列下列程式碼，計算 1 到 5 的總和並印出 15。",
+  "items": ["total = 0", "for i in range(1, 6):", "    total += i", "print(total)"],
+  "explain": "先把 total 設為 0，迴圈結束後才印出。"
+}
+```
+
+`items` 要 2–10 行；也可以加 `code` 在上方顯示題目附的程式碼。
+
+### 填空題（下拉選單）
+
+在 `code` 裡用 `[[1]]`、`[[2]]`… 標出空格，`blanks` 依序列出每個空格的選項與正解（`answer` 一樣是 0 代表第一個）。
+
+```json
+{
+  "id": "py-f01",
+  "type": "fill",
+  "q": "完成程式碼。",
+  "code": "[[1]] score >= 90:\n    grade = 'A'\n[[2]]\n    grade = 'B'",
+  "blanks": [
+    { "options": ["if", "elif", "else"], "answer": 0 },
+    { "options": ["else:", "else", "elif:"], "answer": 0 }
+  ],
+  "explain": "第一個條件用 if，最後用 else:。"
+}
+```
+
+這兩種題型都要按「確認作答」才算作答。練習模式確認後會顯示對錯並鎖定；考試模式可以修改後再按一次更新。
 
 ## 新增單元
 
@@ -126,6 +162,8 @@ python -m http.server 8765
 ```bash
 python3 tools/its-python/build.py
 ```
+
+排序題與填空題寫在 `tools/its-python/interactive.py`。有附測試案例的題目，產生時會額外檢查：填空題的每個誘答都會讓程式失敗；排序題會窮舉所有排列，確定只有一種順序正確。
 
 「執行下列程式碼後，輸出為何？」這類題目的正解是實際執行程式碼得到的，所以不會寫錯答案；如果正解剛好和某個誘答選項相同，或程式碼執行出錯，產生時會直接中斷。產生完記得再跑一次 `node tools/validate.js`。
 

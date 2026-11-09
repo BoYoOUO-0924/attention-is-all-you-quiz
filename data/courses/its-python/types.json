@@ -630,6 +630,110 @@
       "tags": [
         "運算子優先順序"
       ]
+    },
+    {
+      "id": "py1-f01",
+      "type": "fill",
+      "q": "完成程式碼：距離可能有小數，分鐘必須是整數，最後把結果接在字串前面印出。",
+      "code": "distance = [[1]](input())\nminutes = [[2]](input())\nprint([[3]](round(distance / minutes, 1)) + \" 公尺/分\")",
+      "blanks": [
+        {
+          "options": [
+            "int",
+            "float",
+            "str",
+            "bool"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "str",
+            "int",
+            "bool",
+            "len"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "int",
+            "float",
+            "print",
+            "str"
+          ],
+          "answer": 3
+        }
+      ],
+      "explain": "input() 回傳字串。距離可能有小數用 float()；分鐘要整數用 int()；最後用 + 接字串，數值必須先 str() 轉型，否則拋出 TypeError。",
+      "tags": [
+        "型別轉換"
+      ]
+    },
+    {
+      "id": "py1-f02",
+      "type": "fill",
+      "q": "完成切片，讓程式依序印出 Python 和 nohtyP。",
+      "code": "s = \"ITSPython\"\nprint(s[[[1]]])\nprint(s[[[2]]])",
+      "blanks": [
+        {
+          "options": [
+            "3:",
+            "4:",
+            "3:-1",
+            "2:"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "::-1",
+            ":3:-1",
+            "-1:3",
+            ":2:-1"
+          ],
+          "answer": 3
+        }
+      ],
+      "explain": "s[3:] 從索引 3（P）取到結尾得 Python。s[:2:-1] 從最後一個字元往回取，停在索引 2 之前（不含 S），得 nohtyP；s[::-1] 會把整個字串反轉。",
+      "tags": [
+        "字串索引與切片"
+      ]
+    },
+    {
+      "id": "py1-o01",
+      "type": "order",
+      "q": "排列下列程式碼，讓程式印出 [1, 2, 3]。",
+      "items": [
+        "nums = [3, 1]",
+        "nums.append(2)",
+        "nums.sort()",
+        "print(nums)"
+      ],
+      "explain": "先建立串列，append 把 2 加到尾端得 [3, 1, 2]，sort() 就地排序成 [1, 2, 3]，最後印出。若先 sort 再 append，會得到 [1, 3, 2]。",
+      "tags": [
+        "串列操作"
+      ]
+    },
+    {
+      "id": "py1-o02",
+      "type": "order",
+      "q": "依運算子優先順序，由高（最先計算）到低排列。",
+      "items": [
+        "()  括號",
+        "**  次方",
+        "-x  負號",
+        "*  /  //  %",
+        "+  -",
+        "==  !=  <  >  in  is",
+        "not",
+        "and",
+        "or"
+      ],
+      "explain": "括號最優先；** 高於負號（所以 -3 ** 2 是 -9）；接著乘除、加減、比較；邏輯運算子 not > and > or 最後。",
+      "tags": [
+        "運算子優先順序"
+      ]
     }
   ]
 }

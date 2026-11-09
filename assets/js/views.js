@@ -1,6 +1,7 @@
 // 各畫面的 HTML。每個函式只讀狀態、回傳字串；互動由 main.js 用 data-act 統一處理。
 import { esc, fmtTime, LETTERS } from "./util.js";
-import { indexCourse, scoreQuiz } from "./engine.js";
+import { indexCourse, scoreQuiz, isRight, initialWork } from "./engine.js";
+import { BLANK_RE } from "./data.js";
 import { store } from "./store.js";
 
 const countQs = course => course.units.reduce((n, u) => n + u.questions.length, 0);
@@ -157,6 +158,49 @@ export function optsHtml(q, it, pick, reveal) {
   }).join("");
 }
 
+/* 排序題：一列一個項目，可以拖曳或用 ↑ ↓ 調整。locked 時不能再改 */
+function orderHtml(q, work, locked, reveal) {
+  const rows = work.map((oi, k) => {
+    const mark = reveal ? (q.items[oi] === q.items[k] ? " right" : " wrong") : "";
+    const btns = locked ? "" : `<span class="omove">
+        <button type="button" class="btn ghost" data-act="move" data-k="${k}" data-d="-1" ${k === 0 ? "disabled" : ""} aria-label="上移">↑</button>
+        <button type="button" class="btn ghost" data-act="move" data-k="${k}" data-d="1" ${k === work.length - 1 ? "disabled" : ""} aria-label="下移">↓</button></span>`;
+    return `<li class="orow${mark}" ${locked ? "" : `draggable="true" data-drag="${k}"`}>
+      ${locked ? "" : `<span class="grip" aria-hidden="true">⠿</span>`}<span class="onum mono">${k + 1}</span>
+      <span class="txt code">${esc(q.items[oi])}</span>${btns}</li>`;
+  }).join("");
+  const key = reveal && !q.items.every((x, k) => x === q.items[work[k]])
+    ? `<div class="answer-key"><b>正確順序</b><ol>${q.items.map(x => `<li><span class="txt code">${esc(x)}</span></li>`).join("")}</ol></div>` : "";
+  return `<ol class="order${locked ? " locked" : ""}">${rows}</ol>${key}`;
+}
+
+/* 填空題：把 code 裡的 [[n]] 換成下拉選單；作答後換成標示對錯的文字 */
+function fillHtml(q, it, work, locked, reveal) {
+  const body = esc(q.code).replace(BLANK_RE, (_, n) => {
+    const b = Number(n) - 1;
+    const blank = q.blanks[b];
+    const v = work[b];
+    if (reveal) {
+      const ok = v === blank.answer;
+      const mine = v === null ? "（未作答）" : blank.options[v];
+      return `<span class="blank ${ok ? "right" : "wrong"}">${esc(mine)}</span>${ok ? "" : `<span class="blank fix">${esc(blank.options[blank.answer])}</span>`}`;
+    }
+    const opts = it.perm[b].map(oi => `<option value="${oi}" ${v === oi ? "selected" : ""}>${esc(blank.options[oi])}</option>`).join("");
+    return `<select class="blank-sel" data-blank="${b}" aria-label="空格 ${b + 1}" ${locked ? "disabled" : ""}><option value="" ${v === null ? "selected" : ""}>空格 ${b + 1} ▾</option>${opts}</select>`;
+  });
+  return `<pre class="qcode fill"><code>${body}</code></pre>`;
+}
+
+// 依題型畫出作答區。work 是目前畫面上的狀態（排序題的順序、填空題的選擇）
+export function answerHtml(q, it, pick, work, locked, reveal) {
+  if (q.type === "order") return orderHtml(q, work, locked, reveal);
+  if (q.type === "fill") return fillHtml(q, it, work, locked, reveal);
+  return `<div class="opts">${optsHtml(q, it, pick, reveal)}</div>`;
+}
+
+const interactive = q => q.type === "order" || q.type === "fill";
+const TYPE_TAG = { truefalse: "是非題", order: "排序題", fill: "填空題" };
+
 export function quizView(S, ctx, course) {
   const quiz = S.quiz;
   const index = indexCourse(course);
@@ -168,8 +212,14 @@ export function quizView(S, ctx, course) {
   const reveal = quiz.mode === "practice" && pick !== null;
   const last = quiz.cur === n - 1;
   const practice = quiz.mode === "practice";
+  const right = isRight(q, it, pick);
+  const work = (quiz.work && quiz.work[quiz.cur]) || pick || initialWork(it);
+  const wrongMsg = interactive(q) ? "答錯了，正確答案已標示在上方" : "答錯了，正確答案是 " + LETTERS[it.ans];
 
-  const fb = reveal ? `<div class="explain ${pick === it.ans ? "ok" : "bad"}"><b>${pick === it.ans ? "答對了" : "答錯了，正確答案是 " + LETTERS[it.ans]}</b>${esc(q.explain || "這題沒有附解析。")}</div>` : "";
+  const fb = reveal ? `<div class="explain ${right ? "ok" : "bad"}"><b>${right ? "答對了" : wrongMsg}</b>${esc(q.explain || "這題沒有附解析。")}</div>` : "";
+  const confirm = interactive(q) && !reveal ? `<div class="confirm-row">
+      <button class="btn" type="button" data-act="confirm" ${q.type === "fill" && work.includes(null) ? "disabled" : ""}>${pick !== null ? "更新作答" : "確認作答"}</button>
+      <span class="hint">${pick !== null ? "已記錄作答。修改後要再按一次才會更新。" : q.type === "order" ? "拖曳或按 ↑ ↓ 排好順序後，按「確認作答」。" : "每個空格都選好後，按「確認作答」。"}</span></div>` : "";
   const ask = S.ask === "submit"
     ? `<div class="notice" role="alert"><span>還有 <b class="mono">${n - answered}</b> 題沒作答，未作答的題目會算錯。確定要交卷嗎？</span>
         <span class="acts"><button class="btn" type="button" data-act="confirm-submit">確定交卷</button><button class="btn ghost" type="button" data-act="cancel">繼續作答</button></span></div>`
@@ -193,10 +243,11 @@ export function quizView(S, ctx, course) {
     <main class="qcard" id="qcard">
       <div class="qmeta"><span class="qno">Q${quiz.cur + 1}</span><span class="tag">${esc(unitName(course, it.unit))}</span>
         ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
-        ${q.type === "truefalse" ? `<span class="tag">是非題</span>` : ""}</div>
+        ${TYPE_TAG[q.type] ? `<span class="tag">${TYPE_TAG[q.type]}</span>` : ""}</div>
       <h2 class="qtext">${esc(q.q)}</h2>
-      ${codeHtml(q)}
-      <div class="opts">${optsHtml(q, it, pick, reveal)}</div>
+      ${q.type === "fill" ? "" : codeHtml(q)}
+      ${answerHtml(q, it, pick, work, reveal, reveal)}
+      ${confirm}
       ${fb}
       <div class="qnav">
         <button class="btn ghost" type="button" data-act="prev" ${quiz.cur === 0 ? "disabled" : ""}>上一題</button>
@@ -204,14 +255,14 @@ export function quizView(S, ctx, course) {
           ? `<button class="btn" type="button" data-act="submit">${practice ? "看成績" : "交卷"}</button>`
           : `<button class="btn" type="button" data-act="next">下一題</button>`}
       </div>
-      <p class="keys">鍵盤：按數字鍵或 A–F 選答案，← → 切換題目。</p>
+      <p class="keys">${interactive(q) ? "鍵盤：← → 切換題目。" : "鍵盤：按數字鍵或 A–F 選答案，← → 切換題目。"}</p>
     </main>
     <aside class="sheet" aria-label="答案卡">
       <div class="sheet-head"><b>答案卡</b><span class="mono">已答 ${answered} / ${n}</span></div>
       <div class="cells">${quiz.items.map((x, i) => {
         let c = "cell";
         const p = quiz.picks[i];
-        if (p !== null) c += practice ? (p === x.ans ? " ok" : " bad") : " ans";
+        if (p !== null) c += practice ? (isRight(index.get(x.key).q, x, p) ? " ok" : " bad") : " ans";
         if (i === quiz.cur) c += " cur";
         return `<button type="button" class="${c}" data-act="goto" data-n="${i}" aria-label="第 ${i + 1} 題">${i + 1}</button>`;
       }).join("")}</div>
@@ -270,8 +321,8 @@ export function resultView(S, ctx, course) {
             ${q.tags[0] ? `<span class="tag">${esc(q.tags[0])}</span>` : ""}
             <span class="tag">${ok ? "答對" : p === null ? "未作答" : "答錯"}</span></div>
           <h3 class="qtext">${esc(q.q)}</h3>
-          ${codeHtml(q)}
-          <div class="opts">${optsHtml(q, it, p, true)}</div>
+          ${q.type === "fill" ? "" : codeHtml(q)}
+          ${answerHtml(q, it, p, p || initialWork(it), true, true)}
           ${q.explain ? `<div class="explain"><b>解析</b>${esc(q.explain)}</div>` : ""}
         </article>`;
       }).join("") : `<p class="empty">這次全部答對，沒有需要檢討的題目。</p>`}
