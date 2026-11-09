@@ -500,6 +500,101 @@
       "tags": [
         "命令列參數 sys.argv"
       ]
+    },
+    {
+      "id": "py3-f01",
+      "type": "fill",
+      "q": "檔案存在就顯示內容；不存在就建立檔案並寫入第一行。完成程式碼。",
+      "code": "import os\nif [[1]](\"data.txt\"):\n    with open(\"data.txt\", [[2]]) as f:\n        print(f.[[3]]())\nelse:\n    with open(\"data.txt\", [[4]]) as f:\n        f.write(\"first line\")\n    print(\"已建立\")",
+      "blanks": [
+        {
+          "options": [
+            "os.isfile",
+            "os.path.isfile",
+            "os.path.isdir",
+            "os.exists"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "\"w\"",
+            "\"a\"",
+            "\"x\"",
+            "\"r\""
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "write",
+            "readlines",
+            "close",
+            "read"
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "\"r\"",
+            "\"w\"",
+            "\"rb\"",
+            "\"rt\""
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "os.path.isfile 檢查檔案是否存在；讀取用 \"r\" 模式、f.read() 讀出全部內容；建立新檔用 \"w\"（\"a\" 也能建立，但本題沒有這個選項）。\"r\" 開啟不存在的檔案會拋出 FileNotFoundError。",
+      "tags": [
+        "檢查與刪除檔案"
+      ]
+    },
+    {
+      "id": "py3-f02",
+      "type": "fill",
+      "q": "姓名占 10 格靠左，分數占 8 格靠右、四捨五入到小數 2 位。完成 f-string。",
+      "code": "name = \"Amy\"\nscore = 87.456\nprint(f\"{name:[[1]]}|{score:[[2]]}|\")",
+      "blanks": [
+        {
+          "options": [
+            ">10",
+            "^10",
+            "10d",
+            "<10"
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "2.8f",
+            ".2",
+            "8.2f",
+            "8.2d"
+          ],
+          "answer": 2
+        }
+      ],
+      "explain": "冒號後面是格式：< 靠左、> 靠右、^ 置中，10 是寬度；8.2f 是寬度 8、小數 2 位的浮點數（數字預設靠右）。d 只能用在整數；.2 沒有 f 時代表「2 位有效數字」，會得到 87。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-o01",
+      "type": "order",
+      "q": "排列下列程式碼：先建立檔案寫入第一行，再附加第二行，最後讀出全部內容。",
+      "items": [
+        "with open('log.txt', 'w') as f:",
+        "    f.write('第一行\\n')",
+        "with open('log.txt', 'a') as f:",
+        "    f.write('第二行\\n')",
+        "with open('log.txt') as f:",
+        "    print(f.read().strip())"
+      ],
+      "explain": "\"w\" 會清空檔案後寫入，所以要放在最前面；\"a\" 附加在檔尾；最後用預設的 \"r\" 模式讀出。若先附加再用 \"w\"，第二行會被清掉。",
+      "tags": [
+        "寫入與附加"
+      ]
     }
   ]
 }

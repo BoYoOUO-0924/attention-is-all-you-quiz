@@ -467,6 +467,83 @@
       "tags": [
         "變數範圍"
       ]
+    },
+    {
+      "id": "py4-f01",
+      "type": "fill",
+      "q": "calc_score 把 value 加到目前分數並回傳；沒有給 value 時加 1。完成程式碼。",
+      "code": "[[1]] calc_score(current, value[[2]]):\n    current += value\n    [[3]] current\n\nprint(calc_score(10), calc_score(10, 5))",
+      "blanks": [
+        {
+          "options": [
+            "function",
+            "define",
+            "def",
+            "lambda"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "=1",
+            "=0",
+            ":=1",
+            "=None"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "print",
+            "return",
+            "yield",
+            "pass"
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "定義函式用 def；value=1 讓參數有預設值；用 return 把結果傳回。若用 print，函式本身會回傳 None。",
+      "tags": [
+        "參數與預設值"
+      ]
+    },
+    {
+      "id": "py4-f02",
+      "type": "fill",
+      "q": "讓 add() 能修改函式外面的 count。完成程式碼。",
+      "code": "count = 0\ndef add():\n    [[1]] count\n    count += 1\n\nadd()\nadd()\nprint(count)",
+      "blanks": [
+        {
+          "options": [
+            "global",
+            "local",
+            "nonlocal",
+            "static"
+          ],
+          "answer": 0
+        }
+      ],
+      "explain": "在函式內對全域變數重新指派，必須先宣告 global。沒有宣告時 count += 1 會拋出 UnboundLocalError。nonlocal 用在巢狀函式，不能指向模組層級的變數。",
+      "tags": [
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "py4-o01",
+      "type": "order",
+      "q": "排列下列程式碼，讓程式印出面積 12.57，再印出函式的 docstring。",
+      "items": [
+        "def area(r):",
+        "    \"\"\"回傳圓面積。\"\"\"",
+        "    import math",
+        "    return math.pi * r ** 2",
+        "print(round(area(2), 2))",
+        "print(area.__doc__)"
+      ],
+      "explain": "docstring 必須是函式本體的第一個敘述，才會存進 __doc__；如果放在 import 後面，只是一個沒用到的字串，__doc__ 會是 None。",
+      "tags": [
+        "註解與 docstring"
+      ]
     }
   ]
 }

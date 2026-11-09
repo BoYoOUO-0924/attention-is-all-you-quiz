@@ -493,6 +493,117 @@
       "tags": [
         "巢狀迴圈與迴圈 else"
       ]
+    },
+    {
+      "id": "py2-f01",
+      "type": "fill",
+      "q": "完成程式碼：90 分以上為 A，60 分以上為 B，其他為 F。",
+      "code": "score = int(input())\n[[1]] score >= 90:\n    grade = \"A\"\n[[2]] score >= 60:\n    grade = \"B\"\n[[3]]\n    grade = \"F\"\nprint(grade)",
+      "blanks": [
+        {
+          "options": [
+            "elif",
+            "if",
+            "else",
+            "for"
+          ],
+          "answer": 1
+        },
+        {
+          "options": [
+            "if",
+            "else if",
+            "elif",
+            "else"
+          ],
+          "answer": 2
+        },
+        {
+          "options": [
+            "elif:",
+            "else:",
+            "else",
+            "if:"
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "第一個條件用 if；中間的條件用 elif（不是 else if）；最後的 else 不能接條件，但要有冒號。若第二個也寫 if，95 分會先被設成 A，再被第二個 if 改成 B。",
+      "tags": [
+        "if / elif / else"
+      ]
+    },
+    {
+      "id": "py2-f02",
+      "type": "fill",
+      "q": "猜數字遊戲最多猜 3 次，猜中就結束。完成程式碼。",
+      "code": "secret = 7\nchance = 1\n[[1]] chance <= 3:\n    guess = int(input())\n    if guess == secret:\n        print(\"答對\")\n        [[2]]\n    chance [[3]] 1\nelse:\n    print(\"機會用完\")",
+      "blanks": [
+        {
+          "options": [
+            "while",
+            "if",
+            "for",
+            "until"
+          ],
+          "answer": 0
+        },
+        {
+          "options": [
+            "continue",
+            "pass",
+            "chance = 0",
+            "break"
+          ],
+          "answer": 3
+        },
+        {
+          "options": [
+            "=+",
+            "+=",
+            "-=",
+            "=="
+          ],
+          "answer": 1
+        }
+      ],
+      "explain": "while 搭配 chance 計數最多跑 3 次；猜中用 break 跳出（同時略過 while 的 else）；每次猜完 chance += 1。注意 =+ 1 等於 = +1，chance 永遠是 1。迴圈沒有被 break 而正常結束時，才會執行 else。",
+      "tags": [
+        "while 迴圈"
+      ]
+    },
+    {
+      "id": "py2-o01",
+      "type": "order",
+      "q": "排列下列程式碼，計算 1 到 5 的總和並印出 15。",
+      "items": [
+        "total = 0",
+        "for i in range(1, 6):",
+        "    total += i",
+        "print(total)"
+      ],
+      "explain": "先把 total 設為 0，for 迴圈把 1 到 5 依序加進 total，迴圈結束後（沒有縮排）才印出。",
+      "tags": [
+        "for 迴圈與 range"
+      ]
+    },
+    {
+      "id": "py2-o02",
+      "type": "order",
+      "q": "排列下列程式碼，判斷輸入的 n 是不是質數：輸入 7 印出「是質數」，輸入 9 印出「不是質數」。",
+      "items": [
+        "n = int(input())",
+        "for d in range(2, n):",
+        "    if n % d == 0:",
+        "        print('不是質數')",
+        "        break",
+        "else:",
+        "    print('是質數')"
+      ],
+      "explain": "for…else：迴圈跑完都沒有遇到 break，才執行 else。找到因數時要先印出「不是質數」再 break；break 之後的程式不會執行。",
+      "tags": [
+        "巢狀迴圈與迴圈 else"
+      ]
     }
   ]
 }

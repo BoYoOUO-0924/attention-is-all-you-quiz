@@ -1,6 +1,9 @@
 // 題庫格式的檢查與正規化。網站載入、首頁匯入、tools/validate.js 都共用這裡的規則。
 
-export const QUESTION_TYPES = ["single", "truefalse"];
+export const QUESTION_TYPES = ["single", "truefalse", "order", "fill"];
+export const MAX_ORDER_ITEMS = 10;
+// 填空題在 code 裡用 [[1]]、[[2]]… 標出空格位置
+export const BLANK_RE = /\[\[(\d+)\]\]/g;
 export const MIN_OPTIONS = 2;
 export const MAX_OPTIONS = 6;
 
@@ -17,6 +20,7 @@ export function normalizeQuestion(raw, where, errors) {
     errors.push(`${where}：不支援的題型「${type}」，可用 ${QUESTION_TYPES.join("、")}`);
     return null;
   }
+  if (type === "order" || type === "fill") return normalizeInteractive(raw, type, where, errors);
   let options = raw.options;
   let answer = raw.answer;
   if (type === "truefalse") {
@@ -38,6 +42,55 @@ export function normalizeQuestion(raw, where, errors) {
   if (errors.length > before) return null;
 
   return { id: raw.id.trim(), type, q: raw.q, code: raw.code ?? "", options, answer, explain: raw.explain ?? "", tags: raw.tags ?? [] };
+}
+
+// 排序題：items 依正確順序列出，網站會打亂後讓使用者拖曳排回來
+// 填空題：code 裡的 [[n]] 對應 blanks[n-1]，每個空格是一個下拉選單
+function normalizeInteractive(raw, type, where, errors) {
+  const before = errors.length;
+  if (!isStr(raw.id)) errors.push(`${where}：缺少 id`);
+  if (!isStr(raw.q)) errors.push(`${where}：缺少題幹 q`);
+  if (raw.explain !== undefined && typeof raw.explain !== "string") errors.push(`${where}：explain 必須是字串`);
+  if (raw.tags !== undefined && !(Array.isArray(raw.tags) && raw.tags.every(isStr))) errors.push(`${where}：tags 必須是字串陣列`);
+  const out = { type, q: raw.q, explain: raw.explain ?? "", tags: raw.tags ?? [] };
+
+  if (type === "order") {
+    if (raw.code !== undefined && !isStr(raw.code)) errors.push(`${where}：code 必須是非空字串`);
+    const items = raw.items;
+    if (!Array.isArray(items) || items.length < 2 || items.length > MAX_ORDER_ITEMS || !items.every(isStr)) {
+      errors.push(`${where}：排序題的 items 必須是 2–${MAX_ORDER_ITEMS} 個非空字串，依正確順序排列`);
+    } else if (items.every(x => x === items[0])) {
+      errors.push(`${where}：items 內容全部相同，無法排序`);
+    }
+    Object.assign(out, { code: raw.code ?? "", items });
+  } else {
+    const blanks = raw.blanks;
+    if (!isStr(raw.code)) errors.push(`${where}：填空題必須有 code，並用 [[1]]、[[2]]… 標出空格`);
+    if (!Array.isArray(blanks) || blanks.length === 0) {
+      errors.push(`${where}：填空題必須有 blanks 陣列`);
+    } else {
+      blanks.forEach((b, i) => {
+        const bw = `${where} 空格 ${i + 1}`;
+        if (!b || !Array.isArray(b.options) || b.options.length < MIN_OPTIONS || b.options.length > MAX_OPTIONS || !b.options.every(isStr)) {
+          errors.push(`${bw}：options 必須是 ${MIN_OPTIONS}–${MAX_OPTIONS} 個非空字串`);
+        } else if (new Set(b.options).size !== b.options.length) {
+          errors.push(`${bw}：options 有重複的選項`);
+        } else if (!Number.isInteger(b.answer) || b.answer < 0 || b.answer >= b.options.length) {
+          errors.push(`${bw}：answer 必須是 0 到 ${b.options.length - 1} 的整數（0 代表第一個選項）`);
+        }
+      });
+      if (isStr(raw.code)) {
+        const marks = [...raw.code.matchAll(BLANK_RE)].map(m => Number(m[1]));
+        const want = blanks.map((_, i) => i + 1);
+        if (marks.length !== want.length || !want.every(n => marks.includes(n))) {
+          errors.push(`${where}：code 裡的空格標記（找到 ${marks.map(n => `[[${n}]]`).join("、") || "沒有"}）必須剛好是 [[1]] 到 [[${blanks.length}]] 各一次`);
+        }
+      }
+    }
+    Object.assign(out, { code: raw.code ?? "", blanks: Array.isArray(blanks) ? blanks : [] });
+  }
+  if (errors.length > before) return null;
+  return { id: raw.id.trim(), ...out };
 }
 
 // raw.units[].questions 必須已經是陣列（題庫放在單元檔裡的，要先讀進來再傳入）
