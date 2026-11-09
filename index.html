@@ -6,8 +6,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap">
-<link rel="stylesheet" href="assets/style.css">
+<!-- 更新 assets/ 後把 v= 改成新的值，瀏覽器才會抓新版的 JS/CSS，而不是用舊快取 -->
+<script type="importmap">
+{ "imports": {
+  "./assets/js/data.js": "./assets/js/data.js?v=2026110901",
+  "./assets/js/views.js": "./assets/js/views.js?v=2026110901",
+  "./assets/js/engine.js": "./assets/js/engine.js?v=2026110901",
+  "./assets/js/store.js": "./assets/js/store.js?v=2026110901",
+  "./assets/js/util.js": "./assets/js/util.js?v=2026110901"
+} }
+</script>
+<link rel="stylesheet" href="assets/style.css?v=2026110901">
 
 <div class="wrap" id="app"><p class="empty">正在載入題庫……</p></div>
 
-<script type="module" src="assets/js/main.js"></script>
+<script type="module" src="./assets/js/main.js?v=2026110901"></script>

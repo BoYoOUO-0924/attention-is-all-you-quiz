@@ -151,4 +151,6 @@ node tools/validate.js 我的題庫.json
 
 ## 發布
 
-網站用 GitHub Pages 從 `main` 分支的根目錄發布，push 之後約一分鐘會自動更新。網站實際用到的是 `index.html`、`assets/` 與 `data/`；`tools/`、`package.json` 只在本機使用。
+網站用 GitHub Pages 從 `main` 分支的根目錄發布，push 之後約一分鐘會自動更新。
+
+GitHub Pages 會讓瀏覽器把 JS、CSS 快取約 10 分鐘，題庫 JSON 則每次都重新讀取。**改了 `assets/` 底下的檔案時，要把 `index.html` 裡所有的 `?v=` 改成新的值**（例如當天日期加序號），否則看過網站的人會拿舊程式讀新題庫，新功能（像 `code` 欄位）不會出現。只改 `data/` 不需要動。網站實際用到的是 `index.html`、`assets/` 與 `data/`；`tools/`、`package.json` 只在本機使用。
