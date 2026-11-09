@@ -22,14 +22,16 @@
 ├─ data/
 │  ├─ catalog.json            課程清單：網站從這裡開始讀
 │  ├─ courses/
-│  │  └─ aai/                 一門課一個資料夾
-│  │     ├─ course.json       課程名稱、單元列表
-│  │     ├─ transformer.json  單元題庫
-│  │     ├─ nlp.json
-│  │     └─ transfer-learning.json
+│  │  ├─ aai/                 一門課一個資料夾
+│  │  │  ├─ course.json       課程名稱、單元列表
+│  │  │  ├─ transformer.json  單元題庫
+│  │  │  ├─ nlp.json
+│  │  │  └─ transfer-learning.json
+│  │  └─ its-python/          ITS Python 認證練習（由 tools/its-python 產生）
 │  └─ templates/
 │     └─ course-pack.example.json   匯入用的範例
 ├─ tools/validate.js          題庫格式檢查
+├─ tools/its-python/          產生 ITS Python 題庫的程式（題目寫在 u1.py–u6.py）
 └─ package.json
 ```
 
@@ -67,6 +69,20 @@ python -m http.server 8765
 | `explain` | 否 | 解析，作答後顯示。沒填會出現提醒 |
 | `tags` | 否 | 標籤。第一個 tag 當作「講義章節」，作答時會顯示，並用來檢查章節覆蓋 |
 | `type` | 否 | `single`（預設，單選）或 `truefalse`（是非題） |
+| `code` | 否 | 題目附的程式碼，會以等寬字型、保留縮排顯示在題幹下方。換行寫成 `\n` |
+
+程式題範例：
+
+```json
+{
+  "id": "py-001",
+  "q": "執行下列程式碼後，輸出為何？",
+  "code": "x = [1, 2]\nx.append(3)\nprint(len(x))",
+  "options": ["2", "3", "4", "拋出 TypeError"],
+  "answer": 1,
+  "explain": "append 在尾端加入一個元素，長度變 3。"
+}
+```
 
 是非題可以省略 `options`，`answer` 填 `true` 或 `false`：
 
@@ -102,6 +118,16 @@ python -m http.server 8765
 2. 在 `data/catalog.json` 的 `courses` 加一筆 `{ "path": "courses/<課程id>/course.json" }`。
 
 單元也可以不拆檔，直接把 `questions` 寫在 `course.json` 的單元裡，格式和匯入檔一樣。
+
+## ITS Python 題庫
+
+`data/courses/its-python/` 是依 Certiport IT Specialist – Python 公開的六大考試範圍編寫的原創練習題（不是官方考題）。題目寫在 `tools/its-python/u1.py`–`u6.py`，改完後在專案根目錄執行：
+
+```bash
+python3 tools/its-python/build.py
+```
+
+「執行下列程式碼後，輸出為何？」這類題目的正解是實際執行程式碼得到的，所以不會寫錯答案；如果正解剛好和某個誘答選項相同，或程式碼執行出錯，產生時會直接中斷。產生完記得再跑一次 `node tools/validate.js`。
 
 ## 改完先檢查
 

@@ -1,0 +1,505 @@
+{
+  "questions": [
+    {
+      "id": "py3-001",
+      "q": "open() 的模式中，哪一個會「清空原有內容再寫入，檔案不存在就建立」？",
+      "options": [
+        "\"a\"",
+        "\"w\"",
+        "\"r\"",
+        "\"x\""
+      ],
+      "answer": 1,
+      "explain": "\"w\" 覆寫；\"a\" 附加在檔尾；\"r\" 唯讀（檔案不存在會出錯）；\"x\" 只在檔案不存在時建立，已存在會出錯。",
+      "tags": [
+        "開啟模式與 with"
+      ]
+    },
+    {
+      "id": "py3-002",
+      "q": "要把資料加在既有檔案 log.txt 的最後面，而不刪除原本內容，應使用哪個模式？",
+      "options": [
+        "open(\"log.txt\", \"w\")",
+        "open(\"log.txt\", \"r\")",
+        "open(\"log.txt\", \"a\")",
+        "open(\"log.txt\", \"r+\")"
+      ],
+      "answer": 2,
+      "explain": "\"a\"（append）會把寫入位置放在檔尾；\"r+\" 雖可讀寫，但寫入位置從檔頭開始，會蓋掉原本的內容。",
+      "tags": [
+        "開啟模式與 with"
+      ]
+    },
+    {
+      "id": "py3-003",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "f = open(\"no_such_file.txt\", \"r\")\nprint(f.read())",
+      "options": [
+        "（沒有輸出）",
+        "拋出 FileNotFoundError",
+        "建立空白檔案後印出空字串",
+        "拋出 PermissionError"
+      ],
+      "answer": 1,
+      "explain": "以 \"r\" 模式開啟不存在的檔案會拋出 FileNotFoundError。",
+      "tags": [
+        "開啟模式與 with"
+      ]
+    },
+    {
+      "id": "py3-004",
+      "q": "使用 with open(...) as f: 的主要好處是？",
+      "options": [
+        "離開區塊時會自動關閉檔案，即使中途發生例外也一樣",
+        "讀取速度比較快",
+        "可以同時開啟多個模式",
+        "檔案不存在時會自動建立"
+      ],
+      "answer": 0,
+      "explain": "with 是內容管理器（context manager），區塊結束就呼叫 f.close()，不必自己記得關檔。",
+      "tags": [
+        "開啟模式與 with"
+      ]
+    },
+    {
+      "id": "py3-005",
+      "type": "truefalse",
+      "q": "以 \"w\" 模式開啟一個已經存在的檔案，原本的內容會被清空。",
+      "answer": true,
+      "explain": "\"w\" 一開啟就把檔案截斷為 0 位元組，即使之後什麼都沒寫入。",
+      "tags": [
+        "開啟模式與 with"
+      ]
+    },
+    {
+      "id": "py3-006",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"data.txt\") as f:\n    print(f.read())",
+      "options": [
+        "Line1",
+        "Line1\nLine2\nLine3",
+        "['Line1\\n', 'Line2\\n', 'Line3']",
+        "Line1 Line2 Line3"
+      ],
+      "answer": 1,
+      "explain": "read() 一次讀入全部內容成為一個字串，換行字元也會保留。",
+      "tags": [
+        "讀取檔案"
+      ]
+    },
+    {
+      "id": "py3-007",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"data.txt\") as f:\n    print(f.readline(), end=\"\")\n    print(f.readline(), end=\"\")",
+      "options": [
+        "Line1",
+        "Line1\nLine2\nLine3",
+        "Line1\nLine2",
+        "Line2\nLine3"
+      ],
+      "answer": 2,
+      "explain": "readline() 每次讀一行（含結尾的 \\n），檔案指標會往後移，所以第二次讀到第二行。",
+      "tags": [
+        "讀取檔案"
+      ]
+    },
+    {
+      "id": "py3-008",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"data.txt\") as f:\n    lines = f.readlines()\nprint(len(lines), repr(lines[0]))",
+      "options": [
+        "3 'Line1'",
+        "1 'Line1\\nLine2\\nLine3'",
+        "14 'L'",
+        "3 'Line1\\n'"
+      ],
+      "answer": 3,
+      "explain": "readlines() 回傳串列，每一行是一個元素，而且保留結尾的換行字元 \\n（最後一行沒有換行就不含）。",
+      "tags": [
+        "讀取檔案"
+      ]
+    },
+    {
+      "id": "py3-009",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "total = 0\nwith open(\"scores.txt\") as f:\n    for line in f:\n        total += int(line.strip())\nprint(total)",
+      "options": [
+        "807090",
+        "拋出 ValueError",
+        "240",
+        "3"
+      ],
+      "answer": 2,
+      "explain": "檔案物件可以直接用 for 逐行走訪。line.strip() 去掉換行字元後再轉 int：80 + 70 + 90 = 240。（int() 其實也會忽略頭尾空白。）",
+      "tags": [
+        "讀取檔案"
+      ]
+    },
+    {
+      "id": "py3-010",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"data.txt\") as f:\n    print(f.read(3))\n    print(f.read())",
+      "options": [
+        "Lin\nLine1\nLine2",
+        "Line1\nLine2",
+        "Lin\ne1\nLine2",
+        "Lin"
+      ],
+      "answer": 2,
+      "explain": "read(n) 讀取 n 個字元。第二次 read() 從上次停下的位置繼續讀到檔尾。",
+      "tags": [
+        "讀取檔案"
+      ]
+    },
+    {
+      "id": "py3-011",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"out.txt\", \"w\") as f:\n    f.write(\"A\")\n    f.write(\"B\\n\")\n    f.write(\"C\")\nwith open(\"out.txt\") as f:\n    print(f.read())",
+      "options": [
+        "AB\nC",
+        "A\nB\nC",
+        "ABC",
+        "A B\nC"
+      ],
+      "answer": 0,
+      "explain": "write() 不會自動換行，要換行必須自己寫 \\n。所以 A 與 B 接在同一行。",
+      "tags": [
+        "寫入與附加"
+      ]
+    },
+    {
+      "id": "py3-012",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"log.txt\", \"a\") as f:\n    f.write(\"new\\n\")\nwith open(\"log.txt\") as f:\n    print(f.read().strip())",
+      "options": [
+        "new",
+        "old",
+        "new\nold",
+        "old\nnew"
+      ],
+      "answer": 3,
+      "explain": "\"a\" 模式把新資料寫在檔尾，原本的內容保留。",
+      "tags": [
+        "寫入與附加"
+      ]
+    },
+    {
+      "id": "py3-013",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "with open(\"log.txt\", \"w\") as f:\n    f.write(\"new\\n\")\nwith open(\"log.txt\") as f:\n    print(f.read().strip())",
+      "options": [
+        "old\nnew",
+        "new\nold",
+        "new",
+        "old"
+      ],
+      "answer": 2,
+      "explain": "\"w\" 模式先清空檔案，所以原本的 old 消失了。",
+      "tags": [
+        "寫入與附加"
+      ]
+    },
+    {
+      "id": "py3-014",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "names = [\"Amy\", \"Ben\"]\nwith open(\"n.txt\", \"w\") as f:\n    f.writelines(names)\n    print(\"Cat\", file=f)\nwith open(\"n.txt\") as f:\n    print(f.read().strip())",
+      "options": [
+        "Amy\nBen\nCat",
+        "['Amy', 'Ben']Cat",
+        "AmyBenCat",
+        "Amy Ben Cat"
+      ],
+      "answer": 2,
+      "explain": "writelines() 不會替每個元素加換行，所以 Amy、Ben 黏在一起。print(..., file=f) 會把內容寫進檔案並自動加上換行。",
+      "tags": [
+        "寫入與附加"
+      ]
+    },
+    {
+      "id": "py3-015",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "with open(\"n.txt\", \"w\") as f:\n    f.write(100)",
+      "options": [
+        "拋出 TypeError",
+        "寫入 100",
+        "寫入 \"100\"",
+        "（沒有輸出），檔案是空的"
+      ],
+      "answer": 0,
+      "explain": "write() 只接受字串，傳入 int 會拋出 TypeError，要寫成 f.write(str(100))。",
+      "tags": [
+        "寫入與附加"
+      ]
+    },
+    {
+      "id": "py3-016",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "import os\nprint(os.path.exists(\"a.txt\"), os.path.isfile(\"a.txt\"), os.path.isdir(\"a.txt\"))",
+      "options": [
+        "True False True",
+        "False False False",
+        "True True False",
+        "True True True"
+      ],
+      "answer": 2,
+      "explain": "exists 判斷路徑是否存在；isfile 是否為檔案；isdir 是否為資料夾。a.txt 是檔案，所以 isdir 為 False。",
+      "tags": [
+        "檢查與刪除檔案"
+      ]
+    },
+    {
+      "id": "py3-017",
+      "q": "下列哪一段程式可以「檔案存在才刪除」，避免出錯？",
+      "options": [
+        "if os.exists(\"old.txt\"):\n    os.delete(\"old.txt\")",
+        "if os.path.exists(\"old.txt\"):\n    os.remove(\"old.txt\")",
+        "if os.path.isfile(\"old.txt\"):\n    os.path.remove(\"old.txt\")",
+        "os.remove(\"old.txt\", force=True)"
+      ],
+      "answer": 1,
+      "explain": "os.path.exists 檢查路徑是否存在；刪除檔案用 os.remove()（等同 os.unlink）。os 沒有 exists、delete 函式，os.path 也沒有 remove。",
+      "tags": [
+        "檢查與刪除檔案"
+      ]
+    },
+    {
+      "id": "py3-018",
+      "q": "執行下列程式碼會發生什麼事？",
+      "code": "import os\nos.remove(\"ghost.txt\")\nprint(\"已刪除\")",
+      "options": [
+        "已刪除",
+        "（沒有輸出）",
+        "拋出 PermissionError",
+        "拋出 FileNotFoundError"
+      ],
+      "answer": 3,
+      "explain": "刪除不存在的檔案會拋出 FileNotFoundError。可先用 os.path.exists 檢查，或用 try/except 處理。",
+      "tags": [
+        "檢查與刪除檔案"
+      ]
+    },
+    {
+      "id": "py3-019",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "import os\nwith open(\"t.txt\", \"w\") as f:\n    f.write(\"hello\")\nprint(os.path.getsize(\"t.txt\"), os.path.basename(\"/home/user/t.txt\"))",
+      "options": [
+        "5 /home/user/t.txt",
+        "6 t.txt",
+        "5 t.txt",
+        "1 t"
+      ],
+      "answer": 2,
+      "explain": "getsize 回傳檔案大小（位元組），\"hello\" 是 5 個 ASCII 字元。basename 取出路徑最後的檔名。",
+      "tags": [
+        "檢查與刪除檔案"
+      ]
+    },
+    {
+      "id": "py3-020",
+      "q": "使用者依序輸入 2 和 3（各按一次 Enter），輸出為何？",
+      "code": "a = input()\nb = input()\nprint(a + b)",
+      "options": [
+        "5",
+        "23",
+        "2 3",
+        "拋出 TypeError"
+      ],
+      "answer": 1,
+      "explain": "input() 永遠回傳字串，\"2\" + \"3\" 是字串串接得 \"23\"。要計算得先 int()。",
+      "tags": [
+        "input 主控台輸入"
+      ]
+    },
+    {
+      "id": "py3-021",
+      "q": "使用者依序輸入 2 和 3（各按一次 Enter），輸出為何？",
+      "code": "a = int(input())\nb = float(input())\nprint(a + b)",
+      "options": [
+        "23",
+        "5",
+        "5.0",
+        "拋出 TypeError"
+      ],
+      "answer": 2,
+      "explain": "先轉型再運算。int + float 結果是 float：2 + 3.0 = 5.0。",
+      "tags": [
+        "input 主控台輸入"
+      ]
+    },
+    {
+      "id": "py3-022",
+      "q": "使用者輸入 18.5 時，下列程式會發生什麼事？",
+      "code": "age = int(input(\"年齡：\"))\nprint(age + 1)",
+      "options": [
+        "年齡：19",
+        "拋出 ValueError",
+        "年齡：18.51",
+        "拋出 TypeError"
+      ],
+      "answer": 1,
+      "explain": "使用者輸入 \"18.5\"，int(\"18.5\") 不是整數格式，會拋出 ValueError。",
+      "tags": [
+        "input 主控台輸入"
+      ]
+    },
+    {
+      "id": "py3-023",
+      "q": "使用者輸入 6,7 時，輸出為何？",
+      "code": "x, y = input().split(\",\")\nprint(int(x) * int(y))",
+      "options": [
+        "6,7",
+        "拋出 ValueError",
+        "42",
+        "67"
+      ],
+      "answer": 2,
+      "explain": "split(\",\") 以逗號切開成兩個字串，再分別轉 int 相乘：6 × 7 = 42。",
+      "tags": [
+        "input 主控台輸入"
+      ]
+    },
+    {
+      "id": "py3-024",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "print(\"A\", \"B\", \"C\", sep=\"-\", end=\"!\")\nprint(\"D\")",
+      "options": [
+        "A B C!\nD",
+        "A-B-C!\nD",
+        "A-B-C!D",
+        "ABC-!D"
+      ],
+      "answer": 2,
+      "explain": "sep 設定各項之間的分隔字（預設空白）；end 設定結尾（預設 \\n）。end=\"!\" 不換行，所以 D 接在同一行。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-025",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "price = 1234.5678\nprint(f\"{price:.2f}|{price:,.1f}|{price:10.1f}|\")",
+      "options": [
+        "1234.56|1,234.5|1234.5|",
+        "1234.57|1,234.6|    1234.6|",
+        "1234.57|1234.6|    1234.6|",
+        "1234.5678|1,234|1234.6|"
+      ],
+      "answer": 1,
+      "explain": ".2f 四捨五入到小數 2 位；, 加千分位；10.1f 總寬 10 字元、靠右，不足補空白。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-026",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "name, qty = \"筆\", 3\nprint(\"{}共{}支\".format(name, qty), \"{1}-{0}\".format(\"a\", \"b\"))",
+      "options": [
+        "筆共3支 b-a",
+        "筆共3支 a-b",
+        "{}共{}支 b-a",
+        "筆共 3 支 b-a"
+      ],
+      "answer": 0,
+      "explain": "format 依序填入 {}；{1}{0} 用位置編號指定，所以是 b-a。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-027",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "n = 7\nprint(f\"[{n:03d}] [{n:<4}] [{n:>4}] [{n:^5}]\")",
+      "options": [
+        "[7] [7   ] [   7] [  7  ]",
+        "[007] [7   ] [   7] [  7  ]",
+        "[007] [   7] [7   ] [  7  ]",
+        "[700] [7] [7] [7]"
+      ],
+      "answer": 1,
+      "explain": "03d 寬 3 不足補 0；< 靠左、> 靠右、^ 置中。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-028",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "rate = 0.256\nprint(f\"{rate:.1%}\", \"%.2f\" % 3.14159, \"%d 個\" % 5)",
+      "options": [
+        "0.256% 3.14 5 個",
+        "25.6% 3.14 5 個",
+        "25.6% 3.14159 5 個",
+        "26% 3.1 5.0 個"
+      ],
+      "answer": 1,
+      "explain": "f-string 的 % 格式會乘以 100 並加上 %：25.6%。舊式 % 格式化：%.2f 取兩位小數，%d 為整數。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-029",
+      "q": "執行下列程式碼後，輸出為何？",
+      "code": "print(len(\"A\\tB\"), len(r\"A\\tB\"), \"C:\\\\data\")",
+      "options": [
+        "4 4 C:\\\\data",
+        "3 3 C:\\data",
+        "3 4 C:\\data",
+        "4 3 C:\\data"
+      ],
+      "answer": 2,
+      "explain": "一般字串中 \\t 是一個 Tab 字元，所以長度 3；字串前加 r 是原始字串，反斜線不跳脫，長度 4。一般字串要表示一個反斜線得寫成 \\\\。",
+      "tags": [
+        "print 與字串格式化"
+      ]
+    },
+    {
+      "id": "py3-030",
+      "q": "以 python main.py data.csv 5 執行下列程式，輸出為何？",
+      "code": "import sys\nprint(len(sys.argv), sys.argv[1])",
+      "options": [
+        "2 data.csv",
+        "3 main.py",
+        "2 main.py",
+        "3 data.csv"
+      ],
+      "answer": 3,
+      "explain": "sys.argv[0] 是程式名稱本身，後面才是參數。python main.py data.csv 5 得到 ['main.py', 'data.csv', '5']，長度 3。",
+      "tags": [
+        "命令列參數 sys.argv"
+      ]
+    },
+    {
+      "id": "py3-031",
+      "q": "以 python sum.py 10 20 30 執行下列程式，輸出為何？",
+      "code": "import sys\ntotal = 0\nfor a in sys.argv[1:]:\n    total += int(a)\nprint(total)",
+      "options": [
+        "拋出 TypeError",
+        "102030",
+        "60",
+        "3"
+      ],
+      "answer": 2,
+      "explain": "sys.argv 裡的每個元素都是字串，必須用 int() 轉換。sys.argv[1:] 跳過程式名稱：10 + 20 + 30 = 60。",
+      "tags": [
+        "命令列參數 sys.argv"
+      ]
+    },
+    {
+      "id": "py3-032",
+      "q": "要使用命令列參數，程式必須先怎麼做？",
+      "options": [
+        "import sys，再從 sys.argv 讀取",
+        "import os，再從 os.argv 讀取",
+        "呼叫 input() 讀取",
+        "宣告 def main(argv)"
+      ],
+      "answer": 0,
+      "explain": "命令列參數放在 sys 模組的 argv 串列中。",
+      "tags": [
+        "命令列參數 sys.argv"
+      ]
+    }
+  ]
+}

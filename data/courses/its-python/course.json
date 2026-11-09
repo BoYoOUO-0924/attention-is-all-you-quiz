@@ -1,0 +1,130 @@
+{
+  "id": "its-python",
+  "code": "ITS Python",
+  "name": "ITS Python 認證練習",
+  "desc": "依 Certiport IT Specialist – Python 公開的六大考試範圍編寫的原創練習題（非官方考題）。程式題的答案都實際執行 Python 3 驗證過。",
+  "units": [
+    {
+      "id": "types",
+      "name": "1 資料型別與運算子",
+      "sub": "Data Types and Operators",
+      "topics": [
+        "型別判斷與轉換",
+        "索引與切片",
+        "串列操作",
+        "運算子優先順序"
+      ],
+      "file": "types.json",
+      "sections": [
+        "資料型別判斷",
+        "型別轉換",
+        "字串索引與切片",
+        "串列操作",
+        "算術與指派運算子",
+        "比較、邏輯、身分與成員運算子",
+        "運算子優先順序"
+      ]
+    },
+    {
+      "id": "flow",
+      "name": "2 流程控制",
+      "sub": "Flow Control with Decisions and Loops",
+      "topics": [
+        "if / elif / else",
+        "while",
+        "for / range",
+        "break / continue"
+      ],
+      "file": "flow.json",
+      "sections": [
+        "if / elif / else",
+        "巢狀與複合條件",
+        "while 迴圈",
+        "for 迴圈與 range",
+        "break、continue、pass",
+        "巢狀迴圈與迴圈 else"
+      ]
+    },
+    {
+      "id": "io",
+      "name": "3 輸入與輸出",
+      "sub": "Input and Output Operations",
+      "topics": [
+        "檔案讀寫",
+        "os.path",
+        "input / print",
+        "f-string",
+        "sys.argv"
+      ],
+      "file": "io.json",
+      "sections": [
+        "開啟模式與 with",
+        "讀取檔案",
+        "寫入與附加",
+        "檢查與刪除檔案",
+        "input 主控台輸入",
+        "print 與字串格式化",
+        "命令列參數 sys.argv"
+      ]
+    },
+    {
+      "id": "docs",
+      "name": "4 程式文件與結構",
+      "sub": "Code Documentation and Structure",
+      "topics": [
+        "註解與 docstring",
+        "縮排",
+        "函式與參數",
+        "變數範圍"
+      ],
+      "file": "docs.json",
+      "sections": [
+        "註解與 docstring",
+        "縮排與程式結構",
+        "函式定義與呼叫",
+        "參數與預設值",
+        "回傳值",
+        "變數範圍"
+      ]
+    },
+    {
+      "id": "errors",
+      "name": "5 除錯與例外處理",
+      "sub": "Troubleshooting and Error Handling",
+      "topics": [
+        "錯誤類型",
+        "try / except / finally",
+        "raise",
+        "unittest"
+      ],
+      "file": "errors.json",
+      "sections": [
+        "語法、執行期與邏輯錯誤",
+        "常見例外類型",
+        "try / except",
+        "else 與 finally",
+        "raise 主動拋出例外",
+        "unittest 單元測試"
+      ]
+    },
+    {
+      "id": "modules",
+      "name": "6 模組與工具",
+      "sub": "Operations Using Modules and Tools",
+      "topics": [
+        "math",
+        "random",
+        "datetime",
+        "os / sys"
+      ],
+      "file": "modules.json",
+      "sections": [
+        "import 語法",
+        "math 模組",
+        "random 模組",
+        "datetime 模組",
+        "os、os.path 與 sys 模組"
+      ]
+    }
+  ]
+}
